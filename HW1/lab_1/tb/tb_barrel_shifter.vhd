@@ -42,6 +42,14 @@ begin
 -- TEST CASE 1
 
 --if there is no semicolon, the command continues to the next line. 
+    input_data <= X"12";
+    ctrl_data  <= "011";
+    
+    for i in 0 to 7 loop
+       wait for 10 ns;
+       input_data <= std_logic_vector(unsigned(input_data) + 1);
+       ctrl_data  <= std_logic_vector(unsigned(ctrl_data)  + 1);
+    end loop;
     assert false
     report "Test Case 1 completed"
     severity failure;
