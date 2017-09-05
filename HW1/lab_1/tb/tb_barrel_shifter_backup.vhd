@@ -37,28 +37,9 @@ begin
 --stimulate the design  
 
 -- Add your test cases here , use a granularity of 10ns 
--- you're going to be defining the input to the barrel shifter and how much to shift,
--- then waiting 10ns between each case.
 -- TEST CASE 1
-
---if there is no semicolon, the command continues to the next line. 
-    assert false
-    report "Test Case 1 completed"
-    severity failure;
-    wait for 10 ns;
-
 -- TEST CASE 2
-    assert false
-    report "Test Case 2 completed"
-    severity failure;
-    wait for 10 ns;
-
-
 -- TEST CASE 3
-    assert false
-    report "Test Case 3 completed"
-    severity failure;
-    wait for 10 ns;
 -- between test cases
 
       
