@@ -53,7 +53,7 @@ begin
 --    assert false
 --    report "Test Case 1 completed"
 --    severity failure;
---    wait for 10 ns;
+    wait for 10 ns;
 
 ---- TEST CASE 2
 
@@ -63,7 +63,7 @@ begin
 --    assert false
 --    report "Test Case 2 completed"
 --    severity failure;
---    wait for 10 ns;
+    wait for 10 ns;
 --
 --
 ---- TEST CASE 3
@@ -74,7 +74,7 @@ begin
 --    assert false
 --    report "Test Case 3 completed"
 --    severity failure;
---    wait for 10 ns;
+    wait for 10 ns;
 -- between test cases
 
       

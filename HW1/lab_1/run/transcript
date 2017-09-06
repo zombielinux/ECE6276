@@ -185,3 +185,12 @@ run -a
 # ** Failure: Test completed
 #    Time: 120 ns  Iteration: 0  Process: /tb_barrel_shifter/line__32 File: /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd
 # Break in Process line__32 at /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd line 87
+# Debug data file, vsim.dbg, does not exist.
+# 
+# Invoke vsim with -debugDB to create this file.
+# Debug data file, vsim.dbg, does not exist.
+# 
+# Invoke vsim with -debugDB to create this file.
+quit -sim
+# End time: 21:18:17 on Sep 05,2017, Elapsed time: 0:19:01
+# Errors: 3, Warnings: 0
