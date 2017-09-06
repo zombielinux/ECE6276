@@ -45,28 +45,36 @@ begin
     input_data <= X"12";
     ctrl_data  <= "011";
     
-    for i in 0 to 7 loop
-       wait for 10 ns;
-       input_data <= std_logic_vector(unsigned(input_data) + 1);
-       ctrl_data  <= std_logic_vector(unsigned(ctrl_data)  + 1);
-    end loop;
-    assert false
-    report "Test Case 1 completed"
-    severity failure;
-    wait for 10 ns;
+--    for i in 0 to 7 loop
+--       wait for 10 ns;
+--       input_data <= std_logic_vector(unsigned(input_data) + 1);
+--       ctrl_data  <= std_logic_vector(unsigned(ctrl_data)  + 1);
+--    end loop;
+--    assert false
+--    report "Test Case 1 completed"
+--    severity failure;
+--    wait for 10 ns;
 
--- TEST CASE 2
-    assert false
-    report "Test Case 2 completed"
-    severity failure;
-    wait for 10 ns;
+---- TEST CASE 2
 
+    input_data <= X"45";
+    ctrl_data  <= "110";
 
--- TEST CASE 3
-    assert false
-    report "Test Case 3 completed"
-    severity failure;
-    wait for 10 ns;
+--    assert false
+--    report "Test Case 2 completed"
+--    severity failure;
+--    wait for 10 ns;
+--
+--
+---- TEST CASE 3
+
+    input_data <= X"78";
+    ctrl_data  <= "001";
+
+--    assert false
+--    report "Test Case 3 completed"
+--    severity failure;
+--    wait for 10 ns;
 -- between test cases
 
       
