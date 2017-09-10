@@ -1,0 +1,107 @@
+\documentclass[11pt]{report}
+%Libraries in alphabetical Order, Date added Tab Spaced after
+\usepackage{amsmath}				%1-15-2015
+\usepackage{caption}				%1-17-2015
+\usepackage{floatflt}				%1-15-2015
+\usepackage{graphics}				%1-15-2015
+\usepackage{listings}             	%1-17-2015
+\usepackage[pdftex]{graphicx}		%1-14-2015
+\usepackage{subcaption}				%1-17-2015
+\usepackage[xindy]{glossaries}		%1-14-2015
+\usepackage{wrapfig,lipsum,booktabs}%2-8-2015
+\usepackage[T1]{fontenc}
+\usepackage{pdfpages}
+\usepackage{multicol}
+
+%		\begin{figure}[!ht]
+% 		 \caption{X axis is number of nodes, Y axis is energy con%sumed. }
+  %		 \centering
+ %   	 \includegraphics[width=.9\textwidth]{Q3c.png}
+%		\end{figure}
+
+
+\begin{titlepage}
+\title{
+		\Huge{
+				\textbf{ECE 6276
+						\\DSP Hardware System Design
+						\\Fall 2017}}
+			\\[2cm]
+		\LARGE{
+			\textnormal{Lab 1}}
+			\\[1cm]
+			\date{\today}
+		\large{
+			\author{William Sutton}
+		}}
+
+
+\end{titlepage}
+
+\usepackage{amsmath}
+\begin{document}
+\lstset{language=MATLAB}
+\maketitle
+\includepdf[pages={1}]{BRN30055C8F6EB0_000502.pdf}
+\newpage
+
+		\begin{figure}[!ht]
+ 		 \caption{}
+  		 \centering
+    	 \includegraphics[width=1.2\textwidth]{Screenshot_2017-09-05_21-26-20.png}
+		\end{figure}
+		\newpage
+		
+\section*{Test Case code excerpt}
+\begin{lstlisting}
+-- Add your test cases here , use a granularity of 10ns 
+-- you're going to be defining the input to the barrel shifter and how much to shift,
+-- then waiting 10ns between each case.
+-- TEST CASE 1
+
+--if there is no semicolon, the command continues to the next line. 
+    input_data <= X"90";
+    ctrl_data  <= "011";
+    
+--    for i in 0 to 7 loop
+--       wait for 10 ns;
+--       input_data <= std_logic_vector(unsigned(input_data) + 1);
+--       ctrl_data  <= std_logic_vector(unsigned(ctrl_data)  + 1);
+--    end loop;
+--    assert false
+--    report "Test Case 1 completed"
+--    severity failure;
+    wait for 10 ns;
+
+---- TEST CASE 2
+
+    input_data <= X"49";
+    ctrl_data  <= "110";
+
+--    assert false
+--    report "Test Case 2 completed"
+--    severity failure;
+    wait for 10 ns;
+--
+--
+---- TEST CASE 3
+
+    input_data <= X"47";
+    ctrl_data  <= "001";
+
+--    assert false
+--    report "Test Case 3 completed"
+--    severity failure;
+    wait for 10 ns;
+-- between test cases
+\end{lstlisting}
+		
+\section*{Manual Verification}
+Since the barrel shifter is essentially bit shifting with a carry function, we can simply move the data bits around. i.e.\\
+
+0x90=0b10010000 $\rightarrow $by 0b010 = 0b00100100 = 0x24\\
+0x49=0b01001001 $\rightarrow $by 0b111 = 0b10010010 = 0x92\\
+0x47=0b01000111 $\rightarrow $by 0b101 = 0b00111010 = 0x3A\\
+\section*{Answer to question in part iv}
+No I don't think this is the best strategy used. This tests changing input data AND changing control information simultaneously. For a valid test, I would keep the data the same, while toggling the control pins. Then afterwards, I would toggle the data pins, while keeping the control pins the same. This would show full functionality.
+\end{document}
