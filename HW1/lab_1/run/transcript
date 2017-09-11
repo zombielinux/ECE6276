@@ -194,3 +194,105 @@ run -a
 quit -sim
 # End time: 21:18:17 on Sep 05,2017, Elapsed time: 0:19:01
 # Errors: 3, Warnings: 0
+vsim -voptargs=+acc work.tb_barrel_shifter
+# vsim -voptargs="+acc" work.tb_barrel_shifter 
+# Start time: 21:20:40 on Sep 05,2017
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_barrel_shifter(tb_behav_barrel)#1
+# Loading work.barrel_shifter(barrel_arch)#1
+quit -sim
+# End time: 21:21:04 on Sep 05,2017, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 21:21:17 on Sep 05,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_barrel_shifter
+# -- Compiling architecture tb_behav_barrel of tb_barrel_shifter
+# End time: 21:21:17 on Sep 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 21:21:19 on Sep 05,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_barrel_shifter
+# -- Compiling architecture tb_behav_barrel of tb_barrel_shifter
+# End time: 21:21:19 on Sep 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_barrel_shifter
+# vsim -voptargs="+acc" work.tb_barrel_shifter 
+# Start time: 21:21:41 on Sep 05,2017
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_barrel_shifter(tb_behav_barrel)#1
+# Loading work.barrel_shifter(barrel_arch)#1
+add wave -position insertpoint sim:/tb_barrel_shifter/*
+add wave -position insertpoint  \
+sim:/tb_barrel_shifter/input_data \
+sim:/tb_barrel_shifter/ctrl_data \
+sim:/tb_barrel_shifter/y_data
+add wave -position insertpoint  \
+sim:/tb_barrel_shifter/DUT/a \
+sim:/tb_barrel_shifter/DUT/ctrl \
+sim:/tb_barrel_shifter/DUT/y
+run -a
+# ** Failure: Test completed
+#    Time: 120 ns  Iteration: 0  Process: /tb_barrel_shifter/line__32 File: /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd
+# Break in Process line__32 at /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd line 87
+quit -sim
+# End time: 11:11:41 on Sep 07,2017, Elapsed time: 37:50:00
+# Errors: 1, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 11:12:20 on Sep 07,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_barrel_shifter
+# -- Compiling architecture tb_behav_barrel of tb_barrel_shifter
+# End time: 11:12:21 on Sep 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_barrel_shifter
+# vsim -voptargs="+acc" work.tb_barrel_shifter 
+# Start time: 11:12:24 on Sep 07,2017
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_barrel_shifter(tb_behav_barrel)#1
+# Loading work.barrel_shifter(barrel_arch)#1
+add wave -position insertpoint  \
+sim:/tb_barrel_shifter/input_data \
+sim:/tb_barrel_shifter/ctrl_data \
+sim:/tb_barrel_shifter/y_data
+add wave -position insertpoint  \
+sim:/tb_barrel_shifter/DUT/a \
+sim:/tb_barrel_shifter/DUT/ctrl \
+sim:/tb_barrel_shifter/DUT/y
+log -r *
+run -a
+# ** Failure: Test completed
+#    Time: 120 ns  Iteration: 0  Process: /tb_barrel_shifter/line__32 File: /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd
+# Break in Process line__32 at /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd line 87
+add wave -position insertpoint  \
+sim:/tb_barrel_shifter/input_data \
+sim:/tb_barrel_shifter/ctrl_data \
+sim:/tb_barrel_shifter/y_data

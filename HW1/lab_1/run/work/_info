@@ -9,10 +9,10 @@ z2
 cModel Technology
 Z0 d/nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/run
 T_opt
-!s110 1504659556
-VU8fB3>mX>ilJQ4>39PZ=Y2
+!s110 1504797145
+V4diUU9XJ`Yl>MZC5@gFG;2
 04 17 15 work tb_barrel_shifter tb_behav_barrel 1
-=1-549f35212029-59af4864-6d1ed-832a
+=1-549f35212029-59b161d9-903-dcec
 o-quiet -auto_acc_if_foreign -work work +acc
 tCvgOpt 0
 n@_opt
@@ -57,7 +57,7 @@ R10
 R11
 R12
 Etb_barrel_shifter
-Z13 w1504659555
+Z13 w1504797172
 Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R2
 R3
@@ -70,9 +70,9 @@ V>lJL:0O1O8_jS[BSAUMV90
 !s100 [CDQ<]_d?hEAARzj>U7RY3
 R6
 32
-Z17 !s110 1504659545
+Z17 !s110 1504797141
 !i10b 1
-Z18 !s108 1504659545.000000
+Z18 !s108 1504797140.000000
 Z19 !s90 -reportprogress|300|-work|work|/nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd|
 Z20 !s107 /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/tb/tb_barrel_shifter.vhd|
 !i113 0
@@ -85,8 +85,8 @@ R3
 DEx4 work 17 tb_barrel_shifter 0 22 >lJL:0O1O8_jS[BSAUMV90
 l27
 L15
-V@GgRU4;n?z6JnJkjcmM`F1
-!s100 FWjWfh8Son980APRklXPF2
+VQC_[LGS1mfFTk:LMOI8bE2
+!s100 hXYzEkd[lo]GH;F8XC;dc1
 R6
 32
 R17

@@ -43,7 +43,7 @@ begin
 
 --if there is no semicolon, the command continues to the next line. 
     input_data <= X"90";
-    ctrl_data  <= "011";
+    ctrl_data  <= "010";
     
 --    for i in 0 to 7 loop
 --       wait for 10 ns;
@@ -58,7 +58,7 @@ begin
 ---- TEST CASE 2
 
     input_data <= X"49";
-    ctrl_data  <= "110";
+    ctrl_data  <= "111";
 
 --    assert false
 --    report "Test Case 2 completed"
@@ -69,7 +69,7 @@ begin
 ---- TEST CASE 3
 
     input_data <= X"47";
-    ctrl_data  <= "001";
+    ctrl_data  <= "101";
 
 --    assert false
 --    report "Test Case 3 completed"
