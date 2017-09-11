@@ -16,14 +16,14 @@ architecture tb_behav_barrel of tb_barrel_shifter is
 --the component instructs the compiler that the 
 --following module(ip) is going to be used in the design
     component barrel_shifter
-        port (         a   : in  std_logic_vector(7 downto 0);
-                       ctrl: in  std_logic_vector(2 downto 0);
-                       y   : out std_logic_vector(7 downto 0));
+        port (         a   : in  std_logic_vector(15 downto 0);
+                       ctrl: in  std_logic_vector(3 downto 0);
+                       y   : out std_logic_vector(15 downto 0));
     end component;
 --signals local only to the present ip
-    signal input_data : std_logic_vector (7 downto 0);
-    signal  ctrl_data : std_logic_vector (2 downto 0);
-    signal     y_data : std_logic_vector (7 downto 0);
+    signal input_data : std_logic_vector (15 downto 0);
+    signal  ctrl_data : std_logic_vector (3 downto 0);
+    signal     y_data : std_logic_vector (15 downto 0);
 begin
     DUT : barrel_shifter port map (a   => input_data,
                                    ctrl=>ctrl_data,
@@ -42,8 +42,8 @@ begin
 -- TEST CASE 1
 
 --if there is no semicolon, the command continues to the next line. 
-    input_data <= X"90";
-    ctrl_data  <= "011";
+    input_data <= X"A90";
+    ctrl_data  <= X"1";
     
 --    for i in 0 to 7 loop
 --       wait for 10 ns;
@@ -57,8 +57,8 @@ begin
 
 ---- TEST CASE 2
 
-    input_data <= X"49";
-    ctrl_data  <= "110";
+    input_data <= X"A90";
+    ctrl_data  <= X"5";
 
 --    assert false
 --    report "Test Case 2 completed"
@@ -68,8 +68,8 @@ begin
 --
 ---- TEST CASE 3
 
-    input_data <= X"47";
-    ctrl_data  <= "001";
+    input_data <= X"A90";
+    ctrl_data  <= X"C";
 
 --    assert false
 --    report "Test Case 3 completed"
@@ -78,7 +78,7 @@ begin
 -- between test cases
 
       
-        for i in 0 to 7 loop
+        for i in 0 to 15 loop
             wait for 10 ns;
             input_data <= std_logic_vector(unsigned(input_data) + 1);
             ctrl_data  <= std_logic_vector(unsigned(ctrl_data)  + 1);
