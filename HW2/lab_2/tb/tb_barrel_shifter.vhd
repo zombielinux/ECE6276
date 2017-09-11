@@ -53,7 +53,7 @@ begin
 --    assert false
 --    report "Test Case 1 completed"
 --    severity failure;
-    wait for 10 ns;
+    wait for 20 ns;
 
 ---- TEST CASE 2
 
@@ -63,7 +63,7 @@ begin
 --    assert false
 --    report "Test Case 2 completed"
 --    severity failure;
-    wait for 10 ns;
+    wait for 20 ns;
 --
 --
 ---- TEST CASE 3
@@ -74,12 +74,12 @@ begin
 --    assert false
 --    report "Test Case 3 completed"
 --    severity failure;
-    wait for 10 ns;
+    wait for 20 ns;
 -- between test cases
 
       
         for i in 0 to 15 loop
-            wait for 10 ns;
+            wait for 20 ns;
             input_data <= std_logic_vector(unsigned(input_data) + 1);
             ctrl_data  <= std_logic_vector(unsigned(ctrl_data)  + 1);
         end loop;
