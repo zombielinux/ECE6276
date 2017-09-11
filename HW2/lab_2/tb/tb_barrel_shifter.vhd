@@ -42,7 +42,7 @@ begin
 -- TEST CASE 1
 
 --if there is no semicolon, the command continues to the next line. 
-    input_data <= X"A90";
+    input_data <= X"FA90";
     ctrl_data  <= X"1";
     
 --    for i in 0 to 7 loop
@@ -57,7 +57,7 @@ begin
 
 ---- TEST CASE 2
 
-    input_data <= X"A90";
+    input_data <= X"FA90";
     ctrl_data  <= X"5";
 
 --    assert false
@@ -68,7 +68,7 @@ begin
 --
 ---- TEST CASE 3
 
-    input_data <= X"A90";
+    input_data <= X"FA90";
     ctrl_data  <= X"C";
 
 --    assert false
