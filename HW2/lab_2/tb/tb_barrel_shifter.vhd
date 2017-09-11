@@ -57,7 +57,7 @@ begin
 
 ---- TEST CASE 2
 
-    input_data <= X"FA90";
+    input_data <= X"F90A";
     ctrl_data  <= X"5";
 
 --    assert false
@@ -68,7 +68,7 @@ begin
 --
 ---- TEST CASE 3
 
-    input_data <= X"FA90";
+    input_data <= X"AF09";
     ctrl_data  <= X"C";
 
 --    assert false
