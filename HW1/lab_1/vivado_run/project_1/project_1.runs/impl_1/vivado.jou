@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.1 (64-bit)
+# SW Build 1431336 on Fri Dec 11 14:52:39 MST 2015
+# IP Build 1427053 on Mon Dec  7 12:56:29 MST 2015
+# Start of session at: Mon Sep 11 08:59:48 2017
+# Process ID: 21226
+# Current directory: /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/vivado_run/project_1/project_1.runs/impl_1
+# Command line: vivado -log barrel_shifter.vdi -applog -messageDb vivado.pb -mode batch -source barrel_shifter.tcl -notrace
+# Log file: /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/vivado_run/project_1/project_1.runs/impl_1/barrel_shifter.vdi
+# Journal file: /nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/vivado_run/project_1/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source barrel_shifter.tcl -notrace
