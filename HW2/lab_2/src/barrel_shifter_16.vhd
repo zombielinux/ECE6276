@@ -1,6 +1,6 @@
 --Engineer     : Abhijit Gadad
 --Date         : 8/25/2017
---Name of file : barrel_shifter.vhd
+--Name of file : barrel_shifter_16.vhd
 --Description  : implements a barrel shifter
 --               of data width 8 bits
 
