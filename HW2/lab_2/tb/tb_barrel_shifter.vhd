@@ -43,7 +43,7 @@ begin
 
 --if there is no semicolon, the command continues to the next line. 
     input_data <= X"FA90";
-    ctrl_data  <= X"1";
+    ctrl_data  <= "0001";
     
 --    for i in 0 to 7 loop
 --       wait for 10 ns;
