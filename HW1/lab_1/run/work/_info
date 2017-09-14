@@ -8,15 +8,6 @@ z2
 !i10f 100
 cModel Technology
 Z0 d/nethome/wsutton8/ECE6276/ECE6276/HW1/lab_1/run
-T_opt
-!s110 1504797145
-V4diUU9XJ`Yl>MZC5@gFG;2
-04 17 15 work tb_barrel_shifter tb_behav_barrel 1
-=1-549f35212029-59b161d9-903-dcec
-o-quiet -auto_acc_if_foreign -work work +acc
-tCvgOpt 0
-n@_opt
-OL;O;10.6a;65
 Ebarrel_shifter
 Z1 w1504653513
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3

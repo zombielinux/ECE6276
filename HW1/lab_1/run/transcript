@@ -296,3 +296,6 @@ add wave -position insertpoint  \
 sim:/tb_barrel_shifter/input_data \
 sim:/tb_barrel_shifter/ctrl_data \
 sim:/tb_barrel_shifter/y_data
+quit
+# End time: 10:18:44 on Sep 11,2017, Elapsed time: 95:06:20
+# Errors: 1, Warnings: 0

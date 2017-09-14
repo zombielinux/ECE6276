@@ -44,3 +44,5 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 open_run: Time (s): cpu = 00:01:45 ; elapsed = 00:00:33 . Memory (MB): peak = 6951.066 ; gain = 738.551 ; free physical = 45331 ; free virtual = 129242
 WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 11 10:18:40 2017...
