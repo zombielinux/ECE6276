@@ -11,89 +11,99 @@ Z0 d/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/run
 T_opt
 !s110 1505322244
 VMnE_>hB6oMITZTJ4C<FZ90
-04 17 15 work tb_barrel_shifter tb_behav_barrel 1
+Z1 04 17 15 work tb_barrel_shifter tb_behav_barrel 1
 =1-549f35212029-59b96504-fd18-1126d
-o-quiet -auto_acc_if_foreign -work work +acc
-tCvgOpt 0
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
 n@_opt
-OL;O;10.6a;65
-Ebarrel_shifter
-Z1 w1505140844
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 OL;O;10.6a;65
 R0
-Z4 8/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/src/barrel_shifter_16.vhd
-Z5 F/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/src/barrel_shifter_16.vhd
+T_opt1
+!s110 1505414269
+VdNACPZnbd8Of70<oTd6bd2
+R1
+=1-f04da2dcb4f9-59bacc7d-6708f-2666
+R2
+R3
+n@_opt1
+R4
+Ebarrel_shifter
+Z5 w1505140844
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/src/barrel_shifter_16.vhd
+Z9 F/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/src/barrel_shifter_16.vhd
 l0
 L9
 Vf9LN46UokO>:DQ3IafOHi0
 !s100 >aV>SG8YH5gf8A?3aCDfe0
-Z6 OL;C;10.6a;65
+Z10 OL;C;10.6a;65
 32
-Z7 !s110 1505140821
+Z11 !s110 1505140821
 !i10b 1
-Z8 !s108 1505140821.000000
-Z9 !s90 -reportprogress|300|-work|work|/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/src/barrel_shifter_16.vhd|
-Z10 !s107 /nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/src/barrel_shifter_16.vhd|
+Z12 !s108 1505140821.000000
+Z13 !s90 -reportprogress|300|-work|work|/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/src/barrel_shifter_16.vhd|
+Z14 !s107 /nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/src/barrel_shifter_16.vhd|
 !i113 0
-Z11 o-work work
-Z12 tExplicit 1 CvgOpt 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
 Abarrel_arch
-R2
-R3
+R6
+R7
 DEx4 work 14 barrel_shifter 0 22 f9LN46UokO>:DQ3IafOHi0
 l19
 L18
 VnGZE;NLgno1S0476h8@3A1
 !s100 _E7MY]08hAHab6AbHF]aC3
-R6
-32
-R7
-!i10b 1
-R8
-R9
 R10
-!i113 0
+32
 R11
+!i10b 1
 R12
+R13
+R14
+!i113 0
+R15
+R16
 Etb_barrel_shifter
-Z13 w1505322273
-Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-R2
-R3
+Z17 w1505414203
+Z18 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R6
+R7
 R0
-Z15 8/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/tb/tb_barrel_shifter.vhd
-Z16 F/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/tb/tb_barrel_shifter.vhd
+Z19 8/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/tb/tb_barrel_shifter.vhd
+Z20 F/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/tb/tb_barrel_shifter.vhd
 l0
 L9
 V>lJL:0O1O8_jS[BSAUMV90
 !s100 [CDQ<]_d?hEAARzj>U7RY3
-R6
+R10
 32
-Z17 !s110 1505322240
+Z21 !s110 1505414265
 !i10b 1
-Z18 !s108 1505322240.000000
-Z19 !s90 -reportprogress|300|-work|work|/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/tb/tb_barrel_shifter.vhd|
-Z20 !s107 /nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/tb/tb_barrel_shifter.vhd|
+Z22 !s108 1505414265.000000
+Z23 !s90 -reportprogress|300|-work|work|/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/tb/tb_barrel_shifter.vhd|
+Z24 !s107 /nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/tb/tb_barrel_shifter.vhd|
 !i113 0
-R11
-R12
+R15
+R16
 Atb_behav_barrel
-R14
-R2
-R3
+R18
+R6
+R7
 DEx4 work 17 tb_barrel_shifter 0 22 >lJL:0O1O8_jS[BSAUMV90
 l27
 L15
-Vo3KAW;SU7h;EXIkOPmb@01
-!s100 9OHBNUho]EV:MC@`o]Xzn0
-R6
+V>gN[daO_iW8B_lE2nHNLV2
+!s100 8<dIF;l3b;n6bS^LiZ68K2
+R10
 32
-R17
+R21
 !i10b 1
-R18
-R19
-R20
+R22
+R23
+R24
 !i113 0
-R11
-R12
+R15
+R16
