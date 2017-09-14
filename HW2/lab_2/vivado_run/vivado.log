@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.1 (64-bit)
+# SW Build 1431336 on Fri Dec 11 14:52:39 MST 2015
+# IP Build 1427053 on Mon Dec  7 12:56:29 MST 2015
+# Start of session at: Thu Sep 14 14:51:03 2017
+# Process ID: 10593
+# Current directory: /nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/vivado_run
+# Command line: vivado
+# Log file: /nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/vivado_run/vivado.log
+# Journal file: /nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/vivado_run/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project project_2 /nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/vivado_run/project_2 -part xcku115-flva2104-3-e
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/xilinx/vivado201504/Vivado/2015.4/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 5875.348 ; gain = 44.281 ; free physical = 147 ; free virtual = 5038
+set_property target_language VHDL [current_project]
+add_files -norecurse -scan_for_includes /nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/src/barrel_shifter_16.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/src/barrel_shifter_16.vhd" into library xil_defaultlib [/nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/src/barrel_shifter_16.vhd:1]
+[Thu Sep 14 15:06:00 2017] Launched synth_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/vivado_run/project_2/project_2.runs/synth_1/runme.log
+launch_runs impl_1
+[Thu Sep 14 15:06:52 2017] Launched impl_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW2/lab_2/vivado_run/project_2/project_2.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4.1
+INFO: [Device 21-403] Loading part xcku115-flva2104-3-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.06 . Memory (MB): peak = 6428.266 ; gain = 0.000 ; free physical = 799 ; free virtual = 4361
+Restored from archive | CPU: 0.030000 secs | Memory: 0.118248 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.06 . Memory (MB): peak = 6428.266 ; gain = 0.000 ; free physical = 799 ; free virtual = 4361
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  IBUF => IBUF (INBUF, IBUFCTRL): 20 instances
+
+open_run: Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 6694.922 ; gain = 748.328 ; free physical = 432 ; free virtual = 4063
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
