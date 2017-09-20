@@ -19,11 +19,5 @@ end mac ;
 
 architecture mac_arch of mac is
 begin
-	with ctrl_in select
-		mac_unit_out <= a_in+c_in when "00",
-		a_in*b_in when "01",
-		(a_in*b_in)+c_in when "10",
-		'0' when others;
-
 
 end mac_arch;
