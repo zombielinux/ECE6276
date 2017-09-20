@@ -180,3 +180,42 @@ dismissDialog("Open Implemented Design"); // bF:g (cq:JFrame)
 // [Engine Memory]: 6,695 MB (+244581kb) [00:31:29]
 // RouteApi::initDelayMediator elapsed time: 24.4s
 // HMemoryUtils.trashcanNow. Engine heap size: 6,745 MB. GUI used memory: 98 MB. Current time: 9/14/17 3:22:56 PM EDT
+// Device view-level: 0.3
+// HMemoryUtils.trashcanNow. Engine heap size: 6,797 MB. GUI used memory: 101 MB. Current time: 9/14/17 3:29:06 PM EDT
+// Device select: 'Clock Region - X3Y4'
+// Elapsed time: 395 seconds
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 903, 2253, 621, 555); // U:B (TdiGroup:JideTabbedPane, cq:JFrame)
+// PAPropertyPanels.initPanels (Clock Region: X3Y4) elapsed time: 0.3s
+// [GUI Memory]: 140 MB (+1635kb) [00:37:48]
+// Device view-level: 1.5
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 1136130, 2791925); // M:a (JViewport:JComponent, cq:JFrame)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 1133583, 2840325); // M:a (JViewport:JComponent, cq:JFrame)
+// Device select: 'Site - DSP48E2_X16Y113'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 889, 2229, 621, 555); // U:B (TdiGroup:JideTabbedPane, cq:JFrame)
+// PAPropertyPanels.initPanels (Site: DSP48E2_X16Y113) elapsed time: 0.3s
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 1062256, 2845420); // M:a (JViewport:JComponent, cq:JFrame)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 1076502, 2880421); // M:a (JViewport:JComponent, cq:JFrame)
+// Device select: 'Clock Region - X3Y4'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 5705, 15265, 621, 555); // U:B (TdiGroup:JideTabbedPane, cq:JFrame)
+// RouteApi::getRouteStatus elapsed time: 1.2s
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 1033668, 2905328); // M:a (JViewport:JComponent, cq:JFrame)
+// Device select: 'Tile - BRAM_X54Y270'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 5478, 15397, 621, 555); // U:B (TdiGroup:JideTabbedPane, cq:JFrame)
+// PAPropertyPanels.initPanels (Tile: BRAM_X54Y270) elapsed time: 1.6s
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 1110656, 2887968); // M:a (JViewport:JComponent, cq:JFrame)
+// Device select: 'Tile - CLEL_R_X58Y277'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 5886, 15305, 621, 555); // U:B (TdiGroup:JideTabbedPane, cq:JFrame)
+// Device view-level: 2.8
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 1075370, 2900422); // M:a (JViewport:JComponent, cq:JFrame)
+// Device select: 'Tile - CLE_M_X56Y275'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 5699, 15371, 621, 555); // U:B (TdiGroup:JideTabbedPane, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 6,799 MB. GUI used memory: 139 MB. Current time: 9/14/17 3:29:28 PM EDT
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 1048009, 2885515); // M:a (JViewport:JComponent, cq:JFrame)
+// Device select: 'Site - SLICE_X81Y277'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 5554, 15292, 621, 555); // U:B (TdiGroup:JideTabbedPane, cq:JFrame)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 1046499, 2885138); // M:a (JViewport:JComponent, cq:JFrame)
+// Device select: 'Site - SLICE_X81Y277'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 5546, 15290, 621, 555); // U:B (TdiGroup:JideTabbedPane, cq:JFrame)
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 1046499, 2885138, false, false, false, false, true); // M:a (JViewport:JComponent, cq:JFrame) - Double Click
+// Device select: 'Site - SLICE_X81Y277'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 5546, 15290, 621, 555); // U:B (TdiGroup:JideTabbedPane, cq:JFrame)
