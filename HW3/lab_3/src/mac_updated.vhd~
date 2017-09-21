@@ -19,9 +19,9 @@ end mac ;
 
 architecture mac_arch of mac is
 
-	signal mul_a : std_logic_vector ( 7 downto 0);
-	signal mul_b : std_logic_vector ( 7 downto 0);
-	signal sum_c : std_logic_vector ( 7 downto 0);
+	variable mul_a : std_logic_vector ( 7 downto 0);
+	variable mul_b : std_logic_vector ( 7 downto 0);
+	variable sum_c : std_logic_vector ( 7 downto 0);
 
 begin
 
