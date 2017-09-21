@@ -22,21 +22,24 @@ architecture mac_arch of mac is
 	signal mul_a : std_logic_vector ( 7 downto 0);
 	signal mul_b : std_logic_vector ( 7 downto 0);
 	signal sum_c : std_logic_vector ( 7 downto 0);
-
+	signal state_a : bit;
+	signal state_b : bit;
 begin
 
+	state_a <= (ctrl_in(0) and ctrl_in(1));
+	state_b <= (ctrl_in(0) xor ctrl_in(1));
 
-	with ctrl_in(0) and ctrl_in(1) select
+	with state_a select
 		mul_a <= "00000000" when '1',
 		a_in when others;
 		
-	with ctrl_in(0) xor ctrl_in(1) select
+	with state_b select
 		mul_b <= "00000001" when '1',
 		b_in when others;
 	
 
 	with ctrl_in(0) select	
-		sum_c <= c_in when '0';
+		sum_c <= c_in when '0',
 		"00000000" when others;
 		
 		
