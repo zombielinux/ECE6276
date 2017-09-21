@@ -402,3 +402,59 @@ vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
 # End time: 16:23:30 on Sep 21,2017, Elapsed time: 0:00:00
 # Errors: 3, Warnings: 0
 # /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:31:34 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Type error resolving infix expression "and" as type std.STANDARD.BIT.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Type error resolving infix expression "xor" as type std.STANDARD.BIT.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:31:34 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:39:57 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Type error resolving infix expression "and" as type std.STANDARD.BIT.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Type error resolving infix expression "xor" as type std.STANDARD.BIT.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:39:57 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:40:53 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 16:40:53 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:41:11 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 16:41:11 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
