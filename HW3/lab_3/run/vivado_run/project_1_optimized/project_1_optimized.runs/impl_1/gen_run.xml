@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xcku115-flva2104-3-e" LaunchTime="1506017993">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="mac.vdi"/>
+  <File Type="BG-DRC" Name="mac.drc"/>
+  <File Type="BG-BGN" Name="mac.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="mac.sysdef"/>
+  <File Type="BITSTR-MMI" Name="mac.mmi"/>
+  <File Type="BITSTR-BMM" Name="mac_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="mac.nky"/>
+  <File Type="BITSTR-RBT" Name="mac.rbt"/>
+  <File Type="BITSTR-MSK" Name="mac.msk"/>
+  <File Type="BG-BIN" Name="mac.bin"/>
+  <File Type="BG-BIT" Name="mac.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mac_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mac_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mac_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="mac_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="mac_incremental_reuse_routed.rpt"/>
+  <File Type="PLACE-CLK" Name="mac_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="mac_placed.dcp"/>
+  <File Type="PWROPT-DRC" Name="mac_drc_pwropted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mac_timing_summary_postroute_physopted.pb"/>
+  <File Type="PA-TCL" Name="mac.tcl"/>
+  <File Type="PWROPT-DCP" Name="mac_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="mac.hwdef"/>
+  <File Type="PWROPT-TIMING" Name="mac_timing_summary_pwropted.rpt"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="OPT-DRC" Name="mac_drc_opted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="mac_timing_summary_physopted.rpt"/>
+  <File Type="INIT-TIMING" Name="mac_timing_summary_init.rpt"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="OPT-TIMING" Name="mac_timing_summary_opted.rpt"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="mac_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PLACE-IO" Name="mac_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="mac_utilization_placed.rpt"/>
+  <File Type="OPT-DCP" Name="mac_opt.dcp"/>
+  <File Type="PLACE-UTIL-PB" Name="mac_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="mac_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="mac_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="mac_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="mac_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="mac_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="mac_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="mac_drc_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="mac_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="mac_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="mac_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="mac_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="mac_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="mac_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="mac_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="mac_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="mac_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="mac_timing_summary_routed.rpx"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../../src/mac_updated.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="mac"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

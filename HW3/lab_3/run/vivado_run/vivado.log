@@ -2,30 +2,30 @@
 # Vivado v2015.4.1 (64-bit)
 # SW Build 1431336 on Fri Dec 11 14:52:39 MST 2015
 # IP Build 1427053 on Mon Dec  7 12:56:29 MST 2015
-# Start of session at: Wed Sep 20 13:21:22 2017
-# Process ID: 11557
+# Start of session at: Thu Sep 21 14:10:56 2017
+# Process ID: 74150
 # Current directory: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run
 # Command line: vivado
 # Log file: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/vivado.log
 # Journal file: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/vivado.jou
 #-----------------------------------------------------------
 start_gui
-create_project project_1_unoptimized /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized -part xcku115-flva2104-3-e
+create_project project_1_optimized /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized -part xcku115-flva2104-3-e
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/xilinx/vivado201504/Vivado/2015.4/data/ip'.
-create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 5890.836 ; gain = 64.418 ; free physical = 76 ; free virtual = 4723
+create_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:08 . Memory (MB): peak = 6094.828 ; gain = 61.176 ; free physical = 66715 ; free virtual = 123842
 set_property target_language VHDL [current_project]
-add_files -norecurse -scan_for_includes /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac.vhd
+add_files -norecurse -scan_for_includes /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
 update_compile_order -fileset sources_1
 update_compile_order -fileset sim_1
 launch_runs synth_1
-INFO: [HDL 9-1061] Parsing VHDL file "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac.vhd" into library xil_defaultlib [/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac.vhd:1]
-[Wed Sep 20 13:28:14 2017] Launched synth_1...
-Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.runs/synth_1/runme.log
+INFO: [HDL 9-1061] Parsing VHDL file "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd" into library xil_defaultlib [/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd:1]
+[Thu Sep 21 14:18:04 2017] Launched synth_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.runs/synth_1/runme.log
 launch_runs impl_1
-[Wed Sep 20 13:32:02 2017] Launched impl_1...
-Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.runs/impl_1/runme.log
+[Thu Sep 21 14:19:54 2017] Launched impl_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.runs/impl_1/runme.log
 open_run impl_1
 INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -35,12 +35,12 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 Reading XDEF placement.
 Reading placer database...
 Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.10 . Memory (MB): peak = 6429.664 ; gain = 0.000 ; free physical = 73 ; free virtual = 4138
-Restored from archive | CPU: 0.030000 secs | Memory: 0.221191 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.11 . Memory (MB): peak = 6429.664 ; gain = 0.000 ; free physical = 73 ; free virtual = 4138
+Read XDEF File: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.05 . Memory (MB): peak = 6583.523 ; gain = 0.000 ; free physical = 65288 ; free virtual = 122431
+Restored from archive | CPU: 0.040000 secs | Memory: 0.235603 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.05 . Memory (MB): peak = 6583.523 ; gain = 0.000 ; free physical = 65288 ; free virtual = 122431
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 26 instances were transformed.
   IBUF => IBUF (INBUF, IBUFCTRL): 26 instances
 
-open_run: Time (s): cpu = 00:00:32 ; elapsed = 00:00:55 . Memory (MB): peak = 6685.312 ; gain = 734.227 ; free physical = 72 ; free virtual = 3862
+open_run: Time (s): cpu = 00:01:11 ; elapsed = 00:00:24 . Memory (MB): peak = 6956.918 ; gain = 758.824 ; free physical = 64895 ; free virtual = 122036
 WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
