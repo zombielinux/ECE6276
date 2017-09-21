@@ -115,3 +115,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:55 . Memory (MB): peak = 7734.238 ; gain = 0.000 ; free physical = 1655 ; free virtual = 4626
 WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
