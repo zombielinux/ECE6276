@@ -32,7 +32,7 @@ begin
 		a_in when others;
 		
 	with ( ctrl_in(0) xor ctrl_in(1) ) select
-		mul_b <= "00000001" when '1',
+		mul_b <= "00000001" when '0',
 		b_in when others;
 	
  

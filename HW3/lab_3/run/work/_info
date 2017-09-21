@@ -9,10 +9,10 @@ z2
 cModel Technology
 Z0 d/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run
 T_opt
-!s110 1506026702
-VdATP3[LTh`=i?8j?dao6U1
+!s110 1506027201
+V?WlM[fI<klFHzfKlJ[@203
 04 6 11 work tb_mac tb_mac_arch 1
-=1-549f35212029-59c424cd-cbe06-e334
+=1-549f35212029-59c426c1-4ebd-12aa4
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
@@ -28,7 +28,7 @@ n@_opt1
 R2
 R0
 Emac
-Z3 w1506026740
+Z3 w1506027213
 Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -41,9 +41,9 @@ VEB=W@I6F;U6l9<=`oZ;:z3
 !s100 4[Fkbe^kelUXWN;51F]DU3
 Z9 OL;C;10.6a;65
 32
-Z10 !s110 1506026693
+Z10 !s110 1506027164
 !i10b 1
-Z11 !s108 1506026693.000000
+Z11 !s108 1506027164.000000
 Z12 !s90 -reportprogress|300|-work|work|/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd|
 Z13 !s107 /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd|
 !i113 0
@@ -56,8 +56,8 @@ R6
 DEx4 work 3 mac 0 22 EB=W@I6F;U6l9<=`oZ;:z3
 l25
 L20
-VIe<<@HS0<j]d9Em7Vn93l2
-!s100 bP7iN]`71;8bOXSo_YQfg1
+Vldm`1UbI2M<DLX5^_Zmk11
+!s100 48Tgd[^]7deIc;Vd`z6F41
 R9
 32
 R10
