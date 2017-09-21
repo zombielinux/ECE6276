@@ -108,3 +108,376 @@ vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
 # End time: 17:56:34 on Sep 21,2017, Elapsed time: 0:00:01
 # Errors: 3, Warnings: 0
 # /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 17:59:43 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(45): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
+# End time: 17:59:43 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 18:00:14 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(45): (vcom-1394) Type conversion operand must be a single expression that is not a range.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(45): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(45): ** Error: (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
+# End time: 18:00:14 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 18:00:30 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 18:00:30 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 18:01:37 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(42): near "others": syntax error
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
+# End time: 18:01:37 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 18:06:25 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 18:06:25 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_mac
+# vsim -voptargs="+acc" work.tb_mac 
+# Start time: 18:06:37 on Sep 21,2017
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_mac(tb_mac_arch)#1
+# Loading work.mac(mac_arch)#1
+log -r *
+run -a
+# ** Note: Test completed
+#    Time: 20 us  Iteration: 1  Instance: /tb_mac
+# Break in Process line__50 at /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd line 88
+quit -sim
+# End time: 18:08:13 on Sep 21,2017, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 18:08:16 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 18:08:16 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 18:08:20 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 18:08:20 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_mac
+# vsim -voptargs="+acc" work.tb_mac 
+# Start time: 18:08:27 on Sep 21,2017
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_mac(tb_mac_arch)#1
+# Loading work.mac(mac_arch)#1
+log -r *
+run -a
+# ** Note: Test completed
+#    Time: 20 us  Iteration: 1  Instance: /tb_mac
+# Break in Process line__50 at /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd line 88
+quit -sim
+# End time: 18:26:01 on Sep 21,2017, Elapsed time: 0:17:34
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 18:26:04 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(46): near ";": (vcom-1576) expecting ')'.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
+# End time: 18:26:04 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 18:26:23 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(46): near ";": (vcom-1576) expecting ')'.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
+# End time: 18:26:23 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 18:26:54 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 18:26:54 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 18:26:57 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 18:26:57 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 19:02:41 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(41): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
+# End time: 19:02:42 on Sep 21,2017, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 19:03:12 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1604) No feasible entries for subprogram "RESIZE" with expected return type "STD_LOGIC_VECTOR".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1604) No feasible entries for subprogram "RESIZE" with expected return type "STD_LOGIC_VECTOR".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(41): (vcom-1604) No feasible entries for subprogram "RESIZE" with expected return type "STD_LOGIC_VECTOR".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
+# End time: 19:03:12 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 19:03:48 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(41): (vcom-1604) No feasible entries for subprogram "RESIZE" with expected return type "STD_LOGIC_VECTOR".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1272) Length of expected is 8; length of actual is 17.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1272) Length of expected is 8; length of actual is 17.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
+# End time: 19:03:48 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 19:04:25 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(41): (vcom-1604) No feasible entries for subprogram "RESIZE" with expected return type "STD_LOGIC_VECTOR".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1272) Length of expected is 8; length of actual is 17.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
+# End time: 19:04:25 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 19:04:53 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 19:04:54 on Sep 21,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 19:07:48 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(32): Target of signal assignment is not a signal.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(23): Variable declaration 'mul_a' not allowed in this region.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
+# End time: 19:07:48 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 19:15:52 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 19:15:53 on Sep 21,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 19:17:50 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(47): (vcom-1136) Unknown identifier "stc_logic_vector".
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
+# End time: 19:17:50 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 19:17:59 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 19:18:00 on Sep 21,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_mac
+# vsim -voptargs="+acc" work.tb_mac 
+# Start time: 19:19:23 on Sep 21,2017
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_mac(tb_mac_arch)#1
+# Loading work.mac(mac_arch)#1
+log -r *
+run -a
+# ** Note: Test completed
+#    Time: 20 us  Iteration: 1  Instance: /tb_mac
+# Break in Process line__50 at /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd line 88

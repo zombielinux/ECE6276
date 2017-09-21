@@ -1061,3 +1061,48 @@ selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implem
 // Tcl Message: [Thu Sep 21 19:19:11 2017] Launched impl_1... Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/impl_1/runme.log 
 dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
 // TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Implementation Completed: addNotify
+// Elapsed time: 932 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// d:g (cq:JFrame): Close Design: addNotify
+selectButton(PAResourceAtoD.ClosePlanner_YES, "Yes"); // a:JButton (JPanel:JComponent, d:g)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,938 MB. GUI used memory: 108 MB. Current time: 9/21/17 7:35:10 PM EDT
+// Engine heap size: 6,938 MB. GUI used memory: 109 MB. Current time: 9/21/17 7:36:10 PM EDT
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// bF:g (cq:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: close_design 
+// Tcl Message: close_design: Time (s): cpu = 00:00:07 ; elapsed = 00:01:30 . Memory (MB): peak = 7901.680 ; gain = 0.000 ; free physical = 1079 ; free virtual = 4280 
+// Elapsed time: 91 seconds
+dismissDialog("Close Design"); // d:g (cq:JFrame)
+// Tcl Message: open_run impl_1 
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 6,938 MB. GUI used memory: 109 MB. Current time: 9/21/17 7:36:38 PM EDT
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: /tools/xilinx/vivado201504/Vivado/2015.4/data/parts/xilinx/kintexu/devint/kintexu/xcku115/xcku115.xgd; ZipEntry: xcku115_detail.xgd elapsed time: 3.9s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 4.5s
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2015.4.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:03 . Memory (MB): peak = 7902.680 ; gain = 0.000 ; free physical = 984 ; free virtual = 4249 
+// Tcl Message: Restored from archive | CPU: 0.210000 secs | Memory: 0.251022 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:03 . Memory (MB): peak = 7902.680 ; gain = 0.000 ; free physical = 984 ; free virtual = 4249 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 27 instances were transformed.   DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_M_DATA, DSP_MULTIPLIER, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 1 instances   IBUF => IBUF (INBUF, IBUFCTRL): 26 instances  
+// Device view-level: 0.0
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dt' command handler elapsed time: 121 seconds
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Elapsed time: 27 seconds
+dismissDialog("Open Implemented Design"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 6,938 MB. GUI used memory: 113 MB. Current time: 9/21/17 7:36:52 PM EDT
+selectTab((HResource) null, (HResource) null, "Package Pins", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 5); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Package Pins", 4); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 5); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 6,938 MB. GUI used memory: 113 MB. Current time: 9/21/17 7:36:57 PM EDT
+// [Engine Memory]: 7,046 MB (+12675kb) [02:15:43]
