@@ -26,12 +26,12 @@ architecture mac_arch of mac is
 begin
 
 
-	with ctrl_in select
-		mul_a <= "00000000" when "11",
+	with ctrl_in(0) and ctrl_in(1) select
+		mul_a <= "00000000" when '1',
 		a_in when others;
 		
-	with ctrl_in select
-		mul_b <= "00000001" when "00",
+	with ctrl_in(0) xor ctrl_in(1) select
+		mul_b <= "00000001" when '1',
 		b_in when others;
 	
 
