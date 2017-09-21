@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.1 (64-bit)
+# SW Build 1431336 on Fri Dec 11 14:52:39 MST 2015
+# IP Build 1427053 on Mon Dec  7 12:56:29 MST 2015
+# Start of session at: Thu Sep 21 19:19:12 2017
+# Process ID: 29291
+# Current directory: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/impl_1
+# Command line: vivado -log mac.vdi -applog -messageDb vivado.pb -mode batch -source mac.tcl -notrace
+# Log file: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/impl_1/mac.vdi
+# Journal file: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source mac.tcl -notrace

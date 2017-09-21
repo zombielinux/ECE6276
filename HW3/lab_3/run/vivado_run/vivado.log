@@ -121,3 +121,123 @@ update_compile_order -fileset sim_1
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
 update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd" into library xil_defaultlib [/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd:1]
+[Thu Sep 21 18:08:50 2017] Launched synth_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.runs/synth_1/runme.log
+launch_runs impl_1
+[Thu Sep 21 18:10:34 2017] Launched impl_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.runs/impl_1/runme.log
+refresh_design
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:03 . Memory (MB): peak = 7784.727 ; gain = 0.000 ; free physical = 944 ; free virtual = 4374
+Restored from archive | CPU: 0.200000 secs | Memory: 0.236267 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:03 . Memory (MB): peak = 7784.727 ; gain = 0.000 ; free physical = 944 ; free virtual = 4374
+refresh_design: Time (s): cpu = 00:00:27 ; elapsed = 00:01:43 . Memory (MB): peak = 7784.730 ; gain = 0.004 ; free physical = 918 ; free virtual = 4384
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_design
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd" into library xil_defaultlib [/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd:1]
+[Thu Sep 21 18:27:23 2017] Launched synth_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.runs/synth_1/runme.log
+launch_runs impl_1
+[Thu Sep 21 18:30:03 2017] Launched impl_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:01 . Memory (MB): peak = 7803.738 ; gain = 0.000 ; free physical = 1813 ; free virtual = 4457
+Restored from archive | CPU: 0.100000 secs | Memory: 0.230995 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:01 . Memory (MB): peak = 7803.738 ; gain = 0.000 ; free physical = 1813 ; free virtual = 4457
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 26 instances were transformed.
+  IBUF => IBUF (INBUF, IBUFCTRL): 26 instances
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:50 . Memory (MB): peak = 7803.738 ; gain = 0.000 ; free physical = 1708 ; free virtual = 4433
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_project
+close_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 7853.051 ; gain = 0.000 ; free physical = 705 ; free virtual = 4345
+create_project optimized-1 /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1 -part xcku115-flva2104-3-e
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/xilinx/vivado201504/Vivado/2015.4/data/ip'.
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 7853.051 ; gain = 0.000 ; free physical = 698 ; free virtual = 4344
+set_property target_language VHDL [current_project]
+add_files -norecurse -scan_for_includes /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd" into library xil_defaultlib [/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd:1]
+[Thu Sep 21 18:44:57 2017] Launched synth_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/synth_1/runme.log
+launch_runs impl_1
+[Thu Sep 21 18:47:51 2017] Launched impl_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:05 . Memory (MB): peak = 7853.051 ; gain = 0.000 ; free physical = 1776 ; free virtual = 4407
+Restored from archive | CPU: 0.270000 secs | Memory: 0.676666 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:05 . Memory (MB): peak = 7853.051 ; gain = 0.000 ; free physical = 1776 ; free virtual = 4406
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 26 instances were transformed.
+  IBUF => IBUF (INBUF, IBUFCTRL): 26 instances
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:02:26 . Memory (MB): peak = 7853.051 ; gain = 0.000 ; free physical = 1524 ; free virtual = 4368
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd" into library xil_defaultlib [/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd:1]
+[Thu Sep 21 19:05:06 2017] Launched synth_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/synth_1/runme.log
+close_design
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd" into library xil_defaultlib [/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd:1]
+[Thu Sep 21 19:09:02 2017] Launched synth_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xcku115-flva2104-3-e
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 26 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 26 instances
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 7890.043 ; gain = 36.992 ; free physical = 769 ; free virtual = 4271
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd" into library xil_defaultlib [/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd:1]
+[Thu Sep 21 19:18:11 2017] Launched synth_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/synth_1/runme.log
+launch_runs impl_1
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Thu Sep 21 19:19:11 2017] Launched impl_1...
+Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/impl_1/runme.log

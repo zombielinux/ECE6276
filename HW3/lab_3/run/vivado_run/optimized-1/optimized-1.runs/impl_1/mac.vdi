@@ -1,0 +1,74 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.1 (64-bit)
+# SW Build 1431336 on Fri Dec 11 14:52:39 MST 2015
+# IP Build 1427053 on Mon Dec  7 12:56:29 MST 2015
+# Start of session at: Thu Sep 21 19:19:12 2017
+# Process ID: 29291
+# Current directory: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/impl_1
+# Command line: vivado -log mac.vdi -applog -messageDb vivado.pb -mode batch -source mac.tcl -notrace
+# Log file: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/impl_1/mac.vdi
+# Journal file: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/optimized-1/optimized-1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source mac.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4.1
+INFO: [Device 21-403] Loading part xcku115-flva2104-3-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 27 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 1 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 26 instances
+
+link_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1615.711 ; gain = 606.395 ; free physical = 115 ; free virtual = 3535
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku115'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku115'
+INFO: [Common 17-1223] The version limit for your license is '2016.04' and will expire in -509 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.24 . Memory (MB): peak = 1672.730 ; gain = 46.016 ; free physical = 139 ; free virtual = 3529
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+INFO: [Mig 66-107] No memory instances. Ignoring
+Implement Debug Cores | Checksum: 15eaf0203
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 15eaf0203
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.60 . Memory (MB): peak = 1948.480 ; gain = 0.000 ; free physical = 85 ; free virtual = 3300
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant Propagation | Checksum: 15eaf0203
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.69 . Memory (MB): peak = 1948.480 ; gain = 0.000 ; free physical = 86 ; free virtual = 3299
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 29 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 15351fc1f
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:01 . Memory (MB): peak = 1948.480 ; gain = 0.000 ; free physical = 85 ; free virtual = 3298
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1948.480 ; gain = 0.000 ; free physical = 85 ; free virtual = 3298
+Ending Logic Optimization Task | Checksum: 15351fc1f
+
+Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:01 . Memory (MB): peak = 1948.480 ; gain = 0.000 ; free physical = 85 ; free virtual = 3298
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
