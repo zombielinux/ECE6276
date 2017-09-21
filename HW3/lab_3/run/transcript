@@ -458,3 +458,104 @@ vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
 # -- Compiling architecture mac_arch of mac
 # End time: 16:41:11 on Sep 21,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:43:29 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mac
+# -- Compiling architecture tb_mac_arch of tb_mac
+# End time: 16:43:29 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.tb_mac
+# vsim -voptargs="+acc" work.tb_mac 
+# Start time: 16:43:31 on Sep 21,2017
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_mac(tb_mac_arch)#1
+# Loading work.mac(mac_arch)#1
+log -r *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+run -a
+# ** Note: Test completed
+#    Time: 20 us  Iteration: 1  Instance: /tb_mac
+# Break in Process line__50 at /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd line 88
+run -a
+# ** Note: Test completed
+#    Time: 40 us  Iteration: 1  Instance: /tb_mac
+# Break in Process line__50 at /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd line 88
+quit -sim
+# End time: 16:44:50 on Sep 21,2017, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:44:53 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 16:44:53 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:44:59 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_mac
+# -- Compiling architecture tb_mac_arch of tb_mac
+# End time: 16:45:00 on Sep 21,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.tb_mac
+# vsim -voptargs="+acc" work.tb_mac 
+# Start time: 16:45:01 on Sep 21,2017
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_mac(tb_mac_arch)#1
+# Loading work.mac(mac_arch)#1
+log -r *
+run -a
+# ** Note: Test completed
+#    Time: 20 us  Iteration: 1  Instance: /tb_mac
+# Break in Process line__50 at /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd line 88

@@ -9,15 +9,14 @@ z2
 cModel Technology
 Z0 d/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run
 T_opt
-!s110 1506024191
-Vjf]zYaDc^:oFYKk:W8mRj2
+!s110 1506026702
+VdATP3[LTh`=i?8j?dao6U1
 04 6 11 work tb_mac tb_mac_arch 1
-=1-549f35212029-59c41aff-10af7-eb3c
+=1-549f35212029-59c424cd-cbe06-e334
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 Z2 OL;O;10.6a;65
-R0
 T_opt1
 !s110 1506016681
 VL5ZU<Kb`?RmJ[=<PkK>8C2
@@ -29,7 +28,7 @@ n@_opt1
 R2
 R0
 Emac
-Z3 w1506026530
+Z3 w1506026740
 Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -42,9 +41,9 @@ VEB=W@I6F;U6l9<=`oZ;:z3
 !s100 4[Fkbe^kelUXWN;51F]DU3
 Z9 OL;C;10.6a;65
 32
-Z10 !s110 1506026471
+Z10 !s110 1506026693
 !i10b 1
-Z11 !s108 1506026471.000000
+Z11 !s108 1506026693.000000
 Z12 !s90 -reportprogress|300|-work|work|/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd|
 Z13 !s107 /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd|
 !i113 0
@@ -54,11 +53,11 @@ Amac_arch
 R4
 R5
 R6
-Z16 DEx4 work 3 mac 0 22 EB=W@I6F;U6l9<=`oZ;:z3
+DEx4 work 3 mac 0 22 EB=W@I6F;U6l9<=`oZ;:z3
 l25
 L20
-V^K>5j[QMe;KM6gUbC`aZl0
-!s100 6cg=75>cV2_E3Va7V9@P@1
+VIe<<@HS0<j]d9Em7Vn93l2
+!s100 bP7iN]`71;8bOXSo_YQfg1
 R9
 32
 R10
@@ -70,34 +69,34 @@ R13
 R14
 R15
 Etb_mac
-Z17 w1505926688
-Z18 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
-Z19 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
-Z20 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z16 w1505926688
+Z17 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z18 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z19 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
 R4
 R5
 R6
 R0
-Z21 8/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd
-Z22 F/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd
+Z20 8/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd
+Z21 F/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd
 l0
 L13
 VhkHW:]G`ODEGh4hm`TfcL1
 !s100 lIdPeT_zXKXjE?glcFaa:1
 R9
 32
-Z23 !s110 1505926886
+Z22 !s110 1506026700
 !i10b 1
-Z24 !s108 1505926886.000000
-Z25 !s90 -reportprogress|300|-work|work|/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd|
-Z26 !s107 /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd|
+Z23 !s108 1506026699.000000
+Z24 !s90 -reportprogress|300|-work|work|/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd|
+Z25 !s107 /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd|
 !i113 0
 R14
 R15
 Atb_mac_arch
+R17
 R18
 R19
-R20
 R4
 R5
 R6
@@ -108,11 +107,11 @@ V]6OnFLXQF^4`Mo<Ab87kH0
 !s100 j996zhc9oPb?MegZ]l_0:3
 R9
 32
-R23
+R22
 !i10b 1
+R23
 R24
 R25
-R26
 !i113 0
 R14
 R15
