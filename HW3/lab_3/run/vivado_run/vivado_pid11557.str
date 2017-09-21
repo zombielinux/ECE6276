@@ -179,3 +179,6 @@ selectTree(PAResourceItoN.NavigableTimingReportTab_TIMING_REPORT_NAVIGATION_TREE
 // HMemoryUtils.trashcanNow. Engine heap size: 6,783 MB. GUI used memory: 98 MB. Current time: 9/20/17 2:16:21 PM EDT
 // Elapsed time: 17 seconds
 selectTab((HResource) null, (HResource) null, "Reports", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+// Elapsed time: 25 seconds
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Power Report ; Wed Sep 20 14:06:24 EDT 2017 ; 8279 ; ", 26, "Power Report", 0, false); // z:aw (JViewport:JComponent, cq:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Power Report ; Wed Sep 20 14:06:24 EDT 2017 ; 8279 ; ", 26, "Power Report", 0, false, false, false, false, false, true); // z:aw (JViewport:JComponent, cq:JFrame) - Double Click
