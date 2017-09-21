@@ -2,19 +2,33 @@
 # Vivado v2015.4.1 (64-bit)
 # SW Build 1431336 on Fri Dec 11 14:52:39 MST 2015
 # IP Build 1427053 on Mon Dec  7 12:56:29 MST 2015
-# Start of session at: Thu Sep 21 14:10:56 2017
-# Process ID: 74150
+# Start of session at: Thu Sep 21 17:21:08 2017
+# Process ID: 18046
 # Current directory: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run
 # Command line: vivado
 # Log file: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/vivado.log
 # Journal file: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/vivado.jou
 #-----------------------------------------------------------
 start_gui
-create_project project_1_optimized /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized -part xcku115-flva2104-3-e
-set_property target_language VHDL [current_project]
-add_files -norecurse -scan_for_includes /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-update_compile_order -fileset sources_1
-update_compile_order -fileset sim_1
+open_project /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+open_run impl_1
+close_project
+open_project /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.xpr
+close_project
+open_project /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr
+close_project
+open_project /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.xpr
+close_project
+open_project /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
 launch_runs synth_1
 wait_on_run synth_1
 launch_runs impl_1

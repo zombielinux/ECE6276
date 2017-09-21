@@ -1,10 +1,10 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.4.1 (lin64) Build 1431336 Fri Dec 11 14:52:39 MST 2015
-| Date         : Thu Sep 21 14:25:21 2017
-| Host         : ecelinsrvy.ece.gatech.edu running 64-bit Red Hat Enterprise Linux Server release 6.9 (Santiago)
+| Date         : Thu Sep 21 17:51:50 2017
+| Host         : ccblincad30.ece.gatech.edu running 64-bit Red Hat Enterprise Linux Workstation release 6.9 (Santiago)
 | Command      : report_drc
------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Report DRC
 

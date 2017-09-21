@@ -1,8 +1,8 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version      : Vivado v.2015.4.1 (lin64) Build 1431336 Fri Dec 11 14:52:39 MST 2015
-| Date              : Thu Sep 21 14:25:31 2017
-| Host              : ecelinsrvy.ece.gatech.edu running 64-bit Red Hat Enterprise Linux Server release 6.9 (Santiago)
+| Date              : Thu Sep 21 17:53:19 2017
+| Host              : ccblincad30.ece.gatech.edu running 64-bit unknown
 | Command           : report_timing_summary -warn_on_violation -max_paths 10 -file mac_timing_summary_routed.rpt -rpx mac_timing_summary_routed.rpx
 | Design            : mac
 | Device            : xcku115-flva2104

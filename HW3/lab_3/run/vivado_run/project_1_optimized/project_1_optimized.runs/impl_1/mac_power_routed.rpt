@@ -1,8 +1,8 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
----------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2015.4.1 (lin64) Build 1431336 Fri Dec 11 14:52:39 MST 2015
-| Date             : Thu Sep 21 14:25:33 2017
-| Host             : ecelinsrvy.ece.gatech.edu running 64-bit Red Hat Enterprise Linux Server release 6.9 (Santiago)
+| Date             : Thu Sep 21 17:53:26 2017
+| Host             : ccblincad30.ece.gatech.edu running 64-bit unknown
 | Command          : 
 | Design           : mac
 | Device           : xcku115-flva2104-3-e
@@ -10,7 +10,7 @@ Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 | Grade            : extended
 | Process          : typical
 | Characterization : Advance
----------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 Power Report
 
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+--------+
-| Total On-Chip Power (W)  | 20.557 |
-| Dynamic (W)              | 18.855 |
+| Total On-Chip Power (W)  | 20.565 |
+| Dynamic (W)              | 18.863 |
 | Device Static (W)        | 1.702  |
 | Effective TJA (C/W)      | 0.8    |
 | Max Ambient (C)          | 83.4   |
@@ -49,14 +49,14 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| CLB Logic      |     0.539 |      153 |       --- |             --- |
-|   LUT as Logic |     0.517 |      107 |    663360 |            0.02 |
+| CLB Logic      |     0.548 |      153 |       --- |             --- |
+|   LUT as Logic |     0.526 |      107 |    663360 |            0.02 |
 |   CARRY8       |     0.022 |       11 |     82920 |            0.01 |
 |   Others       |     0.000 |        3 |       --- |             --- |
-| Signals        |     0.673 |      170 |       --- |             --- |
-| I/O            |    17.643 |       43 |       832 |            5.17 |
+| Signals        |     0.682 |      170 |       --- |             --- |
+| I/O            |    17.633 |       43 |       832 |            5.17 |
 | Static Power   |     1.702 |          |           |                 |
-| Total          |    20.557 |          |           |                 |
+| Total          |    20.565 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -66,13 +66,13 @@ Table of Contents
 +------------+-------------+-----------+-------------+------------+
 | Source     | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +------------+-------------+-----------+-------------+------------+
-| Vccint     |       1.000 |     1.993 |       1.212 |      0.781 |
+| Vccint     |       1.000 |     2.011 |       1.230 |      0.781 |
 | Vccaux     |       1.800 |     0.251 |       0.000 |      0.251 |
-| Vccaux_io  |       1.800 |     7.616 |       7.453 |      0.162 |
+| Vccaux_io  |       1.800 |     7.612 |       7.449 |      0.162 |
 | Vccint_io  |       1.000 |     0.617 |       0.549 |      0.068 |
 | Vcco33     |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25     |       2.500 |     0.000 |       0.000 |      0.000 |
-| Vcco18     |       1.800 |     2.043 |       2.043 |      0.000 |
+| Vcco18     |       1.800 |     2.042 |       2.042 |      0.000 |
 | Vcco15     |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135    |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12     |       1.200 |     0.000 |       0.000 |      0.000 |
@@ -139,33 +139,33 @@ Table of Contents
 +------------------------+-----------+
 | Name                   | Power (W) |
 +------------------------+-----------+
-| mac                    |    18.855 |
-|   a_in_IBUF[0]_inst    |     0.024 |
-|   a_in_IBUF[1]_inst    |     0.025 |
-|   a_in_IBUF[2]_inst    |     0.024 |
+| mac                    |    18.863 |
+|   a_in_IBUF[0]_inst    |     0.025 |
+|   a_in_IBUF[1]_inst    |     0.028 |
+|   a_in_IBUF[2]_inst    |     0.027 |
 |   a_in_IBUF[3]_inst    |     0.025 |
-|   a_in_IBUF[4]_inst    |     0.024 |
+|   a_in_IBUF[4]_inst    |     0.025 |
 |   a_in_IBUF[5]_inst    |     0.025 |
-|   a_in_IBUF[6]_inst    |     0.026 |
-|   a_in_IBUF[7]_inst    |     0.025 |
-|   b_in_IBUF[0]_inst    |     0.026 |
-|   b_in_IBUF[1]_inst    |     0.026 |
-|   b_in_IBUF[2]_inst    |     0.024 |
-|   b_in_IBUF[3]_inst    |     0.024 |
-|   b_in_IBUF[4]_inst    |     0.025 |
+|   a_in_IBUF[6]_inst    |     0.028 |
+|   a_in_IBUF[7]_inst    |     0.024 |
+|   b_in_IBUF[0]_inst    |     0.028 |
+|   b_in_IBUF[1]_inst    |     0.031 |
+|   b_in_IBUF[2]_inst    |     0.023 |
+|   b_in_IBUF[3]_inst    |     0.025 |
+|   b_in_IBUF[4]_inst    |     0.026 |
 |   b_in_IBUF[5]_inst    |     0.023 |
-|   b_in_IBUF[6]_inst    |     0.021 |
-|   b_in_IBUF[7]_inst    |     0.031 |
+|   b_in_IBUF[6]_inst    |     0.022 |
+|   b_in_IBUF[7]_inst    |     0.021 |
 |   c_in_IBUF[0]_inst    |     0.018 |
 |   c_in_IBUF[1]_inst    |     0.018 |
-|   c_in_IBUF[2]_inst    |     0.017 |
+|   c_in_IBUF[2]_inst    |     0.018 |
 |   c_in_IBUF[3]_inst    |     0.018 |
-|   c_in_IBUF[4]_inst    |     0.017 |
-|   c_in_IBUF[5]_inst    |     0.018 |
+|   c_in_IBUF[4]_inst    |     0.018 |
+|   c_in_IBUF[5]_inst    |     0.017 |
 |   c_in_IBUF[6]_inst    |     0.017 |
 |   c_in_IBUF[7]_inst    |     0.018 |
-|   ctrl_in_IBUF[0]_inst |     0.035 |
-|   ctrl_in_IBUF[1]_inst |     0.036 |
+|   ctrl_in_IBUF[0]_inst |     0.041 |
+|   ctrl_in_IBUF[1]_inst |     0.039 |
 +------------------------+-----------+
 
 

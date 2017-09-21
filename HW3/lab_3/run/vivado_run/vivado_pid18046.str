@@ -1,0 +1,408 @@
+/*
+
+Vivado v2015.4.1 (64-bit)
+SW Build 1431336 on Fri Dec 11 14:52:39 MST 2015
+Process ID: 18046
+
+Current time: 	9/21/17 5:21:30 PM EDT
+Time zone: 	Eastern Standard Time (US/Eastern)
+
+OS: Red Hat Enterprise Linux Workstation release 6.9 (Santiago)
+Version: 2.6.32-696.10.1.el6.x86_64
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0.0
+Screen size: 1280x1024
+Screen resolution (DPI): 85
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	/tools/xilinx/vivado201504/Vivado/2015.4/tps/lnx64/jre
+
+User name: 	wsutton8
+User home directory: /nethome/wsutton8
+User working directory: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+Vivado preferences path: /nethome/wsutton8/.Xilinx/Vivado/2015.4/vivado.ini
+Vivado layouts directory: /nethome/wsutton8/.Xilinx/Vivado/2015.4/layouts
+
+GUI allocated memory:	163 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,875 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 30 MB (+29388kb) [00:00:05]
+// [Engine Memory]: 4,827 MB (+4910254kb) [00:00:05]
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create New Project"); // l:JideButton (JPanel:JComponent, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 42 MB (+10414kb) [00:00:06]
+// [GUI Memory]: 59 MB (+15867kb) [00:00:07]
+// [GUI Memory]: 70 MB (+8253kb) [00:00:07]
+// h:g (cq:JFrame): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 4,880 MB. GUI used memory: 28 MB. Current time: 9/21/17 5:21:31 PM EDT
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+// 'g' command handler elapsed time: 3 seconds
+dismissDialog("New Project"); // h:g (cq:JFrame)
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr");
+// Opening Vivado Project: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr. Version: Vivado v2015.4.1 
+// bF:g (cq:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/xilinx/vivado201504/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,987 MB. GUI used memory: 33 MB. Current time: 9/21/17 5:21:46 PM EDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1_optimized; location: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized; part: xcku115-flva2104-3-e
+// 'i' command handler elapsed time: 14 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 5928.434 ; gain = 122.914 ; free physical = 123 ; free virtual = 6410 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// G:aY (cq:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Sep 21 17:21:51 2017] Launched synth_1... Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// Elapsed time: 17 seconds
+applyEnter(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, (String) null); // w:Y (v:I, cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 24 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Thu Sep 21 17:22:33 2017] Launched impl_1... Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Implementation Completed: addNotify
+// Elapsed time: 352 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bF:g (cq:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// [Engine Memory]: 5,120 MB (+53657kb) [00:07:07]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,227 MB. GUI used memory: 33 MB. Current time: 9/21/17 5:28:32 PM EDT
+// [Engine Memory]: 5,444 MB (+71180kb) [00:07:17]
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 5,469 MB. GUI used memory: 33 MB. Current time: 9/21/17 5:28:43 PM EDT
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: /tools/xilinx/vivado201504/Vivado/2015.4/data/parts/xilinx/kintexu/devint/kintexu/xcku115/xcku115.xgd; ZipEntry: xcku115_floorplan.xgd elapsed time: 0.5s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 2.1s
+// [GUI Memory]: 94 MB (+22024kb) [00:07:23]
+// [Engine Memory]: 5,740 MB (+25506kb) [00:07:23]
+// [GUI Memory]: 116 MB (+17058kb) [00:07:23]
+// Xgd.load filename: /tools/xilinx/vivado201504/Vivado/2015.4/data/parts/xilinx/kintexu/devint/kintexu/xcku115/xcku115.xgd; ZipEntry: xcku115_detail.xgd elapsed time: 2.8s
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2015.4.1 INFO: [Device 21-403] Loading part xcku115-flva2104-3-e INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 6424.754 ; gain = 0.000 ; free physical = 1491 ; free virtual = 6231 
+// Tcl Message: Restored from archive | CPU: 0.040000 secs | Memory: 0.227890 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 6424.754 ; gain = 0.000 ; free physical = 1491 ; free virtual = 6231 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 26 instances were transformed.   IBUF => IBUF (INBUF, IBUFCTRL): 26 instances  
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dt' command handler elapsed time: 21 seconds
+// Device view-level: 0.0
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Elapsed time: 22 seconds
+dismissDialog("Open Implemented Design"); // bF:g (cq:JFrame)
+// [GUI Memory]: 124 MB (+2505kb) [00:07:27]
+selectTab((HResource) null, (HResource) null, "Reports", 3); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,859 MB. GUI used memory: 105 MB. Current time: 9/21/17 5:28:54 PM EDT
+// [GUI Memory]: 140 MB (+10169kb) [00:07:34]
+// [Engine Memory]: 6,162 MB (+141511kb) [00:07:38]
+// [Engine Memory]: 6,699 MB (+239976kb) [00:07:43]
+// RouteApi::initDelayMediator elapsed time: 23s
+// HMemoryUtils.trashcanNow. Engine heap size: 6,748 MB. GUI used memory: 99 MB. Current time: 9/21/17 5:29:12 PM EDT
+// Elapsed time: 190 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectButton(PAResourceItoN.MainToolbarMgr_OPEN, (String) null); // aq:av (CommandBar:DockableBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // aa:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // aa:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem((HResource) null, "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.xpr"); // ae:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,767 MB. GUI used memory: 89 MB. Current time: 9/21/17 5:32:18 PM EDT
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 6,767 MB. GUI used memory: 103 MB. Current time: 9/21/17 5:32:19 PM EDT
+// TclEventType: DESIGN_CLOSE
+// Opening Vivado Project: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.xpr. Version: Vivado v2015.4.1 
+// bF:g (cq:JFrame):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_project 
+// Tcl Message: ****** Webtalk v2015.4.1 (64-bit)   **** SW Build 1431336 on Fri Dec 11 14:52:39 MST 2015   **** IP Build 1427053 on Mon Dec  7 12:56:29 MST 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.hw/webtalk/labtool_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Thu Sep 21 17:32:21 2017... 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.xpr 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/xilinx/vivado201504/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1_unoptimized; location: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized; part: xcku115-flva2104-3-e
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mac - mac_arch (mac.vhd)]", 1, false); // y:k (I:JPanel, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // aa:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr"); // ae:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cq:JFrame)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,769 MB. GUI used memory: 35 MB. Current time: 9/21/17 5:32:49 PM EDT
+// Opening Vivado Project: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr. Version: Vivado v2015.4.1 
+// bF:g (cq:JFrame):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_project 
+// Tcl Message: ****** Webtalk v2015.4.1 (64-bit)   **** SW Build 1431336 on Fri Dec 11 14:52:39 MST 2015   **** IP Build 1427053 on Mon Dec  7 12:56:29 MST 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.hw/webtalk/labtool_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Thu Sep 21 17:32:50 2017... 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/xilinx/vivado201504/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1_optimized; location: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized; part: xcku115-flva2104-3-e
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 40 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_OPEN, (String) null); // aq:av (CommandBar:DockableBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // aa:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // aa:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem((HResource) null, "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.xpr"); // ae:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,769 MB. GUI used memory: 36 MB. Current time: 9/21/17 5:33:39 PM EDT
+// Opening Vivado Project: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.xpr. Version: Vivado v2015.4.1 
+// bF:g (cq:JFrame):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_project 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized/project_1_unoptimized.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/xilinx/vivado201504/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1_unoptimized; location: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_unoptimized; part: xcku115-flva2104-3-e
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 50 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_OPEN, (String) null); // aq:av (CommandBar:DockableBar, cq:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // aa:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem((HResource) null, "/nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr"); // ae:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,769 MB. GUI used memory: 37 MB. Current time: 9/21/17 5:34:36 PM EDT
+// Opening Vivado Project: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr. Version: Vivado v2015.4.1 
+// bF:g (cq:JFrame):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_project 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/xilinx/vivado201504/Vivado/2015.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1_optimized; location: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized; part: xcku115-flva2104-3-e
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// G:aY (cq:JFrame): Run Synthesis: addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Sep 21 17:34:43 2017] Launched synth_1... Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: RUN_FAILED
+// X:G (cq:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 77 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // X:G (cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 268 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Sep 21 17:40:29 2017] Launched synth_1... Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 76 seconds
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // h:JCheckBox (JPanel:JComponent, X:G): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Thu Sep 21 17:41:47 2017] Launched impl_1... Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/run/vivado_run/project_1_optimized/project_1_optimized.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Implementation Completed: addNotify
+// Elapsed time: 722 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bF:g (cq:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 6,769 MB. GUI used memory: 38 MB. Current time: 9/21/17 5:54:33 PM EDT
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: /tools/xilinx/vivado201504/Vivado/2015.4/data/parts/xilinx/kintexu/devint/kintexu/xcku115/xcku115.xgd; ZipEntry: xcku115_floorplan.xgd elapsed time: 0.5s
+// Xgd.load filename: /tools/xilinx/vivado201504/Vivado/2015.4/data/parts/xilinx/kintexu/devint/kintexu/xcku115/xcku115.xgd; ZipEntry: xcku115_detail.xgd elapsed time: 6.4s
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2015.4.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:03 . Memory (MB): peak = 7734.238 ; gain = 0.000 ; free physical = 1947 ; free virtual = 4641 
+// Tcl Message: Restored from archive | CPU: 0.180000 secs | Memory: 0.261848 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:03 . Memory (MB): peak = 7734.238 ; gain = 0.000 ; free physical = 1947 ; free virtual = 4641 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 26 instances were transformed.   IBUF => IBUF (INBUF, IBUFCTRL): 26 instances  
+// Tcl Message: open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:55 . Memory (MB): peak = 7734.238 ; gain = 0.000 ; free physical = 1655 ; free virtual = 4626 
+// ExpRunCommands.openImplResults elapsed time: 56.8s
+// Device view-level: 0.0
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dt' command handler elapsed time: 58 seconds
+// TclEventType: TIMING_SUMMARY_UPDATED
+// Elapsed time: 59 seconds
+dismissDialog("Open Implemented Design"); // bF:g (cq:JFrame)
+// bF:g (cq:JFrame):  Open Timing Summary : addNotify
+dismissDialog("Open Timing Summary"); // bF:g (cq:JFrame)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 6,794 MB. GUI used memory: 102 MB. Current time: 9/21/17 5:55:04 PM EDT
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 29.6s
+// Device view-level: 0.0
+// HMemoryUtils.trashcanNow. Engine heap size: 6,779 MB. GUI used memory: 105 MB. Current time: 9/21/17 5:55:04 PM EDT
+// RouteApi::initDelayMediator elapsed time: 74.6s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
