@@ -18,10 +18,13 @@ entity mac is
 end mac ;
 
 architecture mac_arch of mac is
-begin
+
 	variable mul_a : std_logic_vector ( 7 downto 0);
 	variable mul_b : std_logic_vector ( 7 downto 0);
 	variable sum_c : std_logic_vector ( 7 downto 0);
+
+begin
+
 
 	with ctrl_in select
 		mul_a <= "00000000" when "11",
@@ -37,7 +40,7 @@ begin
 		"00000000" when others;
 		
 		
-	mac_unit_out <= std_logic_vector("00000000000000000" + signed(mul_a)*signed(mul_b)+signed(sum_c))
+	mac_unit_out <= std_logic_vector("00000000000000000" + signed(mul_a)*signed(mul_b)+signed(sum_c));
 
 
 
