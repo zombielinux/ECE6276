@@ -1106,3 +1106,4 @@ selectTab((HResource) null, (HResource) null, "Package Pins", 4); // FrameContai
 selectTab((HResource) null, (HResource) null, "Design Runs", 5); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
 // HMemoryUtils.trashcanNow. Engine heap size: 6,938 MB. GUI used memory: 113 MB. Current time: 9/21/17 7:36:57 PM EDT
 // [Engine Memory]: 7,046 MB (+12675kb) [02:15:43]
+// RouteApi::initDelayMediator elapsed time: 36.7s
