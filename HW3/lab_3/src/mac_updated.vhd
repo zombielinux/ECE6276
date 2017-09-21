@@ -19,13 +19,9 @@ end mac ;
 
 architecture mac_arch of mac is
 begin
---	with ctrl_in select
---		mac_unit_out <= std_logic_vector("00000000000000000" + signed(a_in)+signed(c_in)) when "00",
---		std_logic_vector("00000000000000000" + (signed(a_in) * signed(b_in))) when "01",
---		std_logic_vector("00000000000000000" + (signed(a_in) * signed(b_in)) + signed(c_in)) when "10",
---		"00000000000000001" when "01",
---		"00000000000000010" when "10", 
---		"00000000000000000" when others;
+	variable mul_a : std_logic_vector ( 7 downto 0);
+	variable mul_b : std_logic_vector ( 7 downto 0);
+	variable sum_c : std_logic_vector ( 7 downto 0);
 
 	with ctrl_in select
 		mul_a <= "00000000" when "11",
