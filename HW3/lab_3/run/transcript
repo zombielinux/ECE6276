@@ -11,301 +11,9 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
 # Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:19:55 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# -- Compiling architecture mac_arch of mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(22): near "variable": syntax error
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(27): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(27): (vcom-1136) Unknown identifier "mul_a".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(28): Signal [mode IN port] "a_in" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type (error).
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(31): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(31): (vcom-1136) Unknown identifier "mul_b".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(32): Signal [mode IN port] "b_in" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type (error).
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(36): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(36): (vcom-1136) Unknown identifier "sum_c".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): (vcom-1136) Unknown identifier "mul_a".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): (vcom-1136) Unknown identifier "mul_b".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): (vcom-1136) Unknown identifier "sum_c".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(44): near "end": (vcom-1576) expecting ';'.
-# End time: 13:19:55 on Sep 21,2017, Elapsed time: 0:00:00
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:22:12 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# -- Compiling architecture mac_arch of mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(22): near "variable": syntax error
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(27): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(27): (vcom-1136) Unknown identifier "mul_a".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(28): Signal [mode IN port] "a_in" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type (error).
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(31): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(31): (vcom-1136) Unknown identifier "mul_b".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(32): Signal [mode IN port] "b_in" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type (error).
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(36): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(36): (vcom-1136) Unknown identifier "sum_c".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): (vcom-1136) Unknown identifier "mul_a".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): (vcom-1136) Unknown identifier "mul_b".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): (vcom-1136) Unknown identifier "sum_c".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(44): near "end": (vcom-1576) expecting ';'.
-# End time: 13:22:12 on Sep 21,2017, Elapsed time: 0:00:00
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:25:00 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# -- Compiling architecture mac_arch of mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(22): near "variable": syntax error
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(27): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(27): (vcom-1136) Unknown identifier "mul_a".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(28): Signal [mode IN port] "a_in" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type (error).
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(31): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(31): (vcom-1136) Unknown identifier "mul_b".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(32): Signal [mode IN port] "b_in" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type (error).
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(36): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(36): (vcom-1136) Unknown identifier "sum_c".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): (vcom-1136) Unknown identifier "mul_a".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): (vcom-1136) Unknown identifier "mul_b".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): (vcom-1136) Unknown identifier "sum_c".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(44): near "end": (vcom-1576) expecting ';'.
-# End time: 13:25:00 on Sep 21,2017, Elapsed time: 0:00:00
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:25:46 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(18): (vcom-1360) Array type of "mul_a" does not have an index constraint.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(19): (vcom-1360) Array type of "mul_b" does not have an index constraint.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(20): (vcom-1360) Array type of "sum_c" does not have an index constraint.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(18): Variable declaration 'mul_a' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(19): Variable declaration 'mul_b' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(20): Variable declaration 'sum_c' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(22): VHDL Compiler exiting
-# End time: 13:25:46 on Sep 21,2017, Elapsed time: 0:00:00
-# Errors: 7, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:29:46 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(18): (vcom-1360) Array type of "mul_a" does not have an index constraint.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(18): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(19): (vcom-1360) Array type of "mul_b" does not have an index constraint.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(19): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(20): (vcom-1360) Array type of "sum_c" does not have an index constraint.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(20): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(18): Variable declaration 'mul_a' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(19): Variable declaration 'mul_b' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(20): Variable declaration 'sum_c' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(22): VHDL Compiler exiting
-# End time: 13:29:47 on Sep 21,2017, Elapsed time: 0:00:01
-# Errors: 10, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:30:31 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(19): (vcom-1360) Array type of "mul_b" does not have an index constraint.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(20): (vcom-1360) Array type of "sum_c" does not have an index constraint.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(18): Variable declaration 'mul_a' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(19): Variable declaration 'mul_b' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(20): Variable declaration 'sum_c' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(22): VHDL Compiler exiting
-# End time: 13:30:31 on Sep 21,2017, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:31:01 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(18): Variable declaration 'mul_a' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(19): Variable declaration 'mul_b' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(20): Variable declaration 'sum_c' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(22): VHDL Compiler exiting
-# End time: 13:31:01 on Sep 21,2017, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:31:18 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# -- Compiling architecture mac_arch of mac
-# End time: 13:31:19 on Sep 21,2017, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:31:20 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# -- Compiling architecture mac_arch of mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(23): near "variable": syntax error
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): (vcom-1136) Unknown identifier "mul_a".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Signal [mode IN port] "a_in" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type (error).
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1136) Unknown identifier "mul_b".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(34): Signal [mode IN port] "b_in" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type (error).
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(38): Illegal target for signal assignment.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(38): (vcom-1136) Unknown identifier "sum_c".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(39): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(42): (vcom-1136) Unknown identifier "mul_a".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(42): (vcom-1136) Unknown identifier "mul_b".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(42): (vcom-1136) Unknown identifier "sum_c".
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(46): near "end": (vcom-1576) expecting ';'.
-# End time: 13:31:20 on Sep 21,2017, Elapsed time: 0:00:00
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:31:56 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# -- Compiling architecture mac_arch of mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(32): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(36): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(41): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(42): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): near "end": (vcom-1576) expecting ';'.
-# End time: 13:31:57 on Sep 21,2017, Elapsed time: 0:00:01
-# Errors: 5, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:32:31 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# -- Compiling architecture mac_arch of mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(32): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(36): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(41): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(42): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(23): Variable declaration 'mul_a' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(24): Variable declaration 'mul_b' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(25): Variable declaration 'sum_c' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): (vcom-1339) Selected signal assignment choices cover only 1 out of 9 cases.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(49): VHDL Compiler exiting
-# End time: 13:32:31 on Sep 21,2017, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:34:56 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# -- Compiling architecture mac_arch of mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(25): (vcom-1360) Array type of "sum_c" does not have an index constraint.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(34): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(38): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(39): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(23): Variable declaration 'mul_a' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(24): Variable declaration 'mul_b' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(25): Variable declaration 'sum_c' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1339) Selected signal assignment choices cover only 1 out of 9 cases.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(43): VHDL Compiler exiting
-# End time: 13:34:56 on Sep 21,2017, Elapsed time: 0:00:00
-# Errors: 10, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:36:03 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# -- Compiling architecture mac_arch of mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): (vcom-1441) SELECTED VARIABLE ASSIGNMENT is not defined for this version of the language.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Illegal concurrent statement.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(34): (vcom-1441) SELECTED VARIABLE ASSIGNMENT is not defined for this version of the language.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(34): Illegal concurrent statement.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(38): (vcom-1441) SELECTED VARIABLE ASSIGNMENT is not defined for this version of the language.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(38): Illegal concurrent statement.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(39): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(23): Variable declaration 'mul_a' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(24): Variable declaration 'mul_b' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(25): Variable declaration 'sum_c' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1339) Selected variable assignment choices cover only 1 out of 9 cases.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(43): VHDL Compiler exiting
-# End time: 13:36:03 on Sep 21,2017, Elapsed time: 0:00:00
-# Errors: 12, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:49:19 on Sep 21,2017
-# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity mac
-# -- Compiling architecture mac_arch of mac
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(34): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(39): Target of signal assignment is not a signal.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(22): Variable declaration 'mul_a' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(23): Variable declaration 'mul_b' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(24): Variable declaration 'sum_c' not allowed in this region.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(38): (vcom-1339) Selected signal assignment choices cover only 1 out of 9 cases.
-# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(47): VHDL Compiler exiting
-# End time: 13:49:19 on Sep 21,2017, Elapsed time: 0:00:00
-# Errors: 9, Warnings: 0
-vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
-# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:49:55 on Sep 21,2017
+# Start time: 16:01:17 on Sep 21,2017
 # vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -316,11 +24,12 @@ vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/
 # ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
 # ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(38): (vcom-1339) Selected signal assignment choices cover only 1 out of 9 cases.
 # ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(47): VHDL Compiler exiting
-# End time: 13:49:55 on Sep 21,2017, Elapsed time: 0:00:00
+# End time: 16:01:17 on Sep 21,2017, Elapsed time: 0:00:00
 # Errors: 3, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
 vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
 # Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
-# Start time: 13:51:32 on Sep 21,2017
+# Start time: 16:01:25 on Sep 21,2017
 # vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -328,11 +37,58 @@ vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mac
 # -- Compiling architecture mac_arch of mac
-# End time: 13:51:32 on Sep 21,2017, Elapsed time: 0:00:00
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(38): (vcom-1339) Selected signal assignment choices cover only 1 out of 9 cases.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(47): VHDL Compiler exiting
+# End time: 16:01:25 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:02:16 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(38): (vcom-1339) Selected signal assignment choices cover only 1 out of 9 cases.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(47): VHDL Compiler exiting
+# End time: 16:02:16 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:02:57 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(40): near "when": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(38): (vcom-1339) Selected signal assignment choices cover only 1 out of 9 cases.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(47): VHDL Compiler exiting
+# End time: 16:02:57 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:03:03 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 16:03:03 on Sep 21,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim -voptargs=+acc work.tb_mac
 # vsim -voptargs="+acc" work.tb_mac 
-# Start time: 13:56:50 on Sep 21,2017
+# Start time: 16:03:10 on Sep 21,2017
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
 # Loading std.textio(body)
@@ -349,23 +105,39 @@ run -a
 #    Time: 20 us  Iteration: 1  Instance: /tb_mac
 # Break in Process line__50 at /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd line 88
 quit -sim
-# End time: 13:57:54 on Sep 21,2017, Elapsed time: 0:01:04
+# End time: 16:05:16 on Sep 21,2017, Elapsed time: 0:02:06
 # Errors: 0, Warnings: 0
-vsim work.mac
-# vsim work.mac 
-# Start time: 13:58:00 on Sep 21,2017
-# ** Note: (vsim-3812) Design is being optimized...
+vsim -voptargs=+acc work.tb_mac
+# vsim -voptargs="+acc" work.tb_mac 
+# Start time: 16:05:19 on Sep 21,2017
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_mac(tb_mac_arch)#1
 # Loading work.mac(mac_arch)#1
 quit -sim
-# End time: 13:58:15 on Sep 21,2017, Elapsed time: 0:00:15
+# End time: 16:05:41 on Sep 21,2017, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:05:44 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 16:05:44 on Sep 21,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim -voptargs=+acc work.tb_mac
 # vsim -voptargs="+acc" work.tb_mac 
-# Start time: 13:59:06 on Sep 21,2017
+# Start time: 16:05:47 on Sep 21,2017
 # ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading std.standard
 # Loading std.textio(body)
@@ -381,3 +153,252 @@ run -a
 # ** Note: Test completed
 #    Time: 20 us  Iteration: 1  Instance: /tb_mac
 # Break in Process line__50 at /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/tb/tb_mac.vhd line 88
+quit -sim
+# End time: 16:09:12 on Sep 21,2017, Elapsed time: 0:03:25
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:09:23 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 16:09:23 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:09:48 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Type error resolving infix expression "xor" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:09:48 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 2
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:10:59 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Type error resolving infix expression "xor" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:10:59 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 2
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:11:11 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Type error resolving infix expression "xor" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:11:11 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 2
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:13:00 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Type error resolving infix expression "xor" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:13:00 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 2
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:13:38 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Type error resolving infix expression "xor" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:13:38 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 2
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:15:00 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Signal "state_a" cannot be target of variable assignment statement.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Illegal concurrent statement.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Target type ieee.std_logic_1164.STD_LOGIC_VECTOR in variable assignment is different from expression type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): ** Error: (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): ** Error: (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Signal "state_b" cannot be target of variable assignment statement.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Illegal concurrent statement.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Target type ieee.std_logic_1164.STD_LOGIC_VECTOR in variable assignment is different from expression type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:15:00 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 2
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:17:35 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Type error resolving infix expression "xor" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(37): (vcom-1323) Selected waveforms choice is not being checked for array length.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:17:36 on Sep 21,2017, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 2
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:18:54 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Type error resolving infix expression "and" as type std.STANDARD.BIT.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Type error resolving infix expression "xor" as type std.STANDARD.BIT.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:18:54 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:22:05 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(25): Type error resolving infix expression "and" as type std.STANDARD.BIT.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Type error resolving infix expression "and" as type std.STANDARD.BIT.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Type error resolving infix expression "xor" as type std.STANDARD.BIT.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(25): (vcom-1013) Initial value of "state_a" depends on value of signal "ctrl_in".
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:22:05 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:22:37 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(25): near "<=": (vcom-1576) expecting ';'.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(26): near "<=": (vcom-1576) expecting ';'.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): (vcom-1136) Unknown identifier "state_a".
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Enumeration literal '1' is not of type (error).
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(33): (vcom-1136) Unknown identifier "state_b".
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(34): Enumeration literal '1' is not of type (error).
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(47): VHDL Compiler exiting
+# End time: 16:22:38 on Sep 21,2017, Elapsed time: 0:00:01
+# Errors: 7, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:23:09 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(25): Type error resolving infix expression "and" as type std.STANDARD.BIT.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(26): Type error resolving infix expression "xor" as type std.STANDARD.BIT.
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(25): (vcom-1013) Initial value of "state_a" depends on value of signal "ctrl_in".
+# ** Warning: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(26): (vcom-1013) Initial value of "state_b" depends on value of signal "ctrl_in".
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(47): VHDL Compiler exiting
+# End time: 16:23:09 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
+vcom -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd
+# Model Technology ModelSim SE-64 vcom 10.6a Compiler 2017.03 Mar 16 2017
+# Start time: 16:23:30 on Sep 21,2017
+# vcom -reportprogress 300 -work work /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(29): Type error resolving infix expression "and" as type std.STANDARD.BIT.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(30): Type error resolving infix expression "xor" as type std.STANDARD.BIT.
+# ** Error: /nethome/wsutton8/ECE6276/ECE6276/HW3/lab_3/src/mac_updated.vhd(50): VHDL Compiler exiting
+# End time: 16:23:30 on Sep 21,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /tools/mentor/modelsim/ms106a/modeltech/linux_x86_64/vcom failed.
