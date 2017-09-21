@@ -30,11 +30,11 @@ begin
 
 	with ( ctrl_in(0) and ctrl_in(1) ) select
 		mul_a <= "00000000" when '1',
-		signed(a_in) when others;
+		a_in when others;
 		
 	with ( ctrl_in(0) xor ctrl_in(1) ) select
 		mul_b <= "00000001" when '0',
-		signed(b_in) when others;
+		b_in when others;
 	
  
 	with ctrl_in(0) select	
