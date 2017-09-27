@@ -7,7 +7,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity processor_top is
+entity stage1 is
     port(
           clk,rst_n      : in std_logic  ;
           en_in          : in std_logic  ; --when en_in = 1, all the inputs are latched
@@ -17,9 +17,9 @@ entity processor_top is
 	ctrl_in_stage1 : out std_logic_vector ( 1 downto 0);
 	operand_a_out_stage1,operand_b_out_stage1,operand_c_out_stage1 : out std_logic_vector ( 7 downto 0);
         );
-end processor_top ;
+end stage1 ;
 
-architecture processor_top_arch of processor_top is
+architecture stage1_arch of stage1 is
 
 	constant operand_length : integer := operand_a_in'length;
 
@@ -44,4 +44,4 @@ begin
 	end process;      	        
 
 	        
-end processor_top_arch;
+end stage1_arch;
