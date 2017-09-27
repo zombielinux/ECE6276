@@ -1,0 +1,231 @@
+\documentclass[11pt]{report}
+%Libraries in alphabetical Order, Date added Tab Spaced after
+\usepackage{amsmath}				%1-15-2015
+\usepackage{caption}				%1-17-2015
+\usepackage{floatflt}				%1-15-2015
+\usepackage{graphics}				%1-15-2015
+\usepackage{listings}             	%1-17-2015
+\usepackage[pdftex]{graphicx}		%1-14-2015
+\usepackage{subcaption}				%1-17-2015
+\usepackage[xindy]{glossaries}		%1-14-2015
+\usepackage{wrapfig,lipsum,booktabs}%2-8-2015
+\usepackage[T1]{fontenc}
+\usepackage{pdfpages}
+\usepackage{multicol}
+
+%		\begin{figure}[!ht]
+% 		 \caption{X axis is number of nodes, Y axis is energy consumed. }
+  %		 \centering
+ %   	 \includegraphics[width=.9\textwidth]{Q3c.png}
+%		\end{figure}
+
+
+\begin{titlepage}
+\title{
+		\Huge{
+				\textbf{ECE 6276
+						\\DSP Hardware System Design
+						\\Fall 2017}}
+			\\[2cm]
+		\LARGE{
+			\textnormal{Lab 3}}
+			\\[1cm]
+			\date{\today}
+		\large{
+			\author{William Sutton}
+		}}
+
+
+\end{titlepage}
+
+\usepackage{amsmath}
+\begin{document}
+\lstset{language=MATLAB}
+\maketitle
+	
+\section*{Block Diagrams}
+		\begin{figure}[!ht]
+		 \caption*{Block diagram from lab handout }
+		 \centering
+     	 \includegraphics[width=.9\textwidth]{mac_block_diagram.jpg}
+		\end{figure}	
+
+\begin{figure}[!ht]
+ 		 \caption*{Updated Block Diagram}
+  		 \centering
+   	 \includegraphics[width=.9\textwidth]{mac_updated_block_diagram.jpg}
+		\end{figure}
+		
+\newpage		
+\subsection*{Mac not-optimized Slice LUTs}
+\small
+\begin{lstlisting}
++-------------------------+------+-------+-----------+-------+
+|        Site Type        | Used | Fixed | Available | Util% |
++-------------------------+------+-------+-----------+-------+
+| CLB LUTs                |   94 |     0 |    663360 |  0.01 |
+|   LUT as Logic          |   94 |     0 |    663360 |  0.01 |
+|   LUT as Memory         |    0 |     0 |    293760 |  0.00 |
+| CLB Registers           |    0 |     0 |   1326720 |  0.00 |
+|   Register as Flip Flop |    0 |     0 |   1326720 |  0.00 |
+|   Register as Latch     |    0 |     0 |   1326720 |  0.00 |
+| CARRY8                  |   11 |     0 |     82920 |  0.01 |
+| F7 Muxes                |    0 |     0 |    331680 |  0.00 |
+| F8 Muxes                |    0 |     0 |    165840 |  0.00 |
+| F9 Muxes                |    0 |     0 |     82920 |  0.00 |
++-------------------------+------+-------+-----------+-------+
+\end{lstlisting}
+
+\subsection*{Mac optimized Slice LUTs}
+\begin{lstlisting}
++-------------------------+------+-------+-----------+-------+
+|        Site Type        | Used | Fixed | Available | Util% |
++-------------------------+------+-------+-----------+-------+
+| CLB LUTs                |   25 |     0 |    663360 | <0.01 |
+|   LUT as Logic          |   25 |     0 |    663360 | <0.01 |
+|   LUT as Memory         |    0 |     0 |    293760 |  0.00 |
+| CLB Registers           |    0 |     0 |   1326720 |  0.00 |
+|   Register as Flip Flop |    0 |     0 |   1326720 |  0.00 |
+|   Register as Latch     |    0 |     0 |   1326720 |  0.00 |
+| CARRY8                  |    3 |     0 |     82920 | <0.01 |
+| F7 Muxes                |    0 |     0 |    331680 |  0.00 |
+| F8 Muxes                |    0 |     0 |    165840 |  0.00 |
+| F9 Muxes                |    0 |     0 |     82920 |  0.00 |
++-------------------------+------+-------+-----------+-------+
+\end{lstlisting}
+
+
+\newpage
+\subsection*{Mac not-optimized Bonded Buffers}
+\small
+\begin{lstlisting}
++------------------+------+-------+-----------+-------+
+|     Site Type    | Used | Fixed | Available | Util% |
++------------------+------+-------+-----------+-------+
+| Bonded IOB       |   43 |     0 |       832 |  5.17 |
+| HPIOB            |   43 |     0 |       676 |  6.36 |
+|   INPUT          |   26 |       |           |       |
+|   OUTPUT         |   17 |       |           |       |
+|   BIDIR          |    0 |       |           |       |
+| HRIO             |    0 |     0 |       156 |  0.00 |
+| HPIOBDIFFINBUF   |    0 |     0 |       480 |  0.00 |
+| HPIOBDIFFOUTBUF  |    0 |     0 |       480 |  0.00 |
+| HRIODIFFINBUF    |    0 |     0 |        96 |  0.00 |
+| HRIODIFFOUTBUF   |    0 |     0 |        96 |  0.00 |
+| BITSLICE_CONTROL |    0 |     0 |       192 |  0.00 |
+| BITSLICE_RX_TX   |    0 |     0 |      1248 |  0.00 |
+| BITSLICE_TX      |    0 |     0 |       192 |  0.00 |
+| RIU_OR           |    0 |     0 |        96 |  0.00 |
++------------------+------+-------+-----------+-------+
+\end{lstlisting}
+
+\subsection*{Mac optimized Bonded Buffers}
+\begin{lstlisting}
++------------------+------+-------+-----------+-------+
+|     Site Type    | Used | Fixed | Available | Util% |
++------------------+------+-------+-----------+-------+
+| Bonded IOB       |   43 |     0 |       832 |  5.17 |
+| HPIOB            |   43 |     0 |       676 |  6.36 |
+|   INPUT          |   26 |       |           |       |
+|   OUTPUT         |   17 |       |           |       |
+|   BIDIR          |    0 |       |           |       |
+| HRIO             |    0 |     0 |       156 |  0.00 |
+| HPIOBDIFFINBUF   |    0 |     0 |       480 |  0.00 |
+| HPIOBDIFFOUTBUF  |    0 |     0 |       480 |  0.00 |
+| HRIODIFFINBUF    |    0 |     0 |        96 |  0.00 |
+| HRIODIFFOUTBUF   |    0 |     0 |        96 |  0.00 |
+| BITSLICE_CONTROL |    0 |     0 |       192 |  0.00 |
+| BITSLICE_RX_TX   |    0 |     0 |      1248 |  0.00 |
+| BITSLICE_TX      |    0 |     0 |       192 |  0.00 |
+| RIU_OR           |    0 |     0 |        96 |  0.00 |
++------------------+------+-------+-----------+-------+
+\end{lstlisting}
+\newpage
+
+\subsection*{Mac not-optimized Primitives}
+\small
+\begin{lstlisting}
++----------+------+---------------------+
+| Ref Name | Used | Functional Category |
++----------+------+---------------------+
+| LUT4     |   50 |                 CLB |
+| LUT6     |   26 |                 CLB |
+| INBUF    |   26 |                 I/O |
+| IBUFCTRL |   26 |              Others |
+| LUT2     |   24 |                 CLB |
+| LUT3     |   23 |                 CLB |
+| OBUF     |   17 |                 I/O |
+| CARRY8   |   11 |                 CLB |
+| LUT5     |    6 |                 CLB |
++----------+------+---------------------+
+\end{lstlisting}
+
+\subsection*{Mac optimized Primitives}
+\begin{lstlisting}
++----------+------+---------------------+
+| Ref Name | Used | Functional Category |
++----------+------+---------------------+
+| LUT3     |   33 |                 CLB |
+| INBUF    |   26 |                 I/O |
+| IBUFCTRL |   26 |              Others |
+| OBUF     |   17 |                 I/O |
+| CARRY8   |    3 |                 CLB |
+| DSP48E2  |    1 |          Arithmetic |
++----------+------+---------------------+
+\end{lstlisting}
+\newpage
+
+
+\subsection*{Mac not-optimized power}
+\small
+\begin{lstlisting}
++--------------------------+--------+
+| Total On-Chip Power (W)  | 16.770 |
+| Dynamic (W)              | 15.157 |
+| Device Static (W)        | 1.613  |
+| Effective TJA (C/W)      | 0.8    |
+| Max Ambient (C)          | 86.5   |
+| Junction Temperature (C) | 38.5   |
+| Confidence Level         | Low    |
+| Setting File             | ---    |
+| Simulation Activity File | ---    |
+| Design Nets Matched      | NA     |
++--------------------------+--------+
+\end{lstlisting}
+
+\subsection*{Mac optimized power}
+\begin{lstlisting}
++--------------------------+--------+
+| Total On-Chip Power (W)  | 20.515 |
+| Dynamic (W)              | 18.814 |
+| Device Static (W)        | 1.701  |
+| Effective TJA (C/W)      | 0.8    |
+| Max Ambient (C)          | 83.4   |
+| Junction Temperature (C) | 41.6   |
+| Confidence Level         | Low    |
+| Setting File             | ---    |
+| Simulation Activity File | ---    |
+| Design Nets Matched      | NA     |
++--------------------------+--------+
+\end{lstlisting}
+\newpage
+
+
+
+
+
+
+
+
+
+\normalsize
+\section*{Comparison of un-optimized and optimized designs}
+
+\begin{tabular}{lll}
+	 & STD & Updated\\
+	Adders & 2 & 1\\
+	Multipliers & 2 & 1\\
+	Muxes & 1 & 3\\
+\end{tabular}
+
+\end{document}
