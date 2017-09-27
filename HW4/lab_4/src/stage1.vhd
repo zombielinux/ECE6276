@@ -22,8 +22,23 @@ architecture processor_top_arch of processor_top is
 
 begin
 
---create out valid d-flipflops
-	process (clk, reset) begin
+--out_valid d-flipflop
+	process (clk, rst_n) begin
+		if (reset = '0') then 
+			out_valid_stage1 <= '0';
+			ctrl_in_stage1 <= (others => '1');
+			operand_a_in_stage1 <= (others => '1');
+			operand_b_in_stage1 <= (others => '1');
+			operand_c_in_stage1 <= (others => '1');
+		elsif (rising_edge(clk)) then
+		        out_valid_stage1 <= en_in;
+		        ctrl_in_stage1 <= ctrl_in;
+		        operand_a_in_stage1 <= operand_a_in;
+		        operand_b_in_stage1 <= operand_b_in;
+		        operand_c_in_stage1 <= operand_c_in;
+	        end if;
 
+	end process;      	        
 
+	        
 end processor_top_arch;
