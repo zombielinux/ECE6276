@@ -21,6 +21,7 @@ end processor_top ;
 architecture processor_top_arch of processor_top is
  
 	signal out_valid_stage1 : std_logic;
+	signal ctrl_out_stage1: std_logic_vector ( 1 downto 0);
 	signal out_a_stage1 : std_logic_vector ( 7 downto 0);
 	signal out_b_stage1 : std_logic_vector ( 7 downto 0);
 	signal out_c_stage1 : std_logic_vector ( 7 downto 0);
@@ -28,7 +29,7 @@ architecture processor_top_arch of processor_top is
 begin
 
 --stage1
-ST1 : entity work.stage1 port map (clk,rst_n,en_in,ctrl_in,operand_a_in,operand_b_in,operand_c_in,out_valid_stage1,out_a_stage1,out_c_stage1,out_c_stage1);
+ST1 : entity work.stage1 port map (clk,rst_n,en_in,ctrl_in,operand_a_in,operand_b_in,operand_c_in,out_valid_stage1,ctrl_out_stage1,out_a_stage1,out_c_stage1,out_c_stage1);
 --ST1 : entity work.stage1 port map ();
 --mac
 --MAC : entity work.mac_updated port map (mac_result);
