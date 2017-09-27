@@ -32,5 +32,6 @@ begin
 --stage3
 --ST2 : work.stage3 port map (out_valid_stage1);
 
+	result_out <= (others => 1);
 
 end processor_top_arch;
