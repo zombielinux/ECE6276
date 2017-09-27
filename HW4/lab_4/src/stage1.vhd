@@ -27,7 +27,7 @@ begin
 	process (clk, rst_n) begin
 		if (rst_n = '0') then 
 			out_valid_stage1 <= '0';
-			ctrl_in_stage1 <= (others => '1');
+			ctrl_in_stage1 <= (others => '0');
 			operand_a_out_stage1 <= (others => '1');
 			operand_b_out_stage1 <= (others => '1');
 			operand_c_out_stage1 <= (others => '1');
