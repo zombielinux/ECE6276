@@ -21,11 +21,13 @@ end processor_top ;
 architecture processor_top_arch of processor_top is
  
 	signal out_valid_stage1 : std_logic;
-	signal ctrl_out_stage1: std_logic_vector ( 1 downto 0);
-	signal out_a_stage1 : std_logic_vector ( 7 downto 0);
-	signal out_b_stage1 : std_logic_vector ( 7 downto 0);
-	signal out_c_stage1 : std_logic_vector ( 7 downto 0);
+	signal ctrl_out_stage1: std_logic_vector ( 1 downto 0 );
+	signal out_a_stage1 : std_logic_vector ( 7 downto 0 );
+	signal out_b_stage1 : std_logic_vector ( 7 downto 0 );
+	signal out_c_stage1 : std_logic_vector ( 7 downto 0 );
 	signal mac_result : std_logic_vector ( 16 downto 0 );
+	signal out_valid_stage2 : std_logic;
+	signal stage2_result : std_logic_vector ( 16 downto 0 );
 begin
 
 --stage1
@@ -35,7 +37,7 @@ MAC : entity work.mac port map (out_a_stage1,out_b_stage1,out_c_stage1,ctrl_out_
 --stage2
 ST2 : entity work.stage2 port map (clk,rst_n,out_valid_stage1,mac_result,out_valid_stage2,stage2_result);
 --stage3
---ST2 : entity work.stage3 port map (out_valid_stage1);
+--ST3 : entity work.stage3 port map (out_valid_stage1);
 
 	result_out <= (others => '1');
 
