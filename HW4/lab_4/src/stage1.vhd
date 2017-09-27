@@ -15,13 +15,11 @@ entity stage1 is
           operand_a_in,operand_b_in,operand_c_in : in std_logic_vector   ( 7  downto 0);
 	out_valid_stage1 : out std_logic;
 	ctrl_in_stage1 : out std_logic_vector ( 1 downto 0);
-	operand_a_out_stage1,operand_b_out_stage1,operand_c_out_stage1 : out std_logic_vector ( 7 downto 0);
+	operand_a_out_stage1,operand_b_out_stage1,operand_c_out_stage1 : out std_logic_vector ( 7 downto 0)
         );
 end stage1 ;
 
 architecture stage1_arch of stage1 is
-
-	constant operand_length : integer := operand_a_in'length;
 
 begin
 
