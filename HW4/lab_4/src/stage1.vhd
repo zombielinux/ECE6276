@@ -20,7 +20,7 @@ end processor_top ;
 
 architecture processor_top_arch of processor_top is
 
-	constant operand_length : integer := operand_a'length;
+	constant operand_length : integer := operand_a_in'length;
 	out_valid_stage1 : std_logic;
 	ctrl_in_stage1 : std_logic_vector ( 1 downto 0);
 	signal operand_a_in_stage1 : std_logic_vector ( operand_length-1 downto 0);
