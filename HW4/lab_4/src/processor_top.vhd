@@ -32,7 +32,7 @@ architecture processor_top_arch of processor_top is
 begin
 
 --stage1
-ST1 : entity work.stage1 port map (clk,rst_n,en_in,ctrl_in,operand_a_in,operand_b_in,operand_c_in,out_valid_stage1,ctrl_out_stage1,out_a_stage1,out_c_stage1,out_c_stage1);
+ST1 : entity work.stage1 port map (clk,rst_n,en_in,ctrl_in,operand_a_in,operand_b_in,operand_c_in,out_valid_stage1,ctrl_out_stage1,out_a_stage1,out_b_stage1,out_c_stage1);
 
 --mac
 MAC : entity work.mac port map (out_a_stage1,out_b_stage1,out_c_stage1,ctrl_out_stage1,mac_result);
