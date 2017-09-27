@@ -7,21 +7,17 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity processor_top is
+entity stage2 is
     port(
           clk,rst_n      : in std_logic  ;
           en_in          : in std_logic  ; --when en_in = 1, all the inputs are latched
-          ctrl_in        : in std_logic_vector ( 1  downto 0);
-          operand_a_in,operand_b_in,operand_c_in : in std_logic_vector   ( 7  downto 0);
-          out_valid_stage2   : out std_logic   ; --when out_valid =1, all the outputs are valid,in all the other cycles, output is invalid
+	  result_mac_in : in std_logic_vector ( 16 downto 0);
+          out_valid_stage2    : out std_logic   ; --when out_valid =1, all the outputs are valid,in all the other cycles, output is invalid
           result_out_stage2   : out std_logic_vector  ( 16 downto 0)
         );
-end processor_top ;
+end stage2 ;
 
-architecture processor_top_arch of processor_top is
-
-	signal out_valid_stage2 : std_logic;
-	signal result_out_stage2 : std_logic_vector ( 16 downto 0);
+architecture stage2_arch of stage2 is
 
 begin
 
@@ -32,10 +28,10 @@ begin
 			result_out_stage2 <= (others => '1');
 		elsif (rising_edge(clk)) then
 		        out_valid_stage2 <= en_in;
-			result_out_stage2 <= result_out;
+			result_out_stage2 <= result_mac_in;
 	        end if;
 
 	end process;      	        
 
 	        
-end processor_top_arch;
+end stage2_arch;
