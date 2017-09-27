@@ -20,9 +20,6 @@ end processor_top ;
 
 architecture processor_top_arch of processor_top is
 
-	signal out_valid_stage3 : std_logic;
-	signal result_out_stage3 : std_logic_vector ( 16 downto 0);
-
 begin
 
 --out_valid d-flipflop
@@ -32,7 +29,7 @@ begin
 			result_out_stage3 <= (others => '1');
 		elsif (rising_edge(clk)) then
 		        out_valid_stage3 <= en_in;
-			result_out_stage3 <= result_out;
+			result_out_stage3 <= result_out_stage3;
 	        end if;
 
 	end process;      	        
