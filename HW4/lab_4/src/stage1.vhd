@@ -17,9 +17,7 @@ entity processor_top is
 --          result_out   : out std_logic_vector  ( 16 downto 0)
 	out_valid_stage1 : out std_logic;
 	ctrl_in_stage1 : out std_logic_vector ( 1 downto 0);
-	operand_a_out_stage1 : out std_logic_vector ( 7 downto 0);
-	operand_b_out_stage1 : out std_logic_vector ( 7 downto 0);
-	operand_c_out_stage1 : out std_logic_vector ( 7 downto 0);
+	operand_a_out_stage1,operand_b_out_stage1,operand_c_out_stage1 : out std_logic_vector ( 7 downto 0);
         );
 end processor_top ;
 
