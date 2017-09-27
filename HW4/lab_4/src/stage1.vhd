@@ -15,17 +15,18 @@ entity processor_top is
           operand_a_in,operand_b_in,operand_c_in : in std_logic_vector   ( 7  downto 0);
 --          out_valid    : out std_logic   ; --when out_valid =1, all the outputs are valid,in all the other cycles, output is invalid
 --          result_out   : out std_logic_vector  ( 16 downto 0)
+	out_valid_stage1 : out std_logic;
+	ctrl_in_stage1 : out std_logic_vector ( 1 downto 0);
+	operand_a_in_stage1 : out std_logic_vector ( 7 downto 0);
+	operand_b_in_stage1 : out std_logic_vector ( 7 downto 0);
+	operand_c_in_stage1 : out std_logic_vector ( 7 downto 0);
+
         );
 end processor_top ;
 
 architecture processor_top_arch of processor_top is
 
 	constant operand_length : integer := operand_a_in'length;
-	signal out_valid_stage1 : std_logic;
-	signal ctrl_in_stage1 : std_logic_vector ( 1 downto 0);
-	signal operand_a_in_stage1 : std_logic_vector ( operand_length-1 downto 0);
-	signal operand_b_in_stage1 : std_logic_vector ( operand_length-1 downto 0);
-	signal operand_c_in_stage1 : std_logic_vector ( operand_length-1 downto 0);
 
 begin
 

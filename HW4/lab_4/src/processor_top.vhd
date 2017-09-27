@@ -19,11 +19,17 @@ entity processor_top is
 end processor_top ;
 
 architecture processor_top_arch of processor_top is
-
+ 
 begin
 
 --stage1
-ST1 : work.stage1 port map (clk,rst_n,en_in_ctrl_in,operand_a_in,operand_b_in,operand_c_in);
+ST1 : work.stage1 port map (clk,rst_n,en_in_ctrl_in,operand_a_in,operand_b_in,operand_c_in,out_valid_stage1);
+--mac
+MAC : work.mac_updated port map ();
+--stage2
+ST2 : work.stage2 port map ();
+--stage3
+ST2 : work.stage3 port map ();
 
 
 end processor_top_arch;
