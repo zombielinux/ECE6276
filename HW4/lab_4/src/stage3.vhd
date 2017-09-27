@@ -11,8 +11,7 @@ entity processor_top is
     port(
           clk,rst_n      : in std_logic  ;
           en_in          : in std_logic  ; --when en_in = 1, all the inputs are latched
-          ctrl_in        : in std_logic_vector ( 1  downto 0);
-          operand_a_in,operand_b_in,operand_c_in : in std_logic_vector   ( 7  downto 0);
+	  result_stage2_in : in std_logic_vector ( 16 downto 0);
           out_valid_stage3    : out std_logic   ; --when out_valid =1, all the outputs are valid,in all the other cycles, output is invalid
           result_out_stage3   : out std_logic_vector  ( 16 downto 0)
         );
@@ -29,7 +28,7 @@ begin
 			result_out_stage3 <= (others => '1');
 		elsif (rising_edge(clk)) then
 		        out_valid_stage3 <= en_in;
-			result_out_stage3 <= result_out_stage3;
+			result_out_stage3 <= result_stage2_in;
 	        end if;
 
 	end process;      	        
