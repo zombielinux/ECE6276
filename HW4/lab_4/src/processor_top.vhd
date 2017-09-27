@@ -22,7 +22,7 @@ architecture processor_top_arch of processor_top is
  
 	signal out_valid_stage1 : std_logic;
 	signal ctrl_out_stage1: std_logic_vector ( 1 downto 0);
-	signal out_a_stage1 : std_logic_vector ( 7 downto 0);
+--	signal out_a_stage1 : std_logic_vector ( 7 downto 0);
 	signal out_b_stage1 : std_logic_vector ( 7 downto 0);
 	signal out_c_stage1 : std_logic_vector ( 7 downto 0);
 	signal mac_result : std_logic_vector ( 16 downto 0 );
