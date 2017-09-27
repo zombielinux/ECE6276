@@ -20,10 +20,22 @@ end processor_top ;
 
 architecture processor_top_arch of processor_top is
 
+	signal out_valid_stage2 : std_logic;
+	signal result_out_stage2 : std_logic_vector ( 16 downto 0);
+
 begin
 
---stage1
-ST1 : work.stage1 port map (clk,rst_n,en_in_ctrl_in,operand_a_in,operand_b_in,operand_c_in);
+--out_valid d-flipflop
+	process (clk, rst_n) begin
+		if (rst_n = '0') then 
+			out_valid_stage2 <= '0';
+			result_out_stage2 <= (others => '1');
+		elsif (rising_edge(clk)) then
+		        out_valid_stage2 <= en_in;
+			result_out_stage2 <= result_out;
+	        end if;
 
+	end process;      	        
 
+	        
 end processor_top_arch;

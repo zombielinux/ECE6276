@@ -13,8 +13,8 @@ entity processor_top is
           en_in          : in std_logic  ; --when en_in = 1, all the inputs are latched
           ctrl_in        : in std_logic_vector ( 1  downto 0);
           operand_a_in,operand_b_in,operand_c_in : in std_logic_vector   ( 7  downto 0);
-          out_valid    : out std_logic   ; --when out_valid =1, all the outputs are valid,in all the other cycles, output is invalid
-          result_out   : out std_logic_vector  ( 16 downto 0)
+--          out_valid    : out std_logic   ; --when out_valid =1, all the outputs are valid,in all the other cycles, output is invalid
+--          result_out   : out std_logic_vector  ( 16 downto 0)
         );
 end processor_top ;
 
