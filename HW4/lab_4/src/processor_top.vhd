@@ -29,7 +29,7 @@ ST1 : entity work.stage1 port map (clk,rst_n,en_in,ctrl_in,operand_a_in,operand_
 --mac
 --MAC : work.mac_updated port map (operand_a_out_stage1);
 --stage2
---ST2 : work.stage2 port map (out_valid_stage1);
+ST2 : work.stage2 port map (clk,rst_n,out_valid_stage1);
 --stage3
 --ST2 : work.stage3 port map (out_valid_stage1);
 
