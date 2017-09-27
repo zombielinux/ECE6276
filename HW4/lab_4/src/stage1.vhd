@@ -20,7 +20,6 @@ entity processor_top is
 	operand_a_out_stage1 : out std_logic_vector ( 7 downto 0);
 	operand_b_out_stage1 : out std_logic_vector ( 7 downto 0);
 	operand_c_out_stage1 : out std_logic_vector ( 7 downto 0);
-
         );
 end processor_top ;
 
