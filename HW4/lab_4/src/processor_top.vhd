@@ -32,7 +32,7 @@ begin
 ST1 : entity work.stage1 port map (clk,rst_n,en_in,ctrl_in,operand_a_in,operand_b_in,operand_c_in,out_valid_stage1,ctrl_out_stage1,out_a_stage1,out_c_stage1,out_c_stage1);
 --ST1 : entity work.stage1 port map ();
 --mac
-MAC : entity work.mac_updated port map (out_a_stage1,out_b_stage1,out_c_stage1,ctrl_out_stage1,mac_result);
+MAC : entity work.mac port map (out_a_stage1,out_b_stage1,out_c_stage1,ctrl_out_stage1,mac_result);
 --stage2
 ST2 : entity work.stage2 port map (clk,rst_n,out_valid_stage1,mac_result);
 --stage3
