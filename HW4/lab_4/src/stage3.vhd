@@ -7,7 +7,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity processor_top is
+entity stage3 is
     port(
           clk,rst_n      : in std_logic  ;
           en_in          : in std_logic  ; --when en_in = 1, all the inputs are latched
@@ -15,9 +15,9 @@ entity processor_top is
           out_valid_stage3    : out std_logic   ; --when out_valid =1, all the outputs are valid,in all the other cycles, output is invalid
           result_out_stage3   : out std_logic_vector  ( 16 downto 0)
         );
-end processor_top ;
+end stage3 ;
 
-architecture processor_top_arch of processor_top is
+architecture stage3_arch of stage3 is
 
 begin
 
@@ -34,4 +34,4 @@ begin
 	end process;      	        
 
 	        
-end processor_top_arch;
+end stage3_arch;
