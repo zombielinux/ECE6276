@@ -23,13 +23,13 @@ architecture processor_top_arch of processor_top is
 begin
 
 --stage1
-ST1 : work.stage1 port map (clk,rst_n,en_in_ctrl_in,operand_a_in,operand_b_in,operand_c_in,out_valid_stage1);
+ST1 : work.stage1 port map (clk,rst_n,en_in_ctrl_in,operand_a_in,operand_b_in,operand_c_in,out_valid_stage1,operand_a_out_stage1);
 --mac
-MAC : work.mac_updated port map ();
+MAC : work.mac_updated port map (operand_a_out_stage1);
 --stage2
-ST2 : work.stage2 port map ();
+ST2 : work.stage2 port map (out_valid_stage1);
 --stage3
-ST2 : work.stage3 port map ();
+ST2 : work.stage3 port map (out_valid_stage1);
 
 
 end processor_top_arch;
