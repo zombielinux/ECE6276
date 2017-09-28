@@ -1,0 +1,12 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/tools/xilinx/vivado201504/Vivado/2015.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x90ea59) [0x7f867a772a59]
+/tools/xilinx/vivado201504/Vivado/2015.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(JVM_handle_linux_signal+0xb6) [0x7f867a778b46]
+/tools/xilinx/vivado201504/Vivado/2015.4/tps/lnx64/jre/lib/amd64/server/libjvm.so(+0x90b493) [0x7f867a76f493]
+/lib64/libc.so.6() [0x3f48a32510]
+/tools/xilinx/vivado201504/Vivado/2015.4/lib/lnx64.o/librdi_common.so(+0x30e496) [0x7f86af829496]
+/tools/xilinx/vivado201504/Vivado/2015.4/lib/lnx64.o/librdi_common.so(HI18N::Convert::Out(char const*, char const*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >&, std::codecvt<wchar_t, char, __mbstate_t> const&)+0x168) [0x7f86af829938]
+/tools/xilinx/vivado201504/Vivado/2015.4/lib/lnx64.o/librdi_project.so(Java_ui_project_projecti_ProjStateHelper_1getBlingString+0x73) [0x7f86898a37a3]
+[0x7f866b4aa231]

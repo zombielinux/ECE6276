@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.1 (64-bit)
+# SW Build 1431336 on Fri Dec 11 14:52:39 MST 2015
+# IP Build 1427053 on Mon Dec  7 12:56:29 MST 2015
+# Start of session at: Thu Sep 28 14:14:21 2017
+# Process ID: 22734
+# Current directory: /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run
+# Command line: vivado
+# Log file: /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/vivado.log
+# Journal file: /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project mac_pipelined /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/mac_pipelined -part xcku115-flva2104-3-e
+set_property target_language VHDL [current_project]
+add_files -norecurse -scan_for_includes /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/src/processor_top.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs synth_1
+wait_on_run synth_1
+add_files -norecurse -scan_for_includes {/nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/src/stage1.vhd /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/src/mac_updated.vhd /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/src/stage3.vhd /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/src/stage2.vhd}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+open_run impl_1
