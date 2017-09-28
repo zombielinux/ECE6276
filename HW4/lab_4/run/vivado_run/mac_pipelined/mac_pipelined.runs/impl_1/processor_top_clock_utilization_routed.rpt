@@ -1,14 +1,14 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 | Tool Version      : Vivado v.2015.4.1 (lin64) Build 1431336 Fri Dec 11 14:52:39 MST 2015
-| Date              : Thu Sep 28 14:25:31 2017
-| Host              : ccblincad28.ece.gatech.edu running 64-bit Red Hat Enterprise Linux Workstation release 6.9 (Santiago)
+| Date              : Thu Sep 28 14:56:11 2017
+| Host              : ccblincad28.ece.gatech.edu running 64-bit unknown
 | Command           : report_clock_utilization -file processor_top_clock_utilization_routed.rpt
 | Design            : processor_top
 | Device            : xcku115-flva2104
 | Speed File        : -3  PRODUCTION 1.20 11-12-2015
 | Temperature Grade : E
-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
 Clock Utilization Report
 
@@ -53,7 +53,7 @@ Table of Contents
 +-------+--------------------+---------------+------+-------+-------+
 | Index | BUFG Cell          | Net Name      | BELs | Sites | Fixed |
 +-------+--------------------+---------------+------+-------+-------+
-|     1 | clk_IBUF_BUFG_inst | clk_IBUF_BUFG |   63 |    13 |    no |
+|     1 | clk_IBUF_BUFG_inst | clk_IBUF_BUFG |   63 |    11 |    no |
 +-------+--------------------+---------------+------+-------+-------+
 
 

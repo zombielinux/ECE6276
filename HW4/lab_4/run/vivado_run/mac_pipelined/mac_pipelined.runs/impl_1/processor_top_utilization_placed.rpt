@@ -1,7 +1,7 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.4.1 (lin64) Build 1431336 Fri Dec 11 14:52:39 MST 2015
-| Date         : Thu Sep 28 14:21:37 2017
+| Date         : Thu Sep 28 14:50:43 2017
 | Host         : ccblincad28.ece.gatech.edu running 64-bit Red Hat Enterprise Linux Workstation release 6.9 (Santiago)
 | Command      : report_utilization -file processor_top_utilization_placed.rpt -pb processor_top_utilization_placed.pb
 | Design       : processor_top
@@ -74,9 +74,9 @@ Table of Contents
 +-------------------------------------------------------------+---------+-------+-----------+-------+
 |                          Site Type                          |   Used  | Fixed | Available | Util% |
 +-------------------------------------------------------------+---------+-------+-----------+-------+
-| CLB                                                         |      14 |     0 |     82920 |  0.02 |
-|   CLBL                                                      |       3 |     0 |           |       |
-|   CLBM                                                      |      11 |     0 |           |       |
+| CLB                                                         |      11 |     0 |     82920 |  0.01 |
+|   CLBL                                                      |       4 |     0 |           |       |
+|   CLBM                                                      |       7 |     0 |           |       |
 | LUT as Logic                                                |      25 |     0 |    663360 | <0.01 |
 |   using O5 output only                                      |       0 |       |           |       |
 |   using O6 output only                                      |      17 |       |           |       |
@@ -84,10 +84,10 @@ Table of Contents
 | LUT as Memory                                               |       0 |     0 |    293760 |  0.00 |
 |   LUT as Distributed RAM                                    |       0 |     0 |           |       |
 |   LUT as Shift Register                                     |       0 |     0 |           |       |
-| LUT Flip Flop Pairs                                         |      50 |     0 |    663360 | <0.01 |
-|   fully used LUT-FF pairs                                   |      19 |       |           |       |
-|   LUT-FF pairs with unused LUT                              |      25 |       |           |       |
-|   LUT-FF pairs with unused Flip Flop                        |       6 |       |           |       |
+| LUT Flip Flop Pairs                                         |      46 |     0 |    663360 | <0.01 |
+|   fully used LUT-FF pairs                                   |      21 |       |           |       |
+|   LUT-FF pairs with unused LUT                              |      21 |       |           |       |
+|   LUT-FF pairs with unused Flip Flop                        |       4 |       |           |       |
 | Unique Control Sets                                         |       1 |       |           |       |
 | Maximum number of registers lost to control set restriction | 1(Lost) |       |           |       |
 +-------------------------------------------------------------+---------+-------+-----------+-------+
@@ -253,9 +253,9 @@ Table of Contents
 | SLR Index | CLBs | (%)CLBs | Total LUTs | Memory LUTs | (%)Total LUTs | Registers | BRAMs | DSPs |
 +-----------+------+---------+------------+-------------+---------------+-----------+-------+------+
 | SLR1      |    0 |    0.00 |          0 |           0 |          0.00 |         0 |     0 |    0 |
-| SLR0      |   14 |    0.03 |         25 |           0 |         <0.01 |        63 |     0 |    1 |
+| SLR0      |   11 |    0.03 |         25 |           0 |         <0.01 |        63 |     0 |    1 |
 +-----------+------+---------+------------+-------------+---------------+-----------+-------+------+
-| Total     |   14 |         |         25 |           0 |               |        63 |     0 |    1 |
+| Total     |   11 |         |         25 |           0 |               |        63 |     0 |    1 |
 +-----------+------+---------+------------+-------------+---------------+-----------+-------+------+
 
 

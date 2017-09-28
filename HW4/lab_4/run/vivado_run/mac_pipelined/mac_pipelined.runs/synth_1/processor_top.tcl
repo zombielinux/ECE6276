@@ -20,6 +20,9 @@ read_vhdl -library xil_defaultlib {
   /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/src/stage2.vhd
   /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/src/processor_top.vhd
 }
+read_xdc /nethome/wsutton8/ECE6276/ECE6276/HW4/constraints_lab4.xdc
+set_property used_in_implementation false [get_files /nethome/wsutton8/ECE6276/ECE6276/HW4/constraints_lab4.xdc]
+
 synth_design -top processor_top -part xcku115-flva2104-3-e
 write_checkpoint -noxdef processor_top.dcp
 catch { report_utilization -file processor_top_utilization_synth.rpt -pb processor_top_utilization_synth.pb }

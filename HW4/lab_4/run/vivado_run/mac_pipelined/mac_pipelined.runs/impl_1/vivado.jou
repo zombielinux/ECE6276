@@ -2,8 +2,8 @@
 # Vivado v2015.4.1 (64-bit)
 # SW Build 1431336 on Fri Dec 11 14:52:39 MST 2015
 # IP Build 1427053 on Mon Dec  7 12:56:29 MST 2015
-# Start of session at: Thu Sep 28 14:20:52 2017
-# Process ID: 23204
+# Start of session at: Thu Sep 28 14:45:26 2017
+# Process ID: 24976
 # Current directory: /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/mac_pipelined/mac_pipelined.runs/impl_1
 # Command line: vivado -log processor_top.vdi -applog -messageDb vivado.pb -mode batch -source processor_top.tcl -notrace
 # Log file: /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/mac_pipelined/mac_pipelined.runs/impl_1/processor_top.vdi

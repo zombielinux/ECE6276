@@ -217,3 +217,92 @@ dismissDialog("Open Implemented Design"); // bF:g (cq:JFrame)
 // [Engine Memory]: 6,337 MB (+279799kb) [00:12:13]
 // [Engine Memory]: 6,701 MB (+49395kb) [00:12:18]
 // RouteApi::initDelayMediator elapsed time: 23.6s
+// HMemoryUtils.trashcanNow. Engine heap size: 6,776 MB. GUI used memory: 99 MB. Current time: 9/28/17 2:29:18 PM EDT
+// Elapsed time: 768 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cq:JFrame): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_EXISTING_OR_CREATE_NEW_CONSTRAINTS, "Add"); // y:JideButton (CommandBar:DockableBar, b:g)
+selectMenuItem(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files..."); // ae:JMenuItem (al:JPopupMenu, b:g)
+setFileChooser("/nethome/wsutton8/ECE6276/ECE6276/HW4/constraints_lab4.xdc");
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'g' command handler elapsed time: 18 seconds
+// [GUI Memory]: 136 MB (+335kb) [00:25:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 6,778 MB. GUI used memory: 100 MB. Current time: 9/28/17 2:39:37 PM EDT
+dismissDialog("Add Sources"); // b:g (cq:JFrame)
+// bF:g (cq:JFrame):  Add Constraint  : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse /nethome/wsutton8/ECE6276/ECE6276/HW4/constraints_lab4.xdc 
+dismissDialog("Add Constraint"); // bF:g (cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// G:aY (cq:JFrame): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Sep 28 14:39:44 2017] Launched synth_1... Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/mac_pipelined/mac_pipelined.runs/synth_1/runme.log 
+// 'm' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 6,808 MB. GUI used memory: 99 MB. Current time: 9/28/17 2:39:44 PM EDT
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 338 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs impl_1 
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Sep 28 14:45:25 2017] Launched impl_1... Run output will be captured here: /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/mac_pipelined/mac_pipelined.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+// [GUI Memory]: 144 MB (+356kb) [00:30:55]
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// X:G (cq:JFrame): Implementation Completed: addNotify
+// Elapsed time: 705 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bF:g (cq:JFrame):  Reloading : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 6,808 MB. GUI used memory: 101 MB. Current time: 9/28/17 2:57:15 PM EDT
+// Tcl Message: refresh_design 
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 6,808 MB. GUI used memory: 93 MB. Current time: 9/28/17 2:57:18 PM EDT
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 6,808 MB. GUI used memory: 94 MB. Current time: 9/28/17 2:58:08 PM EDT
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 6,808 MB. GUI used memory: 37 MB. Current time: 9/28/17 2:58:32 PM EDT
+// Device: addNotify
+// Xgd.load filename: /tools/xilinx/vivado201504/Vivado/2015.4/data/parts/xilinx/kintexu/devint/kintexu/xcku115/xcku115.xgd; ZipEntry: xcku115_detail.xgd elapsed time: 2.4s
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 30 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2015.4.1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [/nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/.Xil/Vivado-22734-ccblincad28.ece.gatech.edu/dcp/processor_top.xdc] Finished Parsing XDC File [/nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/.Xil/Vivado-22734-ccblincad28.ece.gatech.edu/dcp/processor_top.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:03 . Memory (MB): peak = 7765.102 ; gain = 0.000 ; free physical = 956 ; free virtual = 4372 
+// Tcl Message: Restored from archive | CPU: 0.230000 secs | Memory: -0.542366 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:03 . Memory (MB): peak = 7765.102 ; gain = 0.000 ; free physical = 956 ; free virtual = 4372 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:18 ; elapsed = 00:01:19 . Memory (MB): peak = 7765.105 ; gain = 0.004 ; free physical = 914 ; free virtual = 4366 
+// Device view-level: 0.0
+// Elapsed time: 85 seconds
+dismissDialog("Reloading"); // bF:g (cq:JFrame)
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 10.1s
+// Device view-level: 0.0

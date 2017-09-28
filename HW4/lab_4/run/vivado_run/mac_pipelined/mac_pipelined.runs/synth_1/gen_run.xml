@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xcku115-flva2104-3-e" LaunchTime="1506622751">
+<GenRun Id="synth_1" LaunchPart="xcku115-flva2104-3-e" LaunchTime="1506623983">
   <File Type="VDS-TIMING-PB" Name="processor_top_timing_summary_synth.pb"/>
   <File Type="VDS-TIMINGSUMMARY" Name="processor_top_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="processor_top.dcp"/>
@@ -51,6 +51,12 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../../../constraints_lab4.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>

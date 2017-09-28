@@ -54,6 +54,7 @@ set rc [catch {
   set_property ip_repo_paths /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/mac_pipelined/mac_pipelined.cache/ip [current_project]
   set_property ip_output_repo /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/mac_pipelined/mac_pipelined.cache/ip [current_project]
   add_files -quiet /nethome/wsutton8/ECE6276/ECE6276/HW4/lab_4/run/vivado_run/mac_pipelined/mac_pipelined.runs/synth_1/processor_top.dcp
+  read_xdc /nethome/wsutton8/ECE6276/ECE6276/HW4/constraints_lab4.xdc
   link_design -top processor_top -part xcku115-flva2104-3-e
   close_msg_db -file init_design.pb
 } RESULT]
