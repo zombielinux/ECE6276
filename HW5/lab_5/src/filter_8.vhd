@@ -44,25 +44,46 @@ end filter_8 ;
 
 architecture filter_8_arch of filter_8 is
 
+	signal data_real_0 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_1 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_2 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_3 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_4 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_5 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_6 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_7 : std_logic_vector ( 7 downto 0 ); 
+	
+	signal data_imag_0 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_1 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_2 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_3 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_4 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_5 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_6 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_7 : std_logic_vector ( 7 downto 0 ); 	
+
+
 begin
 
---Frequency Halver
---D flipflop with Qnot connected back to the D input Q is the output
+	if data_en_in AND not(coeff_en_in) then 
+		--input data into all the flipflops. 
+		Data_Buf_In : entity input_buffer port map (clk,rst_n,data_in,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7)
 
---Frequency Eigther
---3 frequency halvers in series. 
+		--perform all 8 multiplications
+		Mult0 : entity complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
+		Mult1 : entity complex_mult port map (coeff_real_1,coeff_imag_1,data_real_1,(others => '0'),res_real_1,res_imag_1);
+		Mult2 : entity complex_mult port map (coeff_real_2,coeff_imag_2,data_real_2,(others => '0'),res_real_2,res_imag_2);
+		Mult3 : entity complex_mult port map (coeff_real_3,coeff_imag_3,data_real_3,(others => '0'),res_real_3,res_imag_3);
+		Mult4 : entity complex_mult port map (coeff_real_4,coeff_imag_4,data_real_4,(others => '0'),res_real_4,res_imag_4);
+		Mult5 : entity complex_mult port map (coeff_real_5,coeff_imag_5,data_real_5,(others => '0'),res_real_5,res_imag_5);
+		Mult6 : entity complex_mult port map (coeff_real_6,coeff_imag_6,data_real_6,(others => '0'),res_real_6,res_imag_6);
+		Mult7 : entity complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7,(others => '0'),res_real_7,res_imag_7);
 
---Multiplier
---	execute every clock cycle
---	real_out=(real_in*real_coeff)-(imag_in*imag_coeff)
---	imag_out=(real_in*imag_coeff)+(real_coeff*imag_in)
+		--add all the multiplcation results together. 
+		real_data_out <= std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7))
+		imag_data_out <= std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7))
 
---Adder-sequence
--- execute add every OTHER clock cycle
--- every EIGHTH clock cycle, reset the storage flip flop to zero
--- flip flop stores output of adder and pipes it into one of the operands. 
 
---Output
---execute output every EIGHTH clock cycle
+
 
 end filter_8_arch;
