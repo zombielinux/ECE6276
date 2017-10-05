@@ -18,7 +18,7 @@ end data_en_buffer ;
 
 architecture data_en_buffer_arch of data_en_buffer is
 
---	signal data_en_buffer : std_logic_vector ( 3 downto 0);
+	signal data_en_buffer : std_logic_vector ( 3 downto 0);
 
 begin
 
@@ -26,10 +26,15 @@ begin
 	process (clk, rst_n) begin
 		if (rst_n = '0') then 
 			data_in_en_buff <= '0';
+			data_en_buffer <= (others => '0');
 			
 		elsif (rising_edge(clk)) then
-			data_in_en_buff <= '1';
+			if (data_en_buffer = '0') then	
+				data_in_en_buff <= '1';
 
+			else 
+				data_in_en_buff <= '0':
+			end if
 	        end if;
 
 	end process;      	        
