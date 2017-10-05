@@ -80,8 +80,8 @@ architecture filter_8_arch of filter_8 is
 	signal res_imag_6 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
 	signal res_imag_7 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
 	
-	signal real_data_out_temp : std_logic_vector ( 17 downto 0 );
-	signal imag_data_out_temp : std_logic_vector ( 17 downto 0 );	
+	signal real_data_out_temp : std_logic_vector ( 18 downto 0 );
+	signal imag_data_out_temp : std_logic_vector ( 18 downto 0 );	
 	
 begin
 	process (clk, rst_n) begin
@@ -127,8 +127,8 @@ begin
 		real_data_out_temp <= "00" & std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7));
 		imag_data_out_temp <= "00" & std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7));
 		
-		real_data_out <= real_data_out_temp(17 downto 8);
-		imag_data_out <= imag_data_out_temp(17 downto 8);
+		real_data_out <= real_data_out_temp(18 downto 9);
+		imag_data_out <= imag_data_out_temp(18 downto 9);
 
 --needs to be delayed once. 	
 		out_valid <= '1';
