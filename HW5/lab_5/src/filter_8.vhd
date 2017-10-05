@@ -83,6 +83,7 @@ architecture filter_8_arch of filter_8 is
 	signal real_data_out_temp : std_logic_vector ( 18 downto 0 );
 	signal imag_data_out_temp : std_logic_vector ( 18 downto 0 );	
 	
+	data_out_valid_buff : std_logic;
 begin
 
 Data_Buf_In : entity work.input_buffer port map (clk,
@@ -104,7 +105,8 @@ Data_Buf_In : entity work.input_buffer port map (clk,
 			data_real_4,
 			data_real_5,
 			data_real_6,
-			data_real_7);
+			data_real_7,
+			data_out_valid_buff);
 
 		--perform all 8 multiplications
 Mult0 : entity work.complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
@@ -135,7 +137,7 @@ Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7
 				imag_data_out <= imag_data_out_temp(18 downto 9);	
 
 --needs to be delayed 9 clock cycles. 	
-				out_valid <= '1';
+				out_valid <= data_out_valid_buff;
 
 		--else
 			end if;
