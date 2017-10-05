@@ -12,6 +12,7 @@ entity complex_mult is
          
          a_real : in std_logic_vector ( 7 downto 0 );
          a_imag : in std_logic_vector ( 7 downto 0 );
+
          b_real : in std_logic_vector ( 7 downto 0 );
          b_imag : in std_logic_vector ( 7 downto 0 );
          
