@@ -48,7 +48,7 @@ begin
 			data_5_out <= (others => '0');
 			data_6_out <= (others => '0');
 			data_7_out <= (others => '0');
-		elsif and(rising_edge(clk),(data_in_en)) then
+		elsif (rising_edge(clk) and (data_in_en)) then
 			data_0_out <= data_in;
 			data_1_out <= data_0_in;
 			data_2_out <= data_1_in;
