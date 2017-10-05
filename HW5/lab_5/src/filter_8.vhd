@@ -62,23 +62,23 @@ architecture filter_8_arch of filter_8 is
 	signal data_imag_6 : std_logic_vector ( 7 downto 0 ); 
 	signal data_imag_7 : std_logic_vector ( 7 downto 0 ); 	
 
-	signal res_real_0 : std_logic_vector ( 15 downto 0 );
-	signal res_real_1 : std_logic_vector ( 15 downto 0 );
-	signal res_real_2 : std_logic_vector ( 15 downto 0 );
-	signal res_real_3 : std_logic_vector ( 15 downto 0 );
-	signal res_real_4 : std_logic_vector ( 15 downto 0 );
-	signal res_real_5 : std_logic_vector ( 15 downto 0 );
-	signal res_real_6 : std_logic_vector ( 15 downto 0 );
-	signal res_real_7 : std_logic_vector ( 15 downto 0 );
+	signal res_real_0 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_real_1 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_real_2 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_real_3 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_real_4 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_real_5 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_real_6 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_real_7 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
 	
-	signal res_imag_0 : std_logic_vector ( 15 downto 0 );
-	signal res_imag_1 : std_logic_vector ( 15 downto 0 );
-	signal res_imag_2 : std_logic_vector ( 15 downto 0 );
-	signal res_imag_3 : std_logic_vector ( 15 downto 0 );
-	signal res_imag_4 : std_logic_vector ( 15 downto 0 );
-	signal res_imag_5 : std_logic_vector ( 15 downto 0 );
-	signal res_imag_6 : std_logic_vector ( 15 downto 0 );
-	signal res_imag_7 : std_logic_vector ( 15 downto 0 );
+	signal res_imag_0 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_imag_1 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_imag_2 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_imag_3 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_imag_4 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_imag_5 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_imag_6 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
+	signal res_imag_7 : std_logic_vector ( 15 downto 0 ) := "0000111100001111";
 	
 	signal real_data_out_temp : std_logic_vector ( 17 downto 0 );
 	signal imag_data_out_temp : std_logic_vector ( 17 downto 0 );	
@@ -124,18 +124,17 @@ begin
 --		Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7,(others => '0'),res_real_7,res_imag_7);
 
 		--add all the multiplcation results together. 
---		real_data_out_temp <= std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7));
---		imag_data_out_temp <= std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7));
+		real_data_out_temp <= std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7));
+		imag_data_out_temp <= std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7));
 		
-		real_data_out_temp <= "111100001111000011";
-		imag_data_out_temp <= "101010101010101010";
+--		real_data_out_temp <= "111100001111000011";
+--		imag_data_out_temp <= "101010101010101010";
 
 		real_data_out <= real_data_out_temp(17 downto 8);
 		imag_data_out <= imag_data_out_temp(17 downto 8);
 	
-			out_valid <= '1';
---			real_data_out <= "1111000010";
---			imag_data_out <= "0000111101";
+		out_valid <= '1';
+
 		--else
 		end if;
 	end process;
