@@ -107,14 +107,14 @@ Data_Buf_In : entity work.input_buffer port map (clk,
 			data_real_7);
 
 		--perform all 8 multiplications
---		Mult0 : entity work.complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
---		Mult1 : entity work.complex_mult port map (coeff_real_1,coeff_imag_1,data_real_1,(others => '0'),res_real_1,res_imag_1);
---		Mult2 : entity work.complex_mult port map (coeff_real_2,coeff_imag_2,data_real_2,(others => '0'),res_real_2,res_imag_2);
---		Mult3 : entity work.complex_mult port map (coeff_real_3,coeff_imag_3,data_real_3,(others => '0'),res_real_3,res_imag_3);
---		Mult4 : entity work.complex_mult port map (coeff_real_4,coeff_imag_4,data_real_4,(others => '0'),res_real_4,res_imag_4);
---		Mult5 : entity work.complex_mult port map (coeff_real_5,coeff_imag_5,data_real_5,(others => '0'),res_real_5,res_imag_5);
---		Mult6 : entity work.complex_mult port map (coeff_real_6,coeff_imag_6,data_real_6,(others => '0'),res_real_6,res_imag_6);
---		Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7,data_imag_7,res_real_7,res_imag_7);
+		Mult0 : entity work.complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
+		Mult1 : entity work.complex_mult port map (coeff_real_1,coeff_imag_1,data_real_1,(others => '0'),res_real_1,res_imag_1);
+		Mult2 : entity work.complex_mult port map (coeff_real_2,coeff_imag_2,data_real_2,(others => '0'),res_real_2,res_imag_2);
+		Mult3 : entity work.complex_mult port map (coeff_real_3,coeff_imag_3,data_real_3,(others => '0'),res_real_3,res_imag_3);
+		Mult4 : entity work.complex_mult port map (coeff_real_4,coeff_imag_4,data_real_4,(others => '0'),res_real_4,res_imag_4);
+		Mult5 : entity work.complex_mult port map (coeff_real_5,coeff_imag_5,data_real_5,(others => '0'),res_real_5,res_imag_5);
+		Mult6 : entity work.complex_mult port map (coeff_real_6,coeff_imag_6,data_real_6,(others => '0'),res_real_6,res_imag_6);
+		Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7,(others => '0'),res_real_7,res_imag_7);
 
 
 	process (clk, rst_n) begin
@@ -129,11 +129,11 @@ Data_Buf_In : entity work.input_buffer port map (clk,
 
 
 		--add all the multiplcation results together. 
---		real_data_out_temp <= "00" & std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7));
---		imag_data_out_temp <= "00" & std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7));
+		real_data_out_temp <= "00" & std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7));
+		imag_data_out_temp <= "00" & std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7));
 		
---		real_data_out <= real_data_out_temp(18 downto 9);
---		imag_data_out <= imag_data_out_temp(18 downto 9);
+		real_data_out <= real_data_out_temp(18 downto 9);
+		imag_data_out <= imag_data_out_temp(18 downto 9);
 
 --needs to be delayed once. 	
 		out_valid <= '1';
