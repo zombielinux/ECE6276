@@ -27,7 +27,7 @@ entity input_buffer is
           data_4_out	: out std_logic_vector ( 7 downto 0 );
           data_5_out	: out std_logic_vector ( 7 downto 0 );
           data_6_out	: out std_logic_vector ( 7 downto 0 );                    
-          data_7_out	: out std_logic_vector ( 7 downto 0 );
+          data_7_out	: out std_logic_vector ( 7 downto 0 )
           
           );
 end input_buffer ;
