@@ -127,11 +127,11 @@ begin
 --		real_data_out_temp <= std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7));
 --		imag_data_out_temp <= std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7));
 		
-		real_data_out_temp <= "1111000011110000";
-		imag_data_out_temp <= "1010101010101010";
+		real_data_out_temp <= "111100001111000011";
+		imag_data_out_temp <= "101010101010101010";
 
-		real_data_out <= real_data_out_temp(15 downto 6);
-		imag_data_out <= imag_data_out_temp(15 downto 6);
+		real_data_out <= real_data_out_temp(17 downto 7);
+		imag_data_out <= imag_data_out_temp(17 downto 7);
 	
 			out_valid <= '1';
 --			real_data_out <= "1111000010";
