@@ -84,15 +84,8 @@ architecture filter_8_arch of filter_8 is
 	signal imag_data_out_temp : std_logic_vector ( 18 downto 0 );	
 	
 begin
-	process (clk, rst_n) begin
-		if (rst_n = '0') then 
-			out_valid <= '0';
-			imag_data_out <= "1111000010";
-			real_data_out <= "0000111101";
-		
-		elsif (rising_edge(clk)) then 
-		--input data into all the flipflops. 
-		Data_Buf_In : entity work.input_buffer port map (clk,
+
+Data_Buf_In : entity work.input_buffer port map (clk,
 			rst_n,
 			data_en_in,
 			data_in,
@@ -122,6 +115,18 @@ begin
 --		Mult5 : entity work.complex_mult port map (coeff_real_5,coeff_imag_5,data_real_5,(others => '0'),res_real_5,res_imag_5);
 --		Mult6 : entity work.complex_mult port map (coeff_real_6,coeff_imag_6,data_real_6,(others => '0'),res_real_6,res_imag_6);
 --		Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7,data_imag_7,res_real_7,res_imag_7);
+
+
+	process (clk, rst_n) begin
+		if (rst_n = '0') then 
+			out_valid <= '0';
+			imag_data_out <= "1111000010";
+			real_data_out <= "0000111101";
+		
+		elsif (rising_edge(clk)) then 
+		--input data into all the flipflops. 
+		
+
 
 		--add all the multiplcation results together. 
 --		real_data_out_temp <= "00" & std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7));
