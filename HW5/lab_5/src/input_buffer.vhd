@@ -55,7 +55,7 @@ begin
 		elsif (rising_edge(clk)) then
 			if (data_en_buffer < X"9") then
 				data_in_en_buff <= '0';
-				if (data_en_in = '1') then
+				if (data_in_en = '1') then
 					data_en_buffer <= data_en_buffer + x"0001" ;
 				end if;
 			else
