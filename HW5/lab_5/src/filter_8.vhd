@@ -85,7 +85,7 @@ architecture filter_8_arch of filter_8 is
 	
 begin
 
-	--if (rising_edge(clk) and data_en_in = '1' ) then 
+	if (rising_edge(clk)) then 
 		--input data into all the flipflops. 
 --		Data_Buf_In : entity work.input_buffer port map (clk,rst_n,data_en_in,data_in,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7);
 
@@ -105,11 +105,12 @@ begin
 		
 --		real_data_out <= real_data_out_temp(15 downto 6);
 --		imag_data_out <= imag_data_out_temp(15 downto 6);
+	
 		out_valid <= '1';
 		real_data_out <= "1111000010";
 		imag_data_out <= "0000111101";
 	--else
-	--end if;
+	end if;
 
 
 end filter_8_arch;
