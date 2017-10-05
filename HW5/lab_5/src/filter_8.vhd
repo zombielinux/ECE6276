@@ -44,41 +44,41 @@ end filter_8 ;
 
 architecture filter_8_arch of filter_8 is
 
-	signal data_real_0 : std_logic_vector ( 7 downto 0 ) := "11111111"; 
-	signal data_real_1 : std_logic_vector ( 7 downto 0 ) := "11111111"; 
-	signal data_real_2 : std_logic_vector ( 7 downto 0 ) := "11111111"; 
-	signal data_real_3 : std_logic_vector ( 7 downto 0 ) := "11111111"; 
-	signal data_real_4 : std_logic_vector ( 7 downto 0 ) := "11111111"; 
-	signal data_real_5 : std_logic_vector ( 7 downto 0 ) := "11111111"; 
-	signal data_real_6 : std_logic_vector ( 7 downto 0 ) := "11111111"; 
-	signal data_real_7 : std_logic_vector ( 7 downto 0 ) := "11111111"; 
+	signal data_real_0 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_1 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_2 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_3 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_4 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_5 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_6 : std_logic_vector ( 7 downto 0 ); 
+	signal data_real_7 : std_logic_vector ( 7 downto 0 ); 
 	
-	signal data_imag_0 : std_logic_vector ( 7 downto 0 ) := "00000000"; 
-	signal data_imag_1 : std_logic_vector ( 7 downto 0 ) := "00000000"; 
-	signal data_imag_2 : std_logic_vector ( 7 downto 0 ) := "00000000"; 
-	signal data_imag_3 : std_logic_vector ( 7 downto 0 ) := "00000000"; 
-	signal data_imag_4 : std_logic_vector ( 7 downto 0 ) := "00000000"; 
-	signal data_imag_5 : std_logic_vector ( 7 downto 0 ) := "00000000"; 
-	signal data_imag_6 : std_logic_vector ( 7 downto 0 ) := "00000000"; 
-	signal data_imag_7 : std_logic_vector ( 7 downto 0 ) := "00000000"; 	
+	signal data_imag_0 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_1 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_2 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_3 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_4 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_5 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_6 : std_logic_vector ( 7 downto 0 ); 
+	signal data_imag_7 : std_logic_vector ( 7 downto 0 ); 	
 
-	signal res_real_0 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_real_1 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_real_2 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_real_3 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_real_4 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_real_5 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_real_6 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_real_7 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_real_0 : std_logic_vector ( 16 downto 0 );
+	signal res_real_1 : std_logic_vector ( 16 downto 0 );
+	signal res_real_2 : std_logic_vector ( 16 downto 0 );
+	signal res_real_3 : std_logic_vector ( 16 downto 0 );
+	signal res_real_4 : std_logic_vector ( 16 downto 0 );
+	signal res_real_5 : std_logic_vector ( 16 downto 0 );
+	signal res_real_6 : std_logic_vector ( 16 downto 0 );
+	signal res_real_7 : std_logic_vector ( 16 downto 0 );
 	
-	signal res_imag_0 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_imag_1 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_imag_2 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_imag_3 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_imag_4 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_imag_5 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_imag_6 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
-	signal res_imag_7 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_imag_0 : std_logic_vector ( 16 downto 0 );
+	signal res_imag_1 : std_logic_vector ( 16 downto 0 );
+	signal res_imag_2 : std_logic_vector ( 16 downto 0 );
+	signal res_imag_3 : std_logic_vector ( 16 downto 0 );
+	signal res_imag_4 : std_logic_vector ( 16 downto 0 );
+	signal res_imag_5 : std_logic_vector ( 16 downto 0 );
+	signal res_imag_6 : std_logic_vector ( 16 downto 0 );
+	signal res_imag_7 : std_logic_vector ( 16 downto 0 );
 	
 	signal real_data_out_temp : std_logic_vector ( 18 downto 0 );
 	signal imag_data_out_temp : std_logic_vector ( 18 downto 0 );	
@@ -135,7 +135,7 @@ Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7
 		real_data_out <= real_data_out_temp(18 downto 9);
 		imag_data_out <= imag_data_out_temp(18 downto 9);
 
---needs to be delayed once. 	
+--needs to be delayed 13clock cycles. 	
 		out_valid <= '1';
 
 		--else
