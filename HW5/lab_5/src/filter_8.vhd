@@ -80,32 +80,34 @@ architecture filter_8_arch of filter_8 is
 	signal res_imag_6 : std_logic_vector ( 15 downto 0 );
 	signal res_imag_7 : std_logic_vector ( 15 downto 0 );
 	
-	signal real_data_out_temp : std_logic_vector ( 15 downto 0 );
-	signal imag_data_out_temp : std_logic_vector ( 15 downto 0 );	
+	signal real_data_out_temp : std_logic_vector ( 17 downto 0 );
+	signal imag_data_out_temp : std_logic_vector ( 17 downto 0 );	
 	
 begin
 
 	--if (rising_edge(clk) and data_en_in = '1' ) then 
 		--input data into all the flipflops. 
-		Data_Buf_In : entity work.input_buffer port map (clk,rst_n,data_en_in,data_in,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7);
+--		Data_Buf_In : entity work.input_buffer port map (clk,rst_n,data_en_in,data_in,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7);
 
 		--perform all 8 multiplications
-		Mult0 : entity work.complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
-		Mult1 : entity work.complex_mult port map (coeff_real_1,coeff_imag_1,data_real_1,(others => '0'),res_real_1,res_imag_1);
-		Mult2 : entity work.complex_mult port map (coeff_real_2,coeff_imag_2,data_real_2,(others => '0'),res_real_2,res_imag_2);
-		Mult3 : entity work.complex_mult port map (coeff_real_3,coeff_imag_3,data_real_3,(others => '0'),res_real_3,res_imag_3);
-		Mult4 : entity work.complex_mult port map (coeff_real_4,coeff_imag_4,data_real_4,(others => '0'),res_real_4,res_imag_4);
-		Mult5 : entity work.complex_mult port map (coeff_real_5,coeff_imag_5,data_real_5,(others => '0'),res_real_5,res_imag_5);
-		Mult6 : entity work.complex_mult port map (coeff_real_6,coeff_imag_6,data_real_6,(others => '0'),res_real_6,res_imag_6);
-		Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7,(others => '0'),res_real_7,res_imag_7);
+--		Mult0 : entity work.complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
+--		Mult1 : entity work.complex_mult port map (coeff_real_1,coeff_imag_1,data_real_1,(others => '0'),res_real_1,res_imag_1);
+--		Mult2 : entity work.complex_mult port map (coeff_real_2,coeff_imag_2,data_real_2,(others => '0'),res_real_2,res_imag_2);
+--		Mult3 : entity work.complex_mult port map (coeff_real_3,coeff_imag_3,data_real_3,(others => '0'),res_real_3,res_imag_3);
+--		Mult4 : entity work.complex_mult port map (coeff_real_4,coeff_imag_4,data_real_4,(others => '0'),res_real_4,res_imag_4);
+--		Mult5 : entity work.complex_mult port map (coeff_real_5,coeff_imag_5,data_real_5,(others => '0'),res_real_5,res_imag_5);
+--		Mult6 : entity work.complex_mult port map (coeff_real_6,coeff_imag_6,data_real_6,(others => '0'),res_real_6,res_imag_6);
+--		Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7,(others => '0'),res_real_7,res_imag_7);
 
 		--add all the multiplcation results together. 
-		real_data_out_temp <= std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7));
-		imag_data_out_temp <= std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7));
+--		real_data_out_temp <= std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7));
+--		imag_data_out_temp <= std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7));
 		
-		real_data_out <= real_data_out_temp(15 downto 6);
-		imag_data_out <= imag_data_out_temp(15 downto 6);
+--		real_data_out <= real_data_out_temp(15 downto 6);
+--		imag_data_out <= imag_data_out_temp(15 downto 6);
 		out_valid <= '1';
+		real_data_out <= "1111000010";
+		imag_data_out <= "0000111101";
 	--else
 	--end if;
 
