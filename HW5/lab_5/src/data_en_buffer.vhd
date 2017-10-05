@@ -25,10 +25,10 @@ begin
 --out_valid d-flipflop
 	process (clk, rst_n) begin
 		if (rst_n = '0') then 
-
+			data_in_en_buff <= '0';
 			
 		elsif (rising_edge(clk)) then
-
+			data_in_en_buff <= '1';
 
 	        end if;
 

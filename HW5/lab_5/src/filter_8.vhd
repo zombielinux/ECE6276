@@ -89,7 +89,7 @@ begin
 Data_valid_buffer : entity work.data_en_buffer port map (clk,
 			rst_n,
 			data_en_in,
-			data_out_valid_buff
+			data_out_valid_buff);
 
 
 Data_Buf_In : entity work.input_buffer port map (clk,
