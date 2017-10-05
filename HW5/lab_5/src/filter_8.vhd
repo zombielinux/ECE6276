@@ -86,6 +86,12 @@ architecture filter_8_arch of filter_8 is
 	signal data_out_valid_buff : std_logic;
 begin
 
+Data_valid_buffer : entity work.data_en_buffer port map (clk,
+			rst_n,
+			data_en_in,
+			data_out_valid_buff
+
+
 Data_Buf_In : entity work.input_buffer port map (clk,
 			rst_n,
 			data_en_in,
@@ -105,8 +111,7 @@ Data_Buf_In : entity work.input_buffer port map (clk,
 			data_real_4,
 			data_real_5,
 			data_real_6,
-			data_real_7,
-			data_out_valid_buff);
+			data_real_7);
 
 		--perform all 8 multiplications
 Mult0 : entity work.complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
