@@ -37,7 +37,7 @@ architecture input_buffer_arch of input_buffer is
 
 begin
 
-out_valid d-flipflop
+--out_valid d-flipflop
 	process (clk, rst_n) begin
 		if (rst_n = '0') then 
 			data_0_out <= (others => '0');
