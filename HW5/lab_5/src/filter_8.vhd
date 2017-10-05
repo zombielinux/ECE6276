@@ -70,18 +70,18 @@ begin
 		Data_Buf_In : entity input_buffer port map (clk,rst_n,data_in_en,data_in,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7)
 
 		--perform all 8 multiplications
-		Mult0 : entity complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
-		Mult1 : entity complex_mult port map (coeff_real_1,coeff_imag_1,data_real_1,(others => '0'),res_real_1,res_imag_1);
-		Mult2 : entity complex_mult port map (coeff_real_2,coeff_imag_2,data_real_2,(others => '0'),res_real_2,res_imag_2);
-		Mult3 : entity complex_mult port map (coeff_real_3,coeff_imag_3,data_real_3,(others => '0'),res_real_3,res_imag_3);
-		Mult4 : entity complex_mult port map (coeff_real_4,coeff_imag_4,data_real_4,(others => '0'),res_real_4,res_imag_4);
-		Mult5 : entity complex_mult port map (coeff_real_5,coeff_imag_5,data_real_5,(others => '0'),res_real_5,res_imag_5);
-		Mult6 : entity complex_mult port map (coeff_real_6,coeff_imag_6,data_real_6,(others => '0'),res_real_6,res_imag_6);
-		Mult7 : entity complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7,(others => '0'),res_real_7,res_imag_7);
+--		Mult0 : entity complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
+--		Mult1 : entity complex_mult port map (coeff_real_1,coeff_imag_1,data_real_1,(others => '0'),res_real_1,res_imag_1);
+--		Mult2 : entity complex_mult port map (coeff_real_2,coeff_imag_2,data_real_2,(others => '0'),res_real_2,res_imag_2);
+--		Mult3 : entity complex_mult port map (coeff_real_3,coeff_imag_3,data_real_3,(others => '0'),res_real_3,res_imag_3);
+--		Mult4 : entity complex_mult port map (coeff_real_4,coeff_imag_4,data_real_4,(others => '0'),res_real_4,res_imag_4);
+--		Mult5 : entity complex_mult port map (coeff_real_5,coeff_imag_5,data_real_5,(others => '0'),res_real_5,res_imag_5);
+--		Mult6 : entity complex_mult port map (coeff_real_6,coeff_imag_6,data_real_6,(others => '0'),res_real_6,res_imag_6);
+--		Mult7 : entity complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7,(others => '0'),res_real_7,res_imag_7);
 
 		--add all the multiplcation results together. 
-		real_data_out <= std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7))
-		imag_data_out <= std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7))
+--		real_data_out <= std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7))
+--		imag_data_out <= std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7))
 
 
 
