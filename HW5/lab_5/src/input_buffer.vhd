@@ -62,7 +62,7 @@ begin
 --
 --	        end if;
 
-	end process;      	        
+--	end process;      	        
 
 	        
 end input_buffer_arch;
