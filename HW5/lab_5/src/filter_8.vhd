@@ -105,6 +105,7 @@ begin
 		
 		real_data_out <= real_data_out_temp(15 downto 6);
 		imag_data_out <= imag_data_out_temp(15 downto 6);
+		out_valid <= '1';
 	--else
 	--end if;
 
