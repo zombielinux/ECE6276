@@ -1,0 +1,3413 @@
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:07:17 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# ** Error: (vcom-1935) Unable to copy temporary file /home/will/DSP (ECE 6276)/HW5/lab_5/run/work/_temp/vlogsny6t8 to /home/will/DSP (ECE 6276)/HW5/lab_5/run/work/complex_mult/_primary.dbs.
+# ** Error: (vcom-7) Failed to open temporary file "/home/will/DSP (ECE 6276)/HW5/lab_5/run/work/complex_mult/_primary.dbs" in write mode.
+# Permission denied. (errno = EACCES)
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd(22): VHDL Compiler exiting
+# End time: 22:07:17 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:07:17 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# ** Error: (vcom-1935) Unable to copy temporary file /home/will/DSP (ECE 6276)/HW5/lab_5/run/work/_temp/vlogwgx58k to /home/will/DSP (ECE 6276)/HW5/lab_5/run/work/input_buffer/_primary.dbs.
+# ** Error: (vcom-7) Failed to open temporary file "/home/will/DSP (ECE 6276)/HW5/lab_5/run/work/input_buffer/_primary.dbs" in write mode.
+# Permission denied. (errno = EACCES)
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(34): VHDL Compiler exiting
+# End time: 22:07:18 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:07:18 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# ** Fatal: (vcom-9) Problem while writing token file "/home/will/DSP (ECE 6276)/HW5/lab_5/run/work/_temp/vcom8g7ydw".
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(43): VHDL Compiler exiting
+# End time: 22:07:18 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:07:41 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# ** Error: (vcom-1935) Unable to copy temporary file /home/will/DSP (ECE 6276)/HW5/lab_5/run/work/_temp/vlogc8tef2 to /home/will/DSP (ECE 6276)/HW5/lab_5/run/work/complex_mult/_primary.dbs.
+# ** Error: (vcom-7) Failed to open temporary file "/home/will/DSP (ECE 6276)/HW5/lab_5/run/work/complex_mult/_primary.dbs" in write mode.
+# Permission denied. (errno = EACCES)
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd(22): VHDL Compiler exiting
+# End time: 22:07:41 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error (suppressible): (vdel-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vdel-57) Library 'work' is missing or is not a valid ModelSim library.
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vdel failed.
+# ** Error (suppressible): (vdel-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vdel-57) Library 'work' is missing or is not a valid ModelSim library.
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vdel failed.
+# ** Error (suppressible): (vdel-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vdel-57) Library 'work' is missing or is not a valid ModelSim library.
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vdel failed.
+# ** Error (suppressible): (vdel-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vdel-57) Library 'work' is missing or is not a valid ModelSim library.
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vdel failed.
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:08:33 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# ** Error (suppressible): (vcom-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# End time: 22:08:33 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:08:33 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# ** Error (suppressible): (vcom-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# End time: 22:08:33 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:08:33 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# ** Error (suppressible): (vcom-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# End time: 22:08:33 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:08:38 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# ** Error (suppressible): (vcom-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# End time: 22:08:39 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vdel -all -lib work
+# ** Error (suppressible): (vdel-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# ** Warning: (vdel-57) Library 'work' is missing or is not a valid ModelSim library.
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vdel failed.
+vlib work
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+vlib work
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:09:51 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 22:09:51 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:10:01 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:10:01 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:10:01 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# ** Error: (vcom-11) Could not find work.input_buffer.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(95): (vcom-1195) Cannot find expanded name "work.input_buffer".
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(95): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(95): Unknown expanded name.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(121): VHDL Compiler exiting
+# End time: 22:10:01 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:10:01 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 22:10:01 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:10:17 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 22:10:17 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:10:22 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:10:22 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:10:26 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(95): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(121): VHDL Compiler exiting
+# End time: 22:10:26 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:10:50 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# End time: 22:10:50 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:15:08 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(95): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(121): VHDL Compiler exiting
+# End time: 22:15:08 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:15:44 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(114): Illegal sequential statement.
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(117): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:15:44 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:15:49 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 22:15:49 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:15:52 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(114): Illegal sequential statement.
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(117): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:15:53 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:17:45 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 22:17:45 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:17:46 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(65): near "process": (vcom-1576) expecting ';'.
+# End time: 22:17:46 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:17:46 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(114): Illegal sequential statement.
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(117): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:17:46 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:17:46 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:17:46 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:18:22 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 22:18:22 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:18:22 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 22:18:22 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:18:22 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(114): Illegal sequential statement.
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(117): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:18:22 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:18:22 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:18:22 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:19:26 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 22:19:26 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:19:26 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(40): near "d": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(52): near "elsif": (vcom-1576) expecting END.
+# End time: 22:19:26 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:19:26 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# End time: 22:19:26 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:19:26 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:19:27 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:20:15 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 22:20:15 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:20:15 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(40): near "d": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(52): near "elsif": (vcom-1576) expecting END.
+# End time: 22:20:15 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:20:15 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# End time: 22:20:16 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:20:16 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:20:16 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:20:34 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 22:20:34 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:20:35 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 22:20:35 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:20:35 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# End time: 22:20:35 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:20:35 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:20:35 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:22:01 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 22:22:01 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:22:01 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 22:22:01 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:22:01 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(130): (vcom-1272) Length of expected is 18; length of actual is 16.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(131): (vcom-1272) Length of expected is 18; length of actual is 16.
+# End time: 22:22:01 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:22:01 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:22:02 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:23:02 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:23:02 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:23:06 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 22:23:06 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:23:06 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 22:23:06 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:23:06 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(133): (vcom-1272) Length of expected is 10; length of slice name is 11.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(134): (vcom-1272) Length of expected is 10; length of slice name is 11.
+# End time: 22:23:06 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:23:06 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:23:07 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:23:38 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(133): (vcom-1272) Length of expected is 10; length of slice name is 12.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(134): (vcom-1272) Length of expected is 10; length of slice name is 12.
+# End time: 22:23:38 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:24:05 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# End time: 22:24:05 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:25:58 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(127): (vcom-1272) Length of expected is 18; length of actual is 16.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(128): (vcom-1272) Length of expected is 18; length of actual is 16.
+# End time: 22:25:58 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:27:36 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# End time: 22:27:36 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:28:29 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# End time: 22:28:30 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 22:28:49 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1330 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 22:29:55 on Oct 04,2017, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:30:06 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:30:06 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vsim work.filter_8
+# vsim work.filter_8 
+# Start time: 22:32:45 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.filter_8(filter_8_arch)
+quit -sim
+# End time: 22:32:54 on Oct 04,2017, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:32:57 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): (vcom-1272) Length of formal "res_real" is 16; length of actual is 17.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): (vcom-1272) Length of formal "res_imag" is 16; length of actual is 17.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(127): (vcom-1272) Length of expected is 18; length of actual is 19.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(128): (vcom-1272) Length of expected is 18; length of actual is 19.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:32:57 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 4
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:34:38 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): (vcom-1272) Length of formal "res_real" is 16; length of actual is 17.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): (vcom-1272) Length of formal "res_imag" is 16; length of actual is 17.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:34:38 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:35:49 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(65): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(66): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(67): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(68): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(69): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(70): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(71): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(72): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(74): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(75): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(76): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(77): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(78): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(79): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(80): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(81): (vcom-1272) Length of expected is 18; length of actual is 17.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): (vcom-1272) Length of formal "res_real" is 16; length of actual is 18.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): (vcom-1272) Length of formal "res_imag" is 16; length of actual is 18.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(127): (vcom-1272) Length of expected is 19; length of actual is 20.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(128): (vcom-1272) Length of expected is 19; length of actual is 20.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:35:50 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 18, Warnings: 4
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:37:22 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): (vcom-1272) Length of formal "res_real" is 16; length of actual is 17.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): (vcom-1272) Length of formal "res_imag" is 16; length of actual is 17.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(127): (vcom-1272) Length of expected is 18; length of actual is 19.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(128): (vcom-1272) Length of expected is 18; length of actual is 19.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:37:22 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 4
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:38:38 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): (vcom-1272) Length of formal "res_real" is 16; length of actual is 17.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): (vcom-1272) Length of formal "res_imag" is 16; length of actual is 17.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:38:38 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:39:14 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd(28): (vcom-1272) Length of expected is 17; length of actual is 16.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd(29): (vcom-1272) Length of expected is 17; length of actual is 16.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd(32): VHDL Compiler exiting
+# End time: 22:39:14 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:39:20 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:39:20 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:41:04 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 22:41:04 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:41:04 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:41:04 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:41:04 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd(28): (vcom-1272) Length of expected is 17; length of actual is 16.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd(29): (vcom-1272) Length of expected is 17; length of actual is 16.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd(32): VHDL Compiler exiting
+# End time: 22:41:04 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:41:10 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:41:10 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:52:16 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd(28): (vcom-1272) Length of expected is 17; length of actual is 16.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd(29): (vcom-1272) Length of expected is 17; length of actual is 16.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd(32): VHDL Compiler exiting
+# End time: 22:52:16 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:52:22 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:52:22 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:53:39 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:53:39 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:53:39 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:53:39 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:53:46 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 22:53:46 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:53:50 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:53:50 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 22:55:15 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(124): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 22:55:15 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:00:21 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 23:00:21 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:00:26 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 23:00:26 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:00:30 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(114): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(140): VHDL Compiler exiting
+# End time: 23:00:30 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:05:55 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# End time: 23:05:55 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:07:07 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 23:07:07 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:07:44 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 23:07:44 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:07:49 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1330 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 23:10:25 on Oct 04,2017, Elapsed time: 0:02:36
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:10:39 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(132): (vcom-1272) Length of expected is 19; length of actual is 17.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(133): (vcom-1272) Length of expected is 19; length of actual is 17.
+# End time: 23:10:39 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:10:43 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 23:10:43 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:10:43 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 23:10:43 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:10:43 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(132): (vcom-1272) Length of expected is 19; length of actual is 17.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(133): (vcom-1272) Length of expected is 19; length of actual is 17.
+# End time: 23:10:43 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:10:43 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 23:10:43 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:10:49 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 19 (18 downto 0). Right is 17 (16 downto 0).
+#    Time: 50 ns  Iteration: 1  Process: /tb_filter/DUT/line__120 File: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd
+# Fatal error in Process line__120 at /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd line 132
+# 
+# HDL call sequence:
+# Stopped at /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 132 Process line__120
+# 
+quit -sim
+# End time: 23:11:37 on Oct 04,2017, Elapsed time: 0:00:48
+# Errors: 2, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:11:50 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(132): near "|": (vcom-1576) expecting ';'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(133): near "|": (vcom-1576) expecting ';'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(145): VHDL Compiler exiting
+# End time: 23:11:50 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:13:22 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 23:13:23 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:13:25 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1330 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 23:15:14 on Oct 04,2017, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:15:31 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(132): (vcom-1272) Length of expected is 19; length of actual is 17.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(133): (vcom-1272) Length of expected is 19; length of actual is 17.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(135): (vcom-1272) Length of expected is 10; length of slice name is 12.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(136): (vcom-1272) Length of expected is 10; length of slice name is 12.
+# End time: 23:15:31 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:15:35 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 19 (18 downto 0). Right is 17 (16 downto 0).
+#    Time: 50 ns  Iteration: 1  Process: /tb_filter/DUT/line__120 File: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd
+# Fatal error in Process line__120 at /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd line 132
+# 
+# HDL call sequence:
+# Stopped at /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 132 Process line__120
+# 
+quit -sim
+# End time: 23:16:41 on Oct 04,2017, Elapsed time: 0:01:06
+# Errors: 2, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:16:55 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(132): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(133): (vcom-1600) No feasible entries for subprogram "RESIZE".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_SIGNED, NATURAL return UNRESOLVED_SIGNED] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1412)
+#       (explicit) NUMERIC_STD.RESIZE[UNRESOLVED_UNSIGNED, NATURAL return UNRESOLVED_UNSIGNED] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1422)
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(135): (vcom-1272) Length of expected is 10; length of slice name is 12.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(136): (vcom-1272) Length of expected is 10; length of slice name is 12.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(145): VHDL Compiler exiting
+# End time: 23:16:55 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:17:57 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(135): (vcom-1272) Length of expected is 10; length of slice name is 12.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(136): (vcom-1272) Length of expected is 10; length of slice name is 12.
+# End time: 23:17:57 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:18:33 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(135): (vcom-1272) Length of expected is 10; length of slice name is 12.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(136): (vcom-1272) Length of expected is 10; length of slice name is 12.
+# End time: 23:18:33 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:18:49 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(135): (vcom-1272) Length of expected is 10; length of slice name is 11.
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(136): (vcom-1272) Length of expected is 10; length of slice name is 11.
+# End time: 23:18:49 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:19:19 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 23:19:19 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:19:23 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1330 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 23:25:06 on Oct 04,2017, Elapsed time: 0:05:43
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:25:33 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 23:25:33 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:25:36 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1330 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 23:29:26 on Oct 04,2017, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:29:39 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(123): near "elsif": (vcom-1576) expecting ';'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(142): near "if": (vcom-1576) expecting PROCESS.
+# End time: 23:29:39 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:30:02 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(123): near "then": syntax error
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(129): near "elsif": (vcom-1576) expecting END.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(141): near "if": (vcom-1576) expecting ';'.
+# End time: 23:30:02 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:30:37 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 23:30:37 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:30:40 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1350 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 23:31:49 on Oct 04,2017, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:32:02 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 23:32:02 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:32:04 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+add wave -position insertpoint  \
+sim:/tb_filter/data_en
+add wave -position insertpoint  \
+sim:/tb_filter/coeff_en
+quit -sim
+# End time: 23:44:00 on Oct 04,2017, Elapsed time: 0:11:56
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:44:07 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 23:44:07 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:44:11 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(56): String literal has a character '9' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): ** Error: (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(61): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(73): near "process": (vcom-1576) expecting IF.
+# End time: 23:44:11 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:45:01 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): ** Error: (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(61): near "=": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(73): near "process": (vcom-1576) expecting IF.
+# End time: 23:45:02 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:45:44 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(56): String literal has a character '9' not in the enumeration type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): ** Error: (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(73): near "process": (vcom-1576) expecting IF.
+# End time: 23:45:44 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:46:27 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): ** Error: (vcom-1583) Illegal type converson from 'ieee.std_logic_1164.STD_LOGIC' to 'ieee.NUMERIC_STD.UNSIGNED' (non-numeric to array).
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(73): near "process": (vcom-1576) expecting IF.
+# End time: 23:46:27 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:47:19 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): Cannot resolve expression type of infix expression.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): ** Error: (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(73): near "process": (vcom-1576) expecting IF.
+# End time: 23:47:19 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:49:46 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): Illegal sequential statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(77): VHDL Compiler exiting
+# End time: 23:49:46 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:53:08 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): (vcom-1136) Unknown identifier "data_en_in".
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): Signal "data_en_buffer" cannot be target of variable assignment statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): Bad right hand side (infix expression) in variable assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(79): VHDL Compiler exiting
+# End time: 23:53:08 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:53:10 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): (vcom-1136) Unknown identifier "data_en_in".
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): Signal "data_en_buffer" cannot be target of variable assignment statement.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): Bad right hand side (infix expression) in variable assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(79): VHDL Compiler exiting
+# End time: 23:53:10 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:53:56 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): (vcom-1136) Unknown identifier "data_en_in".
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(58): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(79): VHDL Compiler exiting
+# End time: 23:53:56 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:54:18 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(79): VHDL Compiler exiting
+# End time: 23:54:18 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:54:50 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(79): VHDL Compiler exiting
+# End time: 23:54:50 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:55:20 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): (vcom-1272) Length of expected is 4; length of actual is 16.
+# End time: 23:55:20 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:55:37 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# ** Error: (vsim-13) Recompile work.filter_8(filter_8_arch) because work.input_buffer has changed.
+# Load interrupted
+# Error loading design
+# End time: 23:55:37 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:55:47 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(59): (vcom-1272) Length of expected is 4; length of actual is 16.
+# End time: 23:55:47 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:56:12 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 23:56:12 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:56:15 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# ** Error: (vsim-13) Recompile work.filter_8(filter_8_arch) because work.input_buffer has changed.
+# Load interrupted
+# Error loading design
+# End time: 23:56:16 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:56:21 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 23:56:21 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:56:24 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 23:56:24 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:56:26 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+run -a
+# ** Fatal: (vsim-3332) Attempt to write to or flush an unopened file.
+#    Time: 1430 ns  Iteration: 1  Process: /tb_filter/line__169 File: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd
+# Fatal error in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 186
+# 
+# HDL call sequence:
+# Stopped at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 186 Process line__169
+# 
+run -a
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 186 Process line__169
+# 
+quit -sim
+# End time: 23:57:21 on Oct 04,2017, Elapsed time: 0:00:55
+# Errors: 3, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:57:27 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 23:57:27 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:57:27 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 23:57:27 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:57:27 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 23:57:28 on Oct 04,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:57:28 on Oct 04,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 23:57:28 on Oct 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:57:34 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+run -a
+# ** Fatal: (vsim-3332) Attempt to write to or flush an unopened file.
+#    Time: 1430 ns  Iteration: 1  Process: /tb_filter/line__169 File: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd
+# Fatal error in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 186
+# 
+# HDL call sequence:
+# Stopped at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 186 Process line__169
+# 
+quit -sim
+# End time: 23:58:36 on Oct 04,2017, Elapsed time: 0:01:02
+# Errors: 2, Warnings: 0
+# Load canceled
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 23:58:48 on Oct 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 00:00:39 on Oct 05,2017, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:00:49 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 00:00:49 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:00:49 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 00:00:49 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:00:49 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd(86): near "data_out_valid_buff": (vcom-1576) expecting BEGIN.
+# End time: 00:00:49 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:00:49 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 00:00:49 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:01:27 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 00:01:27 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:01:27 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 00:01:27 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:01:27 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 00:01:27 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:01:27 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 00:01:27 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter work.input_buffer work.filter_8 work.complex_mult
+# vsim work.tb_filter work.input_buffer work.filter_8 work.complex_mult 
+# Start time: 00:01:30 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# Break key hit
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 169
+quit -sim
+# End time: 00:01:47 on Oct 05,2017, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 00:01:49 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# Break key hit
+# Break in Process line__122 at /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd line 122
+quit -sim
+# End time: 00:02:33 on Oct 05,2017, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:03:11 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 00:03:11 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:03:11 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 00:03:11 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:03:11 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 00:03:11 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:03:11 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 00:03:11 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 00:03:14 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 00:28:10 on Oct 05,2017, Elapsed time: 0:24:56
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:28:23 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 00:28:23 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 00:28:25 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+run -a
+# ** Fatal: (vsim-3332) Attempt to write to or flush an unopened file.
+#    Time: 1430 ns  Iteration: 1  Process: /tb_filter/line__169 File: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd
+# Fatal error in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 186
+# 
+# HDL call sequence:
+# Stopped at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 186 Process line__169
+# 
+quit -sim
+# End time: 10:18:34 on Oct 05,2017, Elapsed time: 9:50:09
+# Errors: 2, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:18:38 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 10:18:38 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:18:43 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 10:18:43 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 10:18:46 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 11:36:41 on Oct 05,2017, Elapsed time: 1:17:55
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:36:53 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 11:36:53 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:36:53 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 11:36:53 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:36:54 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 11:36:54 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:36:54 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 11:36:54 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 11:36:55 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# Break key hit
+# Break in Process line__122 at /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd line 122
+quit -sim
+# End time: 11:37:45 on Oct 05,2017, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:39:53 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 11:39:53 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 11:39:55 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 11:52:54 on Oct 05,2017, Elapsed time: 0:12:59
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:53:05 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(60): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(60): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(81): VHDL Compiler exiting
+# End time: 11:53:05 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:54:38 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 11:54:38 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 11:54:41 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 11:55:19 on Oct 05,2017, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 11:55:20 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 11:56:06 on Oct 05,2017, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:56:21 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 11:56:21 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 11:56:22 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 11:56:34 on Oct 05,2017, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:03:33 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:03:33 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:03:38 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 12:03:51 on Oct 05,2017, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:04:49 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:04:49 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:04:51 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# Break key hit
+# Break in Process line__122 at /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd line 122
+quit -sim
+# End time: 12:05:04 on Oct 05,2017, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:05:08 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_filter
+# -- Compiling architecture tb_filter_arch of tb_filter
+# End time: 12:05:08 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:05:08 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(34): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 12:05:08 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:05:08 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity data_en_buffer
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 12:05:09 on Oct 05,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:05:09 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:05:09 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:05:09 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 12:05:09 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:05:43 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:09:53 on Oct 05,2017, Elapsed time: 0:04:10
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:10:03 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(32): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(32): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(36): near ":": (vcom-1576) expecting ';'.
+# End time: 12:10:03 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:10:47 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(36): near ":": (vcom-1576) expecting ';'.
+# End time: 12:10:47 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:11:31 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(38): near "end": (vcom-1576) expecting ';'.
+# End time: 12:11:31 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:11:53 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:11:53 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:11:56 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:12:57 on Oct 05,2017, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:13:13 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(37): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(37): (vcom-1136) Unknown identifier "data_en_buff".
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(37): (vcom-1136) Unknown identifier "data_en_buff".
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(44): VHDL Compiler exiting
+# End time: 12:13:13 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vsim work.data_en_buffer
+# vsim work.data_en_buffer 
+# Start time: 12:13:22 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+quit -sim
+# End time: 12:13:31 on Oct 05,2017, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:13:59 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(37): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(37): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(37): (vcom-1136) Unknown identifier "data_en_buff".
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(44): VHDL Compiler exiting
+# End time: 12:13:59 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:14:16 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(37): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(37): Cannot resolve expression type of infix expression.
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(37): ** Error: (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd(44): VHDL Compiler exiting
+# End time: 12:14:16 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:14:35 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:14:35 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:14:41 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:15:07 on Oct 05,2017, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+vsim work.filter_8
+# vsim work.filter_8 
+# Start time: 12:15:12 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+quit -sim
+# End time: 12:15:18 on Oct 05,2017, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:17:03 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:17:03 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:17:06 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:17:45 on Oct 05,2017, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:17:54 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:17:55 on Oct 05,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:17:57 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1410 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:18:21 on Oct 05,2017, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:19:28 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:19:28 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:19:30 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 12:19:52 on Oct 05,2017, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:20:11 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:20:11 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:20:15 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 12:20:30 on Oct 05,2017, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:24:34 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:24:34 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:24:43 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1450 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:25:12 on Oct 05,2017, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:25:31 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:25:31 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:25:33 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1530 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:26:03 on Oct 05,2017, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:26:11 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:26:11 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:26:13 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1590 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:40:31 on Oct 05,2017, Elapsed time: 0:14:18
+# Errors: 0, Warnings: 0
+vsim work.input_buffer
+# vsim work.input_buffer 
+# Start time: 12:40:33 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.input_buffer(input_buffer_arch)
+quit -sim
+# End time: 12:40:40 on Oct 05,2017, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:47:27 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# ** Error: /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd(34): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 12:47:27 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:48:38 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 12:48:38 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:48:42 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/input_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity input_buffer
+# -- Compiling architecture input_buffer_arch of input_buffer
+# End time: 12:48:42 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:48:42 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity data_en_buffer
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 12:48:43 on Oct 05,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:48:43 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:48:43 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:48:43 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 12:48:43 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:48:45 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1590 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:49:25 on Oct 05,2017, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:49:34 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:49:34 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.input_buffer
+# vsim work.input_buffer 
+# Start time: 12:49:40 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.input_buffer(input_buffer_arch)
+quit -sim
+# End time: 12:49:47 on Oct 05,2017, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:50:43 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1610 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:51:31 on Oct 05,2017, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:52:22 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/filter_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity filter_8
+# -- Compiling architecture filter_8_arch of filter_8
+# -- Loading entity data_en_buffer
+# -- Loading entity input_buffer
+# -- Loading entity complex_mult
+# End time: 12:52:22 on Oct 05,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:52:25 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1610 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:52:53 on Oct 05,2017, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:53:04 on Oct 05,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW5/lab_5/src/data_en_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity data_en_buffer
+# -- Compiling architecture data_en_buffer_arch of data_en_buffer
+# End time: 12:53:05 on Oct 05,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_filter
+# vsim work.tb_filter 
+# Start time: 12:53:06 on Oct 05,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_filter(tb_filter_arch)
+# Loading work.filter_8(filter_8_arch)
+# Loading work.data_en_buffer(data_en_buffer_arch)
+# Loading work.input_buffer(input_buffer_arch)
+# Loading work.complex_mult(complex_mult_arch)
+run -a
+# ** Note: Test completed
+#    Time: 1590 ns  Iteration: 1  Instance: /tb_filter
+# Break in Process line__169 at /home/will/DSP (ECE 6276)/HW5/lab_5/tb/tb_filter.vhd line 195
+quit -sim
+# End time: 12:53:25 on Oct 05,2017, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
