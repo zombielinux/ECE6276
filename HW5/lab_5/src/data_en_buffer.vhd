@@ -29,11 +29,12 @@ begin
 			data_en_buffer <= (others => '0');
 			
 		elsif (rising_edge(clk)) then
-			if (data_en_buffer = "0000") then	
+			if (data_en_buffer = "0001") then	
 				data_in_en_buff <= '1';
 
 			else 
 				data_in_en_buff <= '0';
+				data_en_buff <= data_en_buff + "0001";
 			end if;
 	        end if;
 
