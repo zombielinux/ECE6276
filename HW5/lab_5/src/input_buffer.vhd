@@ -53,7 +53,7 @@ begin
 			data_7_out <= (others => '0');
 			
 		elsif (rising_edge(clk)) then
-			if (unsigned(data_en_buffer) < "9") then
+			if (data_en_buffer < X"9") then
 				data_in_en_buff <= '0';
 				data_en_buffer <= std_logic_vector(unsigned(data_en_buffer) + unsigned(data_in_en));
 			else
