@@ -124,8 +124,8 @@ begin
 --		Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7,(others => '0'),res_real_7,res_imag_7);
 
 		--add all the multiplcation results together. 
-		real_data_out_temp <= std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7));
-		imag_data_out_temp <= std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7));
+		real_data_out_temp <= "00" & std_logic_vector(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7));
+		imag_data_out_temp <= "00" & std_logic_vector(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7));
 		
 --		real_data_out_temp <= "111100001111000011";
 --		imag_data_out_temp <= "101010101010101010";
