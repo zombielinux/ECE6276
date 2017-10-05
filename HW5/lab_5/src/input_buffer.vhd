@@ -63,7 +63,7 @@ begin
 				data_in_en_buff <= '1';
 				data_en_buffer <= x"A";
 			end if;
-			data_in_en_buff <= '1';
+--			data_in_en_buff <= '1';
 			data_0_out <= data_in;
 			data_1_out <= data_0_in;
 			data_2_out <= data_1_in;
