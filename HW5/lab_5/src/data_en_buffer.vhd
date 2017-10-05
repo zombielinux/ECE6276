@@ -34,7 +34,7 @@ begin
 
 			else 
 				data_in_en_buff <= '0';
-			end if
+			end if;
 	        end if;
 
 	end process;      	        
