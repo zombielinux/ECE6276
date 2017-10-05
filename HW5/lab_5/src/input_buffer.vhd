@@ -48,7 +48,8 @@ begin
 			data_5_out <= (others => '0');
 			data_6_out <= (others => '0');
 			data_7_out <= (others => '0');
-		elsif (rising_edge(clk) and (data_in_en)) then
+			
+		elsif (rising_edge(clk) and (data_in_en = '1')) then
 			data_0_out <= data_in;
 			data_1_out <= data_0_in;
 			data_2_out <= data_1_in;
@@ -57,6 +58,7 @@ begin
 			data_5_out <= data_4_in;
 			data_6_out <= data_5_in;
 			data_7_out <= data_6_in;
+			
 		else
 			data_0_out <= data_0_in;
 			data_1_out <= data_1_in;
@@ -65,7 +67,8 @@ begin
 			data_4_out <= data_4_in;
 			data_5_out <= data_5_in;
 			data_6_out <= data_6_in;
-			data_7_out <= data_7_in;		
+			data_7_out <= data_7_in;
+					
 	        end if;
 
 	end process;      	        
