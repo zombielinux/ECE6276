@@ -55,7 +55,9 @@ begin
 		elsif (rising_edge(clk)) then
 			if (data_en_buffer < X"9") then
 				data_in_en_buff <= '0';
-				data_en_buffer <= std_logic_vector(unsigned(data_en_buffer) + "1") when (data_in_en = '1');
+				if (data_en_in = '1') then
+					data_en_buffer := data_en_buffer+'1' ;
+				end if;
 			else
 				data_in_en_buff <= '1';
 				data_en_buffer <= X"A";
