@@ -65,7 +65,7 @@ architecture filter_8_arch of filter_8 is
 
 begin
 
-	if data_en_in AND not(coeff_en_in) then 
+	if ((data_en_in = '1') and (coeff_en_in = '0')) then 
 		--input data into all the flipflops. 
 		Data_Buf_In : entity input_buffer port map (clk,rst_n,data_in_en,data_in,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7)
 
