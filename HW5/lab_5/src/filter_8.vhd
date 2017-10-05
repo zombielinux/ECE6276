@@ -92,10 +92,29 @@ begin
 		
 		elsif (rising_edge(clk)) then 
 		--input data into all the flipflops. 
-		Data_Buf_In : entity work.input_buffer port map (clk,rst_n,data_en_in,data_in,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7);
+		Data_Buf_In : entity work.input_buffer port map (clk,
+			rst_n,
+			data_en_in,
+			data_in,
+			data_real_0,
+			data_real_1,
+			data_real_2,
+			data_real_3,
+			data_real_4,
+			data_real_5,
+			data_real_6,
+			data_real_7,
+			data_real_0,
+			data_real_1,
+			data_real_2,
+			data_real_3,
+			data_real_4,
+			data_real_5,
+			data_real_6,
+			data_real_7);
 
 		--perform all 8 multiplications
---		Mult0 : entity work.complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
+		Mult0 : entity work.complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
 --		Mult1 : entity work.complex_mult port map (coeff_real_1,coeff_imag_1,data_real_1,(others => '0'),res_real_1,res_imag_1);
 --		Mult2 : entity work.complex_mult port map (coeff_real_2,coeff_imag_2,data_real_2,(others => '0'),res_real_2,res_imag_2);
 --		Mult3 : entity work.complex_mult port map (coeff_real_3,coeff_imag_3,data_real_3,(others => '0'),res_real_3,res_imag_3);
