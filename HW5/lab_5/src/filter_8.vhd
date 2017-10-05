@@ -80,8 +80,8 @@ architecture filter_8_arch of filter_8 is
 	signal res_imag_6 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
 	signal res_imag_7 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
 	
-	signal real_data_out_temp : std_logic_vector ( 17 downto 0 );
-	signal imag_data_out_temp : std_logic_vector ( 17 downto 0 );	
+	signal real_data_out_temp : std_logic_vector ( 18 downto 0 );
+	signal imag_data_out_temp : std_logic_vector ( 18 downto 0 );	
 	
 begin
 	process (clk, rst_n) begin
