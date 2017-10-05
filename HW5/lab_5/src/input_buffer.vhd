@@ -10,7 +10,7 @@ use ieee.numeric_std.all;
 entity input_buffer is
     port(
 	  clk,rst_n      : in std_logic  ;
-	  data_en_in	: in std_logic;	    	
+	  data_in_en	: in std_logic;	    	
 	  data_in        : in std_logic_vector  (7 downto 0) ;    
           data_0_in	: in std_logic_vector ( 7 downto 0);
           data_1_in	: in std_logic_vector ( 7 downto 0);
