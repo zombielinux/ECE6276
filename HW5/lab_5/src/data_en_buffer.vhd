@@ -33,7 +33,7 @@ begin
 				data_in_en_buff <= '1';
 
 			else 
-				data_in_en_buff <= '0':
+				data_in_en_buff <= '0';
 			end if
 	        end if;
 
