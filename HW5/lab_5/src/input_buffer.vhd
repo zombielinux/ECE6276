@@ -9,7 +9,8 @@ use ieee.numeric_std.all;
 
 entity input_buffer is
     port(
-	  clk,rst_n      : in std_logic  ;	    	
+	  clk,rst_n      : in std_logic  ;
+	  data_en_in	: in std_logic;	    	
 	  data_in        : in std_logic_vector  (7 downto 0) ;    
           data_0_in	: in std_logic_vector ( 7 downto 0);
           data_1_in	: in std_logic_vector ( 7 downto 0);
@@ -47,7 +48,7 @@ begin
 			data_5_out <= (others => '0');
 			data_6_out <= (others => '0');
 			data_7_out <= (others => '0');
-		elsif (rising_edge(clk) and (data_in)) then
+		elsif (rising_edge(clk) and (data_in_en)) then
 			data_0_out <= data_in;
 			data_1_out <= data_0_in;
 			data_2_out <= data_1_in;

@@ -67,7 +67,7 @@ begin
 
 	if data_en_in AND not(coeff_en_in) then 
 		--input data into all the flipflops. 
-		Data_Buf_In : entity input_buffer port map (clk,rst_n,data_in,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7)
+		Data_Buf_In : entity input_buffer port map (clk,rst_n,data_in_en,data_in,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7)
 
 		--perform all 8 multiplications
 		Mult0 : entity complex_mult port map (coeff_real_0,coeff_imag_0,data_real_0,(others => '0'),res_real_0,res_imag_0);
