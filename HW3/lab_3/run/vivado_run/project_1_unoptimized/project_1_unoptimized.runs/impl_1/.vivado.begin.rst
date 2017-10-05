@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="wsutton8" Host="ccblincad27.ece.gatech.edu" Pid="11927">
-    </Process>
-</ProcessHandle>

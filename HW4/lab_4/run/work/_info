@@ -1,0 +1,266 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/will/DSP (ECE 6276)/HW4/lab_4/run
+Emac
+Z1 w1506529834
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/will/DSP (ECE 6276)/HW4/lab_4/src/mac_updated.vhd
+Z6 F/home/will/DSP (ECE 6276)/HW4/lab_4/src/mac_updated.vhd
+l0
+L11
+VEB=W@I6F;U6l9<=`oZ;:z3
+!s100 4[Fkbe^kelUXWN;51F]DU3
+Z7 OV;C;10.5c;63
+32
+Z8 !s110 1506555164
+!i10b 1
+Z9 !s108 1506555164.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/will/DSP (ECE 6276)/HW4/lab_4/src/mac_updated.vhd|
+Z11 !s107 /home/will/DSP (ECE 6276)/HW4/lab_4/src/mac_updated.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Amac_arch
+R2
+R3
+R4
+Z14 DEx4 work 3 mac 0 22 EB=W@I6F;U6l9<=`oZ;:z3
+l26
+L20
+VJ6]Z4JDKjEGDKbLQE[PCo0
+!s100 LhOV;66FjFi4T<A=PM?1[0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eprocessor_top
+Z15 w1506556559
+R2
+R3
+R4
+R0
+Z16 8/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd
+Z17 F/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd
+l0
+L10
+V?1b8OU=lb=5h^9^V1lEAl1
+!s100 Vf4iWC;MC9UHlR`aC=6Qa2
+R7
+32
+Z18 !s110 1506556742
+!i10b 1
+Z19 !s108 1506556742.000000
+Z20 !s90 -reportprogress|300|-work|work|/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd|
+Z21 !s107 /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd|
+!i113 1
+R12
+R13
+Aprocessor_top_arch
+Z22 DEx4 work 6 stage3 0 22 1V@U[RMZ<^P;?>z<VY5ia3
+Z23 DEx4 work 6 stage2 0 22 MchYR4LdoOGe1PMLUA9423
+R14
+Z24 DEx4 work 6 stage1 0 22 AN<BDK4X>AkggIXRbTYRR2
+R2
+R3
+R4
+Z25 DEx4 work 13 processor_top 0 22 ?1b8OU=lb=5h^9^V1lEAl1
+l32
+L21
+V<VikRP[I]n7ihUYPU1kQ[0
+!s100 e=azh2]0z@j_m1i30OlPB1
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Estage1
+Z26 w1506556711
+R2
+R3
+R4
+R0
+Z27 8/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd
+Z28 F/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd
+l0
+L10
+VAN<BDK4X>AkggIXRbTYRR2
+!s100 okkiVN:VaYaU6fP[1oH>z3
+R7
+32
+R18
+!i10b 1
+R19
+Z29 !s90 -reportprogress|300|-work|work|/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd|
+Z30 !s107 /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd|
+!i113 1
+R12
+R13
+Astage1_arch
+R2
+R3
+R4
+R24
+l24
+L22
+VXGZ:cZnmkR^?Ve:l@knF<3
+!s100 R3z>bCcciOJ6bN_Kg1l5Z1
+R7
+32
+R18
+!i10b 1
+R19
+R29
+R30
+!i113 1
+R12
+R13
+Estage2
+Z31 w1506552848
+R2
+R3
+R4
+R0
+Z32 8/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd
+Z33 F/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd
+l0
+L10
+VMchYR4LdoOGe1PMLUA9423
+!s100 78A][i15zUd[e>Z55F`2B3
+R7
+32
+R18
+!i10b 1
+R19
+Z34 !s90 -reportprogress|300|-work|work|/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd|
+Z35 !s107 /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd|
+!i113 1
+R12
+R13
+Astage2_arch
+R2
+R3
+R4
+R23
+l22
+L20
+Vi0?MQ:Af_AdY@73D?[JVJ1
+!s100 N5;HD:noVc0UTHUe4NZ^g1
+R7
+32
+R18
+!i10b 1
+R19
+R34
+R35
+!i113 1
+R12
+R13
+Estage3
+Z36 w1506552617
+R2
+R3
+R4
+R0
+Z37 8/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd
+Z38 F/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd
+l0
+L10
+V1V@U[RMZ<^P;?>z<VY5ia3
+!s100 `]80Bb;3VooTP<]49YN:V1
+R7
+32
+R18
+!i10b 1
+R19
+Z39 !s90 -reportprogress|300|-work|work|/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd|
+Z40 !s107 /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd|
+!i113 1
+R12
+R13
+Astage3_arch
+R2
+R3
+R4
+R22
+l22
+L20
+V5Km[Q:ZjPaafhZdkN^<W31
+!s100 AI9jcMgi0R2KKFC4QEl:@1
+R7
+32
+R18
+!i10b 1
+R19
+R39
+R40
+!i113 1
+R12
+R13
+Etb_processor
+Z41 w1505159566
+Z42 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z43 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z44 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R2
+R3
+R4
+R0
+Z45 8/home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd
+Z46 F/home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd
+l0
+L13
+Vb?U2gcMoGkCZEIAa=?ifC2
+!s100 ^`IUzW_>kd[z`:Z^YDWh:0
+R7
+32
+R18
+!i10b 1
+R19
+Z47 !s90 -reportprogress|300|-work|work|/home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd|
+Z48 !s107 /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd|
+!i113 1
+R12
+R13
+Atb_processor_arch
+R42
+R43
+R44
+R2
+R3
+R4
+DEx4 work 12 tb_processor 0 22 b?U2gcMoGkCZEIAa=?ifC2
+l41
+L16
+Vdk>W1i]Wc51aj90YQ38RM0
+!s100 A4[A_a1BazToabBYSV4WU1
+R7
+32
+R18
+!i10b 1
+R19
+R47
+R48
+!i113 1
+R12
+R13

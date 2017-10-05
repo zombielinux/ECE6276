@@ -1,0 +1,1192 @@
+vlib work
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:42:16 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# End time: 11:42:16 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:42:31 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_processor
+# -- Compiling architecture tb_processor_arch of tb_processor
+# End time: 11:42:32 on Sep 27,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+vsim work.processor_top
+# vsim work.processor_top 
+# Start time: 11:42:36 on Sep 27,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor_top(processor_top_arch)
+quit -sim
+# End time: 11:42:44 on Sep 27,2017, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:30:51 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(27): (vcom-1136) Unknown identifier "reset".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(27): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(28): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(28): (vcom-1136) Unknown identifier "out_valid_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(29): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(29): (vcom-1136) Unknown identifier "ctrl_in_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(30): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(30): (vcom-1136) Unknown identifier "operand_a_in_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(31): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(31): (vcom-1136) Unknown identifier "operand_b_in_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(32): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(32): (vcom-1136) Unknown identifier "operand_c_in_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(34): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(34): (vcom-1136) Unknown identifier "out_valid_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(35): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(35): (vcom-1136) Unknown identifier "ctrl_in_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(36): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(36): (vcom-1136) Unknown identifier "operand_a_in_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(37): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(37): (vcom-1136) Unknown identifier "operand_b_in_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(38): Illegal target for signal assignment.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(38): (vcom-1136) Unknown identifier "operand_c_in_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(44): VHDL Compiler exiting
+# End time: 12:30:51 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 23, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:38:01 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(23): (vcom-1136) Unknown identifier "operand_a".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(23): Prefix of attribute "length" must be appropriate for an array object or must denote an array subtype.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(24): near "out_valid_stage1": (vcom-1576) expecting BEGIN.
+# End time: 12:38:01 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:39:01 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(24): near "out_valid_stage1": (vcom-1576) expecting BEGIN.
+# End time: 12:39:01 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 12:45:17 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# End time: 12:45:17 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 17:52:20 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# End time: 17:52:20 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 17:58:02 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(24): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 17:58:02 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 17:59:50 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(24): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 17:59:50 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:04:07 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(24): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 18:04:07 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:05:25 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(24): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 18:05:25 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:13:40 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(24): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 18:13:40 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:15:48 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(23): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 18:15:48 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:17:30 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(35): Cannot read output "result_out".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(41): VHDL Compiler exiting
+# End time: 18:17:30 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:17:35 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(35): Cannot read output "result_out".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(41): VHDL Compiler exiting
+# End time: 18:17:35 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:18:12 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(21): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 18:18:12 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:19:15 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(19): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 18:19:15 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:20:18 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity stage1
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(19): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 18:20:18 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:20:19 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity stage1
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(19): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 18:20:19 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:21:07 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity stage1
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd(19): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 18:21:07 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:21:52 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity stage1
+# -- Compiling architecture stage1_arch of stage1
+# End time: 18:21:52 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd} {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:22:28 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(35): Cannot read output "result_out".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(41): VHDL Compiler exiting
+# End time: 18:22:28 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd} {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:25:24 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(35): Cannot read output "result_out".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(41): VHDL Compiler exiting
+# End time: 18:25:24 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd} {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:26:41 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(35): Cannot read output "result_out".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(41): VHDL Compiler exiting
+# End time: 18:26:41 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd} {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:28:01 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(35): Cannot read output "result_out".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(41): VHDL Compiler exiting
+# End time: 18:28:01 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd} {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:28:42 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(35): Cannot read output "result_out".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(41): VHDL Compiler exiting
+# End time: 18:28:42 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd} {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:30:07 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(35): Cannot read output "result_out".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(41): VHDL Compiler exiting
+# End time: 18:30:07 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd} {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:31:03 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(35): Cannot read output "result_out".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(41): VHDL Compiler exiting
+# End time: 18:31:03 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd} {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:31:17 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(23): (vcom-1294) Declaration with designator "out_valid_stage3" already exists in this region.
+# ** =====> Prior declaration of "out_valid_stage3" is at /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(16).
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(24): (vcom-1294) Declaration with designator "result_out_stage3" already exists in this region.
+# ** =====> Prior declaration of "result_out_stage3" is at /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(17).
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(35): (vcom-1136) Unknown identifier "result_out".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(41): VHDL Compiler exiting
+# End time: 18:31:17 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd} {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:32:23 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(32): Cannot read output "result_out_stage3".
+# 	VHDL 2008 allows reading outputs.
+# 	This facility is enabled by compiling with -2008.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd(38): VHDL Compiler exiting
+# End time: 18:32:23 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd} {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:45:05 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Compiling entity stage1
+# -- Compiling architecture stage1_arch of stage1
+# End time: 18:45:05 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:45:43 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# End time: 18:45:43 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:45:51 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(23): (vcom-1294) Declaration with designator "out_valid_stage2" already exists in this region.
+# ** =====> Prior declaration of "out_valid_stage2" is at /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(16).
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(24): (vcom-1294) Declaration with designator "result_out_stage2" already exists in this region.
+# ** =====> Prior declaration of "result_out_stage2" is at /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(17).
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(35): (vcom-1136) Unknown identifier "result_out".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(41): VHDL Compiler exiting
+# End time: 18:45:51 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:45:53 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# End time: 18:45:53 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:46:04 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(19): near ")": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# End time: 18:46:04 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:47:52 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(27): near ")": syntax error
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(37): VHDL Compiler exiting
+# End time: 18:47:52 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:48:17 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# End time: 18:48:17 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:48:22 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# End time: 18:48:23 on Sep 27,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:48:26 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# End time: 18:48:26 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:48:36 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(23): (vcom-1294) Declaration with designator "out_valid_stage2" already exists in this region.
+# ** =====> Prior declaration of "out_valid_stage2" is at /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(16).
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(24): (vcom-1294) Declaration with designator "result_out_stage2" already exists in this region.
+# ** =====> Prior declaration of "result_out_stage2" is at /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(17).
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(35): (vcom-1136) Unknown identifier "result_out".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd(41): VHDL Compiler exiting
+# End time: 18:48:36 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:48:38 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# End time: 18:48:38 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:48:47 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# End time: 18:48:47 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:52:48 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity stage3
+# -- Compiling architecture stage3_arch of stage3
+# End time: 18:52:48 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:55:13 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity stage2
+# -- Compiling architecture stage2_arch of stage2
+# End time: 18:55:13 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:55:19 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# End time: 18:55:19 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:56:19 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(27): near ")": syntax error
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(37): VHDL Compiler exiting
+# End time: 18:56:19 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:56:46 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(26): (vcom-1136) Unknown identifier "en_in_ctrl_in".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(26): (vcom-1136) Unknown identifier "out_valid_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(26): (vcom-1136) Unknown identifier "operand_a_out_stage1".
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(26): (vcom-1272) Length of formal "ctrl_in" is 2; length of actual is 8.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(37): VHDL Compiler exiting
+# End time: 18:56:46 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:58:05 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(26): (vcom-1136) Unknown identifier "out_valid_stage1".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(37): VHDL Compiler exiting
+# End time: 18:58:05 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:18:19 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# End time: 19:18:19 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:18:51 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# End time: 19:18:52 on Sep 27,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:20:05 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity stage2
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(32): (vcom-1141) Identifier "stage2" does not identify a component declaration.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(38): VHDL Compiler exiting
+# End time: 19:20:05 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:20:39 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity stage2
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(32): (vcom-1035) Formal port "result_mac_in" has OPEN or no actual associated with it.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(38): VHDL Compiler exiting
+# End time: 19:20:39 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:21:38 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity stage2
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(32): Signal "out_valid_stage1" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(38): VHDL Compiler exiting
+# End time: 19:21:38 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:24:33 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity stage2
+# End time: 19:24:33 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:29:01 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(28): (vcom-1136) Unknown identifier "out_a_stage1".
+# -- Loading entity stage2
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(39): VHDL Compiler exiting
+# End time: 19:29:01 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:30:30 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity stage2
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(31): (vcom-1272) Length of formal "ctrl_in_stage1" is 2; length of actual is 8.
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(42): VHDL Compiler exiting
+# End time: 19:30:30 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:31:34 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity stage2
+# End time: 19:31:34 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:32:32 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# ** Error: (vcom-11) Could not find work.mac_updated.
+# ** Error (suppressible): /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(35): (vcom-1195) Cannot find expanded name "work.mac_updated".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(35): Unknown expanded name.
+# -- Loading entity stage2
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(43): VHDL Compiler exiting
+# End time: 19:32:32 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -reportprogress 300 -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/mac_updated.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:32:44 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/mac_updated.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 19:32:44 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:33:16 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity mac
+# -- Loading entity stage2
+# End time: 19:33:17 on Sep 27,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:34:44 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(32): (vcom-1136) Unknown identifier "out_a_stage1".
+# -- Loading entity mac
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(35): (vcom-1136) Unknown identifier "out_a_stage1".
+# -- Loading entity stage2
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(43): VHDL Compiler exiting
+# End time: 19:34:44 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:41:36 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity mac
+# -- Loading entity stage2
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(36): (vcom-1136) Unknown identifier "out_valid_stage2".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(36): (vcom-1136) Unknown identifier "stage2_result".
+# ** Error: /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd(42): VHDL Compiler exiting
+# End time: 19:41:36 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:43:34 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity mac
+# -- Loading entity stage2
+# End time: 19:43:34 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:45:58 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity mac
+# -- Loading entity stage2
+# -- Loading entity stage3
+# End time: 19:45:58 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:49:36 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity mac
+# -- Loading entity stage2
+# -- Loading entity stage3
+# End time: 19:49:36 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.processor_top
+# vsim work.processor_top 
+# Start time: 19:49:40 on Sep 27,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor_top(processor_top_arch)
+# Loading work.stage1(stage1_arch)
+# Loading work.mac(mac_arch)
+# Loading work.stage2(stage2_arch)
+# Loading work.stage3(stage3_arch)
+log -r *
+run -a
+quit -sim
+# End time: 19:50:18 on Sep 27,2017, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:50:22 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_processor
+# -- Compiling architecture tb_processor_arch of tb_processor
+# End time: 19:50:22 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim work.tb_processor
+# vsim work.tb_processor 
+# Start time: 19:50:30 on Sep 27,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_processor(tb_processor_arch)
+# Loading work.processor_top(processor_top_arch)
+# Loading work.stage1(stage1_arch)
+# Loading work.mac(mac_arch)
+# Loading work.stage2(stage2_arch)
+# Loading work.stage3(stage3_arch)
+log -r *
+run -a
+# ** Note: Test completed
+#    Time: 20080 ns  Iteration: 1  Instance: /tb_processor
+# Break in Process line__63 at /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd line 164
+quit -sim
+# End time: 19:56:00 on Sep 27,2017, Elapsed time: 0:05:30
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:56:05 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_processor
+# -- Compiling architecture tb_processor_arch of tb_processor
+# End time: 19:56:05 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim work.tb_processor
+# vsim work.tb_processor 
+# Start time: 19:56:07 on Sep 27,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_processor(tb_processor_arch)
+# Loading work.processor_top(processor_top_arch)
+# Loading work.stage1(stage1_arch)
+# Loading work.mac(mac_arch)
+# Loading work.stage2(stage2_arch)
+# Loading work.stage3(stage3_arch)
+run -a
+# ** Note: Test completed
+#    Time: 20080 ns  Iteration: 1  Instance: /tb_processor
+# Break in Process line__63 at /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd line 164
+log -r *
+run -a
+# ** Note: Test completed
+#    Time: 40160 ns  Iteration: 1  Instance: /tb_processor
+# Break in Process line__63 at /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd line 164
+quit -sim
+# End time: 19:58:32 on Sep 27,2017, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 0
+vsim work.tb_processor
+# vsim work.tb_processor 
+# Start time: 19:58:37 on Sep 27,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_processor(tb_processor_arch)
+# Loading work.processor_top(processor_top_arch)
+# Loading work.stage1(stage1_arch)
+# Loading work.mac(mac_arch)
+# Loading work.stage2(stage2_arch)
+# Loading work.stage3(stage3_arch)
+run -a
+# ** Note: Test completed
+#    Time: 20080 ns  Iteration: 1  Instance: /tb_processor
+# Break in Process line__63 at /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd line 164
+quit -sim
+# End time: 19:58:57 on Sep 27,2017, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:59:02 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_processor
+# -- Compiling architecture tb_processor_arch of tb_processor
+# End time: 19:59:02 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:59:02 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity stage3
+# -- Compiling architecture stage3_arch of stage3
+# End time: 19:59:02 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:59:02 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity stage2
+# -- Compiling architecture stage2_arch of stage2
+# End time: 19:59:02 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:59:02 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/stage1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity stage1
+# -- Compiling architecture stage1_arch of stage1
+# End time: 19:59:02 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work {/home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 19:59:02 on Sep 27,2017
+# vcom -reportprogress 300 -work work /home/will/DSP (ECE 6276)/HW4/lab_4/src/processor_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_top
+# -- Compiling architecture processor_top_arch of processor_top
+# -- Loading entity stage1
+# -- Loading entity mac
+# -- Loading entity stage2
+# -- Loading entity stage3
+# End time: 19:59:02 on Sep 27,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_processor
+# vsim work.tb_processor 
+# Start time: 19:59:05 on Sep 27,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading std.env(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tb_processor(tb_processor_arch)
+# Loading work.processor_top(processor_top_arch)
+# Loading work.stage1(stage1_arch)
+# Loading work.mac(mac_arch)
+# Loading work.stage2(stage2_arch)
+# Loading work.stage3(stage3_arch)
+run -a
+# ** Note: Test completed
+#    Time: 20080 ns  Iteration: 1  Instance: /tb_processor
+# Break in Process line__63 at /home/will/DSP (ECE 6276)/HW4/lab_4/tb/tb_processor.vhd line 164
