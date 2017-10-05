@@ -25,8 +25,8 @@ architecture complex_mult_arch of complex_mult is
 
 begin
 
-	res_real <= std_logic_vector(signed(a_real)*signed(b_real) - signed(a_imag)*signed(b_imag))
-	res_imag <= std_logic_vector(signed(a_imag)*signed(b_real) + signed(b_imag)*signed(a_real))
+	res_real <= std_logic_vector(signed(a_real)*signed(b_real) - signed(a_imag)*signed(b_imag));
+	res_imag <= std_logic_vector(signed(a_imag)*signed(b_real) + signed(b_imag)*signed(a_real));
 
 
 end complex_mult_arch;
