@@ -54,15 +54,15 @@ begin
 			data_in_en_buff <= '0';
 			
 		elsif (rising_edge(clk)) then
---			if (data_en_buffer < x"9") then
---				data_in_en_buff <= '0';
---				if (data_in_en = '1') then
---					data_en_buffer <= std_logic_vector(unsigned(data_en_buffer) + x"1");
---				end if;
---			else
---				data_in_en_buff <= '1';
---				data_en_buffer <= x"A";
---			end if;
+			if (data_en_buffer < x"9") then
+				data_in_en_buff <= '0';
+				if (data_in_en = '1') then
+					data_en_buffer <= data_en_buffer + 1;
+				end if;
+			else
+				data_in_en_buff <= '1';
+				data_en_buffer <= x"A";
+			end if;
 			data_in_en_buff <= '1';
 			data_0_out <= data_in;
 			data_1_out <= data_0_in;
