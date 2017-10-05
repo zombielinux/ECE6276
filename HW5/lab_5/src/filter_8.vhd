@@ -132,8 +132,8 @@ Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7
 		real_data_out_temp <= std_logic_vector(resize(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7),19));
 		imag_data_out_temp <= std_logic_vector(resize(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7),19));
 		
-		real_data_out <= real_data_out_temp(18 downto 7);
-		imag_data_out <= imag_data_out_temp(18 downto 7);
+		real_data_out <= real_data_out_temp(18 downto 8);
+		imag_data_out <= imag_data_out_temp(18 downto 8);
 
 --needs to be delayed once. 	
 		out_valid <= '1';
