@@ -137,7 +137,7 @@ Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7
 				imag_data_out <= imag_data_out_temp(18 downto 9);	
 
 --needs to be delayed 9 clock cycles. 	
-				out_valid <= data_en_in;
+				out_valid <= data_out_valid_buff;
 
 		--else
 			end if;

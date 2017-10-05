@@ -51,6 +51,7 @@ begin
 			data_5_out <= (others => '0');
 			data_6_out <= (others => '0');
 			data_7_out <= (others => '0');
+			data_in_en_buff <= '0';
 			
 		elsif (rising_edge(clk)) then
 			if (data_en_buffer < x"9") then
