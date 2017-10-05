@@ -55,10 +55,11 @@ begin
 		elsif (rising_edge(clk)) then
 			if (data_en_buffer < X"9") then
 				data_in_en_buff <= '0';
-				data_en_buffer <= std_logic_vector(unsigned(data_en_buffer) + data_in_en);
+				data_en_buffer <= std_logic_vector(unsigned(data_en_buffer) + "1") when (data_in_en = '1');
 			else
 				data_in_en_buff <= '1';
 				data_en_buffer <= X"A";
+			end if;
 			data_0_out <= data_in;
 			data_1_out <= data_0_in;
 			data_2_out <= data_1_in;
