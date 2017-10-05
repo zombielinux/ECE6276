@@ -82,7 +82,7 @@ architecture filter_8_arch of filter_8 is
 	
 begin
 
-	if (data_en_in = '1' ) then 
+	if (rising_edge(clk) and data_en_in = '1' ) then 
 		--input data into all the flipflops. 
 		Data_Buf_In : entity work.input_buffer port map (clk,rst_n,data_en_in,data_in,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7,data_real_0,data_real_1,data_real_2,data_real_3,data_real_4,data_real_5,data_real_6,data_real_7);
 
