@@ -29,7 +29,7 @@ begin
 			data_en_buffer <= (others => '0');
 			
 		elsif (rising_edge(clk)) then
-			if (data_en_buffer = '0') then	
+			if (data_en_buffer = "0000") then	
 				data_in_en_buff <= '1';
 
 			else 
