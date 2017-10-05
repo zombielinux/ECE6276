@@ -56,7 +56,7 @@ begin
 			if (data_en_buffer < X"9") then
 				data_in_en_buff <= '0';
 				if (data_in_en = '1') then
-					data_en_buffer <= unsigned(data_en_buffer) + x"0001" ;
+					data_en_buffer <= std_logic_vector(unsigned(data_en_buffer) + x"0001");
 				end if;
 			else
 				data_in_en_buff <= '1';
