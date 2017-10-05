@@ -130,8 +130,8 @@ begin
 		real_data_out_temp <= "111100001111000011";
 		imag_data_out_temp <= "101010101010101010";
 
-		real_data_out <= real_data_out_temp(17 downto 7);
-		imag_data_out <= imag_data_out_temp(17 downto 7);
+		real_data_out <= real_data_out_temp(17 downto 6);
+		imag_data_out <= imag_data_out_temp(17 downto 6);
 	
 			out_valid <= '1';
 --			real_data_out <= "1111000010";
