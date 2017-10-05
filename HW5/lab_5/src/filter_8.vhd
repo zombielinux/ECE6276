@@ -119,7 +119,7 @@ Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7
 
 	process (clk, rst_n) begin
 		if (coeff_en_in = '1') then
-			out_valid <= '0'
+			out_valid <= '0';
 		elsif then
 			if (rst_n = '0') then 
 				out_valid <= '0';
