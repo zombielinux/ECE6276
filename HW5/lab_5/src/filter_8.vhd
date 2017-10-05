@@ -62,23 +62,23 @@ architecture filter_8_arch of filter_8 is
 	signal data_imag_6 : std_logic_vector ( 7 downto 0 ); 
 	signal data_imag_7 : std_logic_vector ( 7 downto 0 ); 	
 
-	signal res_real_0 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_real_1 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_real_2 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_real_3 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_real_4 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_real_5 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_real_6 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_real_7 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
+	signal res_real_0 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_real_1 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_real_2 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_real_3 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_real_4 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_real_5 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_real_6 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_real_7 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
 	
-	signal res_imag_0 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_imag_1 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_imag_2 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_imag_3 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_imag_4 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_imag_5 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_imag_6 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
-	signal res_imag_7 : std_logic_vector ( 15 downto 0 ) := "1111111111111111";
+	signal res_imag_0 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_imag_1 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_imag_2 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_imag_3 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_imag_4 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_imag_5 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_imag_6 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
+	signal res_imag_7 : std_logic_vector ( 16 downto 0 ) := "11111111111111111";
 	
 	signal real_data_out_temp : std_logic_vector ( 17 downto 0 );
 	signal imag_data_out_temp : std_logic_vector ( 17 downto 0 );	
