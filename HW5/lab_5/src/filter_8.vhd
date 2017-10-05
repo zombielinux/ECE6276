@@ -83,7 +83,7 @@ architecture filter_8_arch of filter_8 is
 	signal real_data_out_temp : std_logic_vector ( 18 downto 0 );
 	signal imag_data_out_temp : std_logic_vector ( 18 downto 0 );	
 	
-	data_out_valid_buff : std_logic;
+	signal data_out_valid_buff : std_logic;
 begin
 
 Data_Buf_In : entity work.input_buffer port map (clk,
