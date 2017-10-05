@@ -118,27 +118,27 @@ Mult7 : entity work.complex_mult port map (coeff_real_7,coeff_imag_7,data_real_7
 
 
 	process (clk, rst_n) begin
-		if (rst_n = '0') then 
-			out_valid <= '0';
-			imag_data_out <= "1111000010";
-			real_data_out <= "0000111101";
+		if (coeff_en_in = '1') then
+			out_valid <= '0'
+		elsif then
+			if (rst_n = '0') then 
+				out_valid <= '0';
+				imag_data_out <= "1111000010";
+				real_data_out <= "0000111101";
+			
+			elsif (rising_edge(clk)) then 	
+--add all the multiplcation results together. 
+				real_data_out_temp <= std_logic_vector(resize(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7),19));
+				imag_data_out_temp <= std_logic_vector(resize(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7),19));
 		
-		elsif (rising_edge(clk)) then 
-		--input data into all the flipflops. 
-		
-
-
-		--add all the multiplcation results together. 
-		real_data_out_temp <= std_logic_vector(resize(signed(res_real_0)+signed(res_real_1)+signed(res_real_2)+signed(res_real_3)+signed(res_real_4)+signed(res_real_5)+signed(res_real_6)+signed(res_real_7),19));
-		imag_data_out_temp <= std_logic_vector(resize(signed(res_imag_0)+signed(res_imag_1)+signed(res_imag_2)+signed(res_imag_3)+signed(res_imag_4)+signed(res_imag_5)+signed(res_imag_6)+signed(res_imag_7),19));
-		
-		real_data_out <= real_data_out_temp(18 downto 9);
-		imag_data_out <= imag_data_out_temp(18 downto 9);
+				real_data_out <= real_data_out_temp(18 downto 9);
+				imag_data_out <= imag_data_out_temp(18 downto 9);	
 
 --needs to be delayed 13clock cycles. 	
-		out_valid <= '1';
+				out_valid <= '1';
 
 		--else
+			end if;
 		end if;
 	end process;
 
