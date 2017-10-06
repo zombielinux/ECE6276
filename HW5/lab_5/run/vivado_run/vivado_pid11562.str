@@ -1,0 +1,338 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 11562
+License: Customer
+
+Current time: 	10/5/17 1:56:38 PM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: CentOS Linux release 7.4.1708 (Core) 
+OS Version: 3.10.0-693.2.2.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 2
+
+Display: :11.0
+Screen size: 1440x900
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 11 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre
+JVM executable location: 	/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/bin/java
+Java library paths: /opt/Xilinx/Vivado/2017.2/lib/lnx64.o:/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64:/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server:/opt/Xilinx/Vivado/2017.2/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	will
+User home directory: /home/will
+User working directory: /home/will/DSP/HW5/lab_5/run/vivado_run
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2017.2
+RDI_DATADIR: /opt/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2017.2/bin
+
+User preferences location: /home/will/.Xilinx/Vivado
+Vivado preferences directory: /home/will/.Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: /home/will/.Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	/opt/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-11562-localhost.localdomain
+
+GUI allocated memory:	179 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,863 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 35 MB (+33761kb) [00:00:11]
+// [Engine Memory]: 4,863 MB (+4947814kb) [00:00:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,873 MB. GUI used memory: 27 MB. Current time: 10/5/17 1:56:40 PM EDT
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 46 MB (+9745kb) [00:00:42]
+// [GUI Memory]: 52 MB (+4245kb) [00:00:42]
+// g:g (cg:JFrame): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 4,925 MB. GUI used memory: 28 MB. Current time: 10/5/17 1:57:08 PM EDT
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// Elapsed time: 24 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "filter_8"); // X:JTextField (JPanel:JComponent, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// [GUI Memory]: 55 MB (+339kb) [00:01:12]
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, g:g)
+String[] filenames31467 = {"/home/will/DSP/HW5/lab_5/src/complex_mult.vhd", "/home/will/DSP/HW5/lab_5/src/data_en_buffer.vhd", "/home/will/DSP/HW5/lab_5/src/filter_8.vhd", "/home/will/DSP/HW5/lab_5/src/input_buffer.vhd"};
+setFileChooser(filenames31467);
+selectComboBox(PAResourceQtoS.SrcChooserPanel_TARGET_LANGUAGE, "VHDL", 0); // e:JComboBox (JPanel:JComponent, g:g)
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_SCAN_AND_ADD_RTL_INCLUDE_FILES_INTO, "Scan and add RTL include files into project", true); // g:JCheckBox (JPanel:JComponent, g:g): TRUE
+// [GUI Memory]: 59 MB (+1040kb) [00:01:32]
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_EXISTING_OR_CREATE_NEW_CONSTRAINTS, "Add"); // B:JideButton (f:CommandBar, g:g)
+selectMenuItem(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files..."); // ac:JMenuItem (ai:JPopupMenu, g:g)
+setFileChooser("/home/will/DSP/HW5/lab5_constraints.xdc");
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectTableHeader(PAResourceOtoP.PartChooser_PARTS, "I/O Pin
+Count", 1); // ah:r (JViewport:JComponent, g:g)
+selectTableHeader(PAResourceOtoP.PartChooser_PARTS, "I/O Pin
+Count", 1); // ah:r (JViewport:JComponent, g:g)
+selectTableHeader(PAResourceOtoP.PartChooser_PARTS, "I/O Pin
+Count", 1); // ah:r (JViewport:JComponent, g:g)
+selectTableHeader(PAResourceOtoP.PartChooser_PARTS, "I/O Pin
+Count", 1); // ah:r (JViewport:JComponent, g:g)
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xczu7eg-ffvf1517-1LV-i ; 1517 ; 464 ; 230400 ; 460800 ; 312 ; 96 ; 1728 ; 24 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 24 ; 0 ; 2 ; 8 ; -40 ; 100 ; 100 ; I ; 0.698 ; 0.720 ; 0.742", 614, "312", 5); // ah:r (JViewport:JComponent, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// bs:g (g:g):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project filter_8 /home/will/DSP/HW5/lab_5/run/vivado_run/filter_8 -part xczu7eg-ffvf1517-1LV-i 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,974 MB. GUI used memory: 31 MB. Current time: 10/5/17 1:58:30 PM EDT
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,223 MB. GUI used memory: 31 MB. Current time: 10/5/17 1:58:51 PM EDT
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 5,227 MB (+127059kb) [00:02:32]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:37 . Memory (MB): peak = 6300.336 ; gain = 294.691 ; free physical = 63 ; free virtual = 1214 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property target_language VHDL [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: add_files -norecurse -scan_for_includes {/home/will/DSP/HW5/lab_5/src/input_buffer.vhd /home/will/DSP/HW5/lab_5/src/data_en_buffer.vhd /home/will/DSP/HW5/lab_5/src/filter_8.vhd /home/will/DSP/HW5/lab_5/src/complex_mult.vhd} 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse /home/will/DSP/HW5/lab5_constraints.xdc 
+// Elapsed time: 41 seconds
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// 'g' command handler elapsed time: 121 seconds
+// [GUI Memory]: 63 MB (+1788kb) [00:02:41]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Create Project"); // bs:g (g:g)
+dismissDialog("New Project"); // g:g (cg:JFrame)
+// [GUI Memory]: 70 MB (+3238kb) [00:02:43]
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,252 MB. GUI used memory: 35 MB. Current time: 10/5/17 1:59:10 PM EDT
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Oct  5 13:59:59 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW5/lab_5/run/vivado_run/filter_8/filter_8.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 7 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// [GUI Memory]: 73 MB (+392kb) [00:03:58]
+// TclEventType: RUN_FAILED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah:x (cg:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 155 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:x (cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-345] A valid license was not found for feature 'Synthesis' and/or device 'xczu7eg-ffvf1517'. Please run the Vivado License Manager for assistance in determining. which features and devices are licensed for your system.. Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for Licensing FAQ. . ]", 1, false); // ah:i (JViewport:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LICENSE_MANAGE, "Manage License..."); // ac:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LICENSE_MANAGE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 77 MB (+274kb) [00:14:30]
+// [GUI Memory]: 82 MB (+1144kb) [00:29:20]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,269 MB. GUI used memory: 36 MB. Current time: 10/5/17 2:29:10 PM EDT
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 7000 ms.
+// Elapsed time: 1719 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Oct  5 14:31:37 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW5/lab_5/run/vivado_run/filter_8/filter_8.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_FAILED
+// ah:x (cg:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 388 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:x (cg:JFrame)
+// [GUI Memory]: 87 MB (+374kb) [00:42:26]
+// Elapsed time: 623 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// u:p (cg:JFrame): Settings: addNotify
+// 'dp' command handler elapsed time: 4 seconds
+// [GUI Memory]: 93 MB (+1849kb) [00:52:10]
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "xczu7eg-ffvf1517-1LV-i"); // h:k (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,273 MB. GUI used memory: 49 MB. Current time: 10/5/17 2:48:35 PM EDT
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // q:a (a:r, u:p)
+// c:c (u:p): Select Device: addNotify
+// Elapsed time: 12 seconds
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xczu7eg-ffvc1156-2L-e ; 1156 ; 360 ; 230400 ; 460800 ; 312 ; 96 ; 1728 ; 20 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 20 ; 0 ; 2 ; 8 ; 0 ; 100 ; 100 ; E ; 0.825 ; 0.850 ; 0.876", 600, "xczu7eg-ffvc1156-2L-e", 0); // ah:r (JViewport:JComponent, c:c)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, c:c)
+dismissDialog("Select Device"); // c:c (u:p)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a:JButton (JPanel:JComponent, u:p)
+// TclEventType: RUN_MODIFY
+// TclEventType: PART_MODIFIED
+// Tcl Message: set_property part xczu7eg-ffvc1156-2L-e [current_project] 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,309 MB. GUI used memory: 50 MB. Current time: 10/5/17 2:49:06 PM EDT
+// Elapsed time: 40 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, u:p)
+dismissDialog("Settings"); // u:p (cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Oct  5 14:49:40 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW5/lab_5/run/vivado_run/filter_8/filter_8.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_FAILED
+// ah:x (cg:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 194 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:x (cg:JFrame)
+// [GUI Memory]: 99 MB (+1211kb) [00:56:36]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-345] A valid license was not found for feature 'Synthesis' and/or device 'xczu7eg-ffvc1156'. Please run the Vivado License Manager for assistance in determining. which features and devices are licensed for your system.. Resolution: Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for Licensing FAQ. . ]", 1, false); // ah:i (JViewport:JComponent, cg:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "ID;-;[Common 17-345];-;;-;16;-;DetailedMsg;-;This feature and/or device is doing a licensing check and did not find an available license.;-;;-;16;-;Resolution;-;Check the status of your licenses in the Vivado License Manager. For debug help search Xilinx Support for "); // ah:i (JViewport:JComponent, cg:JFrame)
+// 'Common 17-345' Message Details: show
+// Elapsed time: 26 seconds
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "xczu7eg-ffvc1156-2L-e"); // h:k (JPanel:JComponent, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// u:p (cg:JFrame): Settings: addNotify
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // q:a (a:r, u:p)
+// c:c (u:p): Select Device: addNotify
+// Elapsed time: 17 seconds
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xczu3cg-sbva484-2L-e ; 484 ; 82 ; 70560 ; 141120 ; 216 ; 0 ; 360 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 3 ; 0 ; 100 ; 100 ; E ; 0.825 ; 0.850 ; 0.876", 518, "xczu3cg-sbva484-2L-e", 0); // ah:r (JViewport:JComponent, c:c)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, c:c)
+dismissDialog("Select Device"); // c:c (u:p)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a:JButton (JPanel:JComponent, u:p)
+// TclEventType: RUN_MODIFY
+// TclEventType: PART_MODIFIED
+// Tcl Message: set_property part xczu3cg-sbva484-2L-e [current_project] 
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, u:p)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,341 MB. GUI used memory: 51 MB. Current time: 10/5/17 2:54:03 PM EDT
+dismissDialog("Settings"); // u:p (cg:JFrame)
+// [GUI Memory]: 104 MB (+51kb) [01:27:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,341 MB. GUI used memory: 50 MB. Current time: 10/5/17 3:24:05 PM EDT
+// Elapsed time: 3167 seconds
+selectButton(RDIResourceCommand.RDICommands_SETTINGS, "xczu3cg-sbva484-2L-e"); // h:k (JPanel:JComponent, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// u:p (cg:JFrame): Settings: addNotify
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // q:a (a:r, u:p)
+// c:c (u:p): Select Device: addNotify
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xc7s50ftgb196-2 ; 196 ; 100 ; 32600 ; 65200 ; 75 ; 0 ; 120 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 5 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 299, "196", 1); // ah:r (JViewport:JComponent, c:c)
+selectTableHeader(PAResourceOtoP.PartChooser_PARTS, "LUT
+Elements", 3); // ah:r (JViewport:JComponent, c:c)
+// Elapsed time: 14 seconds
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xa7a15tcsg324-1Q ; 324 ; 210 ; 10400 ; 20800 ; 25 ; 0 ; 45 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ; -40 ; 125 ; 125 ; Q ; 0.95 ; 0.95 ; 1.05", 5, "xa7a15tcsg324-1Q", 0); // ah:r (JViewport:JComponent, c:c)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, c:c)
+dismissDialog("Select Device"); // c:c (u:p)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a:JButton (JPanel:JComponent, u:p)
+// TclEventType: RUN_MODIFY
+// TclEventType: PART_MODIFIED
+// Tcl Message: set_property part xa7a15tcsg324-1Q [current_project] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, u:p)
+dismissDialog("Settings"); // u:p (cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Oct  5 15:47:34 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW5/lab_5/run/vivado_run/filter_8/filter_8.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,343 MB. GUI used memory: 50 MB. Current time: 10/5/17 3:54:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,343 MB. GUI used memory: 50 MB. Current time: 10/5/17 4:24:05 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,343 MB. GUI used memory: 49 MB. Current time: 10/5/17 4:54:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,343 MB. GUI used memory: 50 MB. Current time: 10/5/17 5:24:05 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,343 MB. GUI used memory: 49 MB. Current time: 10/5/17 5:54:05 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,343 MB. GUI used memory: 49 MB. Current time: 10/5/17 6:24:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,343 MB. GUI used memory: 50 MB. Current time: 10/5/17 6:54:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,343 MB. GUI used memory: 49 MB. Current time: 10/5/17 7:24:06 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,343 MB. GUI used memory: 49 MB. Current time: 10/5/17 7:54:06 PM EDT
+// Elapsed time: 16049 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, f:p)
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 50 MB. Current time: 10/5/17 8:24:06 PM EDT

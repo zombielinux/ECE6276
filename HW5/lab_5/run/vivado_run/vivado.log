@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Oct  5 13:56:05 2017
+# Process ID: 11562
+# Current directory: /home/will/DSP/HW5/lab_5/run/vivado_run
+# Command line: vivado
+# Log file: /home/will/DSP/HW5/lab_5/run/vivado_run/vivado.log
+# Journal file: /home/will/DSP/HW5/lab_5/run/vivado_run/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project filter_8 /home/will/DSP/HW5/lab_5/run/vivado_run/filter_8 -part xczu7eg-ffvf1517-1LV-i
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+create_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:37 . Memory (MB): peak = 6300.336 ; gain = 294.691 ; free physical = 63 ; free virtual = 1214
+set_property target_language VHDL [current_project]
+add_files -norecurse -scan_for_includes {/home/will/DSP/HW5/lab_5/src/input_buffer.vhd /home/will/DSP/HW5/lab_5/src/data_en_buffer.vhd /home/will/DSP/HW5/lab_5/src/filter_8.vhd /home/will/DSP/HW5/lab_5/src/complex_mult.vhd}
+add_files -fileset constrs_1 -norecurse /home/will/DSP/HW5/lab5_constraints.xdc
+update_compile_order -fileset sources_1
+launch_runs synth_1
+[Thu Oct  5 13:59:59 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW5/lab_5/run/vivado_run/filter_8/filter_8.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Thu Oct  5 14:31:37 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW5/lab_5/run/vivado_run/filter_8/filter_8.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+set_property part xczu7eg-ffvc1156-2L-e [current_project]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+reset_run synth_1
+launch_runs synth_1
+[Thu Oct  5 14:49:40 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW5/lab_5/run/vivado_run/filter_8/filter_8.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+set_property part xczu3cg-sbva484-2L-e [current_project]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+set_property part xa7a15tcsg324-1Q [current_project]
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+reset_run synth_1
+launch_runs synth_1
+[Thu Oct  5 15:47:34 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW5/lab_5/run/vivado_run/filter_8/filter_8.runs/synth_1/runme.log

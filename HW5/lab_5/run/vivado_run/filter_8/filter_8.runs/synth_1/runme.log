@@ -1,0 +1,346 @@
+
+*** Running vivado
+    with args -log filter_8.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source filter_8.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source filter_8.tcl -notrace
+Command: synth_design -top filter_8 -part xa7a15tcsg324-1Q
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a15t-csg324'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a15t-csg324'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14487 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1233.711 ; gain = 45.992 ; free physical = 73 ; free virtual = 897
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'filter_8' [/home/will/DSP/HW5/lab_5/src/filter_8.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'data_en_buffer' [/home/will/DSP/HW5/lab_5/src/data_en_buffer.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'data_en_buffer' (1#1) [/home/will/DSP/HW5/lab_5/src/data_en_buffer.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'input_buffer' [/home/will/DSP/HW5/lab_5/src/input_buffer.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'input_buffer' (2#1) [/home/will/DSP/HW5/lab_5/src/input_buffer.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'complex_mult' [/home/will/DSP/HW5/lab_5/src/complex_mult.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'complex_mult' (3#1) [/home/will/DSP/HW5/lab_5/src/complex_mult.vhd:25]
+WARNING: [Synth 8-614] signal 'coeff_en_in' is read in the process but is not in the sensitivity list [/home/will/DSP/HW5/lab_5/src/filter_8.vhd:127]
+INFO: [Synth 8-256] done synthesizing module 'filter_8' (4#1) [/home/will/DSP/HW5/lab_5/src/filter_8.vhd:45]
+WARNING: [Synth 8-3331] design input_buffer has unconnected port data_in_en
+WARNING: [Synth 8-3331] design input_buffer has unconnected port data_7_in[7]
+WARNING: [Synth 8-3331] design input_buffer has unconnected port data_7_in[6]
+WARNING: [Synth 8-3331] design input_buffer has unconnected port data_7_in[5]
+WARNING: [Synth 8-3331] design input_buffer has unconnected port data_7_in[4]
+WARNING: [Synth 8-3331] design input_buffer has unconnected port data_7_in[3]
+WARNING: [Synth 8-3331] design input_buffer has unconnected port data_7_in[2]
+WARNING: [Synth 8-3331] design input_buffer has unconnected port data_7_in[1]
+WARNING: [Synth 8-3331] design input_buffer has unconnected port data_7_in[0]
+WARNING: [Synth 8-3331] design data_en_buffer has unconnected port data_in_en
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1274.219 ; gain = 86.500 ; free physical = 122 ; free virtual = 907
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1274.219 ; gain = 86.500 ; free physical = 118 ; free virtual = 907
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xa7a15tcsg324-1Q
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/will/DSP/HW5/lab5_constraints.xdc]
+Finished Parsing XDC File [/home/will/DSP/HW5/lab5_constraints.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:02 . Memory (MB): peak = 1571.586 ; gain = 0.000 ; free physical = 73 ; free virtual = 682
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:36 . Memory (MB): peak = 1571.590 ; gain = 383.871 ; free physical = 82 ; free virtual = 759
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a15tcsg324-1Q
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:36 . Memory (MB): peak = 1571.590 ; gain = 383.871 ; free physical = 70 ; free virtual = 759
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:37 . Memory (MB): peak = 1571.590 ; gain = 383.871 ; free physical = 78 ; free virtual = 759
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element data_en_buffer_reg was removed.  [/home/will/DSP/HW5/lab_5/src/data_en_buffer.vhd:29]
+INFO: [Synth 8-5544] ROM "real_data_out1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "real_data_out2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "imag_data_out1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "imag_data_out2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:37 . Memory (MB): peak = 1571.590 ; gain = 383.871 ; free physical = 74 ; free virtual = 751
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   8 Input     17 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 9     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 3     
+	   3 Input     10 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module filter_8 
+Detailed RTL Component Info : 
++---Adders : 
+	   8 Input     17 Bit       Adders := 2     
++---Registers : 
+	               17 Bit    Registers := 2     
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 3     
+	   3 Input     10 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 1     
+Module data_en_buffer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module input_buffer 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 9     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 45 (col length:60)
+BRAMs: 50 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element Data_valid_buffer/data_en_buffer_reg was removed.  [/home/will/DSP/HW5/lab_5/src/data_en_buffer.vhd:29]
+WARNING: [Synth 8-3331] design filter_8 has unconnected port data_en_in
+INFO: [Synth 8-3886] merging instance 'imag_data_out_reg[7]' (FDPE) to 'imag_data_out_reg[8]'
+INFO: [Synth 8-3886] merging instance 'imag_data_out_reg[8]' (FDPE) to 'imag_data_out_reg[9]'
+INFO: [Synth 8-3886] merging instance 'real_data_out_reg[7]' (FDCE) to 'real_data_out_reg[8]'
+INFO: [Synth 8-3886] merging instance 'real_data_out_reg[8]' (FDCE) to 'real_data_out_reg[9]'
+WARNING: [Synth 8-3332] Sequential element (real_data_out_temp_reg[8]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (real_data_out_temp_reg[7]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (real_data_out_temp_reg[6]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (real_data_out_temp_reg[5]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (real_data_out_temp_reg[4]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (real_data_out_temp_reg[3]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (real_data_out_temp_reg[2]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (real_data_out_temp_reg[1]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (real_data_out_temp_reg[0]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (imag_data_out_temp_reg[8]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (imag_data_out_temp_reg[7]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (imag_data_out_temp_reg[6]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (imag_data_out_temp_reg[5]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (imag_data_out_temp_reg[4]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (imag_data_out_temp_reg[3]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (imag_data_out_temp_reg[2]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (imag_data_out_temp_reg[1]) is unused and will be removed from module filter_8.
+WARNING: [Synth 8-3332] Sequential element (imag_data_out_temp_reg[0]) is unused and will be removed from module filter_8.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:53 . Memory (MB): peak = 1571.594 ; gain = 383.875 ; free physical = 130 ; free virtual = 712
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:01:11 . Memory (MB): peak = 1571.594 ; gain = 383.875 ; free physical = 71 ; free virtual = 599
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:28 . Memory (MB): peak = 1658.719 ; gain = 471.000 ; free physical = 66 ; free virtual = 560
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:05 ; elapsed = 00:01:29 . Memory (MB): peak = 1666.727 ; gain = 479.008 ; free physical = 83 ; free virtual = 560
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:06 ; elapsed = 00:01:30 . Memory (MB): peak = 1666.727 ; gain = 479.008 ; free physical = 65 ; free virtual = 560
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:06 ; elapsed = 00:01:30 . Memory (MB): peak = 1666.727 ; gain = 479.008 ; free physical = 79 ; free virtual = 559
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:07 ; elapsed = 00:01:31 . Memory (MB): peak = 1666.727 ; gain = 479.008 ; free physical = 77 ; free virtual = 559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:07 ; elapsed = 00:01:31 . Memory (MB): peak = 1666.727 ; gain = 479.008 ; free physical = 77 ; free virtual = 559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:07 ; elapsed = 00:01:31 . Memory (MB): peak = 1666.727 ; gain = 479.008 ; free physical = 67 ; free virtual = 559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:07 ; elapsed = 00:01:31 . Memory (MB): peak = 1666.727 ; gain = 479.008 ; free physical = 67 ; free virtual = 559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   238|
+|3     |LUT1   |    19|
+|4     |LUT2   |   388|
+|5     |LUT3   |   193|
+|6     |LUT4   |   469|
+|7     |LUT5   |   124|
+|8     |LUT6   |   448|
+|9     |FDCE   |    78|
+|10    |FDPE   |     8|
+|11    |FDRE   |    24|
+|12    |IBUF   |   139|
+|13    |OBUF   |    21|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------+---------------+------+
+|      |Instance            |Module         |Cells |
++------+--------------------+---------------+------+
+|1     |top                 |               |  2150|
+|2     |  Data_Buf_In       |input_buffer   |  1113|
+|3     |  Data_valid_buffer |data_en_buffer |    11|
+|4     |  Mult0             |complex_mult   |    72|
+|5     |  Mult1             |complex_mult_0 |   174|
+|6     |  Mult2             |complex_mult_1 |    74|
+|7     |  Mult3             |complex_mult_2 |   144|
+|8     |  Mult4             |complex_mult_3 |    74|
+|9     |  Mult5             |complex_mult_4 |    72|
+|10    |  Mult6             |complex_mult_5 |   144|
+|11    |  Mult7             |complex_mult_6 |    74|
++------+--------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:07 ; elapsed = 00:01:31 . Memory (MB): peak = 1666.727 ; gain = 479.008 ; free physical = 65 ; free virtual = 559
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:59 ; elapsed = 00:01:11 . Memory (MB): peak = 1666.727 ; gain = 181.641 ; free physical = 128 ; free virtual = 618
+Synthesis Optimization Complete : Time (s): cpu = 00:01:07 ; elapsed = 00:01:31 . Memory (MB): peak = 1666.734 ; gain = 479.008 ; free physical = 97 ; free virtual = 618
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 377 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+26 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:11 ; elapsed = 00:01:43 . Memory (MB): peak = 1666.734 ; gain = 491.602 ; free physical = 79 ; free virtual = 634
+INFO: [Common 17-1381] The checkpoint '/home/will/DSP/HW5/lab_5/run/vivado_run/filter_8/filter_8.runs/synth_1/filter_8.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.23 . Memory (MB): peak = 1690.742 ; gain = 0.000 ; free physical = 67 ; free virtual = 637
+INFO: [Common 17-206] Exiting Vivado at Thu Oct  5 15:49:38 2017...
