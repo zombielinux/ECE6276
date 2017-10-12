@@ -9,8 +9,8 @@ use ieee.numeric_std.all;
 
 entity complex_mult_big is
     generic(
-    	n: integer := 9
-    )
+    	n: integer
+    );
     port(
          
          a_real : in std_logic_vector ( n downto 0 );
