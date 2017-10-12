@@ -24,29 +24,31 @@ end fft_top;
 
 architecture fft_top_arch of fft_top is
 
+constant w_real 
 
+	
 
 	component butterfly_st1
 		port(
 			input : in input_data_array;
-			w_0_real,w_0_imag : in signed ( 8 downto 0 );
-			output_r, output_i : out stage1_data_array;
+			w_real(0),w_imag(0) : in signed ( 8 downto 0 );
+			output_r, output_i : out stage1_data_array
 		);
 	end component;
 
-	component butterfly_st1
+	component butterfly_st2
 		port(
 			input_r,input_i : in stage1_data_array;
 			w_0_real,w_0_imag : in signed ( 8 downto 0 );
-			output_r, output_i : out stage2_data_array;
+			output_r, output_i : out stage2_data_array
 		);
 	end component;
 
-	component butterfly_st1
+	component butterfly_st3
 		port(
 			input_r,input_i : in stage2_data_array;
 			w_0_real,w_0_imag : in signed ( 8 downto 0 );
-			output_r, output_i : out output_data_array;
+			output_r, output_i : out output_data_array
 		);
 	end component;
 
