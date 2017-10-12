@@ -65,7 +65,24 @@ begin
     w_imag <= (0=>"000000000", 1=>"101001100", 2=>"100000001", 3=>"101001100");
 
 --Buffer data in
-
+    -- pull in data and en_in each clock (extract out en_in if pipelining)
+    process (clk, rst_n, en_in) begin
+        if ( rst_n = '0' ) then
+            en_buf <= '0';
+        elsif ( rising_edge(clk) and en_in='1' ) then -- check this for when to clock in later
+            data_input_buffered <= data_input;
+            enable_buf <= en_in;
+        end if;
+    end process;
+    
+    -- push out data to output
+    process ( clk ) begin
+        if (rising_edge(clk)) then
+            data_output_real <= output_data_array_real;
+            data_output_imag <= output_data_array_imag;
+            data_valid_out <= enable_buffer;
+        end if;
+    end process;
 
 Stage1 : butterfly_st1 port map(
 	data_input_buffered,w_real(0),w_imag(0),st1_output_real,st1_output_imag
