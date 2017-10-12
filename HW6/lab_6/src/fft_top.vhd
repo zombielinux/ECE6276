@@ -24,16 +24,21 @@ end fft_top;
 
 architecture fft_top_arch of fft_top is
 
-constant w_real 
+signal w_real : w_data_array;
+signal w_imag : w_data_array;
 
-    w_real <= (0=>"011111111", 1=>"010110100", 2=>"000000000", 3=>"101001100");
-    w_imag <= (0=>"000000000", 1=>"101001100", 2=>"100000001", 3=>"101001100");
-	
+signal data_input_buffered : input_data_array;
+signal st1_output_real : stage1_data_array;
+signal st1_output_imag : stage1_data_array;
+signal st2_output_real : stage2_data_array;
+signal st2_output_imag : stage2_data_array;
+signal output_data_array_real : output_data_array;
+signal output_data_array_imag : output_data_array;
 
 	component butterfly_st1
 		port(
 			input : in input_data_array;
-			w_real(0),w_imag(0) : in signed ( 8 downto 0 );
+			w_0_real,w_0_imag : in signed ( 8 downto 0 );
 			output_r, output_i : out stage1_data_array
 		);
 	end component;
@@ -41,7 +46,7 @@ constant w_real
 	component butterfly_st2
 		port(
 			input_r,input_i : in stage1_data_array;
-			w_0_real,w_0_imag : in signed ( 8 downto 0 );
+			w_0_real,w_0_imag,w_2_real,w_2_imag : in signed ( 8 downto 0 );
 			output_r, output_i : out stage2_data_array
 		);
 	end component;
@@ -49,15 +54,31 @@ constant w_real
 	component butterfly_st3
 		port(
 			input_r,input_i : in stage2_data_array;
-			w_0_real,w_0_imag : in signed ( 8 downto 0 );
+			w_0_real,w_0_imag,w_1_real,w_1_imag,w_2_real,w_2_imag,w_3_real,w_3_imag: in signed ( 8 downto 0 );
 			output_r, output_i : out output_data_array
 		);
 	end component;
 
 begin
 
+    w_real <= (0=>"011111111", 1=>"010110100", 2=>"000000000", 3=>"101001100");
+    w_imag <= (0=>"000000000", 1=>"101001100", 2=>"100000001", 3=>"101001100");
+
 --Buffer data in
 
 
+Stage1 : butterfly_st1 port map(
+	data_input_buffered,w_real(0),w_imag(0),st1_output_real,st1_output_imag
+	);
 
+Stage2 : butterfly_st2 port map(
+	st1_output_real,st1_output_imag,w_real(0),w_imag(0),w_real(2),w_imag(2),st2_output_real,st2_output_imag
+	);
+
+Stage3 : butterfly_st3 port map(
+	st2_output_real,st2_output_imag,
+	w_real(0),w_imag(0),w_real(1),w_imag(1),
+	w_real(2),w_imag(2),w_real(3),w_imag(3),
+	output_data_array_real,output_data_array_imag
+	);
 end fft_top_arch;

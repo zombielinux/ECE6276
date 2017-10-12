@@ -69,3 +69,211 @@ vcom -work work /home/will/DSP/HW6/lab_6/src/fft_pkg.vhd
 # -- Compiling package fft_pkg
 # End time: 16:24:02 on Oct 12,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 16:35:58 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity butterfly_st3
+# -- Compiling architecture butterfly_st3_arch of butterfly_st3
+# End time: 16:35:58 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 16:42:00 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(28): near "constant": (vcom-1576) expecting ';'.
+# End time: 16:42:00 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 16:42:11 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(27): Deferred constants are allowed only in a package declaration.
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(28): Deferred constants are allowed only in a package declaration.
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(30): near "w_real": (vcom-1576) expecting BEGIN.
+# End time: 16:42:12 on Oct 12,2017, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 16:42:49 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(30): near "w_real": (vcom-1576) expecting BEGIN.
+# End time: 16:42:49 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 16:43:15 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(34): near "(": (vcom-1576) expecting ':'.
+# End time: 16:43:15 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 16:47:44 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(42): near "(": (vcom-1576) expecting ':'.
+# End time: 16:47:44 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 16:49:42 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(67): near "end": syntax error
+# End time: 16:49:42 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 16:49:53 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(67): near "end": syntax error
+# End time: 16:49:53 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 16:50:03 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# End time: 16:50:03 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 16:52:01 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(64): (vcom-1136) Unknown identifier "data_input_buffered".
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(64): (vcom-1136) Unknown identifier "st1_output_real".
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(64): (vcom-1136) Unknown identifier "st1_output_imag".
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(68): VHDL Compiler exiting
+# End time: 16:52:01 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 16:59:19 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(64): (vcom-1136) Unknown identifier "data_input_buffered".
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(64): (vcom-1136) Unknown identifier "st1_output_real".
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(64): (vcom-1136) Unknown identifier "st1_output_imag".
+# ** Error: /home/will/DSP/HW6/lab_6/src/fft_top.vhd(68): VHDL Compiler exiting
+# End time: 16:59:19 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 17:00:23 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# End time: 17:00:23 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 17:02:49 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# End time: 17:02:49 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 17:11:04 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# End time: 17:11:04 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -19,8 +19,8 @@ entity butterfly_st3 is
 	 input_r,input_i : in stage1_data_array;
 
          
-	 w_0_real,w_0_imag,w_2_real,w_2_imag : in signed ( 8 downto 0);
-	 w_1_real,w_1_imag,w_3_real,w_3_imag : in signed ( 8 downto 0);
+	 w_0_real,w_0_imag,w_1_real,w_1_imag,w_2_real,w_2_imag,w_3_real,w_3_imag : in signed ( 8 downto 0);
+
 
 	output_r : out stage2_data_array;
 	output_i : out stage2_data_array
