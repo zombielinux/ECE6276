@@ -26,6 +26,8 @@ architecture fft_top_arch of fft_top is
 
 constant w_real 
 
+    w_real <= (0=>"011111111", 1=>"010110100", 2=>"000000000", 3=>"101001100");
+    w_imag <= (0=>"000000000", 1=>"101001100", 2=>"100000001", 3=>"101001100");
 	
 
 	component butterfly_st1
