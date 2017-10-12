@@ -643,3 +643,74 @@ dismissDialog("Launch Runs"); // f:p (cg:JFrame)
 // HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/11/17 10:54:29 PM EDT
 // HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/11/17 11:24:29 PM EDT
 // HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 50 MB. Current time: 10/11/17 11:54:29 PM EDT
+<<<<<<< HEAD
+=======
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 12:24:29 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 12:54:29 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 1:24:29 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 1:54:29 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 2:24:29 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 50 MB. Current time: 10/12/17 2:54:29 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 3:24:30 AM EDT
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 3:54:30 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 50 MB. Current time: 10/12/17 4:24:30 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 4:54:30 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 5:24:30 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 5:54:30 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 6:24:30 AM EDT
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 11000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (a:a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 6:54:34 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 7:24:34 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 7:54:34 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 8:24:34 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 8:54:34 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 9:24:34 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,359 MB. GUI used memory: 49 MB. Current time: 10/12/17 9:54:34 AM EDT
+// WARNING: HTimer (a:a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 11000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (a:a Update Status Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 12000 ms.
+// WARNING: HTimer (a:a Update Status Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 11000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 13000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (a:a Update Status Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (a:a Update Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 12000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 11000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 14000 ms.
+>>>>>>> bbac3ca9d36643465fc511af2df41bce27594046

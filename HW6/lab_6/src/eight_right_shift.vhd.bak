@@ -7,7 +7,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
-entity eight_right_shift is
+entity complex_mult is
     generic(
 	iw: integer
     );
@@ -20,9 +20,9 @@ entity eight_right_shift is
          res_imag : out signed ( iw-8 downto 0 )
          
         );
-end eight_right_shift ;
+end complex_mult ;
 
-architecture eight_right_shift_arch of eight_right_shift is
+architecture complex_mult_arch of complex_mult is
 
 begin
 
@@ -30,4 +30,4 @@ begin
 	res_imag <= a_imag(iw downto iw-8);
 
 
-end eight_right_shift_arch;
+end complex_mult_arch;
