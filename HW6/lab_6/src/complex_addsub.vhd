@@ -10,7 +10,7 @@ use ieee.numeric_std.all;
 entity complex_addsub is
     generic(
     	n: integer := 16;
-	i: integer;
+	i: integer := 8;
 	op: integer := 0;
     );
     port(
