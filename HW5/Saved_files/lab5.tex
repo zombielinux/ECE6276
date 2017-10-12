@@ -1,0 +1,171 @@
+\documentclass[11pt]{report}
+%Libraries in alphabetical Order, Date added Tab Spaced after
+\usepackage{amsmath}				%1-15-2015
+\usepackage{caption}				%1-17-2015
+\usepackage{floatflt}				%1-15-2015
+\usepackage{graphics}				%1-15-2015
+\usepackage{listings}             	%1-17-2015
+\usepackage[pdftex]{graphicx}		%1-14-2015
+\usepackage{subcaption}				%1-17-2015
+\usepackage[xindy]{glossaries}		%1-14-2015
+\usepackage{wrapfig,lipsum,booktabs}%2-8-2015
+\usepackage[T1]{fontenc}
+\usepackage{pdfpages}
+\usepackage{multicol}
+
+%		\begin{figure}[!ht]
+% 		 \caption{X axis is number of nodes, Y axis is energy consumed. }
+  %		 \centering
+ %   	 \includegraphics[width=.9\textwidth]{Q3c.png}
+%		\end{figure}
+
+
+\begin{titlepage}
+\title{
+		\Huge{
+				\textbf{ECE 6276
+						\\DSP Hardware System Design
+						\\Fall 2017}}
+			\\[2cm]
+		\LARGE{
+			\textnormal{Lab 5}}
+			\\[1cm]
+			\date{\today}
+		\large{
+			\author{William Sutton}
+		}}
+
+
+\end{titlepage}
+
+\usepackage{amsmath}
+\begin{document}
+\lstset{language=MATLAB}
+\maketitle
+	
+
+		
+\newpage		
+\subsection*{Slice LUTs}
+\small
+\begin{lstlisting}
++-------------------------+------+-------+-----------+-------+
+|        Site Type        | Used | Fixed | Available | Util% |
++-------------------------+------+-------+-----------+-------+
+| CLB LUTs                | 1160 |     0 |    663360 |  0.17 |
+|   LUT as Logic          | 1160 |     0 |    663360 |  0.17 |
+|   LUT as Memory         |    0 |     0 |    293760 |  0.00 |
+| CLB Registers           |  110 |     0 |   1326720 | <0.01 |
+|   Register as Flip Flop |  110 |     0 |   1326720 | <0.01 |
+|   Register as Latch     |    0 |     0 |   1326720 |  0.00 |
+| CARRY8                  |  146 |     0 |     82920 |  0.18 |
+| F7 Muxes                |    0 |     0 |    331680 |  0.00 |
+| F8 Muxes                |    0 |     0 |    165840 |  0.00 |
+| F9 Muxes                |    0 |     0 |     82920 |  0.00 |
++-------------------------+------+-------+-----------+-------+
+\end{lstlisting}
+
+
+\newpage
+\subsection*{IO}
+\small
+\begin{lstlisting}
++------------------+------+-------+-----------+-------+
+|     Site Type    | Used | Fixed | Available | Util% |
++------------------+------+-------+-----------+-------+
+| Bonded IOB       |  160 |     0 |       832 | 19.23 |
+| HPIOB            |  104 |     0 |       676 | 15.38 |
+|   INPUT          |   83 |       |           |       |
+|   OUTPUT         |   21 |       |           |       |
+|   BIDIR          |    0 |       |           |       |
+| HRIO             |   56 |     0 |       156 | 35.90 |
+|   INPUT          |   56 |       |           |       |
+|   OUTPUT         |    0 |       |           |       |
+|   BIDIR          |    0 |       |           |       |
+| HPIOBDIFFINBUF   |    0 |     0 |       480 |  0.00 |
+| HPIOBDIFFOUTBUF  |    0 |     0 |       480 |  0.00 |
+| HRIODIFFINBUF    |    0 |     0 |        96 |  0.00 |
+| HRIODIFFOUTBUF   |    0 |     0 |        96 |  0.00 |
+| BITSLICE_CONTROL |    0 |     0 |       192 |  0.00 |
+| BITSLICE_RX_TX   |    0 |     0 |      1248 |  0.00 |
+| BITSLICE_TX      |    0 |     0 |       192 |  0.00 |
+| RIU_OR           |    0 |     0 |        96 |  0.00 |
++------------------+------+-------+-----------+-------+
+\end{lstlisting}
+
+\newpage
+
+\subsection*{Primitives}
+\small
+\begin{lstlisting}
++----------+------+---------------------+
++----------+------+---------------------+
+| Ref Name | Used | Functional Category |
++----------+------+---------------------+
+| LUT4     |  469 |                 CLB |
+| LUT6     |  448 |                 CLB |
+| LUT2     |  388 |                 CLB |
+| LUT3     |  193 |                 CLB |
+| CARRY8   |  146 |                 CLB |
+| INBUF    |  139 |                 I/O |
+| IBUFCTRL |  139 |              Others |
+| LUT5     |  124 |                 CLB |
+| FDCE     |   78 |            Register |
+| FDRE     |   24 |            Register |
+| OBUF     |   21 |                 I/O |
+| FDPE     |    8 |            Register |
+| LUT1     |    2 |                 CLB |
+| BUFGCE   |    1 |               Clock |
++----------+------+---------------------+
+\end{lstlisting}
+
+\newpage
+
+
+\subsection*{Mac not-optimized power}
+\small
+\begin{lstlisting}
++--------------------------+-------+
+| Total On-Chip Power (W)  | 1.350 |
+| Dynamic (W)              | 0.020 |
+| Device Static (W)        | 1.330 |
+| Effective TJA (C/W)      | 0.8   |
+| Max Ambient (C)          | 98.9  |
+| Junction Temperature (C) | 26.1  |
+| Confidence Level         | Low   |
+| Setting File             | ---   |
+| Simulation Activity File | ---   |
+| Design Nets Matched      | NA    |
++--------------------------+-------+
+\end{lstlisting}
+
+
+\subsection*{Worst Negative Slack (WNS)}
+\subsubsection*{Answer: 43.007ns}
+\begin{lstlisting}
+-----------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+     43.007        0.000                      0                  106        0.066        0.000                      0                  106       24.725        0.000                       0                   111  
+\end{lstlisting}
+\newpage
+
+
+
+
+
+
+
+
+
+\normalsize
+\section*{Answer to question:}
+We are doing a bitshift at the end so that our output has the same level of precision as our inputs. When a multiplier is built and fractional portions are involved, extra precision can crop up (that may or may not be desired). As a result, we truncate the result to only have the same number of digits. 
+
+I.e. 2.5*2.5 = 6.25, but to match the same output, we truncate at 6.2, which corresponds to our binary bitshifting, except in base 10. 
+
+\end{document}
