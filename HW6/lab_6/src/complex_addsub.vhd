@@ -34,15 +34,6 @@ begin
 	process begin
 		if ( op = 1 ) then
 --in the case of adding	
-<<<<<<< HEAD
-		res_real <= a_real+b_real;
---		res_imag <= a_imag+b_imag;
---	else 
---		res_real <= a_real-b_real;
---		res_imag <= a_imag-b_imag;
-	end if;
-
-=======
 			res_real <= resize(a_real+b_real,n+1);
 			res_imag <= resize(a_imag+b_imag,n+1);
 		else 
@@ -50,6 +41,6 @@ begin
 			res_imag <= resize(a_imag-b_imag,n+1);
 		end if;
 	end process;
->>>>>>> bbac3ca9d36643465fc511af2df41bce27594046
+
 
 end complex_addsub_arch;

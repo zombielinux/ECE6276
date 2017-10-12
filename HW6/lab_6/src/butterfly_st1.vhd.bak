@@ -34,7 +34,7 @@ end butterfly_st1 ;
 
 architecture butterfly_st1_arch of butterfly_st1 is
 --multiplier component
-	component complex_mult
+	component work.complex_mult
 		generic (w,n,s : integer);
 		port (
 			w_real, w_imag : in signed ( 8 downto 0 );
@@ -72,16 +72,6 @@ x_real <= (others => '0');
 x_imag <= (others => '0');
 y_real <= (others => '0');
 y_imag <= (others => '0');
-
-			sub_preshift_real,
-			sub_preshift_imag,
-			y_real,
-			y_imag);
-
-
-
-
-
 
 
 end butterfly_st1_arch;
