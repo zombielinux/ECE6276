@@ -11,7 +11,7 @@ entity complex_mult is
     generic(
     	w: integer := 8;
 	n: integer;
-	s: integer := 2 
+	s: integer := 2; 
     )
     port(
          
