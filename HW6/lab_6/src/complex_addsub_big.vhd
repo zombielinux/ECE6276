@@ -9,12 +9,11 @@ use ieee.numeric_std.all;
 
 entity complex_addsub is
     generic(
-    	n: integer := 16;
-	i: integer;
-	op: integer := 0
-    );
+    	n: integer := 16
+    )
     port(
-       
+         add_sub : in std_logic;
+         
          a_real : in std_logic_vector ( n downto 0 );
          a_imag : in std_logic_vector ( n downto 0 );
 
@@ -31,7 +30,7 @@ architecture complex_addsub_arch of complex_addsub is
 
 begin
 
-	if (op = '0') then
+	if (add_sub = '0') then
 --in the case of adding	
 		res_real <= a_real+b_real;
 		res_imag <= a_imag+b_imag;

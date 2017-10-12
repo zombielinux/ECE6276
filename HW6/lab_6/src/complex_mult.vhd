@@ -9,28 +9,33 @@ use ieee.numeric_std.all;
 
 entity complex_mult is
     generic(
-    	n: integer := 8
+    	w: integer := 8;
+	n: integer;
+	s: integer := 2 
     )
     port(
          
-         a_real : in std_logic_vector ( n downto 0 );
-         a_imag : in std_logic_vector ( n downto 0 );
+         a_real : in signed ( w downto 0 );
+         a_imag : in signed ( w downto 0 );
 
-         b_real : in std_logic_vector ( n-1 downto 0 );
-         b_imag : in std_logic_vector ( n-1 downto 0 );
+         b_real : in signed ( n downto 0 );
+         b_imag : in signed ( n downto 0 ) := (others=>'0');
          
-         res_real : out std_logic_vector ( 16 downto 0 );
-         res_imag : out std_logic_vector ( 16 downto 0 )
+         res_real : out signed ( n+w+s downto 0 );
+         res_imag : out signed ( n+w+s downto 0 )
          
         );
 end complex_mult ;
 
 architecture complex_mult_arch of complex_mult is
 
+	constant out_width: integer  := n+w+s;
+
 begin
 
-	res_real <= std_logic_vector(resize(signed(a_real)*signed(b_real),17) - resize(signed(a_imag)*signed(b_imag),17));
-	res_imag <= std_logic_vector(resize(signed(a_imag)*signed(b_real),17) + resize(signed(b_imag)*signed(a_real),17));
+	res_real <= std_logic_vector(resize(signed(a_real)*signed(b_real),out_width) - resize(signed(a_imag)*signed(b_imag),out_width));
+	
+	res_imag <= std_logic_vector(resize(signed(a_imag)*signed(b_real),out_width) + resize(signed(b_imag)*signed(a_real),out_width));
 
 
 

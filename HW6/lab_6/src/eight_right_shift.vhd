@@ -8,13 +8,16 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity complex_mult is
+    generic(
+	iw: integer;
+    )
     port(
        
-         a_real : in std_logic_vector ( 17 downto 0 );
-         a_imag : in std_logic_vector ( 17 downto 0 );
+         a_real : in signed ( iw downto 0 );
+         a_imag : in signed ( iw downto 0 );
          
-         res_real : out std_logic_vector ( 9 downto 0 );
-         res_imag : out std_logic_vector ( 9 downto 0 )
+         res_real : out signed ( iw-8 downto 0 );
+         res_imag : out signed ( iw-8 downto 0 )
          
         );
 end complex_mult ;
@@ -23,8 +26,8 @@ architecture complex_mult_arch of complex_mult is
 
 begin
 
-	res_real <= a_real(17 downto 8);
-	res_imag <= a_imag(17 downto 8);
+	res_real <= a_real(iw downto iw-8);
+	res_imag <= a_imag(iw downto iw-8);
 
 
 end complex_mult_arch;
