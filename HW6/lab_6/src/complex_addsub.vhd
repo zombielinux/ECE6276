@@ -15,14 +15,14 @@ entity complex_addsub is
     );
     port(
        
-         a_real : in std_logic_vector ( n downto 0 );
-         a_imag : in std_logic_vector ( n downto 0 );
+         a_real : in signed ( n downto 0 );
+         a_imag : in signed ( n downto 0 );
 
-         b_real : in std_logic_vector ( n downto 0 );
-         b_imag : in std_logic_vector ( n downto 0 );
+         b_real : in signed ( n downto 0 );
+         b_imag : in signed ( n downto 0 );
          
-         res_real : out std_logic_vector ( n+1 downto 0 );
-         res_imag : out std_logic_vector ( n+1 downto 0 )
+         res_real : out signed ( n+1 downto 0 );
+         res_imag : out signed ( n+1 downto 0 )
          
         );
 end complex_addsub ;
