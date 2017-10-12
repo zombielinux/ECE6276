@@ -35,10 +35,10 @@ begin
 --in the case of adding	
 		res_real <= a_real+b_real;
 		res_imag <= a_imag+b_imag;
-	else then
+	else 
 		res_real <= a_real-b_real;
 		res_imag <= a_imag-b_imag;
-
+	end if;
 
 
 end complex_addsub_arch;
