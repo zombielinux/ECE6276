@@ -6,72 +6,73 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
+use work.fft_pkg.all;
 
 entity butterfly_st1 is
-    generic(
-    	n: integer := 7
-    );
+
     port(
+	 input : in input_data_array;
 
-         a_real : in signed ( n downto 0 );
-         a_imag : in signed ( n downto 0 );
+	 w_0_real,w_0,imag : in signed ( 8 downto 0);
 
-         b_real : in signed ( n downto 0 );
-         b_imag : in signed ( n downto 0 );
-         
-   	 w_real : in signed ( 8 downto 0 );
-	 w_imag : in signed ( 8 downto 0 );
+	output_r,output_i : out stage1_data_array
 
-	 x_real : out signed ( n+2 downto 0 );
-	 x_imag : out signed ( n+2 downto 0 );
-
-	 y_real : out signed ( n+2 downto 0 );
-	 y_imag : out signed ( n+2 downto 0 )
-
-         
         );
 end butterfly_st1 ;
 
 architecture butterfly_st1_arch of butterfly_st1 is
---multiplier component
-	component work.complex_mult
-		generic (w,n,s : integer);
+	component mult_add_block 
+		generic(
+			n : integer
+		);
 		port (
-			w_real, w_imag : in signed ( 8 downto 0 );
-			b_real,	b_imag : in signed ( n downto 0 );
-			mult_real, mult_imag : out signed (16 downto 0)
+  		      a_real,a_imag,b_real,b_imag : in signed ( n downto 0 );
+		      w_real,w_imag : in signed ( 8 downto 0 );
+		      x_real,x_imag,y_real,y_imag : out signed ( n+2 downto 0 )
 		);
 	end component;
-	--internal signals to this stage
-	signal mult_real : signed ( 16 downto 0 );
-	signal mult_imag : signed ( 16 downto 0 );
 
-	signal add_preshift_real : signed ( 17 downto 0 );
-	signal add_preshift_imag : signed ( 17 downto 0 );
-
-	signal sub_preshift_real : signed ( 17 downto 0 );
-	signal sub_preshift_imag : signed ( 17 downto 0 );
 
 begin
 
-Mult_stage : complex_mult 
-		generic map (
-			w => 8,
-			n => 7,
-			s => 1
-		)
-		port map (
-			w_real,
-			w_imag,
-			b_real,
-			b_imag,
-			mult_real,
-			mult_imag);
+mult_add_block_04 : mult_add_block
+	generic map(
+		n => 7
+	)
+	port map(
+	 input(0),(others => '0'),input(4),(others => '0'),
+	 w_0_real,w_0_imag,
+	 output_r(0),output_i(0),output_r(1),output_i(1)
+	);
 
-x_real <= (others => '0');
-x_imag <= (others => '0');
-y_real <= (others => '0');
-y_imag <= (others => '0');
+mult_add_block_26 : mult_add_block
+	generic map(
+		n => 7
+	)
+	port map(
+	 input(2),(others => '0'),input(6),(others => '0'),
+	 w_0_real,w_0_imag,
+	 output_r(2),output_i(2),output_r(3),output_i(3)
+	);
 
+mult_add_block_15 : mult_add_block
+	generic map(
+		n => 7
+	)
+	port map(
+	 input(1),(others => '0'),input(5),(others => '0'),
+	 w_0_real,w_0_imag,
+         output_r(4),output_i(4),output_r(5),output_i(5)
+	);
+
+mult_add_block_37 : mult_add_block
+	generic map(
+		n => 7
+	)
+	port map(
+	 input(3),(others => '0'),input(7),(others => '0'),
+	 w_0_real,w_0_imag,
+	 output_r(6),output_i(6),output_r(7),output_i(7)
+	);
 
 end butterfly_st1_arch;

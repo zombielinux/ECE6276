@@ -11,12 +11,12 @@ entity complex_addsub is
     generic(
     	n: integer := 16;
 	i: integer := 8;
-	op: integer := 0
+	op: std_logic
     );
     port(
        
-         a_real : in signed ( n downto 0 );
-         a_imag : in signed ( n downto 0 );
+         a_real : in signed ( i-1 downto 0 );
+         a_imag : in signed ( i-1 downto 0 );
 
          b_real : in signed ( n downto 0 );
          b_imag : in signed ( n downto 0 );
@@ -31,25 +31,18 @@ architecture complex_addsub_arch of complex_addsub is
 
 begin
 
-	process begin
-		if ( op = 1 ) then
---in the case of adding	
-<<<<<<< HEAD
-		res_real <= a_real+b_real;
---		res_imag <= a_imag+b_imag;
---	else 
---		res_real <= a_real-b_real;
---		res_imag <= a_imag-b_imag;
-	end if;
+--	process begin
 
-=======
-			res_real <= resize(a_real+b_real,n+1);
-			res_imag <= resize(a_imag+b_imag,n+1);
-		else 
-			res_real <= resize(a_real-b_real,n+1);
-			res_imag <= resize(a_imag-b_imag,n+1);
-		end if;
-	end process;
->>>>>>> bbac3ca9d36643465fc511af2df41bce27594046
+--in the case of adding	
+		with op select
+			res_real <= resize(a_real,n+1)+resize(b_real,n+1) when '1',
+				    resize(a_real,n+1)-resize(b_real,n+1) when '0';
+		
+		with op select
+			res_imag <= resize(a_imag,n+1)+resize(b_imag,n+1) when '1',
+				    resize(a_imag,n+1)-resize(b_imag,n+1) when '0';
+--		end if;
+--	end process;
+
 
 end complex_addsub_arch;

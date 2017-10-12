@@ -11,12 +11,12 @@ entity complex_addsub is
     generic(
     	n: integer := 16;
 	i: integer := 8;
-	op: integer := 0
+	op: std_logic
     );
     port(
        
-         a_real : in signed ( n downto 0 );
-         a_imag : in signed ( n downto 0 );
+         a_real : in signed ( i-1 downto 0 );
+         a_imag : in signed ( i-1 downto 0 );
 
          b_real : in signed ( n downto 0 );
          b_imag : in signed ( n downto 0 );
@@ -31,16 +31,18 @@ architecture complex_addsub_arch of complex_addsub is
 
 begin
 
-	process begin
-		if ( op = 1 ) then
+--	process begin
+
 --in the case of adding	
-			res_real <= resize(a_real+b_real,n+1);
-			res_imag <= resize(a_imag+b_imag,n+1);
-		else 
-			res_real <= resize(a_real-b_real,n+1);
-			res_imag <= resize(a_imag-b_imag,n+1);
-		end if;
-	end process;
+		with op select
+			res_real <= resize(a_real,n+1)+resize(b_real,n+1) when '1',
+				    resize(a_real,n+1)-resize(b_real,n+1) when others;
+		
+		with op select
+			res_imag <= resize(a_imag,n+1)+resize(b_imag,n+1) when '1',
+				    resize(a_imag,n+1)-resize(b_imag,n+1) when others;
+--		end if;
+--	end process;
 
 
 end complex_addsub_arch;

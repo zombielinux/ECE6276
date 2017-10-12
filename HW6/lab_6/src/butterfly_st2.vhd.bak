@@ -8,19 +8,27 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use work.fft_pkg.all;
 
-entity butterfly_st1 is
+entity butterfly_st2 is
 
     port(
+
+         clk   : in std_logic;
+         rst_n : in std_logic;
+	 en_in : in std_logic;
+
 	 input : in input_data_array;
 
-	 w_0_real,w_0_imag : in signed ( 8 downto 0);
+         
+	 w_0_real : in signed ( 8 downto 0);
+	 w_0_imag : in signed ( 8 downto 0);
 
-	output_r,output_i : out stage1_data_array
+	output_r : out stage1_data_array;
+	output_i : out stage1_data_array
 
         );
-end butterfly_st1 ;
+end butterfly_st2 ;
 
-architecture butterfly_st1_arch of butterfly_st1 is
+architecture butterfly_st2_arch of butterfly_st2 is
 	component mult_add_block 
 		generic(
 			n : integer
@@ -37,7 +45,7 @@ begin
 
 mult_add_block_04 : mult_add_block
 	generic map(
-		n => 7
+		n => 9
 	)
 	port map(
 	 input(0),(others => '0'),input(4),(others => '0'),
@@ -47,7 +55,7 @@ mult_add_block_04 : mult_add_block
 
 mult_add_block_26 : mult_add_block
 	generic map(
-		n => 7
+		n => 9
 	)
 	port map(
 	 input(2),(others => '0'),input(6),(others => '0'),
@@ -57,7 +65,7 @@ mult_add_block_26 : mult_add_block
 
 mult_add_block_15 : mult_add_block
 	generic map(
-		n => 7
+		n => 9
 	)
 	port map(
 	 input(1),(others => '0'),input(5),(others => '0'),
@@ -67,7 +75,7 @@ mult_add_block_15 : mult_add_block
 
 mult_add_block_37 : mult_add_block
 	generic map(
-		n => 7
+		n => 9
 	)
 	port map(
 	 input(3),(others => '0'),input(7),(others => '0'),
@@ -75,4 +83,4 @@ mult_add_block_37 : mult_add_block
 	 output_r(6),output_i(6),output_r(7),output_i(7)
 	);
 
-end butterfly_st1_arch;
+end butterfly_st2_arch;
