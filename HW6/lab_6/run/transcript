@@ -186,3 +186,1004 @@ vcom -work work /home/will/DSP/HW6/lab_6/src/complex_mult.vhd
 # -- Compiling architecture complex_mult_arch of complex_mult
 # End time: 10:26:52 on Oct 12,2017, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:36:10 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 10:36:11 on Oct 12,2017, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:36:45 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 10:36:45 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:46:20 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 10:46:20 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:46:54 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 10:46:54 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:48:19 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 10:48:19 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:48:31 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 10:48:31 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:49:10 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 10:49:10 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:49:25 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Enumeration literal '1' is not of type std.STANDARD.BOOLEAN.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 10:49:25 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 10:49:43 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 10:49:43 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:02:00 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Warning: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(43): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# End time: 11:02:00 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:02:15 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Warning: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(43): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# End time: 11:02:15 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:02:43 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Warning: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(43): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# End time: 11:02:43 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:07:12 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Warning: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(43): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# End time: 11:07:12 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:11:00 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(14): near "port": (vcom-1576) expecting ';'.
+# End time: 11:11:00 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:11:19 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(32): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 11:11:19 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:11:39 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(47): near "Mult_stage": (vcom-1576) expecting BEGIN.
+# End time: 11:11:39 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:12:19 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(61): Statement cannot be labeled.
+# -- Loading entity complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(63): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(75): Statement cannot be labeled.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(77): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(90): Statement cannot be labeled.
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(90): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(90): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(100): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(100): Unknown expanded name.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(116): VHDL Compiler exiting
+# End time: 11:12:19 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:12:47 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# -- Loading entity complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(73): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(88): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(90): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(90): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(100): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(100): Unknown expanded name.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(116): VHDL Compiler exiting
+# End time: 11:12:47 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:12:57 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd(13): near ")": (vcom-1576) expecting FUNCTION or PROCEDURE or IMPURE or PURE.
+# End time: 11:12:57 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:13:12 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd(13): near ")": (vcom-1576) expecting FUNCTION or PROCEDURE or IMPURE or PURE.
+# End time: 11:13:13 on Oct 12,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:13:23 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 11:13:23 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:13:27 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): (vcom-1484) Unknown formal identifier "w".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(51): (vcom-1484) Unknown formal identifier "n".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(52): (vcom-1484) Unknown formal identifier "s".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): (vcom-1484) Unknown formal identifier "w".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(51): (vcom-1484) Unknown formal identifier "n".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(52): (vcom-1484) Unknown formal identifier "s".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(59): (vcom-1027) Number of positional association elements (5) exceeds number of formals (4).
+# -- Loading entity complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(73): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(88): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(90): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(90): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(100): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(100): Unknown expanded name.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(116): VHDL Compiler exiting
+# End time: 11:13:27 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:15:00 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): (vcom-1484) Unknown formal identifier "w".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(51): (vcom-1484) Unknown formal identifier "n".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(52): (vcom-1484) Unknown formal identifier "s".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): (vcom-1484) Unknown formal identifier "w".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(51): (vcom-1484) Unknown formal identifier "n".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(52): (vcom-1484) Unknown formal identifier "s".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(59): (vcom-1027) Number of positional association elements (5) exceeds number of formals (4).
+# -- Loading entity complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(73): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(88): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(90): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(90): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(100): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(100): Unknown expanded name.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(116): VHDL Compiler exiting
+# End time: 11:15:01 on Oct 12,2017, Elapsed time: 0:00:01
+# Errors: 16, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:15:08 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): (vcom-1484) Unknown formal identifier "w".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(51): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(52): (vcom-1484) Unknown formal identifier "s".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): (vcom-1484) Unknown formal identifier "w".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(51): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(52): (vcom-1484) Unknown formal identifier "s".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(59): (vcom-1027) Number of positional association elements (6) exceeds number of formals (4).
+# -- Loading entity complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(74): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(89): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(91): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(91): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(101): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(101): Unknown expanded name.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(117): VHDL Compiler exiting
+# End time: 11:15:08 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:15:43 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): (vcom-1484) Unknown formal identifier "w".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(51): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(52): (vcom-1484) Unknown formal identifier "s".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): (vcom-1484) Unknown formal identifier "w".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(51): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(52): (vcom-1484) Unknown formal identifier "s".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(53): (vcom-1035) Formal port "a_real" has OPEN or no actual associated with it.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(53): (vcom-1035) Formal port "a_imag" has OPEN or no actual associated with it.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(54): near "port": syntax error
+# -- Loading entity complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(74): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(89): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(91): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(91): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(101): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(101): Unknown expanded name.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(117): VHDL Compiler exiting
+# End time: 11:15:43 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:18:01 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(53): near ")": syntax error
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(62): Statement cannot be labeled.
+# -- Loading entity complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(74): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(89): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(91): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(91): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(101): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(101): Unknown expanded name.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(117): VHDL Compiler exiting
+# End time: 11:18:01 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:18:37 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(53): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(53): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(60): (vcom-1027) Number of positional association elements (6) exceeds number of formals (4).
+# -- Loading entity complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(75): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(90): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(92): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(92): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(102): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(102): Unknown expanded name.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(118): VHDL Compiler exiting
+# End time: 11:18:37 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:18:52 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(54): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(54): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(62): (vcom-1027) Number of positional association elements (6) exceeds number of formals (4).
+# -- Loading entity complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(77): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(92): (vcom-1027) Number of positional association elements (7) exceeds number of formals (6).
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(94): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(94): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.eight_right_shift.
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(104): (vcom-1195) Cannot find expanded name "work.eight_right_shift".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(104): Unknown expanded name.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(120): VHDL Compiler exiting
+# End time: 11:18:52 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:20:45 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(54): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(54): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(62): (vcom-1027) Number of positional association elements (6) exceeds number of formals (4).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(67): near "=>": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(120): VHDL Compiler exiting
+# End time: 11:20:45 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:21:19 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(117): VHDL Compiler exiting
+# End time: 11:21:19 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:21:30 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(117): VHDL Compiler exiting
+# End time: 11:21:30 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:21:49 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(52): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(117): VHDL Compiler exiting
+# End time: 11:21:49 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:21:54 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(52): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(117): VHDL Compiler exiting
+# End time: 11:21:54 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:21:58 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(52): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(117): VHDL Compiler exiting
+# End time: 11:21:58 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:22:01 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(51): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(51): (vcom-1027) Number of positional association elements (3) exceeds number of formals (1).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(59): (vcom-1027) Number of positional association elements (6) exceeds number of formals (4).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(64): near "=>": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(117): VHDL Compiler exiting
+# End time: 11:22:01 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:22:14 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): (vcom-1484) Unknown formal identifier "n".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(50): (vcom-1484) Unknown formal identifier "n".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(57): (vcom-1027) Number of positional association elements (6) exceeds number of formals (4).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(62): near "=>": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(115): VHDL Compiler exiting
+# End time: 11:22:14 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:24:45 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(48): near ")": (vcom-1576) expecting ':'.
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(64): (vcom-1484) Unknown formal identifier "n".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(64): (vcom-1484) Unknown formal identifier "n".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(71): (vcom-1027) Number of positional association elements (6) exceeds number of formals (4).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(76): near "=>": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(129): VHDL Compiler exiting
+# End time: 11:24:46 on Oct 12,2017, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:24:58 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(48): near ")": (vcom-1576) expecting ':'.
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(64): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(64): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(71): (vcom-1027) Number of positional association elements (6) exceeds number of formals (4).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(76): near "=>": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(129): VHDL Compiler exiting
+# End time: 11:24:58 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:25:19 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(48): near ")": (vcom-1576) expecting ':'.
+# End time: 11:25:19 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:27:06 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(45): near ")": (vcom-1576) expecting IDENTIFIER.
+# End time: 11:27:06 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:27:21 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(61): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(61): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(68): (vcom-1027) Number of positional association elements (6) exceeds number of formals (4).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(73): near "=>": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(126): VHDL Compiler exiting
+# End time: 11:27:21 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:27:50 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(61): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(61): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(68): (vcom-1027) Number of positional association elements (6) exceeds number of formals (4).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(71): near ",": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(82): VHDL Compiler exiting
+# End time: 11:27:50 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:29:52 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity eight_right_shift
+# -- Compiling architecture eight_right_shift_arch of eight_right_shift
+# End time: 11:29:52 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_mult.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:29:56 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 11:29:56 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:29:58 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(61): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(61): (vcom-1484) Unknown formal identifier "n_mult".
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(71): near ",": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(82): VHDL Compiler exiting
+# End time: 11:29:58 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:30:25 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(71): near ",": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(82): VHDL Compiler exiting
+# End time: 11:30:25 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:30:46 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(38): near "generic": syntax error
+# End time: 11:30:46 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:31:05 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(38): near "generic": syntax error
+# End time: 11:31:05 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:31:32 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(38): near "generic": syntax error
+# End time: 11:31:32 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:32:13 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(40): Expecting a type name, found generic "n" instead.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(40): Bad resolution function (INTEGER) for type (error).
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(40): near ":": (vcom-1576) expecting ';' or ')'.
+# End time: 11:32:13 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:32:23 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(39): near ",": (vcom-1576) expecting ';' or ')'.
+# End time: 11:32:23 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:43:52 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(39): near ",": (vcom-1576) expecting ';' or ')'.
+# End time: 11:43:53 on Oct 12,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:44:12 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(75): near ",": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(86): VHDL Compiler exiting
+# End time: 11:44:12 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:45:24 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Warning: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(77): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(79): near ",": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(90): VHDL Compiler exiting
+# End time: 11:45:24 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:47:25 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(73): near ",": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(84): VHDL Compiler exiting
+# End time: 11:47:25 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:54:06 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(71): Integer literal 0 is not of type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(72): Integer literal 0 is not of type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(73): Integer literal 0 is not of type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(74): Integer literal 0 is not of type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(76): near ",": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(87): VHDL Compiler exiting
+# End time: 11:54:06 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:54:28 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(76): near ",": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(87): VHDL Compiler exiting
+# End time: 11:54:28 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:55:30 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# -- Loading entity complex_mult
+# ** Error (suppressible): /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(57): (vcom-1141) Identifier "complex_mult" does not identify a component declaration.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(76): near ",": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(87): VHDL Compiler exiting
+# End time: 11:55:30 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:55:44 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(76): near ",": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(87): VHDL Compiler exiting
+# End time: 11:55:44 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 11:55:50 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butterfly_st1
+# -- Compiling architecture butterfly_st1_arch of butterfly_st1
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(76): near ",": (vcom-1576) expecting == or '+' or '-' or '&'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd(87): VHDL Compiler exiting
+# End time: 11:55:50 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
