@@ -1,0 +1,302 @@
+vlib work
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_pkg.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:55:06 on Oct 11,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package fft_pkg
+# End time: 23:55:06 on Oct 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:55:09 on Oct 11,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/fft_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package fft_pkg
+# -- Compiling entity fft_top
+# -- Compiling architecture fft_top_arch of fft_top
+# End time: 23:55:10 on Oct 11,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:55:11 on Oct 11,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# End time: 23:55:11 on Oct 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:55:17 on Oct 11,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(30): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(32): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(32): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(33): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(33): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(38): near "complex_mult_arch": (vcom-1576) expecting IF.
+# End time: 23:55:18 on Oct 11,2017, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_mult.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:55:21 on Oct 11,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_mult.vhd(14): near "port": (vcom-1576) expecting ';'.
+# End time: 23:55:22 on Oct 11,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:55:26 on Oct 11,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(14): near "port": (vcom-1576) expecting ';'.
+# End time: 23:55:26 on Oct 11,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:58:12 on Oct 11,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd(13): near ")": (vcom-1576) expecting FUNCTION or PROCEDURE or IMPURE or PURE.
+# End time: 23:58:12 on Oct 11,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:58:16 on Oct 11,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# -- Compiling architecture complex_mult_arch of complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(30): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(32): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(32): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(33): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(33): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd(38): near "complex_mult_arch": (vcom-1576) expecting IF.
+# End time: 23:58:16 on Oct 11,2017, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:58:19 on Oct 11,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(15): near ")": (vcom-1576) expecting FUNCTION or PROCEDURE or IMPURE or PURE.
+# End time: 23:58:19 on Oct 11,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 23:59:31 on Oct 11,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(15): near ")": (vcom-1576) expecting FUNCTION or PROCEDURE or IMPURE or PURE.
+# End time: 23:59:31 on Oct 11,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:00:13 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(36): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(36): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(37): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(37): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(38): near "then": syntax error
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(40): (vcom-1581) No feasible entries for infix operator '-'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(40): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): near "complex_addsub_arch": (vcom-1576) expecting IF.
+# End time: 00:00:14 on Oct 12,2017, Elapsed time: 0:00:01
+# Errors: 11, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:00:50 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(36): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(36): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(37): (vcom-1581) No feasible entries for infix operator '+'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(37): Type error resolving infix expression "+" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(38): near "then": syntax error
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(40): (vcom-1581) No feasible entries for infix operator '-'.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(40): Type error resolving infix expression "-" as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): near "complex_addsub_arch": (vcom-1576) expecting IF.
+# End time: 00:00:50 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:03:18 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(38): near "then": syntax error
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): near "complex_addsub_arch": (vcom-1576) expecting IF.
+# End time: 00:03:18 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:04:09 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 00:04:09 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:07:14 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 00:07:14 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:07:16 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 00:07:16 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:08:55 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 00:08:56 on Oct 12,2017, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:09:24 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 00:09:24 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:09:41 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# End time: 00:09:41 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:09:53 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_addsub
+# -- Compiling architecture complex_addsub_arch of complex_addsub
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(34): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd(44): VHDL Compiler exiting
+# End time: 00:09:53 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_mult.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 00:11:55 on Oct 12,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW6/lab_6/src/complex_mult.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_mult
+# ** Error: /home/will/DSP/HW6/lab_6/src/complex_mult.vhd(16): near "port": (vcom-1576) expecting ';'.
+# End time: 00:11:55 on Oct 12,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

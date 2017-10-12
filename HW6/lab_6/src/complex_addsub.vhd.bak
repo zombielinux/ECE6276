@@ -31,14 +31,14 @@ architecture complex_addsub_arch of complex_addsub is
 
 begin
 
-	if (op = 0) then
+--	if (op = 0) then
 --in the case of adding	
-		res_real <= a_real+b_real;
+--		res_real <= a_real+b_real;
 --		res_imag <= a_imag+b_imag;
 --	else 
 --		res_real <= a_real-b_real;
 --		res_imag <= a_imag-b_imag;
-	end if;
+--	end if;
 
 
 end complex_addsub_arch;
