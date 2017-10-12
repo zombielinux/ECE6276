@@ -11,7 +11,7 @@ entity complex_addsub is
     generic(
     	n: integer := 16;
 	i: integer;
-	op: integer := 0
+	op: integer := 0;
     );
     port(
        
