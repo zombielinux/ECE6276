@@ -9,22 +9,85 @@ z2
 cModel Technology
 Z0 d/home/will/DSP/HW6/lab_6/run
 <<<<<<< HEAD
+Z1 OV;C;10.5c;63
+32
+Z2 !s110 1507780510
+!i10b 1
+Z3 !s108 1507780509.000000
+Z4 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/fft_top.vhd|
+Z5 !s107 /home/will/DSP/HW6/lab_6/src/fft_top.vhd|
+!i113 1
+Z6 o-work work
+Z7 !s110 1507820832
+Z8 =======
+R1
+32
+R2
+!i10b 1
+R3
+R4
+R5
+!i113 1
+R6
+Z9 tExplicit 1 CvgOpt 0
 R0
 <<<<<<< HEAD
-Z1 OV;C;10.5c;63
+R1
+32
+Z10 !s110 1507780509
+!i10b 1
+R3
+R4
+R5
+!i113 1
+R6
+R7
+R0
+Afft_top_arch
+Z11 DPx4 work 7 fft_pkg 0 22 <Ac3B81o?d>iJ_:^N[Le60
+Z12 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z13 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R1
+R8
+R1
+32
+R10
+!i10b 1
+R3
+R4
+R5
+!i113 1
+R6
+R9
+Afft_top_arch
+R11
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R12
+R13
+<<<<<<< HEAD
+R6
+R7
+R0
+<<<<<<< HEAD
+R1
+R8
+R1
+R0
+<<<<<<< HEAD
+R1
 32
 !s110 1507781393
 !i10b 1
 !s108 1507781393.000000
-Z2 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd|
-Z3 !s107 /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd|
+Z15 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd|
+Z16 !s107 /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd|
 !i113 1
-Z4 o-work work
-Z5 tExplicit 1 CvgOpt 0
+R6
+R9
 R0
 Acomplex_addsub_arch
-Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R12
+R13
 R1
 DEx4 work 14 complex_addsub 0 22 DfNjQ6TmQS@G0mI[N5PC60
 l32
@@ -36,469 +99,455 @@ R1
 !s110 1507781381
 !i10b 1
 !s108 1507781381.000000
-R2
-R3
-!i113 1
-R4
-R5
-<<<<<<< HEAD
-R1
-Z8 =======
-R1
-R0
-<<<<<<< HEAD
-R4
-Z9 !s110 1507820832
-R0
-<<<<<<< HEAD
-R1
-32
-Z10 !s110 1507780509
-!i10b 1
-Z11 !s108 1507780509.000000
-Z12 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/fft_top.vhd|
-Z13 !s107 /home/will/DSP/HW6/lab_6/src/fft_top.vhd|
-!i113 1
-R4
-R9
-R0
-Afft_top_arch
-Z14 DPx4 work 7 fft_pkg 0 22 <Ac3B81o?d>iJ_:^N[Le60
-R6
-R7
-R1
-R8
-R1
-32
-R10
-!i10b 1
-R11
-R12
-R13
-!i113 1
-R4
-R5
-Afft_top_arch
-R14
-Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-R6
-R7
-<<<<<<< HEAD
-R1
-32
-Z16 !s110 1507780510
-!i10b 1
-R11
-R12
-R13
-!i113 1
-R4
-R9
-R8
-R1
-32
+R15
 R16
-!i10b 1
-R11
-R12
-R13
 !i113 1
-R4
-R5
-R0
->>>>>>> bbac3ca9d36643465fc511af2df41bce27594046
-l0
-L10
-VDfNjQ6TmQS@G0mI[N5PC60
-!s100 L9:]MjVN0^O:c=@9W]KOj0
+R6
+R9
+<<<<<<< HEAD
 R0
 >>>>>>> bbac3ca9d36643465fc511af2df41bce27594046
 R0
-Z17 8/home/will/DSP/HW6/lab_6/src/fft_pkg.vhd
-Z18 F/home/will/DSP/HW6/lab_6/src/fft_pkg.vhd
-l0
-L5
-V<Ac3B81o?d>iJ_:^N[Le60
-!s100 fHX`;gUN?FZNTmeY^4KK=2
 >>>>>>> bbac3ca9d36643465fc511af2df41bce27594046
-32
-!s110 1507780506
-!i10b 1
-!s108 1507780506.000000
-Z19 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/fft_pkg.vhd|
-Z20 !s107 /home/will/DSP/HW6/lab_6/src/fft_pkg.vhd|
-!i113 1
-R0
->>>>>>> bbac3ca9d36643465fc511af2df41bce27594046
-l0
-L11
-Z21 VYCi@W5R6`MMZ`4WgDXUZT0
-Z22 !s100 =YhoP3=]NNLNhE3WT^REU1
-R0
->>>>>>> bbac3ca9d36643465fc511af2df41bce27594046
-Z23 DEx4 work 7 fft_top 0 22 YCi@W5R6`MMZ`4WgDXUZT0
+Z17 DEx4 work 7 fft_top 0 22 YCi@W5R6`MMZ`4WgDXUZT0
 l27
 L25
 VHH85RDg`niRj1[[cCddzP2
 !s100 I=GlVPWzah;PINFCE1TLh3
 R0
 >>>>>>> bbac3ca9d36643465fc511af2df41bce27594046
+l0
+L11
+Z18 VYCi@W5R6`MMZ`4WgDXUZT0
+Z19 !s100 =YhoP3=]NNLNhE3WT^REU1
+R0
+>>>>>>> bbac3ca9d36643465fc511af2df41bce27594046
+32
+!s110 1507780506
+!i10b 1
+!s108 1507780506.000000
+Z20 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/fft_pkg.vhd|
+Z21 !s107 /home/will/DSP/HW6/lab_6/src/fft_pkg.vhd|
+!i113 1
+R0
+>>>>>>> bbac3ca9d36643465fc511af2df41bce27594046
+R0
+Z22 8/home/will/DSP/HW6/lab_6/src/fft_pkg.vhd
+Z23 F/home/will/DSP/HW6/lab_6/src/fft_pkg.vhd
+l0
+L5
+V<Ac3B81o?d>iJ_:^N[Le60
+!s100 fHX`;gUN?FZNTmeY^4KK=2
+>>>>>>> bbac3ca9d36643465fc511af2df41bce27594046
+l0
+L10
+VDfNjQ6TmQS@G0mI[N5PC60
+!s100 L9:]MjVN0^O:c=@9W]KOj0
 R0
 Ebutterfly_st1
-Z24 w1507838766
+Z24 w1507843641
+Z25 DPx4 work 7 fft_pkg 0 22 9@9^>2]eCNOGhhfDMMUJg2
 R14
-R15
-R6
-R7
+R12
+R13
 R0
-Z25 8/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
-Z26 F/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+Z26 8/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
+Z27 F/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd
 l0
 L11
 V@UJ9KTBf@D:iDH6jY4Vmn2
 !s100 BIIn]QYj4c2E;;01KmlSY0
 R1
 32
-Z27 !s110 1507838776
+Z28 !s110 1507855297
 !i10b 1
-Z28 !s108 1507838776.000000
-Z29 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd|
-Z30 !s107 /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd|
+Z29 !s108 1507855297.000000
+Z30 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd|
+Z31 !s107 /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd|
 !i113 1
-R4
-R5
-Abutterfly_st1_arch
-R14
-R15
 R6
-R7
-DEx4 work 13 butterfly_st1 0 22 @UJ9KTBf@D:iDH6jY4Vmn2
-l36
+R9
+Abutterfly_st1_arch
+R25
+R14
+R12
+R13
+Z32 DEx4 work 13 butterfly_st1 0 22 @UJ9KTBf@D:iDH6jY4Vmn2
+l37
 L23
-V^S1Am:9i9WhfJH^Sa=6jH2
-!s100 3JnRUdd5_b[JW:FGhW`g`0
+Z33 Vb6Cj3`mjo>nlRhL^IS<:d3
+Z34 !s100 lY[LBBMcMcDVlkOKAQ;zL2
 R1
 32
-R27
-!i10b 1
 R28
+!i10b 1
 R29
 R30
+R31
 !i113 1
-R4
-R5
+R6
+R9
 Ebutterfly_st2
-Z31 w1507836916
+Z35 w1507855173
+R25
 R14
-R15
-R6
-R7
+R12
+R13
 R0
-Z32 8/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd
-Z33 F/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd
+Z36 8/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd
+Z37 F/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd
 l0
 L11
-VBff8GzFS_n5fTlIKklVaF0
-!s100 z`PlDzE>ME8QzUgCI8ohC1
+VPGQ[JRSKm5KEa3TXVYSnT3
+!s100 RhnPoHdaFHTonDQOdEOI=0
 R1
 32
-Z34 !s110 1507836919
+Z38 !s110 1507855296
 !i10b 1
-Z35 !s108 1507836919.000000
-Z36 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd|
-Z37 !s107 /home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd|
+Z39 !s108 1507855296.000000
+Z40 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd|
+Z41 !s107 /home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd|
 !i113 1
-R4
-R5
+R6
+R9
 Abutterfly_st2_arch
+R25
 R14
-R15
-R6
-R7
-DEx4 work 13 butterfly_st2 0 22 Bff8GzFS_n5fTlIKklVaF0
-l43
-L30
-Vnme;_D;`NK;aP;CCX5fVG2
-!s100 06cm1:bKf@hck7HbfBgnZ0
+R12
+R13
+DEx4 work 13 butterfly_st2 0 22 PGQ[JRSKm5KEa3TXVYSnT3
+l39
+L26
+VinKafYCb@@NJl_OSW<MP63
+!s100 PIzI?HzLVYc5=PHm9CSVO2
 R1
 32
-R34
+R38
 !i10b 1
-R35
-R36
-R37
+R39
+R40
+R41
 !i113 1
-R4
-R5
-Ebutterfly_st3
-Z38 w1507840550
-Z39 DPx4 work 7 fft_pkg 0 22 9@9^>2]eCNOGhhfDMMUJg2
-R15
 R6
-R7
+R9
+Ebutterfly_st3
+Z42 w1507855289
+R25
+R14
+R12
+R13
 R0
-Z40 8/home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd
-Z41 F/home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd
+Z43 8/home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd
+Z44 F/home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd
 l0
 L11
-VE2M87iHm5dm@HCh2WLOMH1
-!s100 dA^Y@X0b9e=MWzKUfeNlM2
+VG8?=nU=1oK4RcClJMm;E[0
+!s100 W<QZTKZbbLT;[Q_50FjaL1
 R1
 32
-Z42 !s110 1507840558
+R38
 !i10b 1
-Z43 !s108 1507840558.000000
-Z44 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd|
-Z45 !s107 /home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd|
+R39
+Z45 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd|
+Z46 !s107 /home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd|
 !i113 1
-R4
-R5
+R6
+R9
 Abutterfly_st3_arch
+R25
+R14
+R12
+R13
+DEx4 work 13 butterfly_st3 0 22 G8?=nU=1oK4RcClJMm;E[0
+l40
+L27
+VKgBFZHK6e3WzIFe^K1nh72
+!s100 j90=TkQhl<07dM2niDM;E3
+R1
+32
+R38
+!i10b 1
+R39
+R45
+R46
+!i113 1
+R6
+R9
+Ecomplex_addsub
+Z47 w1507853960
+R14
+R12
+R13
+R0
+Z48 8/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+Z49 F/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
+l0
+L10
+V5f04a=?h[:<]JdnjdO6QB2
+!s100 k6DWQz5lAURfY4d`NBZm83
+R1
+32
+R38
+!i10b 1
 R39
 R15
-R6
-R7
-DEx4 work 13 butterfly_st3 0 22 E2M87iHm5dm@HCh2WLOMH1
-l44
-L31
-V1KSe=B6^@UdY]PBT>0igL0
-!s100 KzUZ<`ibS?7CH`Qk3Kh4o3
-R1
-32
-R42
-!i10b 1
-R43
-R44
-R45
+R16
 !i113 1
-R4
-R5
-Ecomplex_addsub
-Z46 w1507835431
-R15
 R6
-R7
-R0
-Z47 8/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
-Z48 F/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd
-l0
-L10
-ViPcZaNKkR>O6Z2U1X7MYh3
-!s100 C[An10lXE?WVLYDRAXjiP2
-R1
-32
-Z49 !s110 1507835441
-!i10b 1
-Z50 !s108 1507835441.000000
-Z51 !s90 -reportprogress|300|/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd|
-R3
-!i113 1
-R5
+R9
 Acomplex_addsub_arch
-R15
-R6
-R7
-DEx4 work 14 complex_addsub 0 22 iPcZaNKkR>O6Z2U1X7MYh3
+R14
+R12
+R13
+DEx4 work 14 complex_addsub 0 22 5f04a=?h[:<]JdnjdO6QB2
 l32
 L30
-Vbo0glW_RLI6>[4VmX:>_U0
-!s100 cXM`MUUi_k=mD2z:;045Y1
+VejI95[Pb;KM_b1I0Tl>^S3
+!s100 Zia6cQ_G`SkK@KO7Iz;2D1
 R1
 32
-R49
+R38
 !i10b 1
-R50
-R51
-R3
-!i113 1
-R5
-Ecomplex_mult
-Z52 w1507769200
-R6
-R7
-R1
-R0
-8/home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd
-F/home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd
-l0
-L10
-VBn_@<4Zekn410aEKDlNc90
-!s100 X=Sd7gz]V:RT22OMmhA8c2
-R1
-32
-!s110 1507780696
-!i10b 1
-!s108 1507780696.000000
-!s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd|
-!s107 /home/will/DSP/HW6/lab_6/src/complex_subtractor.vhd|
-!i113 1
-R4
-R5
-Acomplex_mult_arch
-R6
-R7
-R1
-DEx4 work 12 complex_mult 0 22 jbPU_kk143IYA77HJg=6:0
-l24
-L22
-V0MJ758Mm?mH;LP=CnEIm82
-!s100 `14SD:f;LnP6LJ;1Na2`:0
-R1
-32
-!s110 1507780511
-!i10b 1
-!s108 1507780511.000000
-Z53 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd|
-Z54 !s107 /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd|
-!i113 1
-R4
-R5
-Z55 F/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd
-Z56 8/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd
-Eeight_right_shift
-Z57 w1507822189
+R39
 R15
+R16
+!i113 1
 R6
-R7
+R9
+Ecomplex_mult
+Z50 w1507847899
+R14
+R12
+R13
 R0
-R56
-R55
+Z51 8/home/will/DSP/HW6/lab_6/src/complex_mult.vhd
+Z52 F/home/will/DSP/HW6/lab_6/src/complex_mult.vhd
 l0
 L10
-Vldo2Vzi^abzbHTKl[>`[R1
-!s100 6fcaFeEZ]mULR8NIGfdc`1
+VlBGIKz]J_g_1DAPMON8eE0
+!s100 ;LD7]RPP<zeK5h;P_ZC:o2
 R1
 32
-Z58 !s110 1507822192
+R38
 !i10b 1
-Z59 !s108 1507822192.000000
+R39
+Z53 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/complex_mult.vhd|
+Z54 !s107 /home/will/DSP/HW6/lab_6/src/complex_mult.vhd|
+!i113 1
+R6
+R9
+Acomplex_mult_arch
+R14
+R12
+R13
+DEx4 work 12 complex_mult 0 22 lBGIKz]J_g_1DAPMON8eE0
+l34
+L30
+Vn]_joNKNP@o3IdE^JHk<l1
+!s100 Zz3C478:kVdd@eJikI0DZ0
+R1
+32
+R38
+!i10b 1
+R39
 R53
 R54
 !i113 1
-R4
-R5
-Aeight_right_shift_arch
-R15
 R6
-R7
-DEx4 work 17 eight_right_shift 0 22 ldo2Vzi^abzbHTKl[>`[R1
+R9
+Eeight_right_shift
+Z55 w1507846963
+R14
+R12
+R13
+R0
+Z56 8/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd
+Z57 F/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd
+l0
+L10
+VCiRYD2]>V>FXVLAeXldZR2
+!s100 Y?D[_;e9EW<35;3HBm^ef1
+R1
+32
+R38
+!i10b 1
+R39
+Z58 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd|
+Z59 !s107 /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd|
+!i113 1
+R6
+R9
+Aeight_right_shift_arch
+R14
+R12
+R13
+DEx4 work 17 eight_right_shift 0 22 CiRYD2]>V>FXVLAeXldZR2
 l27
 L25
-VYIF[8f7czGaI=8@fHQX180
-!s100 TFzGiQb<W6nS91AlKJJT93
+VQi^aJebPZ[MolENhMM0IT3
+!s100 z6NZ55cnG^K@cVoCV7_;d3
 R1
 32
-R58
+R38
 !i10b 1
+R39
+R58
 R59
-R53
-R54
 !i113 1
-R4
-R5
-Pfft_pkg
-R15
 R6
-R7
+R9
+Pfft_pkg
+R14
+R12
+R13
 w1507839837
 R0
-R17
-R18
+R22
+R23
 l0
 L5
 V9@9^>2]eCNOGhhfDMMUJg2
 !s100 0W2:gTUN6=iCQJ3_omHb[2
 R1
 32
-!s110 1507839842
+R38
 !i10b 1
-!s108 1507839842.000000
-R19
-R20
-!i113 1
-R4
-R5
-Efft_top
-Z60 w1507842661
 R39
-R15
+R20
+R21
+!i113 1
 R6
-R7
+R9
+Efft_top
+Z60 w1507843093
+R25
+R14
+R12
+R13
 R0
 Z61 8/home/will/DSP/HW6/lab_6/src/fft_top.vhd
 Z62 F/home/will/DSP/HW6/lab_6/src/fft_top.vhd
 l0
 L11
-R21
-R22
+R18
+R19
 R1
 32
-Z63 !s110 1507842664
+R38
 !i10b 1
-Z64 !s108 1507842664.000000
-R12
-R13
-!i113 1
-R4
-R5
-Afft_top_arch
 R39
-R15
-R6
-R7
-R23
-l62
-L25
-VKWl@oDbg[SfZZ]`1ATY>[1
-!s100 ng[==j6;O60oEGz>P`:0e2
-R1
-32
-R63
-!i10b 1
-R64
-R12
-R13
-!i113 1
 R4
 R5
-Emult_add_block
-Z65 w1507835489
-R15
+!i113 1
 R6
-R7
+R9
+Afft_top_arch
+R25
+R14
+R12
+R13
+R17
+l64
+L25
+Ve]dll^5Aa<zkozVA7R]HV0
+!s100 ZgjY5DbC1f[[V4k`_NlV:1
+R1
+32
+R38
+!i10b 1
+R39
+R4
+R5
+!i113 1
+R6
+R9
+Emult_add_block
+Z63 w1507854954
+R14
+R12
+R13
 R0
-Z66 8/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd
-Z67 F/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd
+Z64 8/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd
+Z65 F/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd
 l0
 L10
-VB73lm]0QjoRCemZNg^=gU2
-!s100 RndkbYK`IcT`2CkSY6W;70
+VbAfV3eYQ]8o2@P`XV0CnJ1
+!s100 jBdDHNgg08KZWH8<N:7TE2
 R1
 32
-Z68 !s110 1507835498
+R38
 !i10b 1
-Z69 !s108 1507835498.000000
-Z70 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd|
-Z71 !s107 /home/will/DSP/HW6/lab_6/src/mult_add_block.vhd|
+R39
+Z66 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd|
+Z67 !s107 /home/will/DSP/HW6/lab_6/src/mult_add_block.vhd|
 !i113 1
-R4
-R5
-Amult_add_block_arch
-R15
 R6
-R7
-DEx4 work 14 mult_add_block 0 22 B73lm]0QjoRCemZNg^=gU2
-l73
-L34
-VK?^Cjf@zNeF=d[zim_>7E2
-!s100 WEKPXASGcmbMGQn46Y2^>0
+R9
+Amult_add_block_arch
+R14
+R12
+R13
+DEx4 work 14 mult_add_block 0 22 bAfV3eYQ]8o2@P`XV0CnJ1
+l74
+L35
+VLE@O5FR]93ZLKV`L`DUMf3
+!s100 9Y;ch^a?1FZXH96Q;JVXf2
 R1
 32
-R68
+R38
 !i10b 1
+R39
+R66
+R67
+!i113 1
+R6
+R9
+Etb_fft
+Z68 w1507769200
+R25
+Z69 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z70 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z71 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R14
+R12
+R13
+R0
+Z72 8/home/will/DSP/HW6/lab_6/tb/tb_fft.vhd
+Z73 F/home/will/DSP/HW6/lab_6/tb/tb_fft.vhd
+l0
+L15
+V[gzZSEP]]j;O>eK6ORie]3
+!s100 AIZ>Ff7lOFDZ>IL1ZKKM<1
+R1
+32
+Z74 !s110 1507855295
+!i10b 1
+Z75 !s108 1507855295.000000
+Z76 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW6/lab_6/tb/tb_fft.vhd|
+Z77 !s107 /home/will/DSP/HW6/lab_6/tb/tb_fft.vhd|
+!i113 1
+R6
+R9
+Atb_fft_arch
+R25
 R69
 R70
 R71
+R14
+R12
+R13
+DEx4 work 6 tb_fft 0 22 [gzZSEP]]j;O>eK6ORie]3
+l59
+L18
+Vm1ZChfaQN3bA9[hf<;<a`0
+!s100 X5omSI5FEMTYAVBb5A3J=0
+R1
+32
+R74
+!i10b 1
+R75
+R76
+R77
 !i113 1
-R4
-R5
+R6
+R9

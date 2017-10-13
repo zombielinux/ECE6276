@@ -9,20 +9,20 @@ use ieee.numeric_std.all;
 
 entity complex_addsub is
     generic(
-    	n: integer := 16;
-	i: integer := 8;
+    	i: integer := 16;
+	n: integer := 8;
 	op: std_logic
     );
     port(
        
-         a_real : in signed ( i-1 downto 0 );
-         a_imag : in signed ( i-1 downto 0 );
+         a_real : in signed ( n downto 0 );
+         a_imag : in signed ( n downto 0 );
 
-         b_real : in signed ( n downto 0 );
-         b_imag : in signed ( n downto 0 );
+         b_real : in signed ( i downto 0 );
+         b_imag : in signed ( i downto 0 );
          
-         res_real : out signed ( n+1 downto 0 );
-         res_imag : out signed ( n+1 downto 0 )
+         res_real : out signed ( i+1 downto 0 );
+         res_imag : out signed ( i+1 downto 0 )
          
         );
 end complex_addsub ;
@@ -35,12 +35,12 @@ begin
 
 --in the case of adding	
 		with op select
-			res_real <= resize(a_real,n+1)+resize(b_real,n+1) when '1',
-				    resize(a_real,n+1)-resize(b_real,n+1) when '0';
+			res_real <= resize(resize(a_real,i+2)-resize(b_real,i+2) when '0',
+				    resize(a_real,i+2)+resize(b_real,i+2) when others;
 		
 		with op select
-			res_imag <= resize(a_imag,n+1)+resize(b_imag,n+1) when '1',
-				    resize(a_imag,n+1)-resize(b_imag,n+1) when '0';
+			res_imag <=  resize(a_imag,i+2)-resize(b_imag,i+2) when '0',
+				     resize(a_imag,i+2)+resize(b_imag,i+2) when others;
 --		end if;
 --	end process;
 

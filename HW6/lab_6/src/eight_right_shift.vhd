@@ -9,7 +9,7 @@ use ieee.numeric_std.all;
 
 entity eight_right_shift is
     generic(
-	iw: integer
+	iw: integer := 8
     );
     port(
        
@@ -26,8 +26,8 @@ architecture eight_right_shift_arch of eight_right_shift is
 
 begin
 
-	res_real <= a_real(iw downto iw-8);
-	res_imag <= a_imag(iw downto iw-8);
+	res_real <= a_real(iw downto 8);
+	res_imag <= a_imag(iw downto 8);
 
 
 end eight_right_shift_arch;

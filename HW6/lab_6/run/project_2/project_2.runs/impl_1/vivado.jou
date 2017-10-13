@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Oct 12 20:43:26 2017
+# Process ID: 9256
+# Current directory: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/impl_1
+# Command line: vivado -log fft_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fft_top.tcl -notrace
+# Log file: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/impl_1/fft_top.vdi
+# Journal file: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source fft_top.tcl -notrace

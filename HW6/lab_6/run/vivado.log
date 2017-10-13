@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Oct 12 19:57:05 2017
+# Process ID: 6497
+# Current directory: /home/will/DSP/HW6/lab_6/run
+# Command line: vivado
+# Log file: /home/will/DSP/HW6/lab_6/run/vivado.log
+# Journal file: /home/will/DSP/HW6/lab_6/run/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project project_1 /home/will/DSP/HW6/lab_6/run/project_1 -part xcku035-ffva1156-3-e
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 6047.855 ; gain = 20.949 ; free physical = 8783 ; free virtual = 12144
+set_property target_language VHDL [current_project]
+add_files -norecurse -scan_for_includes {/home/will/DSP/HW6/lab_6/src/fft_top.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd /home/will/DSP/HW6/lab_6/src/fft_pkg.vhd /home/will/DSP/HW6/lab_6/src/complex_mult.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd /home/will/DSP/HW6/lab_6/src/mult_add_block.vhd /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd}
+add_files -fileset constrs_1 -norecurse /home/will/DSP/HW6/constraints_lab6.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1
+[Thu Oct 12 20:06:43 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_1/project_1.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+reset_run synth_1
+launch_runs synth_1
+[Thu Oct 12 20:21:09 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_1/project_1.runs/synth_1/runme.log
+close_project
+create_project project_2 /home/will/DSP/HW6/lab_6/run/project_2 -part xcku035-ffva1156-3-e
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 6197.195 ; gain = 0.000 ; free physical = 8677 ; free virtual = 12057
+set_property target_language VHDL [current_project]
+add_files -norecurse -scan_for_includes {/home/will/DSP/HW6/lab_6/src/fft_top.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd /home/will/DSP/HW6/lab_6/src/fft_pkg.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd /home/will/DSP/HW6/lab_6/src/complex_mult.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd /home/will/DSP/HW6/lab_6/src/mult_add_block.vhd /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd}
+add_files -fileset constrs_1 -norecurse /home/will/DSP/HW6/constraints_lab6.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1
+[Thu Oct 12 20:23:26 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Thu Oct 12 20:29:53 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Thu Oct 12 20:36:24 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Thu Oct 12 20:38:16 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Thu Oct 12 20:40:33 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Thu Oct 12 20:41:58 2017] Launched synth_1...
+Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log
+launch_runs impl_1
+[Thu Oct 12 20:43:26 2017] Launched impl_1...
+Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 237 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Device 21-403] Loading part xcku035-ffva1156-3-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/will/DSP/HW6/lab_6/run/.Xil/Vivado-6497-localhost.localdomain/dcp5/fft_top.xdc]
+Finished Parsing XDC File [/home/will/DSP/HW6/lab_6/run/.Xil/Vivado-6497-localhost.localdomain/dcp5/fft_top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.58 ; elapsed = 00:00:00.58 . Memory (MB): peak = 6655.336 ; gain = 1.000 ; free physical = 7655 ; free virtual = 11542
+Restored from archive | CPU: 0.590000 secs | Memory: 4.460274 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.60 ; elapsed = 00:00:00.59 . Memory (MB): peak = 6655.336 ; gain = 1.000 ; free physical = 7655 ; free virtual = 11542
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 83 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_M_DATA, DSP_MULTIPLIER, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 16 instances
+  IBUF => IBUF (INBUF, IBUFCTRL): 67 instances
+

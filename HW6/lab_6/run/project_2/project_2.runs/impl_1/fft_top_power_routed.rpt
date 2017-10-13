@@ -1,0 +1,268 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date             : Thu Oct 12 20:47:43 2017
+| Host             : localhost.localdomain running 64-bit unknown
+| Command          : report_power -file fft_top_power_routed.rpt -pb fft_top_power_summary_routed.pb -rpx fft_top_power_routed.rpx
+| Design           : fft_top
+| Device           : xcku035-ffva1156-3-e
+| Design State     : routed
+| Grade            : extended
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+-------+
+| Total On-Chip Power (W)  | 0.603 |
+| Dynamic (W)              | 0.098 |
+| Device Static (W)        | 0.505 |
+| Effective TJA (C/W)      | 1.4   |
+| Max Ambient (C)          | 99.1  |
+| Junction Temperature (C) | 25.9  |
+| Confidence Level         | Low   |
+| Setting File             | ---   |
+| Simulation Activity File | ---   |
+| Design Nets Matched      | NA    |
++--------------------------+-------+
+
+
+1.1 On-Chip Components
+----------------------
+
++----------------+-----------+----------+-----------+-----------------+
+| On-Chip        | Power (W) | Used     | Available | Utilization (%) |
++----------------+-----------+----------+-----------+-----------------+
+| Clocks         |     0.001 |        3 |       --- |             --- |
+| CLB Logic      |     0.002 |     1747 |       --- |             --- |
+|   LUT as Logic |     0.001 |      954 |    203128 |            0.47 |
+|   Register     |    <0.001 |      322 |    406256 |            0.08 |
+|   CARRY8       |    <0.001 |      154 |     30300 |            0.51 |
+|   Others       |     0.000 |      107 |       --- |             --- |
+| Signals        |     0.003 |     1671 |       --- |             --- |
+| DSPs           |     0.001 |       16 |      1700 |            0.94 |
+| I/O            |     0.090 |      324 |       520 |           62.31 |
+| Static Power   |     0.505 |          |           |                 |
+| Total          |     0.603 |          |           |                 |
++----------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++------------+-------------+-----------+-------------+------------+
+| Source     | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++------------+-------------+-----------+-------------+------------+
+| Vccint     |       1.000 |     0.169 |       0.007 |      0.162 |
+| Vccaux     |       1.800 |     0.096 |       0.000 |      0.096 |
+| Vccaux_io  |       1.800 |     0.104 |       0.039 |      0.065 |
+| Vccint_io  |       1.000 |     0.024 |       0.007 |      0.017 |
+| Vcco33     |       3.300 |     0.000 |       0.000 |      0.000 |
+| Vcco25     |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18     |       1.800 |     0.007 |       0.007 |      0.000 |
+| Vcco15     |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135    |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12     |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vcco10     |       1.000 |     0.000 |       0.000 |      0.000 |
+| Vccbram    |       1.000 |     0.012 |       0.000 |      0.012 |
+| MGTAVcc    |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt    |       1.200 |     0.000 |       0.000 |      0.000 |
+| MGTVccaux  |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccadc     |       1.800 |     0.014 |       0.000 |      0.014 |
+| MGTYVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
+| MGTYAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTYAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
++------------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                     |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                            |
+| Clock nodes activity        | High       | User specified more than 95% of clocks                 |                                                                                                            |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view   |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views |
+| Device models               | High       | Device models are Production                           |                                                                                                            |
+|                             |            |                                                        |                                                                                                            |
+| Overall confidence level    | Low        |                                                        |                                                                                                            |
++-----------------------------+------------+--------------------------------------------------------+------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 1.4                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 2.4                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-----------+--------+-----------------+
+| Clock     | Domain | Constraint (ns) |
++-----------+--------+-----------------+
+| clk_pin_p | clk    |            50.0 |
++-----------+--------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++-------------------------------------+-----------+
+| Name                                | Power (W) |
++-------------------------------------+-----------+
+| fft_top                             |     0.098 |
+|   Stage1                            |     0.001 |
+|     mult_add_block_04               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|     mult_add_block_15               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|     mult_add_block_26               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|     mult_add_block_37               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|   Stage2                            |     0.001 |
+|     mult_add_block_02               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|     mult_add_block_13               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|     mult_add_block_46               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|     mult_add_block_57               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|   Stage3                            |     0.002 |
+|     mult_add_block_04               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|     mult_add_block_15               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|     mult_add_block_26               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|     mult_add_block_37               |    <0.001 |
+|       Add_stage                     |    <0.001 |
+|       Mult_stage                    |    <0.001 |
+|       Sub_stage                     |    <0.001 |
+|   clk_IBUF_inst                     |    <0.001 |
+|   data_input_buffered_reg[0][0]_i_1 |    <0.001 |
+|   data_input_buffered_reg[0][1]_i_1 |    <0.001 |
+|   data_input_buffered_reg[0][2]_i_1 |    <0.001 |
+|   data_input_buffered_reg[0][3]_i_1 |    <0.001 |
+|   data_input_buffered_reg[0][4]_i_1 |    <0.001 |
+|   data_input_buffered_reg[0][5]_i_1 |    <0.001 |
+|   data_input_buffered_reg[0][6]_i_1 |    <0.001 |
+|   data_input_buffered_reg[0][7]_i_2 |    <0.001 |
+|   data_input_buffered_reg[1][0]_i_1 |    <0.001 |
+|   data_input_buffered_reg[1][1]_i_1 |    <0.001 |
+|   data_input_buffered_reg[1][2]_i_1 |    <0.001 |
+|   data_input_buffered_reg[1][3]_i_1 |    <0.001 |
+|   data_input_buffered_reg[1][4]_i_1 |    <0.001 |
+|   data_input_buffered_reg[1][5]_i_1 |    <0.001 |
+|   data_input_buffered_reg[1][6]_i_1 |    <0.001 |
+|   data_input_buffered_reg[1][7]_i_1 |    <0.001 |
+|   data_input_buffered_reg[2][0]_i_1 |    <0.001 |
+|   data_input_buffered_reg[2][1]_i_1 |    <0.001 |
+|   data_input_buffered_reg[2][2]_i_1 |    <0.001 |
+|   data_input_buffered_reg[2][3]_i_1 |    <0.001 |
+|   data_input_buffered_reg[2][4]_i_1 |    <0.001 |
+|   data_input_buffered_reg[2][5]_i_1 |    <0.001 |
+|   data_input_buffered_reg[2][6]_i_1 |    <0.001 |
+|   data_input_buffered_reg[2][7]_i_1 |    <0.001 |
+|   data_input_buffered_reg[3][0]_i_1 |    <0.001 |
+|   data_input_buffered_reg[3][1]_i_1 |    <0.001 |
+|   data_input_buffered_reg[3][2]_i_1 |    <0.001 |
+|   data_input_buffered_reg[3][3]_i_1 |    <0.001 |
+|   data_input_buffered_reg[3][4]_i_1 |    <0.001 |
+|   data_input_buffered_reg[3][5]_i_1 |    <0.001 |
+|   data_input_buffered_reg[3][6]_i_1 |    <0.001 |
+|   data_input_buffered_reg[3][7]_i_1 |    <0.001 |
+|   data_input_buffered_reg[4][0]_i_1 |    <0.001 |
+|   data_input_buffered_reg[4][1]_i_1 |    <0.001 |
+|   data_input_buffered_reg[4][2]_i_1 |    <0.001 |
+|   data_input_buffered_reg[4][3]_i_1 |    <0.001 |
+|   data_input_buffered_reg[4][4]_i_1 |    <0.001 |
+|   data_input_buffered_reg[4][5]_i_1 |    <0.001 |
+|   data_input_buffered_reg[4][6]_i_1 |    <0.001 |
+|   data_input_buffered_reg[4][7]_i_1 |    <0.001 |
+|   data_input_buffered_reg[5][0]_i_1 |    <0.001 |
+|   data_input_buffered_reg[5][1]_i_1 |    <0.001 |
+|   data_input_buffered_reg[5][2]_i_1 |    <0.001 |
+|   data_input_buffered_reg[5][3]_i_1 |    <0.001 |
+|   data_input_buffered_reg[5][4]_i_1 |    <0.001 |
+|   data_input_buffered_reg[5][5]_i_1 |    <0.001 |
+|   data_input_buffered_reg[5][6]_i_1 |    <0.001 |
+|   data_input_buffered_reg[5][7]_i_1 |    <0.001 |
+|   data_input_buffered_reg[6][0]_i_1 |    <0.001 |
+|   data_input_buffered_reg[6][1]_i_1 |    <0.001 |
+|   data_input_buffered_reg[6][2]_i_1 |    <0.001 |
+|   data_input_buffered_reg[6][3]_i_1 |    <0.001 |
+|   data_input_buffered_reg[6][4]_i_1 |    <0.001 |
+|   data_input_buffered_reg[6][5]_i_1 |    <0.001 |
+|   data_input_buffered_reg[6][6]_i_1 |    <0.001 |
+|   data_input_buffered_reg[6][7]_i_1 |    <0.001 |
+|   data_input_buffered_reg[7][0]_i_1 |    <0.001 |
+|   data_input_buffered_reg[7][1]_i_1 |    <0.001 |
+|   data_input_buffered_reg[7][2]_i_1 |    <0.001 |
+|   data_input_buffered_reg[7][3]_i_1 |    <0.001 |
+|   data_input_buffered_reg[7][4]_i_1 |    <0.001 |
+|   data_input_buffered_reg[7][5]_i_1 |    <0.001 |
+|   data_input_buffered_reg[7][6]_i_1 |    <0.001 |
+|   data_input_buffered_reg[7][7]_i_1 |    <0.001 |
+|   en_in_IBUF_inst                   |    <0.001 |
+|   rst_n_IBUF_inst                   |     0.000 |
++-------------------------------------+-----------+
+
+

@@ -23,7 +23,8 @@ end butterfly_st1 ;
 architecture butterfly_st1_arch of butterfly_st1 is
 	component mult_add_block 
 		generic(
-			n : integer
+			n : integer;
+			s : integer
 		);
 		port (
   		      a_real,a_imag,b_real,b_imag : in signed ( n downto 0 );
@@ -37,7 +38,8 @@ begin
 
 mult_add_block_04 : mult_add_block
 	generic map(
-		n => 7
+		n => 7,
+		s => 1
 	)
 	port map(
 	 input(0),(others => '0'),input(4),(others => '0'),
@@ -47,7 +49,8 @@ mult_add_block_04 : mult_add_block
 
 mult_add_block_26 : mult_add_block
 	generic map(
-		n => 7
+		n => 7,
+		s => 1
 	)
 	port map(
 	 input(2),(others => '0'),input(6),(others => '0'),
@@ -57,7 +60,8 @@ mult_add_block_26 : mult_add_block
 
 mult_add_block_15 : mult_add_block
 	generic map(
-		n => 7
+		n => 7,
+		s => 1
 	)
 	port map(
 	 input(1),(others => '0'),input(5),(others => '0'),
@@ -67,7 +71,8 @@ mult_add_block_15 : mult_add_block
 
 mult_add_block_37 : mult_add_block
 	generic map(
-		n => 7
+		n => 7,
+		s => 1
 	)
 	port map(
 	 input(3),(others => '0'),input(7),(others => '0'),

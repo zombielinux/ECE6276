@@ -15,8 +15,8 @@ entity complex_mult is
     );
     port(
          
-         a_real : in signed ( w downto 0 );
-         a_imag : in signed ( w downto 0 );
+         w_real : in signed ( w downto 0 );
+         w_imag : in signed ( w downto 0 );
 
          b_real : in signed ( n downto 0 );
          b_imag : in signed ( n downto 0 ) := (others=>'0');
@@ -33,8 +33,8 @@ architecture complex_mult_arch of complex_mult is
 
 begin
 
-	res_real <= resize(a_real*b_real,out_width) - resize(a_imag*b_imag,out_width);
-	res_real <= resize(a_imag*b_real,out_width) + resize(a_real*b_imag,out_width);
+	res_real <= resize(w_real*b_real,out_width+1) - resize(w_imag*b_imag,out_width+1);
+	res_imag <= resize(w_imag*b_real,out_width+1) + resize(w_real*b_imag,out_width+1);
 
 
 

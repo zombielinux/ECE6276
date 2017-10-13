@@ -9,7 +9,8 @@ use ieee.numeric_std.all;
 
 entity mult_add_block is
     generic(
-    	n: integer := 7
+    	n: integer := 7;
+	s: integer := 2
     );
     port(
          a_real : in signed ( n downto 0 );
@@ -21,11 +22,11 @@ entity mult_add_block is
    	 w_real : in signed ( 8 downto 0 );
 	 w_imag : in signed ( 8 downto 0 );
 
-	 x_real : out signed ( n+2 downto 0 );
-	 x_imag : out signed ( n+2 downto 0 );
+	 x_real : out signed ( n+s+1 downto 0 );
+	 x_imag : out signed ( n+s+1 downto 0 );
 
-	 y_real : out signed ( n+2 downto 0 );
-	 y_imag : out signed ( n+2 downto 0 )
+	 y_real : out signed ( n+s+1 downto 0 );
+	 y_imag : out signed ( n+s+1 downto 0 )
 
          
         );
@@ -38,7 +39,7 @@ architecture mult_add_block_arch of mult_add_block is
 		port (
 			w_real, w_imag : in signed ( w downto 0 );
 			b_real,	b_imag : in signed ( n downto 0 );
-			mult_real, mult_imag : out signed (w+n+s downto 0)
+			res_real, res_imag : out signed (w+n+s downto 0)
 		);
 	end component;
 
@@ -46,9 +47,9 @@ architecture mult_add_block_arch of mult_add_block is
 		generic (n,i : integer;
 			op : std_logic);
 		port (
-			a_real,a_imag : in signed (7 downto 0);
-			b_real,b_imag : in signed (16 downto 0);
-			res_real,res_imag : out signed (17 downto 0)
+			a_real,a_imag : in signed (n downto 0);
+			b_real,b_imag : in signed (8+s+n downto 0);
+			res_real,res_imag : out signed (9+s+n downto 0)
 		);
 	end component;
 	
@@ -56,27 +57,27 @@ architecture mult_add_block_arch of mult_add_block is
 		generic (iw : integer);
 		port (
 			a_real,a_imag : in signed (iw downto 0);
-			res_real,res_imag : out signed (iw-8 downto 0)
+			res_real,res_imag : out signed (n+s+1 downto 0)
 		);
 	end component;
 
 	--internal signals to this stage
-	signal mult_real : signed ( 16 downto 0 );
-	signal mult_imag : signed ( 16 downto 0 );
+	signal mult_real : signed ( 8+n+s downto 0 );
+	signal mult_imag : signed ( 8+n+s downto 0 );
 
-	signal add_preshift_real : signed ( 17 downto 0 );
-	signal add_preshift_imag : signed ( 17 downto 0 );
+	signal add_preshift_real : signed ( 9+n+s downto 0 );
+	signal add_preshift_imag : signed ( 9+n+s downto 0 );
 
-	signal sub_preshift_real : signed ( 17 downto 0 );
-	signal sub_preshift_imag : signed ( 17 downto 0 );
+	signal sub_preshift_real : signed ( 9+n+s downto 0 );
+	signal sub_preshift_imag : signed ( 9+n+s downto 0 );
 
 begin
 
 Mult_stage : complex_mult 
 		generic map (
 			w => 8,
-			n => 7,
-			s => 1
+			n => n,
+			s => s
 		)
 		port map (
 			w_real,
@@ -90,8 +91,8 @@ Mult_stage : complex_mult
 --Complex Adder
 Add_stage :  complex_addsub
 	generic map (
-		n => 16,
-		i => 8,
+		n => n,
+		i => 8+s+n,
 		op => '1'
 	)
 	port map(
@@ -108,8 +109,8 @@ Add_stage :  complex_addsub
 -- A-mult_result confirmed. 
 Sub_stage :  complex_addsub
 	generic map (
-		n => 16,
-		i => 8,
+		n => n,
+		i => 8+s+n,
 		op => '0'
 	)
 	port map(
@@ -125,7 +126,7 @@ Sub_stage :  complex_addsub
 --X_right_Shift
 Add_right_shift : eight_right_shift
 	generic map (
-		iw => 17)
+		iw => 9+n+s)
 	port map (
 		add_preshift_real,
 		add_preshift_imag,
@@ -136,7 +137,7 @@ Add_right_shift : eight_right_shift
 --Y_right_Shift
 Sub_right_shift : eight_right_shift
 	generic map (
-		iw => 17)
+		iw => 9+n+s)
 	port map (
 		sub_preshift_real,
 		sub_preshift_imag,

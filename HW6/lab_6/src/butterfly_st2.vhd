@@ -12,10 +12,6 @@ entity butterfly_st2 is
 
     port(
 
-         clk   : in std_logic;
-         rst_n : in std_logic;
-	 en_in : in std_logic;
-
 	 input_r,input_i : in stage1_data_array;
 
          
@@ -35,7 +31,7 @@ architecture butterfly_st2_arch of butterfly_st2 is
 		port (
   		      a_real,a_imag,b_real,b_imag : in signed ( n downto 0 );
 		      w_real,w_imag : in signed ( 8 downto 0 );
-		      x_real,x_imag,y_real,y_imag : out signed ( n+2 downto 0 )
+		      x_real,x_imag,y_real,y_imag : out signed ( n+3 downto 0 )
 		);
 	end component;
 

@@ -1,0 +1,125 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Oct 12 20:21:10 2017
+# Process ID: 7571
+# Current directory: /home/will/DSP/HW6/lab_6/run/project_1/project_1.runs/synth_1
+# Command line: vivado -log fft_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fft_top.tcl
+# Log file: /home/will/DSP/HW6/lab_6/run/project_1/project_1.runs/synth_1/fft_top.vds
+# Journal file: /home/will/DSP/HW6/lab_6/run/project_1/project_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source fft_top.tcl -notrace
+Command: synth_design -top fft_top -part xcku035-ffva1156-3-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcku035-ffva1156'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku035-ffva1156'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7580 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1233.711 ; gain = 45.984 ; free physical = 8481 ; free virtual = 11861
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'fft_top' [/home/will/DSP/HW6/lab_6/src/fft_top.vhd:25]
+INFO: [Synth 8-3491] module 'butterfly_st1' declared at '/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd:11' bound to instance 'Stage1' of component 'butterfly_st1' [/home/will/DSP/HW6/lab_6/src/fft_top.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'butterfly_st1' [/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd:23]
+	Parameter n bound to: 7 - type: integer 
+	Parameter s bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'mult_add_block' declared at '/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:10' bound to instance 'mult_add_block_04' of component 'mult_add_block' [/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'mult_add_block' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:35]
+	Parameter n bound to: 7 - type: integer 
+	Parameter s bound to: 1 - type: integer 
+	Parameter w bound to: 8 - type: integer 
+	Parameter n bound to: 7 - type: integer 
+	Parameter s bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'complex_mult' declared at '/home/will/DSP/HW6/lab_6/src/complex_mult.vhd:10' bound to instance 'Mult_stage' of component 'complex_mult' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'complex_mult' [/home/will/DSP/HW6/lab_6/src/complex_mult.vhd:30]
+	Parameter w bound to: 8 - type: integer 
+	Parameter n bound to: 7 - type: integer 
+	Parameter s bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'complex_mult' (1#1) [/home/will/DSP/HW6/lab_6/src/complex_mult.vhd:30]
+	Parameter n bound to: 7 - type: integer 
+	Parameter i bound to: 16 - type: integer 
+	Parameter op bound to: 1'b1 
+INFO: [Synth 8-3491] module 'complex_addsub' declared at '/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd:10' bound to instance 'Add_stage' of component 'complex_addsub' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'complex_addsub' [/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd:30]
+	Parameter i bound to: 16 - type: integer 
+	Parameter n bound to: 7 - type: integer 
+	Parameter op bound to: 1'b1 
+INFO: [Synth 8-256] done synthesizing module 'complex_addsub' (2#1) [/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd:30]
+	Parameter n bound to: 7 - type: integer 
+	Parameter i bound to: 16 - type: integer 
+	Parameter op bound to: 1'b0 
+INFO: [Synth 8-3491] module 'complex_addsub' declared at '/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd:10' bound to instance 'Sub_stage' of component 'complex_addsub' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'complex_addsub__parameterized1' [/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd:30]
+	Parameter i bound to: 16 - type: integer 
+	Parameter n bound to: 7 - type: integer 
+	Parameter op bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'complex_addsub__parameterized1' (2#1) [/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd:30]
+	Parameter iw bound to: 17 - type: integer 
+INFO: [Synth 8-3491] module 'eight_right_shift' declared at '/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd:10' bound to instance 'Add_right_shift' of component 'eight_right_shift' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'eight_right_shift' [/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd:25]
+	Parameter iw bound to: 17 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'eight_right_shift' (3#1) [/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd:25]
+	Parameter iw bound to: 17 - type: integer 
+INFO: [Synth 8-3491] module 'eight_right_shift' declared at '/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd:10' bound to instance 'Sub_right_shift' of component 'eight_right_shift' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'mult_add_block' (4#1) [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:35]
+	Parameter n bound to: 7 - type: integer 
+	Parameter s bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'mult_add_block' declared at '/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:10' bound to instance 'mult_add_block_26' of component 'mult_add_block' [/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd:50]
+	Parameter n bound to: 7 - type: integer 
+	Parameter s bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'mult_add_block' declared at '/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:10' bound to instance 'mult_add_block_15' of component 'mult_add_block' [/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd:61]
+	Parameter n bound to: 7 - type: integer 
+	Parameter s bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'mult_add_block' declared at '/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:10' bound to instance 'mult_add_block_37' of component 'mult_add_block' [/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'butterfly_st1' (5#1) [/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd:23]
+INFO: [Synth 8-3491] module 'butterfly_st2' declared at '/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd:11' bound to instance 'Stage2' of component 'butterfly_st2' [/home/will/DSP/HW6/lab_6/src/fft_top.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'butterfly_st2' [/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd:26]
+	Parameter n bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'mult_add_block' declared at '/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:10' bound to instance 'mult_add_block_02' of component 'mult_add_block' [/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'mult_add_block__parameterized2' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:35]
+	Parameter n bound to: 9 - type: integer 
+	Parameter s bound to: 2 - type: integer 
+	Parameter w bound to: 8 - type: integer 
+	Parameter n bound to: 9 - type: integer 
+	Parameter s bound to: 2 - type: integer 
+INFO: [Synth 8-3491] module 'complex_mult' declared at '/home/will/DSP/HW6/lab_6/src/complex_mult.vhd:10' bound to instance 'Mult_stage' of component 'complex_mult' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'complex_mult__parameterized1' [/home/will/DSP/HW6/lab_6/src/complex_mult.vhd:30]
+	Parameter w bound to: 8 - type: integer 
+	Parameter n bound to: 9 - type: integer 
+	Parameter s bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'complex_mult__parameterized1' (5#1) [/home/will/DSP/HW6/lab_6/src/complex_mult.vhd:30]
+	Parameter n bound to: 9 - type: integer 
+	Parameter i bound to: 19 - type: integer 
+	Parameter op bound to: 1'b1 
+INFO: [Synth 8-3491] module 'complex_addsub' declared at '/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd:10' bound to instance 'Add_stage' of component 'complex_addsub' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]
+INFO: [Synth 8-638] synthesizing module 'complex_addsub__parameterized3' [/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd:30]
+	Parameter i bound to: 19 - type: integer 
+	Parameter n bound to: 9 - type: integer 
+	Parameter op bound to: 1'b1 
+INFO: [Synth 8-256] done synthesizing module 'complex_addsub__parameterized3' (5#1) [/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd:30]
+ERROR: [Synth 8-549] port width mismatch for port 'a_real': port width = 10, actual width = 8 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]
+ERROR: [Synth 8-549] port width mismatch for port 'a_imag': port width = 10, actual width = 8 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]
+ERROR: [Synth 8-549] port width mismatch for port 'b_real': port width = 20, actual width = 17 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]
+ERROR: [Synth 8-549] port width mismatch for port 'b_imag': port width = 20, actual width = 17 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]
+ERROR: [Synth 8-549] port width mismatch for port 'res_real': port width = 21, actual width = 18 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:52]
+ERROR: [Synth 8-549] port width mismatch for port 'res_imag': port width = 21, actual width = 18 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:52]
+	Parameter n bound to: 9 - type: integer 
+	Parameter i bound to: 19 - type: integer 
+	Parameter op bound to: 1'b0 
+INFO: [Synth 8-3491] module 'complex_addsub' declared at '/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd:10' bound to instance 'Sub_stage' of component 'complex_addsub' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:110]
+	Parameter iw bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'eight_right_shift' declared at '/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd:10' bound to instance 'Add_right_shift' of component 'eight_right_shift' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:127]
+	Parameter iw bound to: 20 - type: integer 
+INFO: [Synth 8-3491] module 'eight_right_shift' declared at '/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd:10' bound to instance 'Sub_right_shift' of component 'eight_right_shift' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:138]
+ERROR: [Synth 8-285] failed synthesizing module 'mult_add_block__parameterized2' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:35]
+ERROR: [Synth 8-285] failed synthesizing module 'butterfly_st2' [/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd:26]
+ERROR: [Synth 8-285] failed synthesizing module 'fft_top' [/home/will/DSP/HW6/lab_6/src/fft_top.vhd:25]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1275.211 ; gain = 87.484 ; free physical = 8491 ; free virtual = 11870
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+37 Infos, 0 Warnings, 0 Critical Warnings and 10 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 12 20:21:35 2017...

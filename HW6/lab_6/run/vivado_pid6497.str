@@ -1,0 +1,519 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 6497
+License: Customer
+
+Current time: 	10/12/17 7:57:35 PM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: CentOS Linux release 7.4.1708 (Core) 
+OS Version: 3.10.0-693.2.2.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 2
+
+Display: :10.0
+Screen size: 1800x1000
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 11 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre
+JVM executable location: 	/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/bin/java
+Java library paths: /opt/Xilinx/Vivado/2017.2/lib/lnx64.o:/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64:/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server:/opt/Xilinx/Vivado/2017.2/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	will
+User home directory: /home/will
+User working directory: /home/will/DSP/HW6/lab_6/run
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2017.2
+RDI_DATADIR: /opt/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2017.2/bin
+
+User preferences location: /home/will/.Xilinx/Vivado
+Vivado preferences directory: /home/will/.Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: /home/will/.Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	/opt/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-6497-localhost.localdomain
+
+GUI allocated memory:	179 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,874 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 37 MB (+36311kb) [00:00:10]
+// [Engine Memory]: 4,874 MB (+4958927kb) [00:00:10]
+// [GUI Memory]: 39 MB (+494kb) [00:00:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,885 MB. GUI used memory: 26 MB. Current time: 10/12/17 7:57:37 PM EDT
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 50 MB (+9402kb) [00:06:49]
+// g:g (cg:JFrame): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 4,929 MB. GUI used memory: 29 MB. Current time: 10/12/17 8:04:14 PM EDT
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // B:JideButton (f:CommandBar, g:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // ac:JMenuItem (ai:JPopupMenu, g:g)
+// [GUI Memory]: 53 MB (+260kb) [00:07:08]
+// Elapsed time: 19 seconds
+String[] filenames31467 = {"/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd", "/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd", "/home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd", "/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd", "/home/will/DSP/HW6/lab_6/src/complex_mult.vhd", "/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd", "/home/will/DSP/HW6/lab_6/src/fft_pkg.vhd", "/home/will/DSP/HW6/lab_6/src/fft_top.vhd", "/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd"};
+setFileChooser(filenames31467);
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_EXISTING_OR_CREATE_NEW_CONSTRAINTS, "Add"); // B:JideButton (f:CommandBar, g:g)
+selectMenuItem(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files..."); // ac:JMenuItem (ai:JPopupMenu, g:g)
+setFileChooser("/home/will/DSP/HW6/constraints_lab6.xdc");
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// [GUI Memory]: 58 MB (+2261kb) [00:07:39]
+// Elapsed time: 78 seconds
+setText("PAResourceOtoP.PartChooser_PARTS_SEARCH_FIELD", "xcku035-ffva1156-3-e"); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, g:g)
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xcku035-ffva1156-3-e ; 1156 ; 520 ; 203128 ; 406256 ; 540 ; 0 ; 1700 ; 16 ; 0 ; 0 ; 0 ; 0 ; 16 ; 0 ; 0 ; 0 ; 2 ; 10 ; 0 ; 100 ; 100 ; E ; 0.970 ; 1.000 ; 1.030", 0, "xcku035-ffva1156-3-e", 0); // ah:r (JViewport:JComponent, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// bs:g (g:g):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project project_1 /home/will/DSP/HW6/lab_6/run/project_1 -part xcku035-ffva1156-3-e 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'. 
+// [GUI Memory]: 66 MB (+5800kb) [00:09:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,982 MB. GUI used memory: 36 MB. Current time: 10/12/17 8:06:23 PM EDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 6047.855 ; gain = 20.949 ; free physical = 8783 ; free virtual = 12144 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property target_language VHDL [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: add_files -norecurse -scan_for_includes {/home/will/DSP/HW6/lab_6/src/fft_top.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd /home/will/DSP/HW6/lab_6/src/fft_pkg.vhd /home/will/DSP/HW6/lab_6/src/complex_mult.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd /home/will/DSP/HW6/lab_6/src/mult_add_block.vhd /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd} 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse /home/will/DSP/HW6/constraints_lab6.xdc 
+// Elapsed time: 11 seconds
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// 'g' command handler elapsed time: 135 seconds
+dismissDialog("Create Project"); // bs:g (g:g)
+dismissDialog("New Project"); // g:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// V:p (cg:JFrame): Specify Top Module: addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceTtoZ.TopModuleDialog_SELECT_TOP_MODULE_OF_YOUR_DESIGN, (String) null); // q:a (ah:r, V:p)
+// bs:g (V:p):  Analyze source files for top modules : addNotify
+// Q:p (V:p): Select Top Module: addNotify
+selectList(PAResourceQtoS.SelectTopModuleDialog_SELECT_TOP_MODULE, "fft_top", 0); // R:a (JViewport:JComponent, Q:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, Q:p)
+dismissDialog("Select Top Module"); // Q:p (V:p)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, V:p)
+// f:p (cg:JFrame): Launch Runs: addNotify
+dismissDialog("Specify Top Module"); // V:p (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Oct 12 20:06:43 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_1/project_1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 12 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_FAILED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah:x (cg:JFrame): Synthesis Failed: addNotify
+// [GUI Memory]: 71 MB (+1648kb) [00:10:22]
+// Elapsed time: 78 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:x (cg:JFrame)
+// Elapsed time: 33 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'a_real': port width = 10, actual width = 8 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'a_real': port width = 10, actual width = 8 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]. , [Synth 8-549] port width mismatch for port 'b_real': port width = 20, actual width = 17 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]. ]", 3, false); // ah:i (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'a_real': port width = 10, actual width = 8 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]. , [Synth 8-549] port width mismatch for port 'a_imag': port width = 10, actual width = 8 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]. ]", 2, false); // ah:i (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 83 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-285] failed synthesizing module 'mult_add_block__parameterized2' [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:35]. ]", 7); // ah:i (JViewport:JComponent, cg:JFrame)
+// [GUI Memory]: 76 MB (+1046kb) [00:14:00]
+// Elapsed time: 82 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,032 MB. GUI used memory: 36 MB. Current time: 10/12/17 8:14:18 PM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 82 MB (+2028kb) [00:19:43]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,064 MB. GUI used memory: 37 MB. Current time: 10/12/17 8:17:08 PM EDT
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 497 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fft_top(fft_top_arch) (fft_top.vhd)]", 1); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fft_top(fft_top_arch) (fft_top.vhd), Stage2 : butterfly_st2(butterfly_st2_arch) (butterfly_st2.vhd)]", 3); // B:i (D:JPanel, cg:JFrame)
+// PAPropertyPanels.initPanels (butterfly_st2.vhd) elapsed time: 0.3s
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fft_top(fft_top_arch) (fft_top.vhd), Stage2 : butterfly_st2(butterfly_st2_arch) (butterfly_st2.vhd)]", 3, true); // B:i (D:JPanel, cg:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fft_top(fft_top_arch) (fft_top.vhd), Stage2 : butterfly_st2(butterfly_st2_arch) (butterfly_st2.vhd), mult_add_block_02 : mult_add_block(mult_add_block_arch) (mult_add_block.vhd)]", 4); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fft_top(fft_top_arch) (fft_top.vhd), Stage2 : butterfly_st2(butterfly_st2_arch) (butterfly_st2.vhd), mult_add_block_02 : mult_add_block(mult_add_block_arch) (mult_add_block.vhd), Add_stage : complex_addsub(complex_addsub_arch) (complex_addsub.vhd)]", 6, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fft_top(fft_top_arch) (fft_top.vhd), Stage2 : butterfly_st2(butterfly_st2_arch) (butterfly_st2.vhd), mult_add_block_02 : mult_add_block(mult_add_block_arch) (mult_add_block.vhd), Add_right_shift : eight_right_shift(eight_right_shift_arch) (eight_right_shift.vhd)]", 8, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// u:p (cg:JFrame): Settings: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,084 MB. GUI used memory: 52 MB. Current time: 10/12/17 8:20:50 PM EDT
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // M:JXTree (C:JPanel, u:p)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, u:p)
+dismissDialog("Settings"); // u:p (cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, launch_runs synth_1. , [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.. ]", 2, false); // ah:i (JViewport:JComponent, cg:JFrame)
+// [GUI Memory]: 88 MB (+2871kb) [00:23:40]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Oct 12 20:21:09 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_1/project_1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 6 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_FAILED
+// ah:x (cg:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 32 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:x (cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// x:aN (cg:JFrame): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, x:aN)
+// bs:g (cg:JFrame):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // x:aN (cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,007 MB. GUI used memory: 50 MB. Current time: 10/12/17 8:21:52 PM EDT
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bs:g (cg:JFrame)
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// g:g (cg:JFrame): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // B:JideButton (f:CommandBar, g:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // ac:JMenuItem (ai:JPopupMenu, g:g)
+// Elapsed time: 16 seconds
+String[] filenames16706 = {"/home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd", "/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd", "/home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd", "/home/will/DSP/HW6/lab_6/src/complex_addsub.vhd", "/home/will/DSP/HW6/lab_6/src/complex_mult.vhd", "/home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd", "/home/will/DSP/HW6/lab_6/src/fft_pkg.vhd", "/home/will/DSP/HW6/lab_6/src/fft_top.vhd", "/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd"};
+setFileChooser(filenames16706);
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VHDLSourceFile_small ; 7 ; fft_pkg.vhd ; xil_defaultlib ; Synthesis & Simulation ; /home/will/DSP/HW6/lab_6/src", 6, "fft_pkg.vhd", 2); // bB:r (JViewport:JComponent, g:g)
+selectButton(RDIResource.AbstractCombinedPanel_MOVE_SELECTED_ELEMENT_UP, "Move Up"); // B:JideButton (f:CommandBar, g:g)
+selectButton(RDIResource.AbstractCombinedPanel_MOVE_SELECTED_ELEMENT_UP, "Move Up"); // B:JideButton (f:CommandBar, g:g)
+selectButton(RDIResource.AbstractCombinedPanel_MOVE_SELECTED_ELEMENT_UP, "Move Up"); // B:JideButton (f:CommandBar, g:g)
+selectButton(RDIResource.AbstractCombinedPanel_MOVE_SELECTED_ELEMENT_UP, "Move Up"); // B:JideButton (f:CommandBar, g:g)
+selectButton(RDIResource.AbstractCombinedPanel_MOVE_SELECTED_ELEMENT_UP, "Move Up"); // B:JideButton (f:CommandBar, g:g)
+selectTable(PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, "VHDLSourceFile_small ; 8 ; fft_top.vhd ; xil_defaultlib ; Synthesis & Simulation ; /home/will/DSP/HW6/lab_6/src", 7, "fft_top.vhd", 2); // bB:r (JViewport:JComponent, g:g)
+selectButton(RDIResource.AbstractCombinedPanel_MOVE_SELECTED_ELEMENT_UP, "Move Up"); // B:JideButton (f:CommandBar, g:g)
+selectButton(RDIResource.AbstractCombinedPanel_MOVE_SELECTED_ELEMENT_UP, "Move Up"); // B:JideButton (f:CommandBar, g:g)
+selectButton(RDIResource.AbstractCombinedPanel_MOVE_SELECTED_ELEMENT_UP, "Move Up"); // B:JideButton (f:CommandBar, g:g)
+selectButton(RDIResource.AbstractCombinedPanel_MOVE_SELECTED_ELEMENT_UP, "Move Up"); // B:JideButton (f:CommandBar, g:g)
+selectButton(RDIResource.AbstractCombinedPanel_MOVE_SELECTED_ELEMENT_UP, "Move Up"); // B:JideButton (f:CommandBar, g:g)
+// [GUI Memory]: 94 MB (+1343kb) [00:25:16]
+// Elapsed time: 16 seconds
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_EXISTING_OR_CREATE_NEW_CONSTRAINTS, "Add"); // B:JideButton (f:CommandBar, g:g)
+selectMenuItem(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files..."); // ac:JMenuItem (ai:JPopupMenu, g:g)
+setFileChooser("/home/will/DSP/HW6/constraints_lab6.xdc");
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xcku035-ffva1156-3-e ; 1156 ; 520 ; 203128 ; 406256 ; 540 ; 0 ; 1700 ; 16 ; 0 ; 0 ; 0 ; 0 ; 16 ; 0 ; 0 ; 0 ; 2 ; 10 ; 0 ; 100 ; 100 ; E ; 0.970 ; 1.000 ; 1.030", 0, "406256", 4); // ah:r (JViewport:JComponent, g:g)
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xcku035-ffva1156-3-e ; 1156 ; 520 ; 203128 ; 406256 ; 540 ; 0 ; 1700 ; 16 ; 0 ; 0 ; 0 ; 0 ; 16 ; 0 ; 0 ; 0 ; 2 ; 10 ; 0 ; 100 ; 100 ; E ; 0.970 ; 1.000 ; 1.030", 0, "406256", 4, false, false, false, false, true); // ah:r (JViewport:JComponent, g:g) - Double Click
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// bs:g (g:g):  Create Project : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project project_2 /home/will/DSP/HW6/lab_6/run/project_2 -part xcku035-ffva1156-3-e 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 6197.195 ; gain = 0.000 ; free physical = 8677 ; free virtual = 12057 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property target_language VHDL [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: add_files -norecurse -scan_for_includes {/home/will/DSP/HW6/lab_6/src/fft_top.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd /home/will/DSP/HW6/lab_6/src/fft_pkg.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd /home/will/DSP/HW6/lab_6/src/complex_mult.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd /home/will/DSP/HW6/lab_6/src/mult_add_block.vhd /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd} 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse /home/will/DSP/HW6/constraints_lab6.xdc 
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// 'g' command handler elapsed time: 82 seconds
+dismissDialog("Create Project"); // bs:g (g:g)
+dismissDialog("New Project"); // g:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Oct 12 20:23:26 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_FAILED
+// Elapsed time: 28 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR, "10 errors"); // h:k (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// ah:x (cg:JFrame): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:x (cg:JFrame)
+// Elapsed time: 12 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'a_real': port width = 10, actual width = 8 [/home/will/DSP/HW6/lab_6/src/mult_add_block.vhd:92]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 338 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Oct 12 20:29:53 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_FAILED
+// ah:x (cg:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 50 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:x (cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'x_real': port width = 13, actual width = 12 [/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd:34]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+// [GUI Memory]: 99 MB (+164kb) [00:34:19]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 332 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Oct 12 20:36:24 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_FAILED
+// ah:x (cg:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 30 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:x (cg:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'x_real': port width = 13, actual width = 12 [/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd:34]. ]", 1, true); // ah:i (JViewport:JComponent, cg:JFrame) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'x_real': port width = 13, actual width = 12 [/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd:34]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,116 MB. GUI used memory: 54 MB. Current time: 10/12/17 8:37:38 PM EDT
+// Elapsed time: 74 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Oct 12 20:38:16 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_FAILED
+// ah:x (cg:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 28 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:x (cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-549] port width mismatch for port 'x_real': port width = 13, actual width = 11 [/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd:34]. ]", 1); // ah:i (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-285] failed synthesizing module 'butterfly_st2' [/home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd:26]. ]", 17); // ah:i (JViewport:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 5,132 MB (+15662kb) [00:42:12]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 90 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+// Elapsed time: 10 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Oct 12 20:40:33 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 10 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_FAILED
+// ah:x (cg:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 29 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:x (cg:JFrame)
+// [GUI Memory]: 104 MB (+304kb) [00:43:41]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,148 MB. GUI used memory: 54 MB. Current time: 10/12/17 8:41:33 PM EDT
+// Elapsed time: 50 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Oct 12 20:41:58 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 80 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Thu Oct 12 20:43:26 2017] Launched impl_1... Run output will be captured here: /home/will/DSP/HW6/lab_6/run/project_2/project_2.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 7 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Implementation Completed: addNotify
+// Elapsed time: 1010 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bs:g (cg:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,436 MB. GUI used memory: 55 MB. Current time: 10/12/17 9:00:24 PM EDT
+// [Engine Memory]: 5,461 MB (+75989kb) [01:03:02]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END

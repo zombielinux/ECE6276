@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Oct 12 19:57:05 2017
+# Process ID: 6497
+# Current directory: /home/will/DSP/HW6/lab_6/run
+# Command line: vivado
+# Log file: /home/will/DSP/HW6/lab_6/run/vivado.log
+# Journal file: /home/will/DSP/HW6/lab_6/run/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project project_1 /home/will/DSP/HW6/lab_6/run/project_1 -part xcku035-ffva1156-3-e
+set_property target_language VHDL [current_project]
+add_files -norecurse -scan_for_includes {/home/will/DSP/HW6/lab_6/src/fft_top.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd /home/will/DSP/HW6/lab_6/src/fft_pkg.vhd /home/will/DSP/HW6/lab_6/src/complex_mult.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd /home/will/DSP/HW6/lab_6/src/mult_add_block.vhd /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd}
+add_files -fileset constrs_1 -norecurse /home/will/DSP/HW6/constraints_lab6.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_project
+create_project project_2 /home/will/DSP/HW6/lab_6/run/project_2 -part xcku035-ffva1156-3-e
+set_property target_language VHDL [current_project]
+add_files -norecurse -scan_for_includes {/home/will/DSP/HW6/lab_6/src/fft_top.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st3.vhd /home/will/DSP/HW6/lab_6/src/eight_right_shift.vhd /home/will/DSP/HW6/lab_6/src/fft_pkg.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st2.vhd /home/will/DSP/HW6/lab_6/src/complex_mult.vhd /home/will/DSP/HW6/lab_6/src/butterfly_st1.vhd /home/will/DSP/HW6/lab_6/src/mult_add_block.vhd /home/will/DSP/HW6/lab_6/src/complex_addsub.vhd}
+add_files -fileset constrs_1 -norecurse /home/will/DSP/HW6/constraints_lab6.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+open_run impl_1
