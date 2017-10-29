@@ -10,10 +10,13 @@ use ieee.numeric_std.all;
 
 entity mac is
 --port list
+    generic(
+	n: integer :=8
+	);
     port(
-          a_in,b_in,c_in : in std_logic_vector   ( 7  downto 0);
+          a_in,b_in,c_in : in std_logic_vector   ( n-1  downto 0);
           ctrl_in        : in std_logic_vector ( 1  downto 0);
-          mac_unit_out   : out std_logic_vector  ( 16 downto 0)
+          mac_unit_out   : out std_logic_vector  ( 2*n downto 0)
         );
 end mac ;
 
@@ -23,6 +26,8 @@ begin
 		mac_unit_out <= std_logic_vector("00000000000000000" + signed(a_in)+signed(c_in)) when "00",
 		std_logic_vector("00000000000000000" + (signed(a_in) * signed(b_in))) when "01",
 		std_logic_vector("00000000000000000" + (signed(a_in) * signed(b_in)) + signed(c_in)) when "10",
+--		"00000000000000001" when "01",
+--		"00000000000000010" when "10", 
 		"00000000000000000" when others;
 
 

@@ -1,0 +1,170 @@
+\documentclass[11pt]{report}
+%Libraries in alphabetical Order, Date added Tab Spaced after
+\usepackage{amsmath}				%1-15-2015
+\usepackage{caption}				%1-17-2015
+\usepackage{floatflt}				%1-15-2015
+\usepackage{graphics}				%1-15-2015
+\usepackage{listings}             	%1-17-2015
+\usepackage[pdftex]{graphicx}		%1-14-2015
+\usepackage{subcaption}				%1-17-2015
+\usepackage[xindy]{glossaries}		%1-14-2015
+\usepackage{wrapfig,lipsum,booktabs}%2-8-2015
+\usepackage[T1]{fontenc}
+\usepackage{pdfpages}
+\usepackage{multicol}
+
+%		\begin{figure}[!ht]
+% 		 \caption{X axis is number of nodes, Y axis is energy consumed. }
+  %		 \centering
+ %   	 \includegraphics[width=.9\textwidth]{Q3c.png}
+%		\end{figure}
+
+
+\begin{titlepage}
+\title{
+		\Huge{
+				\textbf{ECE 6276
+						\\DSP Hardware System Design
+						\\Fall 2017}}
+			\\[2cm]
+		\LARGE{
+			\textnormal{Lab 6}}
+			\\[1cm]
+			\date{\today}
+		\large{
+			\author{William Sutton}
+		}}
+
+
+\end{titlepage}
+
+\usepackage{amsmath}
+\begin{document}
+\lstset{language=MATLAB}
+\maketitle
+	
+
+		
+\newpage		
+\subsection*{Slice LUTs}
+\small
+\begin{lstlisting}
++-------------------------+------+-------+-----------+-------+
+|        Site Type        | Used | Fixed | Available | Util% |
++-------------------------+------+-------+-----------+-------+
+| CLB LUTs                |  954 |     0 |    203128 |  0.47 |
+|   LUT as Logic          |  954 |     0 |    203128 |  0.47 |
+|   LUT as Memory         |    0 |     0 |    112800 |  0.00 |
+| CLB Registers           |  322 |     0 |    406256 |  0.08 |
+|   Register as Flip Flop |  322 |     0 |    406256 |  0.08 |
+|   Register as Latch     |    0 |     0 |    406256 |  0.00 |
+| CARRY8                  |  154 |     0 |     30300 |  0.51 |
+| F7 Muxes                |    0 |     0 |    121200 |  0.00 |
+| F8 Muxes                |    0 |     0 |     60600 |  0.00 |
+| F9 Muxes                |    0 |     0 |     30300 |  0.00 |
++-------------------------+------+-------+-----------+-------+
+\end{lstlisting}
+
+
+\newpage
+\subsection*{IO}
+\small
+\begin{lstlisting}
++------------------+------+-------+-----------+-------+
+|     Site Type    | Used | Fixed | Available | Util% |
++------------------+------+-------+-----------+-------+
+| Bonded IOB       |  324 |     0 |       520 | 62.31 |
+| HPIOB            |  228 |     0 |       416 | 54.81 |
+|   INPUT          |   67 |       |           |       |
+|   OUTPUT         |  161 |       |           |       |
+|   BIDIR          |    0 |       |           |       |
+| HRIO             |   96 |     0 |       104 | 92.31 |
+|   INPUT          |    0 |       |           |       |
+|   OUTPUT         |   96 |       |           |       |
+|   BIDIR          |    0 |       |           |       |
+| HPIOBDIFFINBUF   |    0 |     0 |       192 |  0.00 |
+| HPIOBDIFFOUTBUF  |    0 |     0 |       192 |  0.00 |
+| HRIODIFFINBUF    |    0 |     0 |        48 |  0.00 |
+| HRIODIFFOUTBUF   |    0 |     0 |        48 |  0.00 |
+| BITSLICE_CONTROL |    0 |     0 |        80 |  0.00 |
+| BITSLICE_RX_TX   |    0 |     0 |       520 |  0.00 |
+| BITSLICE_TX      |    0 |     0 |        80 |  0.00 |
+| RIU_OR           |    0 |     0 |        40 |  0.00 |
++------------------+------+-------+-----------+-------+
+\end{lstlisting}
+
+\newpage
+
+\subsection*{Primitives}
+\small
+\begin{lstlisting}
++----------+------+---------------------+
+| Ref Name | Used | Functional Category |
++----------+------+---------------------+
+| LUT2     |  715 |                 CLB |
+| FDRE     |  321 |            Register |
+| OBUF     |  257 |                 I/O |
+| LUT3     |  208 |                 CLB |
+| CARRY8   |  154 |                 CLB |
+| LUT1     |  113 |                 CLB |
+| LUT4     |   94 |                 CLB |
+| INBUF    |   67 |                 I/O |
+| IBUFCTRL |   67 |              Others |
+| LUT5     |   22 |                 CLB |
+| DSP48E2  |   16 |          Arithmetic |
+| LUT6     |   12 |                 CLB |
+| FDCE     |    1 |            Register |
+| BUFGCE   |    1 |               Clock |
++----------+------+---------------------+
+\end{lstlisting}
+
+\newpage
+
+
+\subsection*{Mac not-optimized power}
+\small
+\begin{lstlisting}
++--------------------------+-------+
+| Total On-Chip Power (W)  | 0.603 |
+| Dynamic (W)              | 0.098 |
+| Device Static (W)        | 0.505 |
+| Effective TJA (C/W)      | 1.4   |
+| Max Ambient (C)          | 99.1  |
+| Junction Temperature (C) | 25.9  |
+| Confidence Level         | Low   |
+| Setting File             | ---   |
+| Simulation Activity File | ---   |
+| Design Nets Matched      | NA    |
++--------------------------+-------+
+\end{lstlisting}
+
+
+\subsection*{Worst Negative Slack (WNS)}
+\subsubsection*{Answer: 43.007ns}
+\begin{lstlisting}
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+     38.933        0.000                      0                  257        0.161        0.000                      0                  257       24.725        0.000                       0                   323  
+\end{lstlisting}
+\newpage
+
+
+
+
+
+
+
+
+
+\normalsize
+\section*{Answer to question:}
+The values of the twiddle factors are chosen because they are a certain angular distance away from each other on the unit circle. Since they are all ROOTS of unity, they all reside on the unit circle itself (therefore making them useful for a DFT). The angle by which they are separated is what actually gets us our 1.8 resolution for the signed numbers. 
+
+
+
+\end{document}
