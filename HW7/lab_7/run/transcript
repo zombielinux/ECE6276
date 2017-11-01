@@ -1,7 +1,44 @@
-vlib work
-vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/mac.vhd
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 17:39:50 on Oct 31,2017
+# Start time: 14:24:44 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(23): near "12": (vcom-1576) expecting BEGIN.
+# End time: 14:24:44 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 14:25:12 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# End time: 14:25:12 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 14:26:03 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# End time: 14:26:03 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW7/lab_7/src/mac.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 14:29:35 on Nov 01,2017
 # vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/mac.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -9,219 +46,320 @@ vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/mac.vhd
 # -- Loading package NUMERIC_STD
 # -- Compiling entity mac
 # -- Compiling architecture mac_arch of mac
-# End time: 17:39:50 on Oct 31,2017, Elapsed time: 0:00:00
+# End time: 14:29:35 on Nov 01,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 17:39:55 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# Start time: 14:30:31 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(28): Illegal target for signal assignment.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(28): near ":": (vcom-1576) expecting ')'.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): near ":": (vcom-1576) expecting ')'.
-# End time: 17:39:55 on Oct 31,2017, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-vsim work.overunder
-# vsim work.overunder 
-# Start time: 18:23:01 on Oct 31,2017
-# Loading std.standard
-# ** Error: (vsim-3173) Entity '/home/will/DSP/HW7/lab_7/run/work.overunder' has no architecture.
-# Error loading design
-# End time: 18:23:01 on Oct 31,2017, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 18:23:04 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(28): Illegal target for signal assignment.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(28): near ":": (vcom-1576) expecting ')'.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): near ":": (vcom-1576) expecting ')'.
-# End time: 18:23:04 on Oct 31,2017, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 18:24:28 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): near ":": (vcom-1576) expecting ')'.
-# End time: 18:24:28 on Oct 31,2017, Elapsed time: 0:00:00
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(26): near "macblock": (vcom-1576) expecting BEGIN.
+# End time: 14:30:31 on Nov 01,2017, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
 # /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 18:24:45 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# Start time: 14:31:01 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): near ":": (vcom-1576) expecting ')'.
-# End time: 18:24:46 on Oct 31,2017, Elapsed time: 0:00:01
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(40): near "end": (vcom-1576) expecting ';'.
+# End time: 14:31:01 on Nov 01,2017, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
 # /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 20:58:32 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# Start time: 14:31:10 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): Illegal concurrent statement.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(33): Illegal concurrent statement.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(44): VHDL Compiler exiting
-# End time: 20:58:32 on Oct 31,2017, Elapsed time: 0:00:00
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(37): Illegal sequential statement.
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(37): Illegal architecture specification.
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(42): VHDL Compiler exiting
+# End time: 14:31:10 on Nov 01,2017, Elapsed time: 0:00:00
 # Errors: 3, Warnings: 0
 # /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 20:58:52 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# Start time: 14:31:50 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): Illegal concurrent statement.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(33): Illegal concurrent statement.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(44): VHDL Compiler exiting
-# End time: 20:58:52 on Oct 31,2017, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 20:58:58 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): Illegal concurrent statement.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(33): Illegal concurrent statement.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(44): VHDL Compiler exiting
-# End time: 20:58:58 on Oct 31,2017, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 21:01:51 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(25): Prefix of slice name cannot be type conversion (STD_LOGIC_VECTOR) expression.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(27): near "begin": (vcom-1576) expecting ';'.
-# End time: 21:01:51 on Oct 31,2017, Elapsed time: 0:00:00
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(28): Illegal architecture specification.
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(45): VHDL Compiler exiting
+# End time: 14:31:50 on Nov 01,2017, Elapsed time: 0:00:00
 # Errors: 2, Warnings: 0
 # /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 21:02:12 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# Start time: 14:32:15 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(25): Prefix of slice name cannot be type conversion (STD_LOGIC_VECTOR) expression.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(25): Object alias must refer to a variable, signal, constant, or file.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(46): VHDL Compiler exiting
-# End time: 21:02:12 on Oct 31,2017, Elapsed time: 0:00:00
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(28): Signal "ctrl_in" is type ieee.NUMERIC_STD.UNSIGNED; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(28): Signal "mac_out" is type ieee.NUMERIC_STD.SIGNED; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(45): VHDL Compiler exiting
+# End time: 14:32:15 on Nov 01,2017, Elapsed time: 0:00:00
 # Errors: 3, Warnings: 0
 # /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+vcom -work work /home/will/DSP/HW7/lab_7/src/mac.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 21:02:34 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# Start time: 14:32:25 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/mac.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# End time: 21:02:34 on Oct 31,2017, Elapsed time: 0:00:00
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 14:32:25 on Nov 01,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 21:03:08 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# Start time: 14:32:29 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(32): Illegal concurrent statement.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(46): VHDL Compiler exiting
-# End time: 21:03:08 on Oct 31,2017, Elapsed time: 0:00:00
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(28): Signal "ctrl_in" is type ieee.NUMERIC_STD.UNSIGNED; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(28): Signal "mac_out" is type ieee.NUMERIC_STD.SIGNED; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(45): VHDL Compiler exiting
+# End time: 14:32:29 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 14:33:04 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(28): Signal "ctrl_in" is type ieee.NUMERIC_STD.UNSIGNED; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(28): Signal "mac_out" is type ieee.NUMERIC_STD.SIGNED; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(45): VHDL Compiler exiting
+# End time: 14:33:04 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/mac.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 14:33:08 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/mac.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /home/will/DSP/HW7/lab_7/src/mac.vhd(26): Type conversion (to ieee.std_logic_1164.STD_LOGIC_VECTOR) conflicts with expected type ieee.NUMERIC_STD.SIGNED.
+# ** Error: /home/will/DSP/HW7/lab_7/src/mac.vhd(27): Type conversion (to ieee.std_logic_1164.STD_LOGIC_VECTOR) conflicts with expected type ieee.NUMERIC_STD.SIGNED.
+# ** Error: /home/will/DSP/HW7/lab_7/src/mac.vhd(28): Type conversion (to ieee.std_logic_1164.STD_LOGIC_VECTOR) conflicts with expected type ieee.NUMERIC_STD.SIGNED.
+# ** Error: /home/will/DSP/HW7/lab_7/src/mac.vhd(34): VHDL Compiler exiting
+# End time: 14:33:08 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/mac.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 14:33:23 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/mac.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# ** Error: /home/will/DSP/HW7/lab_7/src/mac.vhd(26): Type conversion (to ieee.std_logic_1164.STD_LOGIC_VECTOR) conflicts with expected type ieee.NUMERIC_STD.SIGNED.
+# ** Error: /home/will/DSP/HW7/lab_7/src/mac.vhd(27): Type conversion (to ieee.std_logic_1164.STD_LOGIC_VECTOR) conflicts with expected type ieee.NUMERIC_STD.SIGNED.
+# ** Error: /home/will/DSP/HW7/lab_7/src/mac.vhd(28): Type conversion (to ieee.std_logic_1164.STD_LOGIC_VECTOR) conflicts with expected type ieee.NUMERIC_STD.SIGNED.
+# ** Error: /home/will/DSP/HW7/lab_7/src/mac.vhd(34): VHDL Compiler exiting
+# End time: 14:33:23 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/mac.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 14:34:12 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/mac.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 14:34:12 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 14:34:16 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(28): Signal "ctrl_in" is type ieee.NUMERIC_STD.UNSIGNED; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(45): VHDL Compiler exiting
+# End time: 14:34:16 on Nov 01,2017, Elapsed time: 0:00:00
 # Errors: 2, Warnings: 0
 # /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 21:04:00 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# Start time: 14:34:35 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(32): Illegal concurrent statement.
-# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(46): VHDL Compiler exiting
-# End time: 21:04:00 on Oct 31,2017, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# End time: 14:34:35 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 21:07:58 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# Start time: 15:27:13 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Warning: /home/will/DSP/HW7/lab_7/src/overunder.vhd(43): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
-# End time: 21:07:58 on Oct 31,2017, Elapsed time: 0:00:00
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# -- Loading entity round
+# End time: 15:27:13 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW7/lab_7/src/saturation.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 15:42:59 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/saturation.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity saturation
+# -- Compiling architecture saturation_arch of saturation
+# ** Warning: /home/will/DSP/HW7/lab_7/src/saturation.vhd(38): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# End time: 15:42:59 on Nov 01,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
-vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
-# Start time: 21:08:42 on Oct 31,2017
-# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# Start time: 15:44:43 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity overunder
-# -- Compiling architecture overunder_arch of overunder
-# ** Warning: /home/will/DSP/HW7/lab_7/src/overunder.vhd(43): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
-# End time: 21:08:42 on Oct 31,2017, Elapsed time: 0:00:00
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# -- Loading entity round
+# -- Loading entity overunder
+# ** Error: (vcom-11) Could not find work.satblock.
+# ** Error (suppressible): /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(35): (vcom-1195) Cannot find expanded name "work.satblock".
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(35): Unknown expanded name.
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(46): near "end": (vcom-1576) expecting ';'.
+# End time: 15:44:43 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 15:45:01 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# -- Loading entity round
+# -- Loading entity overunder
+# -- Loading entity saturation
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(46): near "end": (vcom-1576) expecting ';'.
+# End time: 15:45:01 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 15:45:14 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# -- Loading entity round
+# -- Loading entity overunder
+# -- Loading entity saturation
+# ** Error: /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd(46): near "end": (vcom-1576) expecting ';'.
+# End time: 15:45:14 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 15:45:23 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_v2_top
+# -- Compiling architecture processor_v2_top_arch of processor_v2_top
+# -- Loading entity mac
+# -- Loading entity round
+# -- Loading entity overunder
+# -- Loading entity saturation
+# End time: 15:45:23 on Nov 01,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/tb/tb_processor_v2.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 15:45:33 on Nov 01,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/tb/tb_processor_v2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package ENV
+# ** Warning: /home/will/DSP/HW7/lab_7/tb/tb_processor_v2.vhd(10): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# -- Loading package std_logic_textio
+# -- Compiling entity tb_processor_v2
+# -- Compiling architecture tb_processor_v2_arch of tb_processor_v2
+# End time: 15:45:33 on Nov 01,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1

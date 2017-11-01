@@ -16,8 +16,7 @@ entity saturation is
     port(
 		overunder_in : in signed ( n downto 0 );
 		overunder_stat: in std_logic_vector( 1 downto 0 );
-		saturation_out : out signed ( n-5 downto 0 );
-		out_valid : out std_logic
+		saturation_out : out signed ( n-5 downto 0 )
         );
 end saturation ;
 

@@ -42,7 +42,7 @@ begin
 			a_in <= operand_a_in;
 			b_in <= operand_b_in;
 			c_in <= operand_c_in;
-			result_out <= saturation_out;
+			result_out <= saturation_out
 		end if;	
 	--Clock data out of MAC
 	--Clock data out of rounding block
