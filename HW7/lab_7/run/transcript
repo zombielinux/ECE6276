@@ -1,0 +1,227 @@
+vlib work
+vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/mac.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 17:39:50 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/mac.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mac
+# -- Compiling architecture mac_arch of mac
+# End time: 17:39:50 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 17:39:55 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(28): Illegal target for signal assignment.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(28): near ":": (vcom-1576) expecting ')'.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): near ":": (vcom-1576) expecting ')'.
+# End time: 17:39:55 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vsim work.overunder
+# vsim work.overunder 
+# Start time: 18:23:01 on Oct 31,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity '/home/will/DSP/HW7/lab_7/run/work.overunder' has no architecture.
+# Error loading design
+# End time: 18:23:01 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:23:04 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(28): Illegal target for signal assignment.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(28): near ":": (vcom-1576) expecting ')'.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): near ":": (vcom-1576) expecting ')'.
+# End time: 18:23:04 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:24:28 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): near ":": (vcom-1576) expecting ')'.
+# End time: 18:24:28 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 18:24:45 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): near ":": (vcom-1576) expecting ')'.
+# End time: 18:24:46 on Oct 31,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 20:58:32 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(33): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(44): VHDL Compiler exiting
+# End time: 20:58:32 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 20:58:52 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(33): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(44): VHDL Compiler exiting
+# End time: 20:58:52 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 20:58:58 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(30): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(33): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(44): VHDL Compiler exiting
+# End time: 20:58:58 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 21:01:51 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(25): Prefix of slice name cannot be type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(27): near "begin": (vcom-1576) expecting ';'.
+# End time: 21:01:51 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 21:02:12 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(25): Prefix of slice name cannot be type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(25): Object alias must refer to a variable, signal, constant, or file.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(46): VHDL Compiler exiting
+# End time: 21:02:12 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 21:02:34 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# End time: 21:02:34 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 21:03:08 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(32): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(46): VHDL Compiler exiting
+# End time: 21:03:08 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 21:04:00 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(32): Illegal concurrent statement.
+# ** Error: /home/will/DSP/HW7/lab_7/src/overunder.vhd(46): VHDL Compiler exiting
+# End time: 21:04:00 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/will/intelFPGA_pro/17.0/modelsim_ase/linuxaloem/vcom failed.
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 21:07:58 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Warning: /home/will/DSP/HW7/lab_7/src/overunder.vhd(43): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# End time: 21:07:58 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5c Compiler 2017.01 Jan 23 2017
+# Start time: 21:08:42 on Oct 31,2017
+# vcom -reportprogress 300 -work work /home/will/DSP/HW7/lab_7/src/overunder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity overunder
+# -- Compiling architecture overunder_arch of overunder
+# ** Warning: /home/will/DSP/HW7/lab_7/src/overunder.vhd(43): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# End time: 21:08:42 on Oct 31,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

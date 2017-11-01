@@ -85,3 +85,4 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_M_DATA, DSP_MULTIPLIER, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 16 instances
   IBUF => IBUF (INBUF, IBUFCTRL): 67 instances
 
+open_run: Time (s): cpu = 00:00:30 ; elapsed = 00:00:25 . Memory (MB): peak = 6913.250 ; gain = 651.559 ; free physical = 7485 ; free virtual = 11370

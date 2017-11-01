@@ -29,17 +29,17 @@ begin
 	overunder_out <= rounded_in;
 --	msbs <= rounded_in(n:n-4);	
 	process begin
-		if (topfive = "11111") or (topfive = "00000") then
-			overunder_stat <= "00";
-		else
-			if (rounded_in(n) = '1') then
+	if (topfive = "11111") or (topfive = "00000") then
+		overunder_stat <= "00";
+	else
+		if (rounded_in(n) = '1') then
 --		--Underflow
-				overunder_stat <= "01";
-			else
+			overunder_stat <= "01";
+		else
 --		--Overflow		
-				overunder_stat <= "10";
-			end if;
+			overunder_stat <= "10";
 		end if;
+	end if;
 	end process;	
 
 
