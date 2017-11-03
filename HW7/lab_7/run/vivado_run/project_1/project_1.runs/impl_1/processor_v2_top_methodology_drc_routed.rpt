@@ -1,0 +1,271 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Thu Nov  2 22:45:19 2017
+| Host         : localhost.localdomain running 64-bit unknown
+| Command      : report_methodology -file processor_v2_top_methodology_drc_routed.rpt -rpx processor_v2_top_methodology_drc_routed.rpx
+| Design       : processor_v2_top
+| Device       : xcku035-ffva1156-3-e
+| Speed File   : -3
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 47
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay | 38         |
+| TIMING-20 | Warning  | Non-clocked latch             | 9          |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on ctrl_in[0] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on ctrl_in[1] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on en_in relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on operand_a_in[0] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on operand_a_in[1] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on operand_a_in[2] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on operand_a_in[3] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on operand_a_in[4] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on operand_a_in[5] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on operand_a_in[6] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on operand_a_in[7] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on operand_b_in[0] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on operand_b_in[1] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An input delay is missing on operand_b_in[2] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An input delay is missing on operand_b_in[3] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An input delay is missing on operand_b_in[4] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An input delay is missing on operand_b_in[5] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An input delay is missing on operand_b_in[6] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An input delay is missing on operand_b_in[7] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An input delay is missing on operand_c_in[0] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An input delay is missing on operand_c_in[1] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An input delay is missing on operand_c_in[2] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An input delay is missing on operand_c_in[3] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An input delay is missing on operand_c_in[4] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An input delay is missing on operand_c_in[5] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An input delay is missing on operand_c_in[6] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An input delay is missing on operand_c_in[7] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An input delay is missing on rst_n relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An output delay is missing on out_valid relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An output delay is missing on result_out[0] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#31 Warning
+Missing input or output delay  
+An output delay is missing on result_out[1] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#32 Warning
+Missing input or output delay  
+An output delay is missing on result_out[2] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#33 Warning
+Missing input or output delay  
+An output delay is missing on result_out[3] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#34 Warning
+Missing input or output delay  
+An output delay is missing on result_out[4] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#35 Warning
+Missing input or output delay  
+An output delay is missing on result_out[5] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#36 Warning
+Missing input or output delay  
+An output delay is missing on result_out[6] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#37 Warning
+Missing input or output delay  
+An output delay is missing on result_out[7] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-18#38 Warning
+Missing input or output delay  
+An output delay is missing on result_out[8] relative to clock(s) clk_pin_p 
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch overunderblock/overunder_out_reg[0] cannot be properly analyzed as its control pin overunderblock/overunder_out_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch overunderblock/overunder_out_reg[1] cannot be properly analyzed as its control pin overunderblock/overunder_out_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch overunderblock/overunder_out_reg[2] cannot be properly analyzed as its control pin overunderblock/overunder_out_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch overunderblock/overunder_out_reg[3] cannot be properly analyzed as its control pin overunderblock/overunder_out_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch overunderblock/overunder_out_reg[4] cannot be properly analyzed as its control pin overunderblock/overunder_out_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch overunderblock/overunder_out_reg[5] cannot be properly analyzed as its control pin overunderblock/overunder_out_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch overunderblock/overunder_out_reg[6] cannot be properly analyzed as its control pin overunderblock/overunder_out_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch overunderblock/overunder_out_reg[7] cannot be properly analyzed as its control pin overunderblock/overunder_out_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch overunderblock/overunder_out_reg[8] cannot be properly analyzed as its control pin overunderblock/overunder_out_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+

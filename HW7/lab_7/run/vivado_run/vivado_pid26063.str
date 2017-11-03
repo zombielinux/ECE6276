@@ -1,0 +1,159 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 26063
+License: Customer
+
+Current time: 	11/2/17 10:39:36 PM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: CentOS Linux release 7.4.1708 (Core) 
+OS Version: 3.10.0-693.2.2.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :10.0
+Screen size: 1200x1200
+Screen resolution (DPI): 95
+Available screens: 1
+Available disk space: 11 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre
+JVM executable location: 	/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/bin/java
+Java library paths: /opt/Xilinx/Vivado/2017.2/lib/lnx64.o:/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64:/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server:/opt/Xilinx/Vivado/2017.2/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	will
+User home directory: /home/will
+User working directory: /home/will/DSP/HW7/lab_7/run/vivado_run
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2017.2
+RDI_DATADIR: /opt/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2017.2/bin
+
+User preferences location: /home/will/.Xilinx/Vivado
+Vivado preferences directory: /home/will/.Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: /home/will/.Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	/opt/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-26063-localhost.localdomain
+
+GUI allocated memory:	148 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,879 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 48 MB (+47738kb) [00:00:09]
+// [Engine Memory]: 4,877 MB (+4962228kb) [00:00:09]
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 50 MB (+195kb) [00:00:14]
+// [GUI Memory]: 62 MB (+9237kb) [00:00:14]
+// g:g (cg:JFrame): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 4,924 MB. GUI used memory: 29 MB. Current time: 11/2/17 10:39:39 PM EDT
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a:JButton (C:JPanel, g:g)
+String[] filenames31467 = {"/home/will/DSP/HW7/lab_7/src/mac.vhd", "/home/will/DSP/HW7/lab_7/src/overunder.vhd", "/home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd", "/home/will/DSP/HW7/lab_7/src/round.vhd", "/home/will/DSP/HW7/lab_7/src/saturation.vhd"};
+setFileChooser(filenames31467);
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a:JButton (C:JPanel, g:g)
+setFileChooser("/home/will/DSP/HW7/constratins_lab7.xdc");
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// bs:g (g:g):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project project_1 /home/will/DSP/HW7/lab_7/run/vivado_run/project_1 -part xcku035-ffva1156-3-e 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,006 MB. GUI used memory: 35 MB. Current time: 11/2/17 10:40:20 PM EDT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 6072.465 ; gain = 19.461 ; free physical = 6098 ; free virtual = 9526 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property target_language VHDL [current_project] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: add_files -norecurse -scan_for_includes {/home/will/DSP/HW7/lab_7/src/round.vhd /home/will/DSP/HW7/lab_7/src/saturation.vhd /home/will/DSP/HW7/lab_7/src/overunder.vhd /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd /home/will/DSP/HW7/lab_7/src/mac.vhd} 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse /home/will/DSP/HW7/constratins_lab7.xdc 
+// Elapsed time: 10 seconds
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, g:g)
+// 'g' command handler elapsed time: 45 seconds
+dismissDialog("Create Project"); // bs:g (g:g)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("New Project"); // g:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 65 MB (+348kb) [00:01:03]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Thu Nov  2 22:40:36 2017] Launched synth_1... Run output will be captured here: /home/will/DSP/HW7/lab_7/run/vivado_run/project_1/project_1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// [GUI Memory]: 70 MB (+1639kb) [00:01:47]
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 80 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f:p (cg:JFrame): Launch Runs: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,042 MB. GUI used memory: 37 MB. Current time: 11/2/17 10:41:58 PM EDT
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Thu Nov  2 22:42:07 2017] Launched impl_1... Run output will be captured here: /home/will/DSP/HW7/lab_7/run/vivado_run/project_1/project_1.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 9 seconds
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 76 MB (+2798kb) [00:03:36]
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Implementation Completed: addNotify
+// Elapsed time: 210 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, ah:x)
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // g:JCheckBox (JPanel:JComponent, ah:x): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Implementation Completed"); // ah:x (cg:JFrame)
+// [GUI Memory]: 81 MB (+1167kb) [00:06:18]
