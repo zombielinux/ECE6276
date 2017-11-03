@@ -15,26 +15,26 @@ entity saturation is
 	);
     port(
 		overunder_in : in signed ( n downto 0 );
-		overunder_stat: in std_logic_vector( 1 downto 0 );
-		saturation_out : out signed ( n-5 downto 0 );
-		out_valid : out std_logic
+		clk : in std_logic;
+		overunder_stat : in std_logic_vector (1 downto 0);
+		saturation_out : out signed ( 8 downto 0 )
         );
 end saturation ;
 
 architecture saturation_arch of saturation is
 
+signal temp : std_logic_vector ( n downto 0);
 begin
-	process begin
-		if (overunder_stat = "00") then
-			saturation_out <= overunder_in( n-5 downto 0 );
+	process (clk) begin
+	
+		if (overunder_stat = "01") then
+			saturation_out <= "100000000";
+		elsif (overunder_Stat = "00") then
+			saturation_out <= "011111111";
 		else
-			if (overunder_stat(0) = '1') then 
-				--Underflow
-				saturation_out <= "100000000";
-			else
-				saturation_out <= "011111111";
-			end if;
+			saturation_out <= overunder_in(8 downto 0);
+			--saturation_out <= "010101010";
 		end if;
-	end process;	
+	end process;
 
 end saturation_arch;

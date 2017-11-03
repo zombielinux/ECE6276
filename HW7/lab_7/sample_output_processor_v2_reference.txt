@@ -1,0 +1,1016 @@
+Cycle number     output_valid     output_value     
+0                     0           dont care
+1                     0           dont care
+2                     0           dont care
+3                     0           dont care
+4                     0           dont care
+5                     0           dont care
+6                     1           011111111
+7                     1           100000000
+8                     1           000000001
+9                     1           000000001
+10                     1           011111111
+11                     1           000000001
+12                     1           000010001
+13                     1           111110010
+14                     1           000000001
+15                     1           011111111
+16                     1           000000001
+17                     1           011111111
+18                     0           dont care
+19                     1           000000001
+20                     0           dont care
+21                     0           dont care
+22                     1           100011001
+23                     0           dont care
+24                     1           011101011
+25                     1           011111111
+26                     1           000000001
+27                     1           000000001
+28                     0           dont care
+29                     0           dont care
+30                     1           000000001
+31                     1           000000001
+32                     0           dont care
+33                     1           111111111
+34                     1           000000001
+35                     1           111111101
+36                     1           011111111
+37                     0           dont care
+38                     1           001110110
+39                     0           dont care
+40                     0           dont care
+41                     1           000000101
+42                     1           111011001
+43                     0           dont care
+44                     0           dont care
+45                     1           011011110
+46                     1           000001001
+47                     1           111111110
+48                     1           000000001
+49                     0           dont care
+50                     1           000000000
+51                     1           000000001
+52                     0           dont care
+53                     0           dont care
+54                     1           111101000
+55                     1           111101000
+56                     0           dont care
+57                     0           dont care
+58                     1           001100100
+59                     0           dont care
+60                     1           000000101
+61                     0           dont care
+62                     1           111111001
+63                     1           100000000
+64                     1           000000001
+65                     0           dont care
+66                     1           000000001
+67                     1           000010000
+68                     0           dont care
+69                     1           101100000
+70                     1           000000001
+71                     1           000000010
+72                     0           dont care
+73                     0           dont care
+74                     1           010101110
+75                     1           100101111
+76                     0           dont care
+77                     1           111110111
+78                     1           000000001
+79                     1           110000100
+80                     1           000000101
+81                     0           dont care
+82                     0           dont care
+83                     0           dont care
+84                     1           010101010
+85                     0           dont care
+86                     0           dont care
+87                     0           dont care
+88                     1           011110000
+89                     1           010101111
+90                     0           dont care
+91                     1           101001000
+92                     1           100101001
+93                     1           011111111
+94                     0           dont care
+95                     0           dont care
+96                     1           000000001
+97                     1           011001100
+98                     0           dont care
+99                     0           dont care
+100                     0           dont care
+101                     1           000000001
+102                     0           dont care
+103                     1           000000001
+104                     0           dont care
+105                     0           dont care
+106                     0           dont care
+107                     0           dont care
+108                     1           000000101
+109                     1           011110000
+110                     0           dont care
+111                     1           101100010
+112                     0           dont care
+113                     0           dont care
+114                     1           000000001
+115                     0           dont care
+116                     0           dont care
+117                     1           000000001
+118                     0           dont care
+119                     1           100100101
+120                     1           000000001
+121                     0           dont care
+122                     1           111111101
+123                     0           dont care
+124                     1           100000100
+125                     0           dont care
+126                     0           dont care
+127                     1           111111000
+128                     1           000000001
+129                     0           dont care
+130                     1           001000111
+131                     1           000000011
+132                     1           011001001
+133                     1           111110111
+134                     1           011010011
+135                     0           dont care
+136                     1           011001101
+137                     1           000000001
+138                     1           101100110
+139                     1           111111100
+140                     1           011001010
+141                     0           dont care
+142                     1           000000001
+143                     0           dont care
+144                     0           dont care
+145                     0           dont care
+146                     1           001010010
+147                     0           dont care
+148                     0           dont care
+149                     0           dont care
+150                     0           dont care
+151                     1           010000001
+152                     1           000001111
+153                     1           000000001
+154                     1           111111111
+155                     1           101001010
+156                     0           dont care
+157                     1           000000001
+158                     1           110101000
+159                     1           000000101
+160                     0           dont care
+161                     0           dont care
+162                     1           100100100
+163                     0           dont care
+164                     0           dont care
+165                     1           000000001
+166                     1           101110110
+167                     0           dont care
+168                     0           dont care
+169                     1           111111110
+170                     0           dont care
+171                     0           dont care
+172                     0           dont care
+173                     1           000000001
+174                     1           000000001
+175                     0           dont care
+176                     1           000000001
+177                     0           dont care
+178                     1           011111111
+179                     1           110001101
+180                     1           000000001
+181                     1           111111101
+182                     1           111011001
+183                     1           000000001
+184                     0           dont care
+185                     0           dont care
+186                     0           dont care
+187                     0           dont care
+188                     1           000000001
+189                     1           000001100
+190                     1           011111010
+191                     1           000001101
+192                     0           dont care
+193                     0           dont care
+194                     0           dont care
+195                     1           000000001
+196                     1           000001100
+197                     0           dont care
+198                     0           dont care
+199                     0           dont care
+200                     1           010111101
+201                     1           111111111
+202                     0           dont care
+203                     1           010010111
+204                     1           111111101
+205                     0           dont care
+206                     1           111001110
+207                     0           dont care
+208                     0           dont care
+209                     0           dont care
+210                     0           dont care
+211                     0           dont care
+212                     1           000001100
+213                     0           dont care
+214                     0           dont care
+215                     1           110001101
+216                     1           000000001
+217                     0           dont care
+218                     0           dont care
+219                     0           dont care
+220                     0           dont care
+221                     1           000000001
+222                     0           dont care
+223                     0           dont care
+224                     0           dont care
+225                     1           000000001
+226                     0           dont care
+227                     1           101111100
+228                     1           011000100
+229                     0           dont care
+230                     0           dont care
+231                     0           dont care
+232                     1           000000110
+233                     1           000000001
+234                     0           dont care
+235                     0           dont care
+236                     1           110110000
+237                     0           dont care
+238                     1           000000011
+239                     1           110000101
+240                     1           011111111
+241                     0           dont care
+242                     0           dont care
+243                     0           dont care
+244                     0           dont care
+245                     0           dont care
+246                     0           dont care
+247                     1           000000001
+248                     1           000000001
+249                     1           110110111
+250                     0           dont care
+251                     1           000000001
+252                     0           dont care
+253                     1           000011000
+254                     1           011111111
+255                     0           dont care
+256                     1           101110010
+257                     1           010111001
+258                     1           111110001
+259                     1           000000001
+260                     0           dont care
+261                     0           dont care
+262                     0           dont care
+263                     0           dont care
+264                     0           dont care
+265                     0           dont care
+266                     0           dont care
+267                     1           011111111
+268                     0           dont care
+269                     1           000001001
+270                     1           000000001
+271                     1           000110010
+272                     0           dont care
+273                     0           dont care
+274                     1           000000001
+275                     0           dont care
+276                     0           dont care
+277                     0           dont care
+278                     1           000000001
+279                     0           dont care
+280                     0           dont care
+281                     0           dont care
+282                     1           100000000
+283                     1           010010000
+284                     1           111000011
+285                     0           dont care
+286                     1           111111110
+287                     1           000000110
+288                     0           dont care
+289                     0           dont care
+290                     1           000000001
+291                     0           dont care
+292                     0           dont care
+293                     0           dont care
+294                     0           dont care
+295                     0           dont care
+296                     1           100011101
+297                     0           dont care
+298                     0           dont care
+299                     1           010010010
+300                     0           dont care
+301                     1           000000001
+302                     0           dont care
+303                     1           111111110
+304                     1           101000101
+305                     1           000000001
+306                     0           dont care
+307                     1           000011111
+308                     0           dont care
+309                     1           011111111
+310                     1           000001100
+311                     0           dont care
+312                     1           000000001
+313                     1           000111101
+314                     1           000000000
+315                     0           dont care
+316                     1           001010110
+317                     0           dont care
+318                     1           000000001
+319                     1           011111111
+320                     0           dont care
+321                     1           000000001
+322                     0           dont care
+323                     1           111111110
+324                     1           000000001
+325                     1           001111010
+326                     0           dont care
+327                     0           dont care
+328                     1           101000111
+329                     0           dont care
+330                     0           dont care
+331                     0           dont care
+332                     1           100000000
+333                     0           dont care
+334                     1           001101001
+335                     1           110111100
+336                     0           dont care
+337                     0           dont care
+338                     0           dont care
+339                     0           dont care
+340                     0           dont care
+341                     1           010110001
+342                     0           dont care
+343                     1           011111111
+344                     1           111111100
+345                     0           dont care
+346                     0           dont care
+347                     0           dont care
+348                     1           000000011
+349                     1           111110111
+350                     0           dont care
+351                     0           dont care
+352                     1           000101101
+353                     1           000000001
+354                     0           dont care
+355                     1           000000001
+356                     1           000000001
+357                     0           dont care
+358                     1           110001011
+359                     0           dont care
+360                     0           dont care
+361                     1           001010111
+362                     0           dont care
+363                     1           011110011
+364                     0           dont care
+365                     0           dont care
+366                     1           011010110
+367                     0           dont care
+368                     0           dont care
+369                     0           dont care
+370                     0           dont care
+371                     0           dont care
+372                     0           dont care
+373                     0           dont care
+374                     1           000000001
+375                     1           111111101
+376                     1           111111101
+377                     1           101111101
+378                     1           000000100
+379                     1           000000001
+380                     1           000000001
+381                     0           dont care
+382                     1           000000001
+383                     0           dont care
+384                     0           dont care
+385                     0           dont care
+386                     0           dont care
+387                     1           000000011
+388                     1           000000001
+389                     0           dont care
+390                     0           dont care
+391                     0           dont care
+392                     0           dont care
+393                     1           000000011
+394                     0           dont care
+395                     0           dont care
+396                     0           dont care
+397                     0           dont care
+398                     1           111111110
+399                     0           dont care
+400                     0           dont care
+401                     0           dont care
+402                     1           011001111
+403                     0           dont care
+404                     1           000000011
+405                     1           000000001
+406                     1           000111100
+407                     0           dont care
+408                     1           000001001
+409                     1           000000001
+410                     1           110111111
+411                     0           dont care
+412                     0           dont care
+413                     0           dont care
+414                     1           010000111
+415                     1           000000001
+416                     1           111111101
+417                     1           000000011
+418                     0           dont care
+419                     0           dont care
+420                     1           000000011
+421                     0           dont care
+422                     1           000000001
+423                     0           dont care
+424                     1           000000001
+425                     0           dont care
+426                     1           000000001
+427                     0           dont care
+428                     0           dont care
+429                     0           dont care
+430                     1           111111100
+431                     0           dont care
+432                     0           dont care
+433                     1           000000001
+434                     1           111111011
+435                     1           000000100
+436                     1           110100000
+437                     1           111010100
+438                     0           dont care
+439                     1           000000001
+440                     0           dont care
+441                     1           111111111
+442                     1           000000100
+443                     0           dont care
+444                     0           dont care
+445                     1           000000001
+446                     0           dont care
+447                     1           000000101
+448                     0           dont care
+449                     1           100011010
+450                     0           dont care
+451                     1           000000001
+452                     0           dont care
+453                     0           dont care
+454                     0           dont care
+455                     0           dont care
+456                     0           dont care
+457                     0           dont care
+458                     0           dont care
+459                     0           dont care
+460                     0           dont care
+461                     0           dont care
+462                     1           111111101
+463                     1           011111111
+464                     0           dont care
+465                     0           dont care
+466                     1           111111010
+467                     0           dont care
+468                     0           dont care
+469                     0           dont care
+470                     1           101101111
+471                     1           011111100
+472                     0           dont care
+473                     0           dont care
+474                     0           dont care
+475                     0           dont care
+476                     1           000000001
+477                     0           dont care
+478                     1           110000010
+479                     1           000000001
+480                     1           011111111
+481                     1           000000001
+482                     1           111110010
+483                     1           000000001
+484                     1           111111101
+485                     0           dont care
+486                     1           100001100
+487                     1           000100000
+488                     0           dont care
+489                     1           000000001
+490                     0           dont care
+491                     1           111111001
+492                     1           100010101
+493                     1           011110011
+494                     1           000000001
+495                     1           101101001
+496                     0           dont care
+497                     1           010000011
+498                     1           111010110
+499                     1           001101110
+500                     0           dont care
+501                     0           dont care
+502                     0           dont care
+503                     0           dont care
+504                     1           111111100
+505                     0           dont care
+506                     1           000000001
+507                     0           dont care
+508                     0           dont care
+509                     1           010110101
+510                     1           001100011
+511                     1           000000001
+512                     1           111110000
+513                     0           dont care
+514                     1           101110101
+515                     0           dont care
+516                     0           dont care
+517                     0           dont care
+518                     1           011111111
+519                     0           dont care
+520                     1           010010001
+521                     1           000010110
+522                     1           000000001
+523                     1           000000001
+524                     1           000000010
+525                     1           100010111
+526                     1           100110000
+527                     0           dont care
+528                     0           dont care
+529                     0           dont care
+530                     0           dont care
+531                     1           000001010
+532                     1           001010010
+533                     0           dont care
+534                     0           dont care
+535                     0           dont care
+536                     1           111110111
+537                     1           000000001
+538                     1           100000000
+539                     1           111111100
+540                     0           dont care
+541                     0           dont care
+542                     1           110111000
+543                     1           000000111
+544                     0           dont care
+545                     1           000000010
+546                     0           dont care
+547                     0           dont care
+548                     0           dont care
+549                     1           000000001
+550                     1           011111111
+551                     0           dont care
+552                     0           dont care
+553                     1           000000001
+554                     1           100000000
+555                     0           dont care
+556                     0           dont care
+557                     0           dont care
+558                     0           dont care
+559                     1           000000001
+560                     1           110001101
+561                     0           dont care
+562                     0           dont care
+563                     0           dont care
+564                     0           dont care
+565                     0           dont care
+566                     0           dont care
+567                     1           100000000
+568                     0           dont care
+569                     0           dont care
+570                     1           000000000
+571                     1           000000001
+572                     0           dont care
+573                     0           dont care
+574                     0           dont care
+575                     0           dont care
+576                     0           dont care
+577                     0           dont care
+578                     1           000000001
+579                     1           010001110
+580                     1           110100011
+581                     1           000001010
+582                     1           000000001
+583                     1           000000001
+584                     0           dont care
+585                     0           dont care
+586                     0           dont care
+587                     1           000000001
+588                     1           000000001
+589                     0           dont care
+590                     1           001111001
+591                     0           dont care
+592                     1           000000001
+593                     1           000000001
+594                     0           dont care
+595                     0           dont care
+596                     1           101111111
+597                     0           dont care
+598                     1           000000001
+599                     1           100100000
+600                     1           111100010
+601                     0           dont care
+602                     1           000000001
+603                     0           dont care
+604                     1           000000001
+605                     0           dont care
+606                     0           dont care
+607                     0           dont care
+608                     1           000000001
+609                     1           000000001
+610                     1           000000001
+611                     1           111111101
+612                     1           000001101
+613                     0           dont care
+614                     1           110110010
+615                     1           000000111
+616                     0           dont care
+617                     1           000000001
+618                     0           dont care
+619                     0           dont care
+620                     1           000000001
+621                     0           dont care
+622                     1           000000010
+623                     1           100000000
+624                     0           dont care
+625                     1           111111001
+626                     0           dont care
+627                     1           000000001
+628                     0           dont care
+629                     0           dont care
+630                     0           dont care
+631                     1           000000001
+632                     0           dont care
+633                     1           111110011
+634                     1           000000001
+635                     0           dont care
+636                     1           011111111
+637                     1           011010001
+638                     1           001110000
+639                     0           dont care
+640                     0           dont care
+641                     0           dont care
+642                     0           dont care
+643                     1           111111111
+644                     0           dont care
+645                     0           dont care
+646                     0           dont care
+647                     0           dont care
+648                     1           001001110
+649                     0           dont care
+650                     1           000000110
+651                     1           000000010
+652                     1           000000001
+653                     1           111100000
+654                     1           000010001
+655                     0           dont care
+656                     0           dont care
+657                     0           dont care
+658                     0           dont care
+659                     1           100000000
+660                     0           dont care
+661                     1           111000111
+662                     1           000000001
+663                     0           dont care
+664                     0           dont care
+665                     1           000000001
+666                     0           dont care
+667                     0           dont care
+668                     1           111001111
+669                     1           001111001
+670                     0           dont care
+671                     1           000000001
+672                     0           dont care
+673                     0           dont care
+674                     1           011111111
+675                     1           000000001
+676                     0           dont care
+677                     0           dont care
+678                     1           111110111
+679                     1           111111100
+680                     0           dont care
+681                     1           000000001
+682                     1           000000001
+683                     0           dont care
+684                     0           dont care
+685                     0           dont care
+686                     1           011001101
+687                     1           000000001
+688                     1           000001011
+689                     1           110111100
+690                     0           dont care
+691                     1           100000000
+692                     1           000000001
+693                     1           100000000
+694                     0           dont care
+695                     0           dont care
+696                     1           100011011
+697                     1           000011011
+698                     1           000000001
+699                     1           000000001
+700                     0           dont care
+701                     1           000001000
+702                     1           111000010
+703                     1           000000001
+704                     1           101010110
+705                     0           dont care
+706                     0           dont care
+707                     1           001101100
+708                     0           dont care
+709                     0           dont care
+710                     0           dont care
+711                     0           dont care
+712                     1           000000001
+713                     1           000000001
+714                     1           000000001
+715                     0           dont care
+716                     1           101100010
+717                     0           dont care
+718                     0           dont care
+719                     0           dont care
+720                     0           dont care
+721                     0           dont care
+722                     1           000101111
+723                     0           dont care
+724                     1           000000001
+725                     0           dont care
+726                     1           000001000
+727                     1           110000111
+728                     0           dont care
+729                     1           111110011
+730                     1           000000001
+731                     0           dont care
+732                     0           dont care
+733                     0           dont care
+734                     1           010100010
+735                     1           111111101
+736                     0           dont care
+737                     1           000000001
+738                     0           dont care
+739                     0           dont care
+740                     0           dont care
+741                     0           dont care
+742                     0           dont care
+743                     0           dont care
+744                     0           dont care
+745                     1           000101011
+746                     1           001101111
+747                     0           dont care
+748                     1           111111100
+749                     1           000000101
+750                     1           111111011
+751                     1           101001110
+752                     1           010110101
+753                     0           dont care
+754                     1           000000001
+755                     0           dont care
+756                     0           dont care
+757                     0           dont care
+758                     1           111110111
+759                     1           001010100
+760                     1           000000001
+761                     1           000000000
+762                     0           dont care
+763                     0           dont care
+764                     1           100000000
+765                     0           dont care
+766                     1           001110100
+767                     0           dont care
+768                     0           dont care
+769                     0           dont care
+770                     0           dont care
+771                     1           100111000
+772                     0           dont care
+773                     1           000000001
+774                     1           000001110
+775                     0           dont care
+776                     1           010101001
+777                     0           dont care
+778                     1           100110000
+779                     1           100010100
+780                     0           dont care
+781                     0           dont care
+782                     1           000000111
+783                     0           dont care
+784                     0           dont care
+785                     0           dont care
+786                     1           000001011
+787                     1           000000001
+788                     0           dont care
+789                     1           011001001
+790                     1           000000001
+791                     1           000000100
+792                     0           dont care
+793                     0           dont care
+794                     0           dont care
+795                     1           001111000
+796                     1           000000101
+797                     0           dont care
+798                     1           000000001
+799                     0           dont care
+800                     1           111110011
+801                     0           dont care
+802                     1           000000001
+803                     0           dont care
+804                     0           dont care
+805                     1           100000000
+806                     0           dont care
+807                     0           dont care
+808                     1           000000001
+809                     0           dont care
+810                     1           000000001
+811                     1           111111011
+812                     1           011101000
+813                     1           000000001
+814                     0           dont care
+815                     0           dont care
+816                     0           dont care
+817                     1           011101000
+818                     0           dont care
+819                     0           dont care
+820                     1           110101110
+821                     0           dont care
+822                     0           dont care
+823                     1           000001111
+824                     1           000000000
+825                     1           110011110
+826                     1           011001110
+827                     0           dont care
+828                     0           dont care
+829                     0           dont care
+830                     1           111001010
+831                     0           dont care
+832                     0           dont care
+833                     0           dont care
+834                     1           111111010
+835                     0           dont care
+836                     0           dont care
+837                     1           000000001
+838                     1           000000001
+839                     0           dont care
+840                     0           dont care
+841                     0           dont care
+842                     0           dont care
+843                     1           111111110
+844                     0           dont care
+845                     0           dont care
+846                     1           000000001
+847                     1           000000000
+848                     0           dont care
+849                     0           dont care
+850                     0           dont care
+851                     1           000000001
+852                     0           dont care
+853                     0           dont care
+854                     1           010111101
+855                     1           000000001
+856                     1           000000111
+857                     0           dont care
+858                     0           dont care
+859                     0           dont care
+860                     1           000000001
+861                     1           000000001
+862                     0           dont care
+863                     0           dont care
+864                     1           000000011
+865                     1           000000001
+866                     1           000000001
+867                     0           dont care
+868                     0           dont care
+869                     1           110111110
+870                     1           000000001
+871                     1           011010000
+872                     0           dont care
+873                     1           000000001
+874                     1           111110010
+875                     1           111100110
+876                     0           dont care
+877                     0           dont care
+878                     1           101010111
+879                     1           000000001
+880                     0           dont care
+881                     1           000000001
+882                     1           000000001
+883                     1           110101001
+884                     1           010011011
+885                     1           111111110
+886                     0           dont care
+887                     1           001000011
+888                     0           dont care
+889                     1           000000001
+890                     1           010000010
+891                     0           dont care
+892                     1           000000000
+893                     0           dont care
+894                     0           dont care
+895                     1           110011011
+896                     1           000000001
+897                     1           000010010
+898                     1           000000001
+899                     0           dont care
+900                     0           dont care
+901                     0           dont care
+902                     0           dont care
+903                     0           dont care
+904                     0           dont care
+905                     0           dont care
+906                     1           000000001
+907                     0           dont care
+908                     1           110001000
+909                     1           000011011
+910                     0           dont care
+911                     0           dont care
+912                     0           dont care
+913                     0           dont care
+914                     0           dont care
+915                     0           dont care
+916                     1           000001010
+917                     1           000000001
+918                     0           dont care
+919                     1           100001000
+920                     1           000010010
+921                     0           dont care
+922                     0           dont care
+923                     0           dont care
+924                     1           000000001
+925                     1           001001001
+926                     0           dont care
+927                     0           dont care
+928                     1           010010001
+929                     0           dont care
+930                     1           000000001
+931                     0           dont care
+932                     0           dont care
+933                     1           000000001
+934                     1           111110110
+935                     0           dont care
+936                     0           dont care
+937                     1           101001011
+938                     0           dont care
+939                     0           dont care
+940                     0           dont care
+941                     1           111110110
+942                     1           000000001
+943                     1           000000001
+944                     1           000001100
+945                     0           dont care
+946                     0           dont care
+947                     1           100000111
+948                     1           000000001
+949                     1           101100100
+950                     1           000000001
+951                     0           dont care
+952                     1           000000001
+953                     0           dont care
+954                     1           100000000
+955                     1           110010000
+956                     1           000000101
+957                     1           000000001
+958                     1           010001000
+959                     0           dont care
+960                     1           111110110
+961                     1           100011010
+962                     1           010101110
+963                     0           dont care
+964                     1           011111111
+965                     0           dont care
+966                     0           dont care
+967                     1           000111001
+968                     1           011011011
+969                     0           dont care
+970                     0           dont care
+971                     0           dont care
+972                     1           011111111
+973                     1           000111111
+974                     1           000111001
+975                     1           000000001
+976                     1           000000100
+977                     0           dont care
+978                     0           dont care
+979                     0           dont care
+980                     1           000000011
+981                     0           dont care
+982                     0           dont care
+983                     0           dont care
+984                     0           dont care
+985                     0           dont care
+986                     0           dont care
+987                     1           000000001
+988                     0           dont care
+989                     0           dont care
+990                     0           dont care
+991                     1           000010111
+992                     1           111010110
+993                     1           100000000
+994                     0           dont care
+995                     0           dont care
+996                     0           dont care
+997                     0           dont care
+998                     1           111001000
+999                     1           011000001
+1000                     1           000000100
+1001                     1           100000000
+1002                     0           dont care
+1003                     1           000000001
+1004                     0           dont care
+1005                     0           dont care
+1006                     0           dont care
+1007                     1           000000001
+1008                     1           110110011
+1009                     1           000000001
+1010                     0           dont care
+1011                     0           dont care
+1012                     1           000000110
+1013                     0           dont care
+1014                     1           111101111

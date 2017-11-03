@@ -16,19 +16,29 @@ entity mac is
     port(
           a_in,b_in,c_in : in signed   ( n-1  downto 0);
           ctrl_in        : in std_logic_vector ( 1  downto 0);
-          mac_unit_out   : out signed  ( 2*n downto 0)
+          mac_unit_out   : out signed  ( 16 downto 0)
         );
 end mac ;
 
 architecture mac_arch of mac is
-begin
-	with ctrl_in select
-		mac_unit_out <= signed(a_in)+signed(c_in) when "00",
-		(signed(a_in) * signed(b_in)) when "01",
-		((signed(a_in) * signed(b_in)) + signed(c_in)) when "10",
---		"00000000000000001" when "01",
---		"00000000000000010" when "10", 
-		"00000000000000000" when others;
 
+	constant mac_out_length : integer := mac_unit_out'length;
+	signal mul_a,mul_b,sum_c : signed (n-1 downto 0);
+
+begin
+
+	with (ctrl_in(0) and ctrl_in(1)) select
+		mul_a <= (others => '0') when '1',
+		a_in when others;
+
+	with (ctrl_in(0) xor ctrl_in(1)) select
+		mul_b <= (0 => '1', others => '0') when '0',
+		b_in when others;
+
+	with ctrl_in(0) select
+		sum_c <= c_in when '0',
+		(others => '0') when others;
+
+	mac_unit_out <= resize(mul_a*mul_b+sum_c,mac_out_length);
 
 end mac_arch;

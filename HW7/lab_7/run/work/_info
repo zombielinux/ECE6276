@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 d/home/will/DSP/HW7/lab_7/run
 Emac
-Z1 w1509561243
+Z1 w1509584206
 Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -18,13 +18,13 @@ Z5 8/home/will/DSP/HW7/lab_7/src/mac.vhd
 Z6 F/home/will/DSP/HW7/lab_7/src/mac.vhd
 l0
 L11
-VTnD[CX9O>3^<o:bM3jZM83
-!s100 =IkC7bU9c?=j=0h6E;^[H0
+VR4nQJL`JUY3LdAGhZ_lcP0
+!s100 :QC9PZEH>bHmSmZZnH?MY1
 Z7 OV;C;10.5c;63
 32
-Z8 !s110 1509561252
+Z8 !s110 1509673771
 !i10b 1
-Z9 !s108 1509561252.000000
+Z9 !s108 1509673771.000000
 Z10 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW7/lab_7/src/mac.vhd|
 Z11 !s107 /home/will/DSP/HW7/lab_7/src/mac.vhd|
 !i113 1
@@ -34,11 +34,11 @@ Amac_arch
 R2
 R3
 R4
-Z14 DEx4 work 3 mac 0 22 TnD[CX9O>3^<o:bM3jZM83
-l24
+Z14 DEx4 work 3 mac 0 22 R4nQJL`JUY3LdAGhZ_lcP0
+l28
 L23
-V0G9b<RQBaP1]@zb49YK1V1
-!s100 2<YEJRoP34dGO5Cf_7BgF1
+V^8DEA;9I@HAhlP9Z5NZGK3
+!s100 Vh:e5P[a0Q@k9[joX7SC]1
 R7
 32
 R8
@@ -50,111 +50,110 @@ R11
 R12
 R13
 Eoverunder
-w1509498518
+Z15 w1509673917
 R2
 R3
 R4
 R0
-Z15 8/home/will/DSP/HW7/lab_7/src/overunder.vhd
-Z16 F/home/will/DSP/HW7/lab_7/src/overunder.vhd
+Z16 8/home/will/DSP/HW7/lab_7/src/overunder.vhd
+Z17 F/home/will/DSP/HW7/lab_7/src/overunder.vhd
 l0
 L11
-VXDR712cee;D3OSn2BK_@b2
-!s100 5lzD3FVMc>L<U>WPgE>d[3
+V?`QB<[?fzeh;<cHiE;bdX2
+!s100 RU2BQ]iCl;i^93zQzSmfm3
 R7
 32
-Z17 !s110 1509498522
+Z18 !s110 1509673924
 !i10b 1
-Z18 !s108 1509498522.000000
-Z19 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW7/lab_7/src/overunder.vhd|
-Z20 !s107 /home/will/DSP/HW7/lab_7/src/overunder.vhd|
+Z19 !s108 1509673924.000000
+Z20 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW7/lab_7/src/overunder.vhd|
+Z21 !s107 /home/will/DSP/HW7/lab_7/src/overunder.vhd|
 !i113 1
 R12
 R13
 Aoverunder_arch
-w1509498542
 R2
 R3
 R4
-Z21 DEx4 work 9 overunder 0 22 XDR712cee;D3OSn2BK_@b2
-l27
-L23
-VQDUKf3Zi2;SL63_3Agn1H3
-!s100 m6PQmd8kRNCI=>1<g3=I[1
+Z22 DEx4 work 9 overunder 0 22 ?`QB<[?fzeh;<cHiE;bdX2
+l29
+L24
+VcoK?U`]UH6O;4;Q2hX=nc1
+!s100 @LWGG1O@z5^Xm9NPPM`fN0
 R7
 32
-R17
-!i10b 1
 R18
+!i10b 1
 R19
 R20
+R21
 !i113 1
 R12
 R13
 Eprocessor_v2_top
-Z22 w1509565520
+Z23 w1509675749
 R2
 R3
 R4
 R0
-Z23 8/home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
-Z24 F/home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
+Z24 8/home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
+Z25 F/home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd
 l0
-L10
-Vb;9T9jHFgU<=8]zncWg;?3
-!s100 eIIb2al5bB9P`j:<6G=:f3
+L11
+VDLSYfJgki7C_A48`K[NZm0
+!s100 e[8<XaWniTmKlLa>`KJHa1
 R7
 32
-Z25 !s110 1509565523
+Z26 !s110 1509675756
 !i10b 1
-Z26 !s108 1509565523.000000
-Z27 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd|
-Z28 !s107 /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd|
+Z27 !s108 1509675756.000000
+Z28 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd|
+Z29 !s107 /home/will/DSP/HW7/lab_7/src/processor_v2_top.vhd|
 !i113 1
 R12
 R13
 Aprocessor_v2_top_arch
-Z29 DEx4 work 10 saturation 0 22 njVnPE0V2^BD>KcmBlIQZ0
-R21
-Z30 DEx4 work 5 round 0 22 Y:N2VFP1IgJBX?G7;:D]g3
+Z30 DEx4 work 10 saturation 0 22 Q_Z@K6Ub24l8LNJ_YSne^1
+R22
+Z31 DEx4 work 5 round 0 22 Y:N2VFP1IgJBX?G7;:D]g3
 R14
 R2
 R3
 R4
-DEx4 work 16 processor_v2_top 0 22 b;9T9jHFgU<=8]zncWg;?3
-l30
-L21
-V>N<CGcVeVD7o`V4ShBfKU0
-!s100 5MPj7KYec244`WLE9cU9Y1
+DEx4 work 16 processor_v2_top 0 22 DLSYfJgki7C_A48`K[NZm0
+l34
+L22
+VN8TLKee3Rz^FEXjiGZU=Q2
+!s100 UbYh3]3Cl8ZeSf`oVPjL_3
 R7
 32
-R25
-!i10b 1
 R26
+!i10b 1
 R27
 R28
+R29
 !i113 1
 R12
 R13
 Eround
-Z31 w1509498974
+Z32 w1509676399
 R2
 R3
 R4
 R0
-Z32 8/home/will/DSP/HW7/lab_7/src/round.vhd
-Z33 F/home/will/DSP/HW7/lab_7/src/round.vhd
+Z33 8/home/will/DSP/HW7/lab_7/src/round.vhd
+Z34 F/home/will/DSP/HW7/lab_7/src/round.vhd
 l0
 L11
 VY:N2VFP1IgJBX?G7;:D]g3
 !s100 BAkzVCa0fE=Laibn;gY7H1
 R7
 32
-Z34 !s110 1509498978
+Z35 !s110 1509676415
 !i10b 1
-Z35 !s108 1509498977.000000
-Z36 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW7/lab_7/src/round.vhd|
-Z37 !s107 /home/will/DSP/HW7/lab_7/src/round.vhd|
+Z36 !s108 1509676415.000000
+Z37 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW7/lab_7/src/round.vhd|
+Z38 !s107 /home/will/DSP/HW7/lab_7/src/round.vhd|
 !i113 1
 R12
 R13
@@ -162,40 +161,40 @@ Around_arch
 R2
 R3
 R4
-R30
+R31
 l28
 L24
-V]gF^>gJSUCzcGzKAH8efZ2
-!s100 [WY5kVdeOHRD]VT?^HM[d1
+VVY?L1KBn8akGa_M8M_TbJ2
+!s100 gagBoiab8gai;2G[blGT02
 R7
 32
-R34
-!i10b 1
 R35
+!i10b 1
 R36
 R37
+R38
 !i113 1
 R12
 R13
 Esaturation
-Z38 w1509565376
+Z39 w1509675825
 R2
 R3
 R4
 R0
-Z39 8/home/will/DSP/HW7/lab_7/src/saturation.vhd
-Z40 F/home/will/DSP/HW7/lab_7/src/saturation.vhd
+Z40 8/home/will/DSP/HW7/lab_7/src/saturation.vhd
+Z41 F/home/will/DSP/HW7/lab_7/src/saturation.vhd
 l0
 L11
-VnjVnPE0V2^BD>KcmBlIQZ0
-!s100 kYAmPOTDoolN>;_0=KMD02
+VQ_Z@K6Ub24l8LNJ_YSne^1
+!s100 Hm]JBXb>B6D_GHMZ0Rh4?0
 R7
 32
-Z41 !s110 1509565379
+Z42 !s110 1509675833
 !i10b 1
-Z42 !s108 1509565379.000000
-Z43 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW7/lab_7/src/saturation.vhd|
-Z44 !s107 /home/will/DSP/HW7/lab_7/src/saturation.vhd|
+Z43 !s108 1509675833.000000
+Z44 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW7/lab_7/src/saturation.vhd|
+Z45 !s107 /home/will/DSP/HW7/lab_7/src/saturation.vhd|
 !i113 1
 R12
 R13
@@ -203,50 +202,50 @@ Asaturation_arch
 R2
 R3
 R4
-R29
-l26
+R30
+l27
 L24
-VcA[X?`mFoVNoh`GR7feil1
-!s100 L@Jo@59RhVlT;k[EcRMRM0
+VTa04gd^A`zf^OXKD9d?^`0
+!s100 hj9Q7RYhKQ_J=k;]nIBOd3
 R7
 32
-R41
-!i10b 1
 R42
+!i10b 1
 R43
 R44
+R45
 !i113 1
 R12
 R13
 Etb_processor_v2
-Z45 w1509481768
-Z46 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
-Z47 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
-Z48 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z46 w1509481768
+Z47 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z48 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z49 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
 R2
 R3
 R4
 R0
-Z49 8/home/will/DSP/HW7/lab_7/tb/tb_processor_v2.vhd
-Z50 F/home/will/DSP/HW7/lab_7/tb/tb_processor_v2.vhd
+Z50 8/home/will/DSP/HW7/lab_7/tb/tb_processor_v2.vhd
+Z51 F/home/will/DSP/HW7/lab_7/tb/tb_processor_v2.vhd
 l0
 L13
 VOSi=@4UFmVi?=2k]kaFmJ3
 !s100 ::h4KJYR;8GoFn;HA5G=52
 R7
 32
-Z51 !s110 1509565533
+Z52 !s110 1509674779
 !i10b 1
-Z52 !s108 1509565533.000000
-Z53 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW7/lab_7/tb/tb_processor_v2.vhd|
-Z54 !s107 /home/will/DSP/HW7/lab_7/tb/tb_processor_v2.vhd|
+Z53 !s108 1509674779.000000
+Z54 !s90 -reportprogress|300|-work|work|/home/will/DSP/HW7/lab_7/tb/tb_processor_v2.vhd|
+Z55 !s107 /home/will/DSP/HW7/lab_7/tb/tb_processor_v2.vhd|
 !i113 1
 R12
 R13
 Atb_processor_v2_arch
-R46
 R47
 R48
+R49
 R2
 R3
 R4
@@ -257,11 +256,11 @@ Va;:;Ae6D]d5oKb`zP;l:;3
 !s100 f@cPKTii>I1MRoOToza5Z1
 R7
 32
-R51
-!i10b 1
 R52
+!i10b 1
 R53
 R54
+R55
 !i113 1
 R12
 R13

@@ -22,12 +22,11 @@ entity round is
 end round ;
 
 architecture round_arch of round is
-
-signal preshifted : signed( 31 downto 0 );
+constant thirtyone : positive := 31;
+signal preshifted : signed( 17 downto 0 );
 
 begin
-	preshifted <= "11111" + result_in;
-	rounded_out <= preshifted(n+1 downto n+1-o);
-
+	preshifted <= to_signed(thirtyone,n+1) + result_in;
+	rounded_out <= preshifted(17 downto 4);
 
 end round_arch;
